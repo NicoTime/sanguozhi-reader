@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "title": "三国志 · 原文伴读",
+  "entries": [
+    {
+      "id": "wudi",
+      "workTitle": "武帝纪",
+      "protagonist": "曹操",
+      "division": "魏书",
+      "volume": "卷一",
+      "description": "从曹操家世、早年任官到建魏、施政与身后评语，官渡保留分阶段地图。",
+      "coverage": "complete",
+      "coverageLabel": "全篇连续正文与裴注",
+      "dataPath": "/data/chapters/wudi/chapter.json"
+    },
+    {
+      "id": "wendi",
+      "workTitle": "文帝纪",
+      "protagonist": "曹丕",
+      "division": "魏书",
+      "volume": "卷二",
+      "description": "从曹丕任五官中郎将、继魏王到汉魏禅代，保留禅位册文与裴注引《典论》。",
+      "coverage": "complete",
+      "coverageLabel": "全篇连续正文与裴注",
+      "dataPath": "/data/chapters/wendi/chapter.json"
+    },
+    {
+      "id": "mingdi",
+      "workTitle": "明帝纪",
+      "protagonist": "曹叡",
+      "division": "魏书",
+      "volume": "卷三",
+      "description": "从曹叡即位、应对魏蜀与魏吴战事到辽东、营建、托孤及陈寿评语。",
+      "coverage": "complete",
+      "coverageLabel": "全篇连续正文与裴注",
+      "dataPath": "/data/chapters/mingdi/chapter.json"
+    },
+    {
+      "id": "sanshaodi",
+      "workTitle": "三少帝纪",
+      "protagonist": "曹芳、曹髦、曹奂",
+      "division": "魏书",
+      "volume": "卷四",
+      "description": "顺读齐王曹芳、高贵乡公曹髦和陈留王曹奂三节，看曹魏末年的帝位更替。",
+      "coverage": "complete",
+      "coverageLabel": "全篇连续正文与裴注",
+      "dataPath": "/data/chapters/sanshaodi/chapter.json"
+    },
+    {
+      "id": "xianzhu",
+      "workTitle": "先主传",
+      "protagonist": "刘备",
+      "division": "蜀书",
+      "volume": "卷三十二",
+      "coverage": "complete",
+      "coverageLabel": "全传",
+      "description": "从刘备家世、求学与任官到入蜀、称帝、托孤、遗诏及陈寿评语。",
+      "dataPath": "/data/chapters/xianzhu/chapter.json"
+    },
+    {
+      "id": "erzhu-feizi",
+      "workTitle": "二主妃子传",
+      "protagonist": "蜀汉皇后与皇子",
+      "division": "蜀书",
+      "volume": "卷三十四",
+      "description": "按皇后、皇子分节，读刘备、刘禅的皇后，以及刘永、刘理和太子刘璿的记载。",
+      "coverage": "complete",
+      "coverageLabel": "全传",
+      "dataPath": "/data/chapters/erzhu-feizi/chapter.json"
+    },
+    {
+      "id": "zhuge-liang",
+      "workTitle": "诸葛亮传",
+      "protagonist": "诸葛亮及附传人物",
+      "division": "蜀书",
+      "volume": "卷三十五",
+      "description": "从隆中对、治蜀到出师与北伐，保留表章、裴注和诸葛乔、诸葛瞻等附传。",
+      "coverage": "complete",
+      "coverageLabel": "全传",
+      "dataPath": "/data/chapters/zhuge-liang/chapter.json"
+    },
+    {
+      "id": "wuzhu",
+      "workTitle": "吴主传",
+      "protagonist": "孙权",
+      "division": "吴书",
+      "volume": "卷四十七",
+      "coverage": "complete",
+      "coverageLabel": "全传",
+      "description": "从孙权早年与继承江东，到治国、外交、晚年与陈寿评语。",
+      "dataPath": "/data/chapters/wuzhu/chapter.json"
+    },
+    {
+      "id": "sansizhu",
+      "workTitle": "三嗣主传",
+      "protagonist": "孙亮、孙休、孙皓",
+      "division": "吴书",
+      "volume": "卷四十八",
+      "description": "按孙亮、孙休、孙皓分节，读孙权身后的朝局、晋灭吴与陈寿评语。",
+      "coverage": "complete",
+      "coverageLabel": "全传",
+      "dataPath": "/data/chapters/sansizhu/chapter.json"
+    }
+  ]
+}

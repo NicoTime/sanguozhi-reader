@@ -10,17 +10,9 @@ __pycache__/
 sources/
 output/
 
-# The complete local snapshot is retained for review and testing. Content,
-# third-party data and generated media are excluded until redistribution and
-# individual licenses are verified. Remove exclusions only after that audit.
-/content/
-/public/data/
-/public/maps/
-/public/media/
-/public/portraits/
-/docs/content/
-/docs/content-report.md
-# This script embeds third-party historical coordinates and needs review.
+# Source books, generated caches, and work-in-progress artifacts stay local.
+# Legacy extractor includes control points read from a historical atlas; the
+# open release uses the independently drawn v7 overview line instead.
 /scripts/extract_epub.py
-# The tests include source excerpts and fixtures that still need review.
-/tests/
+/content/**/*draft*.json
+/content/**/editorial-v4-excerpt.json

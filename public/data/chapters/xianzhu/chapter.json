@@ -1,0 +1,6779 @@
+{
+  "schemaVersion": 2,
+  "id": "xianzhu",
+  "title": "先主传",
+  "subtitle": "生平与汉室兴亡",
+  "editorialNote": "本篇按 EPUB 源卷覆盖完整正文与裴注；白话译文、摘要、地望与事件说明由本项目整理。地点只作区域参考，路线示意不代表古道路或营址。",
+  "meta": {
+    "workTitle": "先主传",
+    "protagonist": "刘备",
+    "volume": "卷三十二",
+    "division": "蜀书",
+    "displayTitle": "刘备 · 先主传",
+    "seal": "备",
+    "periodLabel": "汉末至章武三年",
+    "coverage": "complete",
+    "coverageLabel": "全传"
+  },
+  "factions": [
+    {
+      "id": "liu",
+      "name": "刘备军",
+      "color": "#356A45",
+      "paperColor": "#E4F0E4",
+      "borderColor": "#699776"
+    },
+    {
+      "id": "sun",
+      "name": "孙权军",
+      "color": "#946B24",
+      "paperColor": "#F6EDD9",
+      "borderColor": "#B9995B"
+    },
+    {
+      "id": "cao",
+      "name": "曹操军",
+      "color": "#8B3827",
+      "paperColor": "#F7E7DF",
+      "borderColor": "#B87563"
+    },
+    {
+      "id": "huang",
+      "name": "黄祖军",
+      "color": "#6E637A",
+      "paperColor": "#EDE8F0",
+      "borderColor": "#9B8DA7"
+    }
+  ],
+  "mapProfiles": [
+    {
+      "id": "wide-relief",
+      "label": "中国东部广域现代地势",
+      "bounds": {
+        "west": 95.625,
+        "south": 16.636191878397653,
+        "east": 132.1875,
+        "north": 45.089035564831015
+      },
+      "center": [
+        108.8,
+        32.5
+      ],
+      "minZoom": 3,
+      "maxZoom": 10,
+      "reliefPath": "/maps/eastern-china-relief.jpg",
+      "modernRiversPath": "/maps/eastern-china-modern-rivers.geojson",
+      "modernCitiesPath": "/maps/eastern-china-modern-cities.json",
+      "attribution": "现代地形：Mapzen / Tilezen、USGS；现代河流及城市：Natural Earth。河网不代表古河道。"
+    },
+    {
+      "id": "jianghan-relief",
+      "label": "江汉与江淮地势",
+      "bounds": {
+        "west": 108.28125,
+        "south": 27.059125784374054,
+        "east": 122.34375,
+        "north": 39.909736234537185
+      },
+      "center": [
+        113.2,
+        30.8
+      ],
+      "minZoom": 4,
+      "maxZoom": 10,
+      "reliefPath": "/maps/central-plains-relief.jpg",
+      "modernRiversPath": "/maps/modern-rivers.geojson",
+      "modernCitiesPath": "/data/chapters/xianzhu/modern-cities.json",
+      "attribution": "地势：Mapzen / Tilezen、USGS；现代河流及城市：Natural Earth。现代水系仅供对照。"
+    }
+  ],
+  "defaultMapProfileId": "wide-relief",
+  "sources": [
+    {
+      "id": "epub",
+      "title": "本地简体《三国志》裴注 EPUB",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c35_san_guo_zhi_juan32.xhtml",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。",
+      "note": "源卷 XHTML SHA-256 f7661db306fb961c0e2331db581fcda37bcaf23fbb841ee3ee04b1989bf2e40f；维基文库导出简体转换版。"
+    },
+    {
+      "id": "editor",
+      "title": "本项目原创义注与编排",
+      "kind": "editorial",
+      "locator": "docs/content/",
+      "note": "由本项目整理。"
+    },
+    {
+      "id": "changban",
+      "title": "宜昌民政：长坂坡",
+      "kind": "web",
+      "locator": "https://mzj.yichang.gov.cn/content-63849-997459-1.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "xiangyang-ref",
+      "title": "《襄阳府志》卷二：沿革",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/NA02618/chapter/1ktionhudsuua",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "jiangling",
+      "title": "湖北省文旅厅：荆州、江陵",
+      "kind": "web",
+      "locator": "https://wlt.hubei.gov.cn/bmdt/ztzl/zshb/201912/t20191226_1799529.shtml",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "xiakou-ref",
+      "title": "武汉文史：夏口地望变迁",
+      "kind": "web",
+      "locator": "https://www.whzx.gov.cn/zxzl/wsl/whwszl/202312/P020240123571845853720.pdf",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chibi-debate",
+      "title": "武汉经开区：赤壁地望各说",
+      "kind": "web",
+      "locator": "https://www.whkfq.gov.cn/xwzx/yw/kfqyw/qnxw/202206/t20220618_1989688.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chibi-puqi",
+      "title": "湖北档案：蒲圻赤壁之说",
+      "kind": "web",
+      "locator": "https://www.hbda.gov.cn/info/535.jspx",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "yiling-ref",
+      "title": "重庆地方志：甘宁与夷陵",
+      "kind": "web",
+      "locator": "https://dfz.cq.gov.cn/zqlswh/rwby_417819/202311/t20231102_12510429.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "gongan-ref",
+      "title": "湖北档案：公安由来",
+      "kind": "web",
+      "locator": "https://www.hbda.gov.cn/info/2461",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "hefei-ref",
+      "title": "合肥逍遥津公园与历史地望",
+      "kind": "web",
+      "locator": "https://www.huaihua.gov.cn/cgzfj/c108771/202601/a21fbbf368134bbc862d26936ca8f822.shtml",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chengdu-ref",
+      "title": "刘备成都即位：汉中市汉台区政府",
+      "kind": "web",
+      "locator": "https://www.htq.gov.cn/hzshtqzf/zjht/lswh/202511/3c466408a451409ba2b2f9bfb8f510bd.shtml"
+    },
+    {
+      "id": "hanzhong-ref",
+      "title": "阳平关地望：汉中市地方志",
+      "kind": "web",
+      "locator": "https://hzdqw.hanzhong.gov.cn/hzdfz/zjsy/202608/ca8a0e6df08c465985a51202e338b581.shtml"
+    },
+    {
+      "id": "yongan-ref",
+      "title": "白帝城与永安：重庆文旅",
+      "kind": "web",
+      "locator": "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqwwzy/202405/t20240507_13182414.html"
+    },
+    {
+      "id": "wuchang-ref",
+      "title": "吴武昌与鄂州：湖北省文旅厅",
+      "kind": "web",
+      "locator": "https://wlt.hubei.gov.cn/bmdt/ztzl/zshb/201912/t20191226_1799420.shtml"
+    },
+    {
+      "id": "jianye-ref",
+      "title": "东吴迁都建业：南京地方志",
+      "kind": "web",
+      "locator": "https://dfz.nanjing.gov.cn/gzdt/202403/t20240315_4186987.html"
+    },
+    {
+      "id": "zhuoxian-ref",
+      "title": "河北省文物局：涿州与刘备故里",
+      "kind": "web",
+      "locator": "https://wenwu.hebei.gov.cn/system/2024/03/17/030280758.shtml"
+    },
+    {
+      "id": "xiapi-ref",
+      "title": "江苏政务：古邳与下邳",
+      "kind": "web",
+      "locator": "https://snxgzz.jszwfw.gov.cn/index.html"
+    },
+    {
+      "id": "xinye-ref",
+      "title": "新野县政府：刘备屯兵",
+      "kind": "web",
+      "locator": "https://www.xinye.gov.cn/2018/10-01/977404.html"
+    },
+    {
+      "id": "pingyuan-ref",
+      "title": "德州地域历史文化：国家能源局",
+      "kind": "web",
+      "locator": "https://www.nea.gov.cn/2011/10/19/c_131199845_2.htm"
+    }
+  ],
+  "persons": [
+    {
+      "id": "liu-bei",
+      "name": "刘备",
+      "description": "蜀汉开国君主，字玄德；本传称先主。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "sun-quan",
+      "name": "孙权",
+      "description": "孙策之弟，后来建立孙吴，字仲谋。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "description": "东汉末年丞相，曹魏奠基者，字孟德。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "zhou-yu",
+      "name": "周瑜",
+      "description": "孙权部将，赤壁与南郡战事的吴方统帅之一。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "cheng-pu",
+      "name": "程普",
+      "description": "孙氏部将，与周瑜共同率军参加赤壁战事。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "description": "刘备谋臣、蜀汉丞相，受托辅佐刘禅。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "guan-yu",
+      "name": "关羽",
+      "description": "刘备部将，曾镇守荆州，于孙权袭取荆州时被俘杀。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "liu-biao",
+      "name": "刘表",
+      "description": "东汉末荆州牧，曾接待刘备并令其驻新野。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "lv-meng",
+      "name": "吕蒙",
+      "description": "孙权部将，曾率军袭取刘备一方的荆州。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "cao-ren",
+      "name": "曹仁",
+      "description": "曹操宗室将领，曾驻守江陵并与周瑜对峙。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "zhang-fei",
+      "name": "张飞",
+      "description": "刘备部将，蜀汉车骑将军。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "zhao-yun",
+      "name": "赵云",
+      "description": "刘备部将，曾随刘备逃离长坂并参与平定益州。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "liu-shan",
+      "name": "刘禅",
+      "description": "刘备之子，蜀汉后主，名禅。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "liu-zhang",
+      "name": "刘璋",
+      "description": "东汉末益州牧，刘备进入益州后向其投降。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "pang-tong",
+      "name": "庞统",
+      "description": "刘备谋臣，劝其在会面时袭取刘璋。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "fa-zheng",
+      "name": "法正",
+      "description": "刘璋部属，后归刘备并参与谋划取益州。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "huang-zhong",
+      "name": "黄忠",
+      "description": "刘备部将，曾在定军山击败夏侯渊。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "xu-jing",
+      "name": "许靖",
+      "description": "蜀汉大臣，曾与群臣上表推举刘备为汉中王。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "lu-zhi",
+      "name": "卢植",
+      "description": "东汉末学者、官员，曾任九江太守，刘备与公孙瓒从其求学。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "gongsun-zan",
+      "name": "公孙瓒",
+      "description": "东汉末幽州军阀，曾与刘备同师卢植并任用刘备。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "liu-deran",
+      "name": "刘德然",
+      "description": "刘备同族，与他共同从卢植求学。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "liu-yuanqi",
+      "name": "刘元起",
+      "description": "刘德然之父，刘备早年求学时曾资助他。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "zhang-shiping",
+      "name": "张世平",
+      "description": "中山商人，与苏双资助早年刘备聚集部众。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "su-shuang",
+      "name": "苏双",
+      "description": "中山商人，与张世平资助早年刘备。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "mi-zhu",
+      "name": "麋竺",
+      "description": "徐州别驾，陶谦死后迎刘备领徐州，后为刘备大臣。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "tao-qian",
+      "name": "陶谦",
+      "description": "东汉末徐州牧，曾请求援救并任用刘备。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "chen-deng",
+      "name": "陈登",
+      "description": "下邳人，劝刘备接受徐州。",
+      "sourceIds": [
+        "epub"
+      ]
+    },
+    {
+      "id": "kong-rong",
+      "name": "孔融",
+      "description": "东汉末北海相，劝刘备接受徐州。",
+      "sourceIds": [
+        "epub"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "xiangyang",
+      "name": "襄阳",
+      "modernName": "湖北襄阳城区附近",
+      "kind": "city",
+      "coordinates": [
+        112.13,
+        32.02
+      ],
+      "precision": "approximate-area",
+      "note": "古襄阳所在地域；坐标为现代城区区域参考，不表示城墙或军营。",
+      "sourceIds": [
+        "epub",
+        "xiangyang-ref"
+      ]
+    },
+    {
+      "id": "dangyang",
+      "name": "当阳长坂",
+      "modernName": "湖北当阳城区一带",
+      "kind": "battlefield",
+      "coordinates": [
+        111.79,
+        30.82
+      ],
+      "precision": "approximate-area",
+      "note": "宜昌民政资料称长坂坡位于当阳城区西南；取当阳城区近似区域，非具体交战点。",
+      "sourceIds": [
+        "epub",
+        "changban"
+      ]
+    },
+    {
+      "id": "xiakou",
+      "name": "夏口",
+      "modernName": "武汉汉水入江区域",
+      "kind": "region",
+      "coordinates": [
+        114.27,
+        30.58
+      ],
+      "precision": "approximate-area",
+      "note": "以现代武汉汉水与长江会合区域为参考，古水道变化且后世夏口城易位，不作为渡口定点。",
+      "sourceIds": [
+        "epub",
+        "xiakou-ref"
+      ]
+    },
+    {
+      "id": "chibi",
+      "name": "赤壁",
+      "modernName": "湖北赤壁市西北一说",
+      "kind": "battlefield",
+      "coordinates": [
+        113.65,
+        29.98
+      ],
+      "precision": "uncertain",
+      "note": "赤壁战场地望存在蒲圻、江夏等多说；此点只示蒲圻一说的大致区域，非确定战场或营地。",
+      "sourceIds": [
+        "epub",
+        "chibi-debate"
+      ]
+    },
+    {
+      "id": "nan-jun",
+      "name": "南郡／江陵",
+      "modernName": "湖北荆州区域",
+      "kind": "region",
+      "coordinates": [
+        112.23,
+        30.35
+      ],
+      "precision": "approximate-area",
+      "note": "东汉南郡范围宽广，此以江陵所在荆州区域为显示参照，不代表郡域或围城阵地。",
+      "sourceIds": [
+        "epub",
+        "jiangling"
+      ]
+    },
+    {
+      "id": "yiling",
+      "name": "夷陵",
+      "modernName": "湖北宜昌城区区域",
+      "kind": "region",
+      "coordinates": [
+        111.28,
+        30.7
+      ],
+      "precision": "approximate-area",
+      "note": "取现代宜昌城区为夷陵区域参照，非甘宁营垒。",
+      "sourceIds": [
+        "epub",
+        "yiling-ref"
+      ]
+    },
+    {
+      "id": "gongan",
+      "name": "公安",
+      "modernName": "湖北荆州公安县油江口一带",
+      "kind": "region",
+      "coordinates": [
+        112.22,
+        30.2
+      ],
+      "precision": "approximate-area",
+      "note": "刘备立营油江口后称公安；此为区域参照，不是营址坐标。",
+      "sourceIds": [
+        "epub",
+        "gongan-ref"
+      ]
+    },
+    {
+      "id": "chengdu",
+      "name": "成都",
+      "modernName": "四川成都城区",
+      "kind": "region",
+      "coordinates": [
+        104.07,
+        30.67
+      ],
+      "precision": "approximate-area",
+      "note": "以现代成都城区为区域参照；入蜀、登基及治所事迹不代表同一具体地点。",
+      "sourceIds": [
+        "epub",
+        "chengdu-ref"
+      ]
+    },
+    {
+      "id": "hanzhong",
+      "name": "汉中",
+      "modernName": "陕西汉中盆地",
+      "kind": "region",
+      "coordinates": [
+        107.02,
+        33.07
+      ],
+      "precision": "approximate-area",
+      "note": "以汉中盆地城市区域为参照，不对应古代行政边界或战场。",
+      "sourceIds": [
+        "epub",
+        "hanzhong-ref"
+      ]
+    },
+    {
+      "id": "yongan",
+      "name": "永安",
+      "modernName": "重庆奉节白帝区域",
+      "kind": "region",
+      "coordinates": [
+        109.55,
+        31.04
+      ],
+      "precision": "approximate-area",
+      "note": "以奉节区域参考永安；不以点位等同永安宫精确范围。",
+      "sourceIds": [
+        "epub",
+        "yongan-ref"
+      ]
+    },
+    {
+      "id": "zhuoxian",
+      "name": "涿县",
+      "modernName": "河北涿州一带",
+      "kind": "county",
+      "coordinates": [
+        115.98,
+        39.48
+      ],
+      "precision": "approximate-area",
+      "note": "以涿州城区为刘备籍贯地域参考，不对应具体旧宅；本段涉及求学与交往，地图不代表每次活动地点。",
+      "sourceIds": [
+        "epub",
+        "zhuoxian-ref"
+      ]
+    },
+    {
+      "id": "xiapi",
+      "name": "下邳",
+      "modernName": "江苏睢宁古邳镇区域",
+      "kind": "region",
+      "coordinates": [
+        117.89,
+        34.14
+      ],
+      "precision": "approximate-area",
+      "note": "以古邳镇区域参考下邳；城址、军营和战场不由图点精确定位。",
+      "sourceIds": [
+        "epub",
+        "xiapi-ref"
+      ]
+    },
+    {
+      "id": "xinye",
+      "name": "新野",
+      "modernName": "河南新野县一带",
+      "kind": "region",
+      "coordinates": [
+        112.36,
+        32.52
+      ],
+      "precision": "approximate-area",
+      "note": "以现代新野县城作为刘备驻屯的区域参考，并非营址。",
+      "sourceIds": [
+        "epub",
+        "xinye-ref"
+      ]
+    },
+    {
+      "id": "pingyuan",
+      "name": "平原",
+      "modernName": "山东德州平原县区域",
+      "kind": "region",
+      "coordinates": [
+        116.43,
+        37.16
+      ],
+      "precision": "approximate-area",
+      "note": "以今平原县区域参考刘备曾任职的平原，非古治所定位；地望边界需进一步考证。",
+      "sourceIds": [
+        "epub",
+        "pingyuan-ref"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "xianzhu-p1-note0",
+      "kind": "pei",
+      "anchorText": "元狩六年封涿县陆城亭侯，坐酎金失侯，因家焉。",
+      "original": "《典略》曰：备本临邑侯枝属也。",
+      "sourceTitles": [
+        "典略"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 1,
+        "blockIndex": 0,
+        "bodyOffset": 60,
+        "epubAnchor": "#mwt4",
+        "paragraphStart": 1,
+        "paragraphEnd": 1
+      }
+    },
+    {
+      "id": "xianzhu-p2-note0",
+      "kind": "pei",
+      "anchorText": "如小车盖，往来者皆怪此树非凡，或谓当出贵人。",
+      "original": "《汉晋春秋》曰：涿人李定：「此家必出贵人。」",
+      "sourceTitles": [
+        "汉晋春秋"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 2,
+        "blockIndex": 0,
+        "bodyOffset": 59,
+        "epubAnchor": "#mwt5",
+        "paragraphStart": 2,
+        "paragraphEnd": 2
+      }
+    },
+    {
+      "id": "xianzhu-p3-note0",
+      "kind": "pei",
+      "anchorText": "先主率其属从校尉邹靖讨黄巾贼有功，除安喜尉。",
+      "original": "《典略》曰：平原刘子平知备有武勇，时张纯反叛，青州被诏，遣从事将兵讨纯，过平原，子平荐备于从事，遂与相随，遇贼于野，备中创阳死，贼去后，故人以车载之，得免。后以军功，为中山安喜尉。 ",
+      "sourceTitles": [
+        "典略"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 3,
+        "blockIndex": 0,
+        "bodyOffset": 40,
+        "epubAnchor": "#mwt6",
+        "paragraphStart": 3,
+        "paragraphEnd": 3
+      }
+    },
+    {
+      "id": "xianzhu-p3-note1",
+      "kind": "pei",
+      "anchorText": "不通，直入缚督邮，杖二百，解绶系其颈着马枊，",
+      "original": "五葬反。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 3,
+        "blockIndex": 1,
+        "bodyOffset": 75,
+        "epubAnchor": "#mwt7",
+        "paragraphStart": 3,
+        "paragraphEnd": 3
+      }
+    },
+    {
+      "id": "xianzhu-p3-note2",
+      "kind": "pei",
+      "anchorText": "缚督邮，杖二百，解绶系其颈着马枊，弃官亡命。",
+      "original": "《典略》曰：其后州郡被诏书，其有军功为长吏者，当沙汰之，备疑在遣中。督邮至县，当遣备，备素知之。闻督邮在传舍，备欲求见督邮，督邮称疾不肯见备，备恨之，因还治，将吏卒更诣传舍，突入门，言「我被府君密教收督邮」 。遂就床缚之，将出到界，自解其绶以系督邮颈，缚之著树，鞭杖百余下，欲杀之。督邮求哀，乃释去之。",
+      "sourceTitles": [
+        "典略"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 3,
+        "blockIndex": 2,
+        "bodyOffset": 81,
+        "epubAnchor": "#mwt8",
+        "paragraphStart": 3,
+        "paragraphEnd": 3
+      }
+    },
+    {
+      "id": "xianzhu-p3-note3",
+      "kind": "pei",
+      "anchorText": "功，除为下密丞。复去官。后为高唐尉，迁为令。",
+      "original": "《英雄记》云：灵帝末年，备尝在京师，后与曹公俱还沛国，募召合众。会灵帝崩，天下大乱，备亦起军从讨董卓。",
+      "sourceTitles": [
+        "英雄记"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 3,
+        "blockIndex": 3,
+        "bodyOffset": 139,
+        "epubAnchor": "#mwt9",
+        "paragraphStart": 3,
+        "paragraphEnd": 3
+      }
+    },
+    {
+      "id": "xianzhu-p3-note4",
+      "kind": "pei",
+      "anchorText": "使客刺之。客不忍刺，语之而去。其得人心如此。",
+      "original": "《魏书》曰：刘平结客刺备，备不知而待客甚厚，客以状语之而去。是时人民饥馑，屯聚钞暴。备外御寇难，内丰财施，士之下者，必与同席而坐，同簋而食，无所简择。众多归焉。",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 3,
+        "blockIndex": 4,
+        "bodyOffset": 231,
+        "epubAnchor": "#mwt10",
+        "paragraphStart": 3,
+        "paragraphEnd": 3
+      }
+    },
+    {
+      "id": "xianzhu-p4-note0",
+      "kind": "pei",
+      "anchorText": "姓与能，天与不取，悔不可追。」先主遂领徐州。",
+      "original": "《献帝春秋》曰：陈登等遣使诣袁绍曰：「天降灾沴，祸臻鄙州，州将殂殒，生民无主，恐惧奸雄一旦承隙，以贻盟主日昃之忧，辄共奉故平原相刘备府君以为宗主，永使百姓知有依归。方今寇难纵横，不遑释甲，谨遣下吏奔告于执事。」绍答曰：「刘玄德弘雅有信义，今徐州乐戴之，诚副所望也。」",
+      "sourceTitles": [
+        "献帝春秋"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 4,
+        "blockIndex": 0,
+        "bodyOffset": 365,
+        "epubAnchor": "#mwt11",
+        "paragraphStart": 4,
+        "paragraphEnd": 4
+      }
+    },
+    {
+      "id": "xianzhu-p4-note1",
+      "kind": "pei",
+      "anchorText": "曹豹反，闲迎布。布虏先主妻子，先主转军海西。",
+      "original": "《英雄记》曰：备留张飞守下邳，引兵与袁术战于淮阴石亭，更有胜负。陶谦故将曹豹在下邳，张飞欲杀之。豹众坚营自守，使人招吕布。布取下邳，张飞败走。备闻之，引兵还，比至下邳，兵溃。收散卒东取广陵，与袁术战，又败。",
+      "sourceTitles": [
+        "英雄记"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 4,
+        "blockIndex": 1,
+        "bodyOffset": 452,
+        "epubAnchor": "#mwt14",
+        "paragraphStart": 4,
+        "paragraphEnd": 4
+      }
+    },
+    {
+      "id": "xianzhu-p5-note0",
+      "kind": "pei",
+      "anchorText": "先主还小沛，",
+      "original": "《英雄记》曰：备军在广陵，饥饿困踧，吏士大小自相噉食，穷饿侵逼，欲还小沛，遂使吏请降布。布令备还州，并势击术。具刺史车马僮仆，发遣备妻子部曲家属于泗水上，祖道相乐。魏书曰：诸将谓布曰：「备数反复难养，宜早图之。」布不听，以状语备。备心不安而求自托，使人说布，求屯小沛，布乃遣之。 ",
+      "sourceTitles": [
+        "英雄记"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 5,
+        "blockIndex": 0,
+        "bodyOffset": 8,
+        "epubAnchor": "#mwt15",
+        "paragraphStart": 5,
+        "paragraphEnd": 5
+      }
+    },
+    {
+      "id": "xianzhu-p5-note1",
+      "kind": "pei",
+      "anchorText": "，为顺所败，复虏先主妻子送布。曹公自出东征，",
+      "original": "英雄记曰：建安三年春，布使人赍金欲诣河内买马，为备兵所钞。布由是遣中郎将高顺、北地太守张辽等攻备。九月，遂破沛城，备单身走，获其妻息。十月，曹公自征布，备于梁国界中与曹公相遇，遂随公俱东征。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 5,
+        "blockIndex": 1,
+        "bodyOffset": 108,
+        "epubAnchor": "#mwt16",
+        "paragraphStart": 5,
+        "paragraphEnd": 5
+      }
+    },
+    {
+      "id": "xianzhu-p6-note0",
+      "kind": "pei",
+      "anchorText": "先主未出时，献帝舅车骑将军董承",
+      "original": "臣松之案：董承，汉灵帝母董太后之侄，于献帝为丈人。盖古无丈人之名，故谓之舅也。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 6,
+        "blockIndex": 0,
+        "bodyOffset": 17,
+        "epubAnchor": "#mwt18",
+        "paragraphStart": 6,
+        "paragraphEnd": 6
+      }
+    },
+    {
+      "id": "xianzhu-p6-note1",
+      "kind": "pei",
+      "anchorText": "耳。本初之徒，不足数也。」先主方食，失匕箸。",
+      "original": "《华阳国志》：于时正当雷震，备因谓操曰：「圣人『迅雷风烈必变』，良有以也。一震之威，乃可至于此也！」",
+      "sourceTitles": [
+        "华阳国志"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 6,
+        "blockIndex": 1,
+        "bodyOffset": 82,
+        "epubAnchor": "#mwt19",
+        "paragraphStart": 6,
+        "paragraphEnd": 6
+      }
+    },
+    {
+      "id": "xianzhu-p6-note2",
+      "kind": "pei",
+      "anchorText": "子服等同谋。会见使，未发。事觉，承等皆伏诛。",
+      "original": "《献帝起居注》曰：承等与备谋未发，而备出。承谓服曰：「郭多有数百兵，坏李傕数万人，但足下与我同不耳！昔吕不韦之门，须子楚而后高，今吾与子由是也。」服曰：「惶惧不敢当，且兵又少。」承曰：「举事讫，得曹公成兵，顾不足邪？」服曰：「今京师岂有所任乎？」承曰：「长水校尉种辑、议郎吴硕是我腹心办事者。」遂定计。",
+      "sourceTitles": [
+        "献帝起居注"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 6,
+        "blockIndex": 2,
+        "bodyOffset": 123,
+        "epubAnchor": "#mwt20",
+        "paragraphStart": 6,
+        "paragraphEnd": 6
+      }
+    },
+    {
+      "id": "xianzhu-p7-note0",
+      "kind": "pei",
+      "anchorText": "乃杀徐州刺史车胄，留关羽守下邳，而身还小沛。",
+      "original": "胡冲《吴历》曰：曹公数遣亲近密觇诸将有宾客酒食者，辄因事害之。备时闭门，将人种芜菁，曹公使人闚门。既去，备谓张飞、关羽曰：「吾岂种菜者乎？曹公必有疑意，不可复留。」其夜开后栅，与飞等轻骑俱去，所得赐遗衣服，悉封留之，乃往小沛收合兵众。臣松之案：魏武帝遣先主统诸将要击袁术，郭嘉等并谏，魏武不从，其事显然，非因种菜遁逃而去。如胡冲所，何乖僻之甚乎！ ",
+      "sourceTitles": [
+        "吴历"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 7,
+        "blockIndex": 0,
+        "bodyOffset": 37,
+        "epubAnchor": "#mwt21",
+        "paragraphStart": 7,
+        "paragraphEnd": 7
+      }
+    },
+    {
+      "id": "xianzhu-p7-note1",
+      "kind": "pei",
+      "anchorText": "忠击之，不克。五年，曹公东征先主，先主败绩。",
+      "original": "《魏书》曰：是时，公方有急于官渡，乃分留诸将屯官渡，自勒精兵征备。备初谓公与大敌连，不得东，而候骑卒至，言曹公自来。备大惊，然犹未信。自将数十骑出望公军，见麾旌，便弃众而走。",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 7,
+        "blockIndex": 1,
+        "bodyOffset": 96,
+        "epubAnchor": "#mwt22",
+        "paragraphStart": 7,
+        "paragraphEnd": 7
+      }
+    },
+    {
+      "id": "xianzhu-p8-note0",
+      "kind": "pei",
+      "anchorText": "。绍遣将道路奉迎，身去邺二百里，与先主相见。",
+      "original": "魏书曰：备归绍，绍父子倾心敬重。 ",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 8,
+        "blockIndex": 0,
+        "bodyOffset": 65,
+        "epubAnchor": "#mwt23",
+        "paragraphStart": 8,
+        "paragraphEnd": 8
+      }
+    },
+    {
+      "id": "xianzhu-p9-note0",
+      "kind": "pei",
+      "anchorText": "。荆州豪杰归先主者日益多，表疑其心，阴御之。",
+      "original": "《九州春秋》曰：备住荆州数年，尝于表坐起至厕，见髀里肉生，慨然流涕。还坐，表怪问备，备曰：「吾常身不离鞍，髀肉皆消。今不复骑，髀里肉生。日月若驰，老将至矣，而功业不建，是以悲耳。」《世语》曰：备屯樊城，刘表礼焉，惮其为人，不甚信用。曾请备宴会，蒯越、蔡瑁欲因会取备，备觉之，伪如厕，潜遁出。所乘马名的卢，骑的卢走，堕襄阳城西檀溪水中，溺不得出。备急曰：「的卢：今日厄矣，可努力！」的卢乃一踊三丈，遂得过，乘桴渡河，中流而追者至，以表意谢之，曰：「何去之速乎！」孙盛曰：此不然之言。备时羁旅，客主势殊，若有此变，岂敢晏然终表之世而无衅故乎？此皆世俗妄说，非事实也。",
+      "sourceTitles": [
+        "九州春秋",
+        "世语"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 9,
+        "blockIndex": 0,
+        "bodyOffset": 70,
+        "epubAnchor": "#mwt24",
+        "paragraphStart": 9,
+        "paragraphEnd": 9
+      }
+    },
+    {
+      "id": "xianzhu-p10-note0",
+      "kind": "pei",
+      "anchorText": "二年，曹公北征乌丸，先主说表袭许，表不能用。",
+      "original": "《汉晋春秋》曰：曹公自柳城还，表谓备曰：「不用君言，故为失此大会。」备曰：「今天下分裂，日寻干戈，事会之来，岂有终极乎？若能应之于后者，则此未足为恨也。」",
+      "sourceTitles": [
+        "汉晋春秋"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 10,
+        "blockIndex": 0,
+        "bodyOffset": 26,
+        "epubAnchor": "#mwt25",
+        "paragraphStart": 10,
+        "paragraphEnd": 10
+      }
+    },
+    {
+      "id": "xianzhu-p10-note1",
+      "kind": "pei",
+      "anchorText": "主说表袭许，表不能用。 曹公南征表，会表卒，",
+      "original": "《英雄记》曰：表病，上备领荆州刺史。魏书曰：表病笃，托国于备，顾谓曰：「我儿不才，而诸将并零落，我死之后，卿便摄荆州。」备曰：「诸子自贤，君其忧病。」或劝备宜从表言，备曰：「此人待我厚，今从其言，人必以我为薄，所不忍也。」臣松之以为表夫妻素爱琮，舍适立庶，情计久定，无缘临终举荆州以授备，此亦不然之言。",
+      "sourceTitles": [
+        "英雄记"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 10,
+        "blockIndex": 1,
+        "bodyOffset": 36,
+        "epubAnchor": "#mwt26",
+        "paragraphStart": 10,
+        "paragraphEnd": 10
+      }
+    },
+    {
+      "id": "xianzhu-p10-note2",
+      "kind": "pei",
+      "anchorText": "说先主攻琮，荆州可有。先主曰：「吾不忍也。」",
+      "original": "孔衍《汉魏春秋》曰：刘琮乞降，不敢告备。备亦不知，久之乃觉，遣所亲问琮。琮令宋忠诣备宣旨。是时曹公在宛，备乃大惊骇，谓忠曰：「卿诸人作事如此，不早相语，今祸至方告我，不亦太剧乎！」引刀向忠曰：「今断卿头，不足以解忿，亦耻大丈夫临别复杀卿辈！」遣忠去，乃呼部曲议。或劝备劫将琮及荆州吏士径南到江陵，备答曰：「刘荆州临亡托我以孤遗，背信自济，吾所不为，死何面目以见刘荆州乎！」",
+      "sourceTitles": [
+        "汉魏春秋"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 10,
+        "blockIndex": 2,
+        "bodyOffset": 99,
+        "epubAnchor": "#mwt27",
+        "paragraphStart": 10,
+        "paragraphEnd": 10
+      }
+    },
+    {
+      "id": "xianzhu-p10-note3",
+      "kind": "pei",
+      "anchorText": "马呼琮，琮惧不能起。琮左右及荆州人多归先主。",
+      "original": "《典略》曰：备过辞表墓，遂涕泣而去。",
+      "sourceTitles": [
+        "典略"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 10,
+        "blockIndex": 3,
+        "bodyOffset": 125,
+        "epubAnchor": "#mwt28",
+        "paragraphStart": 10,
+        "paragraphEnd": 10
+      }
+    },
+    {
+      "id": "xianzhu-p10-note4",
+      "kind": "pei",
+      "anchorText": "夫济大事必以人为本，今人归吾，吾何忍弃去！」",
+      "original": "习凿齿曰：先主虽颠沛险难而信义愈明，势偪事危而言不失道。追景升之顾，则情感三军；恋赴义之士，则甘与同败。观其所以结物情者，岂徒投醪抚寒含蓼问疾而已哉！其终济大业，不亦宜乎！",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 10,
+        "blockIndex": 4,
+        "bodyOffset": 226,
+        "epubAnchor": "#mwt29",
+        "paragraphStart": 10,
+        "paragraphEnd": 10
+      }
+    },
+    {
+      "id": "xianzhu-p11-note0",
+      "kind": "pei",
+      "anchorText": "先主遣诸葛亮自结于孙权，",
+      "original": "《江表传》曰：孙权遣鲁肃吊刘表二子，并令与备相结。肃未至而曹公已济汉津。肃故进前，与备相遇于当阳。因宣权旨，论天下事势，致殷勤之意。且问备曰：「豫州今欲何至？」备曰：「与苍梧太守〔吴巨〕有旧，欲往投之。」肃曰：「孙讨虏聪明仁惠，敬贤礼士，江表英豪，咸归附之，已据有六郡，兵精粮多，足以立事。今为君计，莫若遣腹心使自结于东，崇连和之好，共济世业，而欲投〔吴巨〕，〔巨〕是凡人，偏在远郡，行将为人所并，岂足托乎？」备大喜，进住鄂县，即遣诸葛亮随肃诣孙权，结同盟誓。 ",
+      "sourceTitles": [
+        "江表传"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 11,
+        "blockIndex": 0,
+        "bodyOffset": 144,
+        "epubAnchor": "#mwt30",
+        "paragraphStart": 11,
+        "paragraphEnd": 11
+      }
+    },
+    {
+      "id": "xianzhu-p11-note1",
+      "kind": "pei",
+      "anchorText": "孙权，权遣周瑜、程普等水军数万，与先主并力，",
+      "original": "江表传曰：备从鲁肃计，进住鄂县之樊口。诸葛亮诣吴未还，备闻曹公军下，恐惧，日遣逻吏于水次候望权军。吏望见瑜船，驰往白备，备曰：「何以知（之）非青徐军邪？」吏对曰：「以船知之。」备遣人慰劳之。瑜曰：「有军任，不可得委署，傥能屈威，诚副其所望。」备谓关羽、张飞曰：「彼欲致我，我今自结托于东而不往，非同盟之意也。」乃乘单舸往见瑜，问曰：「今拒曹公，深为得计。战卒有几？」瑜曰：「三万人。」备曰：「恨少。 」瑜曰：「此自足用，豫州但观瑜破之。」备欲呼鲁肃等共会语，瑜曰：「受命不得妄委署，若欲见子敬，可别过之。又孔明已俱来，不过三两日到也。」备虽深愧异瑜，而心未许之能必破北军也，故差池在后，将二千人与羽、飞俱，未肯系瑜，盖为进退之计也。孙盛曰：刘备雄才，处必亡之地，告急于吴，而获奔助，无缘复顾望江渚而怀后计。江表传之言，当是吴人欲专美之辞。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 11,
+        "blockIndex": 1,
+        "bodyOffset": 163,
+        "epubAnchor": "#mwt31",
+        "paragraphStart": 11,
+        "paragraphEnd": 11
+      }
+    },
+    {
+      "id": "xianzhu-p11-note2",
+      "kind": "pei",
+      "anchorText": "进，追到南郡，时又疾疫，北军多死，曹公引归。",
+      "original": "《江表传》曰：周瑜为南郡太守，分南岸地以给备。备别立营于油江口，改名为公安。刘表吏士见从北军，多叛来投备。备以瑜所给地少，不足以安民，（后）〔复〕从权借荆州数郡。",
+      "sourceTitles": [
+        "江表传"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 11,
+        "blockIndex": 2,
+        "bodyOffset": 211,
+        "epubAnchor": "#mwt32",
+        "paragraphStart": 11,
+        "paragraphEnd": 11
+      }
+    },
+    {
+      "id": "xianzhu-p12-note0",
+      "kind": "pei",
+      "anchorText": "沙太守韩玄、桂阳太守赵范、零陵太守刘度皆降。",
+      "original": "《三辅决录注》曰：金旋字元机，京兆人，历位黄门郎，汉阳太守，征拜议郎，迁中郎将，领武陵太守，为备所攻劫死。子祎，事见《魏武本纪》。",
+      "sourceTitles": [
+        "三辅决录注",
+        "魏武本纪"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 12,
+        "blockIndex": 0,
+        "bodyOffset": 49,
+        "epubAnchor": "#mwt33",
+        "paragraphStart": 12,
+        "paragraphEnd": 12
+      }
+    },
+    {
+      "id": "xianzhu-p12-note1",
+      "kind": "pei",
+      "anchorText": "权稍畏之，进妹固好。先主至京见权，绸缪恩纪。",
+      "original": "《山阳公载记》曰：备还，谓左右曰：「孙车骑长上短下，其难为下，吾不可以再见之。」乃昼夜兼行。臣松之案：魏书载刘备与孙权语，与蜀志述诸葛亮与权语正同。刘备未破魏军之前，尚未与孙权相见，不得有此说。故知蜀志为是。 ",
+      "sourceTitles": [
+        "山阳公载记"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 12,
+        "blockIndex": 1,
+        "bodyOffset": 103,
+        "epubAnchor": "#mwt34",
+        "paragraphStart": 12,
+        "paragraphEnd": 12
+      }
+    },
+    {
+      "id": "xianzhu-p12-note2",
+      "kind": "pei",
+      "anchorText": "之利。」先主从之，权果辍计。迁观为别驾从事。",
+      "original": "《献帝春秋》曰：孙权欲与备共取蜀，遣使报备曰：「米贼张鲁居王巴、汉，为曹操耳目，规图益州。刘璋不武，不能自守。若操得蜀，则荆州危矣。今欲先攻取璋，进讨张鲁，首尾相连，一统吴、楚，虽有十操，无所忧也。」备欲自图蜀，拒答不听，曰：\n益州民富彊，土地险阻，刘璋虽弱，足以自守。张鲁虚伪，未必尽忠于操。今暴师于蜀、汉，转运于万里，欲使战克攻取，举不失利，此吴起不能定其规，孙武不能善其事也。曹操虽有无君之心，而有奉主之名，议者见操失利于赤壁，谓其力屈，无复远志也。今操三分天下已有其二，将欲饮马于沧海，观兵于吴会，何肯守此坐须老乎？今同盟无故自相攻伐，借枢于操，使敌承其隙，非长计也。\n权不听，遣孙瑜率水军住夏口。备不听军过，谓瑜曰：「汝欲取蜀，吾当被发入山，不失信于天下也。」使关羽屯江陵，张飞屯秭归，诸葛亮据南郡，备自住孱陵。权知备意，因召瑜还。",
+      "sourceTitles": [
+        "献帝春秋"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 12,
+        "blockIndex": 2,
+        "bodyOffset": 237,
+        "epubAnchor": "#mwt35",
+        "paragraphStart": 12,
+        "paragraphEnd": 14
+      }
+    },
+    {
+      "id": "xianzhu-p15-note0",
+      "kind": "pei",
+      "anchorText": "先主，前后赂遗以巨亿计。正因陈益州可取之策。",
+      "original": "《吴书》曰：备前见张松，后得法正，皆厚以恩意接纳，尽其殷勤之欢。因问蜀中阔狭，兵器府库人马众寡，及诸要害道里远近，松等具言之，又画地图山川处所，由是尽知益州虚实也。",
+      "sourceTitles": [
+        "吴书"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 15,
+        "blockIndex": 0,
+        "bodyOffset": 177,
+        "epubAnchor": "#mwt38",
+        "paragraphStart": 15,
+        "paragraphEnd": 15
+      }
+    },
+    {
+      "id": "xianzhu-p16-note0",
+      "kind": "pei",
+      "anchorText": "（宝），欲以东行。璋但许兵四千，其余皆给半。",
+      "original": "《魏书》曰：备因激怒其众曰：「吾为益州征强敌，师徒勤瘁，不遑宁居；今积帑藏之财而吝于赏功，望士大夫为出死力战，其可得乎！」",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 16,
+        "blockIndex": 0,
+        "bodyOffset": 124,
+        "epubAnchor": "#mwt39",
+        "paragraphStart": 16,
+        "paragraphEnd": 16
+      }
+    },
+    {
+      "id": "xianzhu-p16-note1",
+      "kind": "pei",
+      "anchorText": "逮己，白璋发其谋。于是璋收斩松，嫌隙始构矣。",
+      "original": "《益部耆旧杂记》曰：张肃有威仪，容貌甚伟。松为人短小，放荡不治节操，然识达精果，有才干。刘璋遣诣曹公，曹公不甚礼；公主簿杨修深器之，白公辟松，公不纳。修以公所撰兵书示松，松宴饮之间一看便暗诵。修以此益异之。",
+      "sourceTitles": [
+        "益部耆旧杂记"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 16,
+        "blockIndex": 1,
+        "bodyOffset": 184,
+        "epubAnchor": "#mwt40",
+        "paragraphStart": 16,
+        "paragraphEnd": 16
+      }
+    },
+    {
+      "id": "xianzhu-p16-note2",
+      "kind": "pei",
+      "anchorText": "城。璋遣刘𪻺、冷苞、张任、邓贤等拒先主于涪，",
+      "original": "《益部耆旧杂记》曰：张任，蜀郡人，家世寒门。少有胆勇，有志节，仕州为从事。",
+      "sourceTitles": [
+        "益部耆旧杂记"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 16,
+        "blockIndex": 2,
+        "bodyOffset": 284,
+        "epubAnchor": "#mwt41",
+        "paragraphStart": 16,
+        "paragraphEnd": 16
+      }
+    },
+    {
+      "id": "xianzhu-p17-note0",
+      "kind": "pei",
+      "anchorText": "十九年夏，雒城破，",
+      "original": "《益部耆旧杂记》曰：刘璋遣张任、刘𪻺率精兵拒捍先主于涪，为先主所破，退与璋子循守雒城。任勒兵出于雁桥，战复败。禽任。先主闻任之忠勇，令军降之，任厉声曰：「老臣终不复事二主矣。」乃杀之。先主叹惜焉。",
+      "sourceTitles": [
+        "益部耆旧杂记"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 17,
+        "blockIndex": 0,
+        "bodyOffset": 11,
+        "epubAnchor": "#mwt42",
+        "paragraphStart": 17,
+        "paragraphEnd": 17
+      }
+    },
+    {
+      "id": "xianzhu-p17-note1",
+      "kind": "pei",
+      "anchorText": "十九年夏，雒城破，进围成都数十日，璋出降。",
+      "original": "《傅子》曰：初，刘备袭蜀，丞相掾赵戬曰：「刘备其不济乎？拙于用兵，每战则败，奔亡不暇，何以图人？蜀虽小区，险固四塞，独守之国，难卒并也。」征士傅干曰：「刘备宽仁有度，能得人死力。诸葛亮达治知变，正而有谋，而为之相；张飞、关羽勇而有义，皆万人之敌，而为之将：此三人者，皆人杰也。以备之略，三杰佐之，何为不济也？」《典略》曰：赵戬，字叔茂，京兆长陵人也。质而好学，言称诗书，爱恤于人，不论疏密。辟公府，入为尚书选部郎。董卓欲以所私并充台阁，戬拒不听。卓怒，召戬欲杀之，观者皆为戬惧，而戬自若。及见卓，引辞正色，陈说是非，卓虽凶戾，屈而谢之迁平陵令。故将王允被害，莫敢近者，戬弃官收敛之。三辅乱，戬客荆州，刘表以为宾客。曹公平荆州，执戬手曰：「何相见之晚也！」遂辟为掾。后为五官将司马，相国钟繇长史，年六十余卒。",
+      "sourceTitles": [
+        "傅子",
+        "典略"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 17,
+        "blockIndex": 1,
+        "bodyOffset": 24,
+        "epubAnchor": "#mwt43",
+        "paragraphStart": 17,
+        "paragraphEnd": 17
+      }
+    },
+    {
+      "id": "xianzhu-p22-note0",
+      "kind": "pei",
+      "anchorText": "营司马臣庞羲、议曹从事中郎军议中郎将臣射援、",
+      "original": "《三辅决录注》曰：援字文雄，扶风人也。其先本姓谢，与北地诸谢同族。始祖谢服为将军出征，天子以谢服非令名，改为射，子孙氏焉。兄坚，字文固，少有美名，辟公府为黄门侍郎。献帝之初，三辅饥乱，坚去官，与弟援南入蜀依刘璋，璋以坚为长史。刘备代璋，以坚为广汉、蜀郡太守。援亦少有名行，太尉皇甫嵩贤其才而以女妻之，丞相诸葛亮以援为祭酒，迁从事中郎，卒官。",
+      "sourceTitles": [
+        "三辅决录注"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 22,
+        "blockIndex": 0,
+        "bodyOffset": 49,
+        "epubAnchor": "",
+        "paragraphStart": 22,
+        "paragraphEnd": 22
+      }
+    },
+    {
+      "id": "xianzhu-p22-note1",
+      "kind": "pei",
+      "anchorText": "内。臣等每惧王室大有阎乐之祸，小有定安之变，",
+      "original": "赵高使阎乐杀二世。王莽废孺子以为定安公。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 22,
+        "blockIndex": 1,
+        "bodyOffset": 416,
+        "epubAnchor": "",
+        "paragraphStart": 22,
+        "paragraphEnd": 22
+      }
+    },
+    {
+      "id": "xianzhu-p25-note0",
+      "kind": "pei",
+      "anchorText": "厉。今臣群寮以为在昔虞书敦叙九族，庶明励翼，",
+      "original": "郑玄注曰：庶，众也；励，作也；叙，次序也。序九族而亲之，以众明作羽翼之臣也。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 25,
+        "blockIndex": 0,
+        "bodyOffset": 258,
+        "epubAnchor": "",
+        "paragraphStart": 25,
+        "paragraphEnd": 25
+      }
+    },
+    {
+      "id": "xianzhu-p26-note0",
+      "kind": "pei",
+      "anchorText": "于是还治成都。拔魏延为都督，镇汉中。",
+      "original": "《典略》曰：备于是起馆舍，筑亭障，从成都至白水关，四百余区。",
+      "sourceTitles": [
+        "典略"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 26,
+        "blockIndex": 0,
+        "bodyOffset": 21,
+        "epubAnchor": "#mwt46",
+        "paragraphStart": 26,
+        "paragraphEnd": 26
+      }
+    },
+    {
+      "id": "xianzhu-p31-note0",
+      "kind": "pei",
+      "anchorText": "即皇帝位于成都武担之南。",
+      "original": "《蜀本纪》曰：武都有丈夫化为女子，颜色美好，盖山精也。蜀王娶以为妻，不习水土，疾病欲归国，蜀王留之，无几物故。蜀王发卒之武都担土，于成都郭中葬，盖地数亩，高十丈，号曰武担也。臣松之案：武担，山名，在成都西北，盖以干位在西北，故就之以即阼。",
+      "sourceTitles": [
+        "蜀本纪"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 31,
+        "blockIndex": 0,
+        "bodyOffset": 13,
+        "epubAnchor": "#mwt49",
+        "paragraphStart": 31,
+        "paragraphEnd": 31
+      }
+    },
+    {
+      "id": "xianzhu-p32-note0",
+      "kind": "pei",
+      "anchorText": "燔瘗，告类于天神，惟神飨祚于汉家，永绥四海！",
+      "original": "《魏书》曰：备闻曹公薨，遣掾韩冉奉书吊，并致赙赠之礼。文帝恶其因丧求好，敕荆州刺史斩冉，绝使命。《典略》曰：备遣军谋掾韩冉赍书吊，并贡锦布。冉称疾，住上庸。上庸致其书，适会受终，有诏报答以引致之。备得报书，遂称制。",
+      "sourceTitles": [
+        "魏书",
+        "典略"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 32,
+        "blockIndex": 0,
+        "bodyOffset": 241,
+        "epubAnchor": "#mwt51",
+        "paragraphStart": 33,
+        "paragraphEnd": 33
+      }
+    },
+    {
+      "id": "xianzhu-p34-note0",
+      "kind": "pei",
+      "anchorText": "许靖为司徒。置百官，立宗庙，祫祭高皇帝以下。",
+      "original": "臣松之以为先主虽云出自孝景，而世数悠远，昭穆难明，既绍汉祚，不知以何帝为元祖以立亲庙。于时英贤作辅，儒生在宫，宗庙制度，必有宪章，而载记阙略，良可恨哉！",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 34,
+        "blockIndex": 0,
+        "bodyOffset": 47,
+        "epubAnchor": "#mwt54",
+        "paragraphStart": 34,
+        "paragraphEnd": 34
+      }
+    },
+    {
+      "id": "xianzhu-p35-note0",
+      "kind": "pei",
+      "anchorText": "，先主自秭归率诸将进军，缘山截岭，于夷道猇亭",
+      "original": "猇，许交反。 ",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 35,
+        "blockIndex": 0,
+        "bodyOffset": 58,
+        "epubAnchor": "#mwt55",
+        "paragraphStart": 35,
+        "paragraphEnd": 35
+      }
+    },
+    {
+      "id": "xianzhu-p35-note1",
+      "kind": "pei",
+      "anchorText": "率诸将进军，缘山截岭，于夷道猇亭驻营，自佷山",
+      "original": "佷，音恒。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 35,
+        "blockIndex": 1,
+        "bodyOffset": 64,
+        "epubAnchor": "#mwt56",
+        "paragraphStart": 35,
+        "paragraphEnd": 35
+      }
+    },
+    {
+      "id": "xianzhu-p36-note0",
+      "kind": "pei",
+      "anchorText": "都到永安。三月，黄元进兵攻临邛县。遣将军陈曶",
+      "original": "音笏。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 36,
+        "blockIndex": 0,
+        "bodyOffset": 35,
+        "epubAnchor": "",
+        "paragraphStart": 36,
+        "paragraphEnd": 36
+      }
+    },
+    {
+      "id": "xianzhu-p36-note1",
+      "kind": "pei",
+      "anchorText": "副。夏四月癸巳，先主殂于永安宫，时年六十三。",
+      "original": "诸葛亮集载先主遗诏敕后主曰：\n朕初疾但下痢耳，后转杂他病，殆不自济。人五十不称夭，年已六十有余，何所复恨，不复自伤，但以卿兄弟为念。射君到，说丞相叹卿智量，甚大增修，过于所望，审能如此，吾复何忧！勉之，勉之！勿以恶小而为之，勿以善小而不为。惟贤惟德，能服于人。汝父德薄，勿效之。可读汉书、礼记，间暇历观诸子及六韬、商君书，益人意智。闻丞相为写申、韩、管子、六韬一通已毕，未送，道亡，可自更求闻达。\n临终时，呼鲁王与语：「吾亡之后，汝兄弟父事丞相，令卿与丞相共事而已。」",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 36,
+        "blockIndex": 1,
+        "bodyOffset": 103,
+        "epubAnchor": "#mwt58",
+        "paragraphStart": 36,
+        "paragraphEnd": 38
+      }
+    },
+    {
+      "id": "xianzhu-p41-note0",
+      "kind": "pei",
+      "anchorText": "永安还成都，谥曰昭烈皇帝。秋，八月，葬惠陵。",
+      "original": "葛洪《神仙传》曰：仙人李意其，蜀人也。传世见之，是汉文帝时人。先主欲伐吴，遣人迎意其。意其到，先主礼敬之，问以吉凶。意其不答而求纸笔，画作兵马器仗数十纸已，便一一以手裂坏之，又画作一大人，掘地埋之，便径去。先主大不喜。而自出军征吴，大败还，忿耻发病死，众人乃知其意。其画作大人而埋之者，即是言先主死意。",
+      "sourceTitles": [
+        "神仙传"
+      ],
+      "sourceIds": [
+        "epub"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 41,
+        "blockIndex": 0,
+        "bodyOffset": 31,
+        "epubAnchor": "#mwt60",
+        "paragraphStart": 41,
+        "paragraphEnd": 41
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "xianzhu-p1",
+      "title": "家世与祖父",
+      "time": {
+        "year": null,
+        "era": "年代未详",
+        "label": "年代未详",
+        "certainty": "unknown"
+      },
+      "originalText": "先主姓刘，讳备，字玄德，涿郡涿县人，汉景帝子中山靖王胜之后也。胜子贞，元狩六年封涿县陆城亭侯，坐酎金失侯，因家焉。 先主祖雄，父弘，世仕州郡。雄举孝廉，官至东郡范令。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "姓刘，讳备，字玄德，"
+        },
+        {
+          "text": "涿郡",
+          "placeId": "zhuoxian"
+        },
+        {
+          "text": "涿县",
+          "placeId": "zhuoxian"
+        },
+        {
+          "text": "人，汉景帝子中山靖王胜之后也。胜子贞，元狩六年封"
+        },
+        {
+          "text": "涿县",
+          "placeId": "zhuoxian"
+        },
+        {
+          "text": "陆城亭侯，坐酎金失侯，因家焉"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p1-note0"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "祖雄，父弘，世仕州郡。雄举孝廉，官至东郡范令。"
+        }
+      ],
+      "translation": "先主姓刘，名备，字玄德，是涿郡涿县人，汉景帝之子中山靖王刘胜的后代。刘胜的儿子刘贞在元狩六年被封为涿县陆城亭侯，因缴纳祭祀用金不足而失去侯爵，便在那里安家。先主的祖父刘雄、父亲刘弘，世代在州郡做官。刘雄被举为孝廉，官做到东郡范县县令。",
+      "summary": "先主姓刘，名备，字玄德，是涿郡涿县人，汉景帝之子中山靖王刘胜的后代。",
+      "placeIds": [
+        "zhuoxian"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p1-note0"
+      ],
+      "focusPlaceId": "zhuoxian",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 1,
+        "excerptStart": "先主姓刘，讳备，字玄德，",
+        "excerptEnd": "雄举孝廉，官至东郡范令。",
+        "startOffset": 2,
+        "endOffsetExclusive": 85,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p2",
+      "title": "少年求学与结交",
+      "time": {
+        "year": null,
+        "era": "年代未详",
+        "label": "年代未详",
+        "certainty": "unknown"
+      },
+      "originalText": "先主少孤，与母贩履织席为业。舍东南角篱上有桑树生高五丈余，遥望见童童如小车盖，往来者皆怪此树非凡，或谓当出贵人。 先主少时，与宗中诸小儿于树下戏，言：「吾必当乘此羽葆盖车。」叔父子敬谓曰：「汝勿妄语，灭吾门也！」年十五，母使行学，与同宗刘德然、辽西公孙瓒俱事故九江太守同郡卢植。德然父元起常资给先主，与德然等。元起妻曰：「各自一家，何能常尔邪！」起曰：「吾宗中有此儿，非常人也。」而瓒深与先主相友。瓒年长，先主以兄事之。先主不甚乐读书，喜狗马、音乐、美衣服。身长七尺五寸，垂手下膝，顾自见其耳。少语言，善下人，喜怒不形于色。好交结豪侠，年少争附之。中山大商张世平、苏双等赀累千金，贩马周旋于涿郡，见而异之，乃多与之金财。先主由是得用合徒众。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "少孤，与母贩履织席为业。舍东南角篱上有桑树生高五丈余，遥望见童童如小车盖，往来者皆怪此树非凡，或谓当出贵人"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p2-note0"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "少时，与宗中诸小儿于树下戏，言：「吾必当乘此羽葆盖车。」叔父子敬谓曰：「汝勿妄语，灭吾门也！」年十五，母使行学，与同宗"
+        },
+        {
+          "text": "刘德然",
+          "personId": "liu-deran"
+        },
+        {
+          "text": "、辽西"
+        },
+        {
+          "text": "公孙瓒",
+          "personId": "gongsun-zan"
+        },
+        {
+          "text": "俱事故九江太守同郡"
+        },
+        {
+          "text": "卢植",
+          "personId": "lu-zhi"
+        },
+        {
+          "text": "。德然父元起常资给"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，与德然等。元起妻曰：「各自一家，何能常尔邪！」起曰：「吾宗中有此儿，非常人也。」而瓒深与"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "相友。瓒年长，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "以兄事之。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "不甚乐读书，喜狗马、音乐、美衣服。身长七尺五寸，垂手下膝，顾自见其耳。少语言，善下人，喜怒不形于色。好交结豪侠，年少争附之。中山大商"
+        },
+        {
+          "text": "张世平",
+          "personId": "zhang-shiping"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "苏双",
+          "personId": "su-shuang"
+        },
+        {
+          "text": "等赀累千金，贩马周旋于"
+        },
+        {
+          "text": "涿郡",
+          "placeId": "zhuoxian"
+        },
+        {
+          "text": "，见而异之，乃多与之金财。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "由是得用合徒众。"
+        }
+      ],
+      "translation": "先主年少丧父，与母亲靠卖草鞋、织草席为生。家东南角篱笆上有一棵桑树，高五丈多，远远望去树冠像小车的车盖。过往的人都觉得这棵树不同寻常，有人说这里会出贵人。先主年少时和同族孩子在树下玩耍，说：‘我一定要乘坐这种有羽饰车盖的车。’叔父刘子敬说：‘你不要胡说，会使我们灭门！’十五岁时，母亲让他外出求学，他与同族刘德然、辽西人公孙瓒一起拜同郡的前九江太守卢植为师。刘德然的父亲刘元起经常资助先主，待遇与刘德然相同。元起的妻子说：‘各有各的家庭，怎么能一直这样？’元起说：‘我们宗族有这个孩子，他不是普通人。’公孙瓒也与先主交情深厚。公孙瓒年长，先主像对待兄长一样对待他。先主不太喜欢读书，喜爱狗、马、音乐和华丽衣服。他身高七尺五寸，垂手过膝，回头能看见自己的耳朵。他话不多，善于谦下待人，喜怒不形于色，喜欢结交豪侠，年轻人争相依附。中山大商人张世平、苏双等积财千金，贩马往来涿郡，见到先主后认为他不寻常，给了他许多钱财。先主因此得以聚集部众。",
+      "summary": "先主年少丧父，与母亲靠卖草鞋、织草席为生。",
+      "placeIds": [
+        "zhuoxian"
+      ],
+      "personIds": [
+        "liu-bei",
+        "liu-deran",
+        "gongsun-zan",
+        "lu-zhi",
+        "zhang-shiping",
+        "su-shuang",
+        "liu-yuanqi"
+      ],
+      "noteIds": [
+        "xianzhu-p2-note0"
+      ],
+      "focusPlaceId": "zhuoxian",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 2,
+        "excerptStart": "先主少孤，与母贩履织席为",
+        "excerptEnd": "财。先主由是得用合徒众。",
+        "startOffset": 2,
+        "endOffsetExclusive": 322,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p3",
+      "title": "起兵、任官与平原",
+      "time": {
+        "year": null,
+        "era": "涿郡至平原",
+        "label": "涿郡至平原",
+        "certainty": "unknown"
+      },
+      "originalText": "灵帝末，黄巾起，州郡各举义兵，先主率其属从校尉邹靖讨黄巾贼有功，除安喜尉。 督邮以公事到县，先主求谒，不通，直入缚督邮，杖二百，解绶系其颈着马枊，弃官亡命。 顷之，大将军何进遣都尉毌丘毅诣丹杨募兵，先主与俱行，至下邳遇贼，力战有功，除为下密丞。复去官。后为高唐尉，迁为令。 为贼所破，往奔中郎将公孙瓒，瓒表为别部司马，使与青州刺史田楷以拒冀州牧袁绍。数有战功，试守平原令，后领平原相。郡民刘平素轻先主，耻为之下，使客刺之。客不忍刺，语之而去。其得人心如此。",
+      "parts": [
+        {
+          "text": "灵帝末，黄巾起，州郡各举义兵，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "率其属从校尉邹靖讨黄巾贼有功，除安喜尉"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p3-note0"
+          ]
+        },
+        {
+          "text": " 督邮以公事到县，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "求谒，不通，直入缚督邮，杖二百，解绶系其颈着马枊"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p3-note1"
+          ]
+        },
+        {
+          "text": "弃官亡命"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p3-note2"
+          ]
+        },
+        {
+          "text": " 顷之，大将军何进遣都尉毌丘毅诣丹杨募兵，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "与俱行，至"
+        },
+        {
+          "text": "下邳",
+          "placeId": "xiapi"
+        },
+        {
+          "text": "遇贼，力战有功，除为下密丞。复去官。后为高唐尉，迁为令"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p3-note3"
+          ]
+        },
+        {
+          "text": " 为贼所破，往奔中郎将"
+        },
+        {
+          "text": "公孙瓒",
+          "personId": "gongsun-zan"
+        },
+        {
+          "text": "，瓒表为别部司马，使与青州刺史田楷以拒冀州牧袁绍。数有战功，试守"
+        },
+        {
+          "text": "平原",
+          "placeId": "pingyuan"
+        },
+        {
+          "text": "令，后领"
+        },
+        {
+          "text": "平原",
+          "placeId": "pingyuan"
+        },
+        {
+          "text": "相。郡民刘平素轻"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，耻为之下，使客刺之。客不忍刺，语之而去。其得人心如此"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p3-note4"
+          ]
+        }
+      ],
+      "translation": "汉灵帝末年黄巾起事，各州郡招募义兵。先主带领部属跟随校尉邹靖讨伐黄巾军，因功被任为安喜尉。督邮因公来到县里，先主求见却未获通报，便直接进去捆住督邮，杖打二百下，解下自己的官印绶带系在他颈上，再把他绑到马桩上，弃官逃亡。不久大将军何进派都尉毌丘毅到丹杨募兵，先主随行，到下邳遇到贼兵，奋战有功，被任为下密县丞，后来又离职。其后他任高唐尉，升为县令，被贼兵打败后投奔中郎将公孙瓒。公孙瓒上表任他为别部司马，让他与青州刺史田楷抵御冀州牧袁绍。他屡立战功，代理平原县令，后来兼领平原相。当地人刘平向来轻视先主，以居于他之下为耻，派刺客刺杀他。刺客不忍下手，告诉先主后离去。先主就是这样得到人心。",
+      "summary": "汉灵帝末年黄巾起事，各州郡招募义兵。",
+      "placeIds": [
+        "xiapi",
+        "pingyuan"
+      ],
+      "personIds": [
+        "liu-bei",
+        "gongsun-zan"
+      ],
+      "noteIds": [
+        "xianzhu-p3-note0",
+        "xianzhu-p3-note1",
+        "xianzhu-p3-note2",
+        "xianzhu-p3-note3",
+        "xianzhu-p3-note4"
+      ],
+      "focusPlaceId": "pingyuan",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 3,
+        "excerptStart": "灵帝末，黄巾起，州郡各举",
+        "excerptEnd": "语之而去。其得人心如此。",
+        "startOffset": 2,
+        "endOffsetExclusive": 230,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p4",
+      "title": "救徐州与领州",
+      "time": {
+        "year": null,
+        "era": "建安元年前后",
+        "label": "建安元年前后",
+        "certainty": "unknown"
+      },
+      "originalText": "袁绍攻公孙瓒，先主与田楷东屯齐。曹公征徐州，徐州牧陶谦遣使告急于田楷，楷与先主俱救之。时先主自有兵千余人及幽州乌丸杂胡骑，又略得饥民数千人。既到，谦以丹杨兵四千益先主，先主遂去楷归谦。谦表先主为豫州刺史，屯小沛。谦病笃，谓别驾麋竺曰：「非刘备不能安此州也。」谦死，竺率州人迎先主，先主未敢当。下邳陈登谓先主曰：「今汉室陵迟，海内倾覆，立功立事，在于今日。彼州殷富，户口百万，欲屈使君抚临州事。」先主曰：「袁公路近在寿春，此君四世五公，海内所归，君可以州与之。」登曰：「公路骄豪，非治乱之主。今欲为使君合步骑十万，上可以匡主济民，成五霸之业，下可以割地守境，书功于竹帛。若使君不见听许，登亦未敢听使君也。」北海相孔融谓先主曰：「袁公路岂忧国忘家者邪？冢中枯骨，何足介意。今日之事，百姓与能，天与不取，悔不可追。」先主遂领徐州。 袁术来攻先主，先主拒之于盱眙、淮阴。曹公表先主为镇东将军，封宜城亭侯，是岁建安元年也。先主与术相持经月，吕布乘虚袭下邳。下邳守将曹豹反，闲迎布。布虏先主妻子，先主转军海西。 杨奉、韩暹寇徐、扬闲，先主邀击，尽斩之。先主求和于吕布，布还其妻子。先主遣关羽守下邳。",
+      "parts": [
+        {
+          "text": "袁绍攻"
+        },
+        {
+          "text": "公孙瓒",
+          "personId": "gongsun-zan"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "与田楷东屯齐。曹公征徐州，徐州牧"
+        },
+        {
+          "text": "陶谦",
+          "personId": "tao-qian"
+        },
+        {
+          "text": "遣使告急于田楷，楷与"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "俱救之。时"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "自有兵千余人及幽州乌丸杂胡骑，又略得饥民数千人。既到，谦以丹杨兵四千益"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "遂去楷归谦。谦表"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "为豫州刺史，屯小沛。谦病笃，谓别驾"
+        },
+        {
+          "text": "麋竺",
+          "personId": "mi-zhu"
+        },
+        {
+          "text": "曰：「非"
+        },
+        {
+          "text": "刘备",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "不能安此州也。」谦死，竺率州人迎"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "未敢当。"
+        },
+        {
+          "text": "下邳",
+          "placeId": "xiapi"
+        },
+        {
+          "text": "陈登",
+          "personId": "chen-deng"
+        },
+        {
+          "text": "谓"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "曰：「今汉室陵迟，海内倾覆，立功立事，在于今日。彼州殷富，户口百万，欲屈使君抚临州事。」"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "曰：「袁公路近在寿春，此君四世五公，海内所归，君可以州与之。」登曰：「公路骄豪，非治乱之主。今欲为使君合步骑十万，上可以匡主济民，成五霸之业，下可以割地守境，书功于竹帛。若使君不见听许，登亦未敢听使君也。」北海相"
+        },
+        {
+          "text": "孔融",
+          "personId": "kong-rong"
+        },
+        {
+          "text": "谓"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "曰：「袁公路岂忧国忘家者邪？冢中枯骨，何足介意。今日之事，百姓与能，天与不取，悔不可追。」"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "遂领徐州"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p4-note0"
+          ]
+        },
+        {
+          "text": " 袁术来攻"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "拒之于盱眙、淮阴。曹公表"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "为镇东将军，封宜城亭侯，是岁建安元年也。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "与术相持经月，吕布乘虚袭"
+        },
+        {
+          "text": "下邳",
+          "placeId": "xiapi"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "下邳",
+          "placeId": "xiapi"
+        },
+        {
+          "text": "守将曹豹反，闲迎布。布虏"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "妻子，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "转军海西"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p4-note1"
+          ]
+        },
+        {
+          "text": " 杨奉、韩暹寇徐、扬闲，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "邀击，尽斩之。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "求和于吕布，布还其妻子。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "遣"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "守"
+        },
+        {
+          "text": "下邳",
+          "placeId": "xiapi"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "translation": "袁绍进攻公孙瓒时，先主与田楷向东驻守齐地。曹操征讨徐州，徐州牧陶谦派人向田楷告急，田楷和先主一同救援。当时先主自己有一千多兵和幽州乌丸等骑兵，又收集了数千饥民。到达后，陶谦给他四千丹杨兵，先主便离开田楷归附陶谦。陶谦上表任先主为豫州刺史，驻守小沛。陶谦病重时对别驾麋竺说：‘除了刘备，没有人能安定这个州。’陶谦死后，麋竺率州中人迎接先主，先主不敢接受。下邳人陈登说：‘如今汉室衰落，天下倾覆，正是建功立业的时候。徐州富庶，有百万人口，希望委屈您主持州事。’先主说：‘袁术就在寿春附近，他家四世出了五位公卿，天下人归望他，你们可以把徐州给他。’陈登说：‘袁术骄横，不是治理乱世的人。我想为您集结十万步骑，向上可匡扶君主、救济百姓，成就五霸事业；向下也可据地守境，在史书上留下功业。如果您不答应，我也不敢听从您的话。’北海相孔融说：‘袁术难道是忧国忘家的人吗？他不过是坟墓里的枯骨，有什么值得考虑！今天百姓推举有能力的人，上天赐予而不接受，将来后悔也来不及。’先主于是领徐州。袁术进攻，先主在盱眙、淮阴抵御他。曹操上表任先主为镇东将军，封宜城亭侯，这年是建安元年。先主与袁术对峙一个多月，吕布乘虚袭击下邳；守将曹豹反叛，暗中迎接吕布。吕布俘获先主的妻子儿女，先主转军海西。杨奉、韩暹在徐、扬之间抢掠，先主迎击并将他们斩杀。先主向吕布求和，吕布归还其妻子儿女。先主派关羽守下邳。",
+      "summary": "袁绍进攻公孙瓒时，先主与田楷向东驻守齐地。",
+      "placeIds": [
+        "xiapi"
+      ],
+      "personIds": [
+        "gongsun-zan",
+        "liu-bei",
+        "tao-qian",
+        "mi-zhu",
+        "chen-deng",
+        "kong-rong",
+        "guan-yu"
+      ],
+      "noteIds": [
+        "xianzhu-p4-note0",
+        "xianzhu-p4-note1"
+      ],
+      "focusPlaceId": "xiapi",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 4,
+        "excerptStart": "袁绍攻公孙瓒，先主与田楷",
+        "excerptEnd": "妻子。先主遣关羽守下邳。",
+        "startOffset": 2,
+        "endOffsetExclusive": 495,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p5",
+      "title": "小沛败走与依曹",
+      "time": {
+        "year": null,
+        "era": "建安初年",
+        "label": "建安初年",
+        "certainty": "unknown"
+      },
+      "originalText": "先主还小沛，复合兵得万余人。吕布恶之，自出兵攻先主，先主败走归曹公。曹公厚遇之，以为豫州牧。将至沛收散卒，给其军粮，益与兵使东击布。布遣高顺攻之，曹公遣夏侯惇往，不能救，为顺所败，复虏先主妻子送布。曹公自出东征，助先主围布于下邳，生禽布。先主复得妻子，从曹公还许。表先主为左将军，礼之愈重，出则同舆，坐则同席。袁术欲经徐州北就袁绍，曹公遣先主督朱灵、路招要击术。未至，术病死。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "还小沛"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p5-note0"
+          ]
+        },
+        {
+          "text": "复合兵得万余人。吕布恶之，自出兵攻"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "败走归曹公。曹公厚遇之，以为豫州牧。将至沛收散卒，给其军粮，益与兵使东击布。布遣高顺攻之，曹公遣夏侯惇往，不能救，为顺所败，复虏"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "妻子送布。曹公自出东征"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p5-note1"
+          ]
+        },
+        {
+          "text": "助"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "围布于"
+        },
+        {
+          "text": "下邳",
+          "placeId": "xiapi"
+        },
+        {
+          "text": "，生禽布。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "复得妻子，从曹公还许。表"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "为左将军，礼之愈重，出则同舆，坐则同席。袁术欲经徐州北就袁绍，曹公遣"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "督朱灵、路招要击术。未至，术病死。"
+        }
+      ],
+      "translation": "先主回到小沛，重新收拢了一万多人。吕布忌恶他，亲自发兵进攻，先主战败后投奔曹操。曹操厚待他，让他做豫州牧；将要让他回沛收集散兵时，供给军粮，增派兵马，让他向东攻打吕布。吕布派高顺进攻，曹操派夏侯惇去救援，没能救成，被高顺打败，先主的妻子儿女又被俘送给吕布。曹操亲自东征，帮助先主在下邳围攻并生擒吕布。先主重新得到妻子儿女，随曹操回许。曹操上表任他为左将军，对他更加礼遇：出行同车，坐下同席。袁术想经过徐州向北投袁绍，曹操派先主统领朱灵、路招前往截击；还未到达，袁术已病死。",
+      "summary": "先主回到小沛，重新收拢了一万多人。",
+      "placeIds": [
+        "xiapi"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p5-note0",
+        "xianzhu-p5-note1"
+      ],
+      "focusPlaceId": "xiapi",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 5,
+        "excerptStart": "先主还小沛，复合兵得万余",
+        "excerptEnd": "招要击术。未至，术病死。",
+        "startOffset": 2,
+        "endOffsetExclusive": 190,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p6",
+      "title": "曹操论英雄",
+      "time": {
+        "year": null,
+        "era": "建安初年",
+        "label": "建安初年",
+        "certainty": "unknown"
+      },
+      "originalText": "先主未出时，献帝舅车骑将军董承辞受帝衣带中密诏，当诛曹公。先主未发。是时曹公从容谓先主曰：「今天下英雄，唯使君与操耳。本初之徒，不足数也。」先主方食，失匕箸。 遂与承及长水校尉种辑、将军吴子兰、王子服等同谋。会见使，未发。事觉，承等皆伏诛。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "未出时，献帝舅车骑将军董"
+        },
+        {
+          "text": "承",
+          "noteIds": [
+            "xianzhu-p6-note0"
+          ]
+        },
+        {
+          "text": "辞受帝衣带中密诏，当诛曹公。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "未发。是时曹公从容谓"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "曰：「今天下英雄，唯使君与操耳。本初之徒，不足数也。」"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "方食，失匕箸"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p6-note1"
+          ]
+        },
+        {
+          "text": " 遂与承及长水校尉种辑、将军吴子兰、王子服等同谋。会见使，未发。事觉，承等皆伏诛"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p6-note2"
+          ]
+        }
+      ],
+      "translation": "先主出发前，汉献帝的舅父、车骑将军董承声称接受了藏在衣带里的皇帝密诏，要诛杀曹操。先主当时还没有行动。那时曹操从容地对先主说：‘当今天下的英雄，只有您和我。袁绍那些人，不值得一提。’先主正在吃饭，惊得掉了汤匙和筷子。此后他与董承、长水校尉种辑、将军吴子兰、王子服等共同谋划。恰逢他受命外出，谋划尚未发动，事情泄露，董承等人都被处死。",
+      "summary": "先主出发前，汉献帝的舅父、车骑将军董承声称接受了藏在衣带里的皇帝密诏，要诛杀曹操。",
+      "placeIds": [],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p6-note0",
+        "xianzhu-p6-note1",
+        "xianzhu-p6-note2"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 6,
+        "excerptStart": "先主未出时，献帝舅车骑将",
+        "excerptEnd": "未发。事觉，承等皆伏诛。",
+        "startOffset": 2,
+        "endOffsetExclusive": 122,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p7",
+      "title": "徐州再败",
+      "time": {
+        "year": 200,
+        "era": "建安五年",
+        "label": "建安五年",
+        "certainty": "inferred"
+      },
+      "originalText": "先主据下邳。灵等还，先主乃杀徐州刺史车胄，留关羽守下邳，而身还小沛。 东海昌霸反，郡县多叛曹公为先主，众数万人，遣孙与袁绍连和，曹公遣刘岱、王忠击之，不克。五年，曹公东征先主，先主败绩。 曹公尽收其众，虏先主妻子，并禽关羽以归。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "据"
+        },
+        {
+          "text": "下邳",
+          "placeId": "xiapi"
+        },
+        {
+          "text": "。灵等还，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "乃杀徐州刺史车胄，留"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "守"
+        },
+        {
+          "text": "下邳",
+          "placeId": "xiapi"
+        },
+        {
+          "text": "，而身还小沛"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p7-note0"
+          ]
+        },
+        {
+          "text": " 东海昌霸反，郡县多叛曹公为"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，众数万人，遣孙与袁绍连和，曹公遣刘岱、王忠击之，不克。五年，曹公东征"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "败绩"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p7-note1"
+          ]
+        },
+        {
+          "text": " 曹公尽收其众，虏"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "妻子，并禽"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "以归。"
+        }
+      ],
+      "translation": "先主据守下邳。朱灵等人回去后，先主杀了徐州刺史车胄，留下关羽守下邳，自己回到小沛。东海的昌霸反叛，许多郡县背离曹操归附先主，部众达数万人；先主派孙与袁绍结盟。曹操派刘岱、王忠进攻，没有取胜。建安五年，曹操东征先主，先主大败。曹操收尽他的部众，俘获妻子儿女，并擒住关羽带回。",
+      "summary": "先主据守下邳。",
+      "placeIds": [
+        "xiapi"
+      ],
+      "personIds": [
+        "liu-bei",
+        "guan-yu"
+      ],
+      "noteIds": [
+        "xianzhu-p7-note0",
+        "xianzhu-p7-note1"
+      ],
+      "focusPlaceId": "xiapi",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 7,
+        "excerptStart": "先主据下邳。灵等还，先主",
+        "excerptEnd": "先主妻子，并禽关羽以归。",
+        "startOffset": 2,
+        "endOffsetExclusive": 116,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p8",
+      "title": "投袁与转战汝南",
+      "time": {
+        "year": null,
+        "era": "官渡前后",
+        "label": "官渡前后",
+        "certainty": "unknown"
+      },
+      "originalText": "先主走青州。青州刺史袁谭，先主故茂才也，将步骑迎先主。先主随谭到平原，谭驰使白绍。绍遣将道路奉迎，身去邺二百里，与先主相见。 驻月余日，所失亡士卒稍稍来集。曹公与袁绍相拒于官渡，汝南黄巾刘辟等叛曹公应绍。绍遣先主将兵与辟等略许下。关羽亡归先主。曹公遣曹仁将兵击先主，先主还绍军，阴欲离绍，乃说绍南连荆州牧刘表。绍遣先主将本兵复至汝南，与贼龚都等合，众数千人。曹公遣蔡阳击之，为先主所杀。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "走青州。青州刺史袁谭，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "故茂才也，将步骑迎"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "随谭到"
+        },
+        {
+          "text": "平原",
+          "placeId": "pingyuan"
+        },
+        {
+          "text": "，谭驰使白绍。绍遣将道路奉迎，身去邺二百里，与"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "相见"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p8-note0"
+          ]
+        },
+        {
+          "text": " 驻月余日，所失亡士卒稍稍来集。曹公与袁绍相拒于官渡，汝南黄巾刘辟等叛曹公应绍。绍遣"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "将兵与辟等略许下。"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "亡归"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "。曹公遣"
+        },
+        {
+          "text": "曹仁",
+          "personId": "cao-ren"
+        },
+        {
+          "text": "将兵击"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "还绍军，阴欲离绍，乃说绍南连荆州牧"
+        },
+        {
+          "text": "刘表",
+          "personId": "liu-biao"
+        },
+        {
+          "text": "。绍遣"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "将本兵复至汝南，与贼龚都等合，众数千人。曹公遣蔡阳击之，为"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "所杀。"
+        }
+      ],
+      "translation": "先主逃到青州。青州刺史袁谭是先前由他举荐的茂才，率步骑迎接。先主跟随袁谭到平原，袁谭急派人禀报袁绍。袁绍派将领沿途迎接，自己离开邺城二百里与先主相见。先主驻留一个多月，失散的士卒逐渐聚集。曹操与袁绍在官渡对峙，汝南黄巾刘辟等背叛曹操响应袁绍。袁绍派先主率兵与刘辟等侵袭许都附近；关羽离开曹操归还先主。曹操派曹仁率兵进攻先主，先主回到袁绍军中，暗想离开袁绍，便劝他向南联络荆州牧刘表。袁绍派先主带原部众再次到汝南，与龚都等部会合，共数千人。曹操派蔡阳进攻，被先主杀死。",
+      "summary": "先主逃到青州。",
+      "placeIds": [
+        "pingyuan"
+      ],
+      "personIds": [
+        "liu-bei",
+        "guan-yu",
+        "cao-ren",
+        "liu-biao"
+      ],
+      "noteIds": [
+        "xianzhu-p8-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 8,
+        "excerptStart": "先主走青州。青州刺史袁谭",
+        "excerptEnd": "遣蔡阳击之，为先主所杀。",
+        "startOffset": 2,
+        "endOffsetExclusive": 195,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p9",
+      "title": "荆州寄居与博望伏击",
+      "time": {
+        "year": null,
+        "era": "赤壁前",
+        "label": "赤壁前",
+        "certainty": "unknown"
+      },
+      "originalText": "曹公既破绍，自南击先主。先主遣麋竺、孙与刘表相闻，表自郊迎，以上宾礼待之，益其兵，使屯新野。荆州豪杰归先主者日益多，表疑其心，阴御之。 使拒夏侯惇、禁等于博望。久之，先主设伏兵，一旦自烧屯伪遁，惇等追之，为伏兵所破。",
+      "parts": [
+        {
+          "text": "曹公既破绍，自南击"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "遣"
+        },
+        {
+          "text": "麋竺",
+          "personId": "mi-zhu"
+        },
+        {
+          "text": "、孙与"
+        },
+        {
+          "text": "刘表",
+          "personId": "liu-biao"
+        },
+        {
+          "text": "相闻，表自郊迎，以上宾礼待之，益其兵，使屯"
+        },
+        {
+          "text": "新野",
+          "placeId": "xinye"
+        },
+        {
+          "text": "。荆州豪杰归"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "者日益多，表疑其心，阴御之"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p9-note0"
+          ]
+        },
+        {
+          "text": " 使拒夏侯惇、禁等于博望。久之，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "设伏兵，一旦自烧屯伪遁，惇等追之，为伏兵所破。"
+        }
+      ],
+      "translation": "曹操击败袁绍后，亲自向南进攻先主。先主派麋竺、孙与刘表联系，刘表出郊迎接，以上宾之礼相待，增给兵马，让他驻守新野。荆州豪杰归附先主的日益增多，刘表怀疑他的心意，暗中防备。他让先主在博望抵御夏侯惇、于禁等人。过了一段时间，先主设下伏兵，一天烧毁营垒假装撤退。夏侯惇等追击，被伏兵打败。",
+      "summary": "曹操击败袁绍后，亲自向南进攻先主。",
+      "placeIds": [
+        "xinye"
+      ],
+      "personIds": [
+        "liu-bei",
+        "mi-zhu",
+        "liu-biao"
+      ],
+      "noteIds": [
+        "xianzhu-p9-note0"
+      ],
+      "focusPlaceId": "xinye",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 9,
+        "excerptStart": "曹公既破绍，自南击先主。",
+        "excerptEnd": "，惇等追之，为伏兵所破。",
+        "startOffset": 2,
+        "endOffsetExclusive": 110,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-scene-1",
+      "title": "荆州有变",
+      "time": {
+        "year": null,
+        "era": "建安十二至十三年",
+        "label": "十二年起至南征荆州",
+        "certainty": "unknown"
+      },
+      "originalText": "十二年，曹公北征乌丸，先主说表袭许，表不能用。 曹公南征表，会表卒，子琮代立，遣使请降。先主屯樊，不知曹公卒至，至宛乃闻之，遂将其众去。过襄阳，诸葛亮说先主攻琮，荆州可有。先主曰：「吾不忍也。」",
+      "parts": [
+        {
+          "text": "十二年，曹公北征乌丸，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "说表袭许，表不能用"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p10-note0"
+          ]
+        },
+        {
+          "text": " 曹公南征表，会表卒"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p10-note1"
+          ]
+        },
+        {
+          "text": "子琮代立，遣使请降。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "屯樊，不知曹公卒至，至宛乃闻之，遂将其众去。过"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "说"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "攻琮，荆州可有。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "曰：「吾不忍也。"
+        },
+        {
+          "text": "」",
+          "noteIds": [
+            "xianzhu-p10-note2"
+          ]
+        }
+      ],
+      "translation": "建安十二年，曹操向北征讨乌丸，刘备劝刘表袭击许都，刘表没有采纳。后来曹操南征刘表，恰逢刘表去世，儿子刘琮继任，派人向曹操请降。刘备驻扎在樊城，不知道曹操突然来到；曹操到了宛城，刘备才得到消息，于是带领部众离开。经过襄阳时，诸葛亮劝刘备进攻刘琮，说这样就可以取得荆州。刘备说：“我不忍心这样做。”",
+      "summary": "曹操北征乌丸时，刘备劝刘表袭许，刘表未采纳。曹操南下后，刘表去世，刘琮请降。刘备从樊城撤离，经过襄阳时拒绝乘机夺取荆州。",
+      "placeIds": [
+        "xiangyang"
+      ],
+      "personIds": [
+        "liu-bei",
+        "zhuge-liang"
+      ],
+      "noteIds": [
+        "xianzhu-p10-note0",
+        "xianzhu-p10-note1",
+        "xianzhu-p10-note2"
+      ],
+      "focusPlaceId": "xiangyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 10,
+        "excerptStart": "十二年，曹公北征乌丸，先",
+        "excerptEnd": "。先主曰：「吾不忍也。」",
+        "startOffset": 2,
+        "endOffsetExclusive": 99,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative",
+      "mapProfileId": "jianghan-relief"
+    },
+    {
+      "id": "xianzhu-scene-2",
+      "title": "携众赴当阳",
+      "time": {
+        "year": 208,
+        "era": "建安十三年",
+        "label": "刘表卒后",
+        "certainty": "inferred"
+      },
+      "originalText": " 乃驻马呼琮，琮惧不能起。琮左右及荆州人多归先主。 比到当阳，众十余万，辎重数千两，日行十余里，别遣关羽乘船数百艘，使会江陵。或谓先主曰：「宜速行保江陵，今虽拥大众，被甲者少，若曹公兵至，何以拒之？」先主曰：「夫济大事必以人为本，今人归吾，吾何忍弃去！」",
+      "parts": [
+        {
+          "text": " 乃驻马呼琮，琮惧不能起。琮左右及荆州人多归"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p10-note3"
+          ]
+        },
+        {
+          "text": " 比到"
+        },
+        {
+          "text": "当阳",
+          "placeId": "dangyang"
+        },
+        {
+          "text": "，众十余万，辎重数千两，日行十余里，别遣"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "乘船数百艘，使会"
+        },
+        {
+          "text": "江陵",
+          "placeId": "nan-jun"
+        },
+        {
+          "text": "。或谓"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "曰：「宜速行保"
+        },
+        {
+          "text": "江陵",
+          "placeId": "nan-jun"
+        },
+        {
+          "text": "，今虽拥大众，被甲者少，若曹公兵至，何以拒之？」"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "曰：「夫济大事必以人为本，今人归吾，吾何忍弃去！"
+        },
+        {
+          "text": "」",
+          "noteIds": [
+            "xianzhu-p10-note4"
+          ]
+        }
+      ],
+      "translation": "刘备于是驻马呼唤刘琮，刘琮害怕得不能起身。他身边的人和许多荆州人都归附刘备。等走到当阳，随行的人已有十余万，辎重车数千辆，每天只能走十余里。刘备另派关羽率几百条船，在江陵会合。有人对刘备说：“应当快走去保住江陵。如今虽然带着这么多人，披甲的士兵却很少；曹操的军队一到，拿什么抵挡？”刘备说：“成就大事一定要以人为本。如今人们归附我，我怎忍心丢下他们离开！”",
+      "summary": "刘备经过襄阳时有人归附。到当阳时随行人口很多、行进缓慢，他另派关羽乘船前往江陵会合。有人劝他先走，他不忍抛下民众。",
+      "placeIds": [
+        "dangyang",
+        "nan-jun",
+        "xiangyang"
+      ],
+      "personIds": [
+        "liu-bei",
+        "guan-yu"
+      ],
+      "noteIds": [
+        "xianzhu-p10-note3",
+        "xianzhu-p10-note4"
+      ],
+      "focusPlaceId": "dangyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 10,
+        "excerptStart": "乃驻马呼琮，琮惧不能起",
+        "excerptEnd": "今人归吾，吾何忍弃去！」",
+        "startOffset": 99,
+        "endOffsetExclusive": 226,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "battle",
+      "mapProfileId": "jianghan-relief",
+      "battlePhases": [
+        {
+          "id": "xianzhu-scene-2-phase",
+          "title": "携众赴当阳",
+          "summary": "刘备经过襄阳时有人归附。到当阳时随行人口很多、行进缓慢，他另派关羽乘船前往江陵会合。有人劝他先走，他不忍抛下民众。",
+          "deployments": [
+            {
+              "id": "xianzhu-scene-2-flag-1",
+              "label": "刘备",
+              "faction": "liu",
+              "commanderId": "liu-bei",
+              "role": "区域位置示意",
+              "placeId": "dangyang",
+              "coordinates": [
+                111.79,
+                30.82
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本传所叙相关行动的区域参照，具体军营和阵位未定位。宜昌民政资料称长坂坡位于当阳城区西南；取当阳城区近似区域，非具体交战点。",
+              "action": "刘备经过襄阳时有人归附。到当阳时随行人口很多、行进缓慢，他另派关羽乘船前往江陵会合。有人劝他先走，他不忍抛下民众。",
+              "sourceIds": [
+                "epub",
+                "changban"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "xianzhu-scene-2-march",
+          "order": 1,
+          "faction": "liu",
+          "commanderId": "liu-bei",
+          "from": "xiangyang",
+          "to": "dangyang",
+          "fromLabel": "襄阳一带",
+          "toLabel": "当阳长坂一带",
+          "label": "刘备由襄阳方向至当阳长坂",
+          "description": "依据本传相继记载的两处行动区域；只表达方向，不表示所走道路、岸线、营址或渡口。",
+          "phaseIds": [
+            "xianzhu-scene-2-phase"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub",
+            "xiangyang-ref",
+            "changban"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xianzhu-scene-3",
+      "title": "长坂失利",
+      "time": {
+        "year": 208,
+        "era": "建安十三年",
+        "label": "长坂",
+        "certainty": "inferred"
+      },
+      "originalText": "曹公以江陵有军实，恐先主据之，乃释辎重，轻军到襄阳。闻先主已过，曹公将精骑五千急追之，一日一夜行三百余里，及于当阳之长坂。先主弃妻子，与诸葛亮、张飞、赵云等数十骑走，曹公大获其人众辎重。",
+      "parts": [
+        {
+          "text": "曹公以"
+        },
+        {
+          "text": "江陵",
+          "placeId": "nan-jun"
+        },
+        {
+          "text": "有军实，恐"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "据之，乃释辎重，轻军到"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "。闻"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "已过，曹公将精骑五千急追之，一日一夜行三百余里，及于"
+        },
+        {
+          "text": "当阳",
+          "placeId": "dangyang"
+        },
+        {
+          "text": "之"
+        },
+        {
+          "text": "长坂",
+          "placeId": "dangyang"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "弃妻子，与"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "张飞",
+          "personId": "zhang-fei"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "赵云",
+          "personId": "zhao-yun"
+        },
+        {
+          "text": "等数十骑走，曹公大获其人众辎重。"
+        }
+      ],
+      "translation": "曹操认为江陵有军用物资，担心刘备占据那里，便丢下辎重，率轻装部队到襄阳。听说刘备已过，他率五千精骑急追，一昼夜行三百余里，在当阳长坂追上刘备。刘备丢下妻子儿女，与诸葛亮、张飞、赵云等数十骑逃走，曹军俘获了大量人员和辎重。",
+      "summary": "曹操急追至当阳长坂，刘备与少数随从逃走，随行人众和辎重多被曹军俘获。",
+      "placeIds": [
+        "nan-jun",
+        "xiangyang",
+        "dangyang"
+      ],
+      "personIds": [
+        "liu-bei",
+        "zhuge-liang",
+        "zhang-fei",
+        "zhao-yun",
+        "cao-cao"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "dangyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 11,
+        "excerptStart": "曹公以江陵有军实，恐先主",
+        "excerptEnd": "走，曹公大获其人众辎重。",
+        "startOffset": 2,
+        "endOffsetExclusive": 95,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "battle",
+      "mapProfileId": "jianghan-relief",
+      "battlePhases": [
+        {
+          "id": "xianzhu-scene-3-phase",
+          "title": "长坂失利",
+          "summary": "曹操急追至当阳长坂，刘备与少数随从逃走，随行人众和辎重多被曹军俘获。",
+          "deployments": [
+            {
+              "id": "xianzhu-scene-3-flag-1",
+              "label": "刘备",
+              "faction": "liu",
+              "commanderId": "liu-bei",
+              "role": "区域位置示意",
+              "placeId": "dangyang",
+              "coordinates": [
+                111.79,
+                30.82
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本传所叙相关行动的区域参照，具体军营和阵位未定位。宜昌民政资料称长坂坡位于当阳城区西南；取当阳城区近似区域，非具体交战点。",
+              "action": "曹操急追至当阳长坂，刘备与少数随从逃走，随行人众和辎重多被曹军俘获。",
+              "sourceIds": [
+                "epub",
+                "changban"
+              ]
+            },
+            {
+              "id": "xianzhu-scene-3-flag-2",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "区域位置示意",
+              "placeId": "dangyang",
+              "coordinates": [
+                111.79,
+                30.82
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本传所叙相关行动的区域参照，具体军营和阵位未定位。宜昌民政资料称长坂坡位于当阳城区西南；取当阳城区近似区域，非具体交战点。",
+              "action": "曹操急追至当阳长坂，刘备与少数随从逃走，随行人众和辎重多被曹军俘获。",
+              "sourceIds": [
+                "epub",
+                "changban"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "xianzhu-scene-3-march",
+          "order": 1,
+          "faction": "cao",
+          "commanderId": "cao-cao",
+          "from": "xiangyang",
+          "to": "dangyang",
+          "fromLabel": "襄阳一带",
+          "toLabel": "当阳长坂一带",
+          "label": "曹操由襄阳方向至当阳长坂",
+          "description": "依据本传相继记载的两处行动区域；只表达方向，不表示所走道路、岸线、营址或渡口。",
+          "phaseIds": [
+            "xianzhu-scene-3-phase"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub",
+            "xiangyang-ref",
+            "changban"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xianzhu-scene-4",
+      "title": "汉津会合",
+      "time": {
+        "year": 208,
+        "era": "建安十三年",
+        "label": "长坂之后",
+        "certainty": "inferred"
+      },
+      "originalText": "先主斜趋汉津，适与羽船会，得济沔，遇表长子江夏太守琦众万余人，与俱到夏口。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "斜趋汉津，适与羽船会，得济沔，遇表长子江夏太守琦众万余人，与俱到"
+        },
+        {
+          "text": "夏口",
+          "placeId": "xiakou"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "translation": "刘备斜向汉津逃去，正好与关羽的船队相遇，得以渡过沔水。之后遇到刘表长子、江夏太守刘琦及其一万多部众，一同到达夏口。",
+      "summary": "刘备斜趋汉津，与关羽船队相会，渡过沔水，又遇刘琦所部，一同抵达夏口。",
+      "placeIds": [
+        "xiakou"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "xiakou",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 11,
+        "excerptStart": "先主斜趋汉津，适与羽船会",
+        "excerptEnd": "琦众万余人，与俱到夏口。",
+        "startOffset": 95,
+        "endOffsetExclusive": 132,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "battle",
+      "mapProfileId": "jianghan-relief",
+      "battlePhases": [
+        {
+          "id": "xianzhu-scene-4-phase",
+          "title": "汉津会合",
+          "summary": "刘备斜趋汉津，与关羽船队相会，渡过沔水，又遇刘琦所部，一同抵达夏口。",
+          "deployments": [
+            {
+              "id": "xianzhu-scene-4-flag-1",
+              "label": "刘备",
+              "faction": "liu",
+              "commanderId": "liu-bei",
+              "role": "区域位置示意",
+              "placeId": "xiakou",
+              "coordinates": [
+                114.27,
+                30.58
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本传所叙相关行动的区域参照，具体军营和阵位未定位。以现代武汉汉水与长江会合区域为参考，古水道变化且后世夏口城易位，不作为渡口定点。",
+              "action": "刘备斜趋汉津，与关羽船队相会，渡过沔水，又遇刘琦所部，一同抵达夏口。",
+              "sourceIds": [
+                "epub",
+                "xiakou-ref"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub"
+          ]
+        }
+      ],
+      "marches": []
+    },
+    {
+      "id": "xianzhu-scene-5",
+      "title": "联吴与赤壁",
+      "time": {
+        "year": 208,
+        "era": "建安十三年",
+        "label": "赤壁及南郡",
+        "certainty": "inferred"
+      },
+      "originalText": "先主遣诸葛亮自结于孙权，权遣周瑜、程普等水军数万，与先主并力，与曹公战于赤壁，大破之，焚其舟船。先主与吴军水陆并进，追到南郡，时又疾疫，北军多死，曹公引归。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "遣"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "自结于"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p11-note0"
+          ]
+        },
+        {
+          "text": "权遣"
+        },
+        {
+          "text": "周瑜",
+          "personId": "zhou-yu"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "程普",
+          "personId": "cheng-pu"
+        },
+        {
+          "text": "等水军数万，与"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "并力"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p11-note1"
+          ]
+        },
+        {
+          "text": "与曹公战于"
+        },
+        {
+          "text": "赤壁",
+          "placeId": "chibi"
+        },
+        {
+          "text": "，大破之，焚其舟船。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "与吴军水陆并进，追到"
+        },
+        {
+          "text": "南郡",
+          "placeId": "nan-jun"
+        },
+        {
+          "text": "，时又疾疫，北军多死，曹公引归"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p11-note2"
+          ]
+        }
+      ],
+      "translation": "刘备派诸葛亮前往孙权处结盟。孙权派周瑜、程普等率数万水军，与刘备合力，在赤壁与曹操交战，大破曹军，焚烧其船只。刘备与吴军水陆并进，追到南郡。当时军中又发生疫病，北方军队死者很多，曹操带兵返回。",
+      "summary": "刘备派诸葛亮与孙权结盟，周瑜、程普率水军与刘备合力，在赤壁击破曹军；随后追至南郡。",
+      "placeIds": [
+        "chibi",
+        "nan-jun"
+      ],
+      "personIds": [
+        "liu-bei",
+        "zhuge-liang",
+        "sun-quan",
+        "zhou-yu",
+        "cheng-pu",
+        "cao-cao"
+      ],
+      "noteIds": [
+        "xianzhu-p11-note0",
+        "xianzhu-p11-note1",
+        "xianzhu-p11-note2"
+      ],
+      "focusPlaceId": "chibi",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 11,
+        "excerptStart": "先主遣诸葛亮自结于孙权，",
+        "excerptEnd": "疫，北军多死，曹公引归。",
+        "startOffset": 132,
+        "endOffsetExclusive": 210,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "battle",
+      "mapProfileId": "jianghan-relief",
+      "battlePhases": [
+        {
+          "id": "xianzhu-scene-5-phase",
+          "title": "联吴与赤壁",
+          "summary": "刘备派诸葛亮与孙权结盟，周瑜、程普率水军与刘备合力，在赤壁击破曹军；随后追至南郡。",
+          "deployments": [
+            {
+              "id": "xianzhu-scene-5-flag-1",
+              "label": "刘备",
+              "faction": "liu",
+              "commanderId": "liu-bei",
+              "role": "区域位置示意",
+              "placeId": "chibi",
+              "coordinates": [
+                113.65,
+                29.98
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本传所叙相关行动的区域参照，具体军营和阵位未定位。赤壁战场地望存在蒲圻、江夏等多说；此点只示蒲圻一说的大致区域，非确定战场或营地。",
+              "action": "刘备派诸葛亮与孙权结盟，周瑜、程普率水军与刘备合力，在赤壁击破曹军；随后追至南郡。",
+              "sourceIds": [
+                "epub",
+                "chibi-debate"
+              ]
+            },
+            {
+              "id": "xianzhu-scene-5-flag-2",
+              "label": "周瑜",
+              "faction": "sun",
+              "commanderId": "zhou-yu",
+              "role": "区域位置示意",
+              "placeId": "chibi",
+              "coordinates": [
+                113.65,
+                29.98
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本传所叙相关行动的区域参照，具体军营和阵位未定位。赤壁战场地望存在蒲圻、江夏等多说；此点只示蒲圻一说的大致区域，非确定战场或营地。",
+              "action": "刘备派诸葛亮与孙权结盟，周瑜、程普率水军与刘备合力，在赤壁击破曹军；随后追至南郡。",
+              "sourceIds": [
+                "epub",
+                "chibi-debate"
+              ]
+            },
+            {
+              "id": "xianzhu-scene-5-flag-3",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "区域位置示意",
+              "placeId": "chibi",
+              "coordinates": [
+                113.65,
+                29.98
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本传所叙相关行动的区域参照，具体军营和阵位未定位。赤壁战场地望存在蒲圻、江夏等多说；此点只示蒲圻一说的大致区域，非确定战场或营地。",
+              "action": "刘备派诸葛亮与孙权结盟，周瑜、程普率水军与刘备合力，在赤壁击破曹军；随后追至南郡。",
+              "sourceIds": [
+                "epub",
+                "chibi-debate"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "xianzhu-scene-5-march",
+          "order": 1,
+          "faction": "liu",
+          "commanderId": "liu-bei",
+          "from": "chibi",
+          "to": "nan-jun",
+          "fromLabel": "赤壁一带",
+          "toLabel": "南郡／江陵一带",
+          "label": "刘备由赤壁方向至南郡／江陵",
+          "description": "依据本传相继记载的两处行动区域；只表达方向，不表示所走道路、岸线、营址或渡口。赤壁地望有争议，图中取蒲圻一说区域参考。",
+          "phaseIds": [
+            "xianzhu-scene-5-phase"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub",
+            "chibi-debate",
+            "jiangling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xianzhu-scene-6",
+      "title": "南征四郡",
+      "time": {
+        "year": null,
+        "era": "赤壁之后",
+        "label": "南征四郡",
+        "certainty": "unknown"
+      },
+      "originalText": "先主表琦为荆州刺史，又南征四郡。武陵太守金旋、长沙太守韩玄、桂阳太守赵范、零陵太守刘度皆降。",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "表琦为荆州刺史，又南征四郡。武陵太守金旋、长沙太守韩玄、桂阳太守赵范、零陵太守刘度皆降"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p12-note0"
+          ]
+        }
+      ],
+      "translation": "刘备上表推举刘琦为荆州刺史，又向南征讨四郡。武陵太守金旋、长沙太守韩玄、桂阳太守赵范、零陵太守刘度都归降了。",
+      "summary": "刘备推举刘琦为荆州刺史，南征武陵、长沙、桂阳、零陵四郡，四郡太守都表示归降。",
+      "placeIds": [
+        "gongan"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p12-note0"
+      ],
+      "focusPlaceId": "gongan",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 12,
+        "excerptStart": "先主表琦为荆州刺史，又南",
+        "excerptEnd": "赵范、零陵太守刘度皆降。",
+        "startOffset": 2,
+        "endOffsetExclusive": 48,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative",
+      "mapProfileId": "jianghan-relief"
+    },
+    {
+      "id": "xianzhu-scene-7",
+      "title": "公安立足",
+      "time": {
+        "year": null,
+        "era": "建安十三年后",
+        "label": "刘琦病逝及后续",
+        "certainty": "unknown"
+      },
+      "originalText": " 庐江雷绪率部曲数万口稽颡。琦病死，群下推先主为荆州牧，治公安。权稍畏之，进妹固好。先主至京见权，绸缪恩纪。 权遣使欲共取蜀，或以为宜报听许，吴终不能越荆有蜀，蜀地可为己有。荆州主簿殷观进曰：「若为吴先驱，进未能克蜀，退为吴所乘，即事去矣。今但可然赞其伐蜀，而自说新据诸郡，未可兴动，吴必不敢越我而独取蜀。如此进退之计，可以收吴、蜀之利。」先主从之，权果辍计。迁观为别驾从事。",
+      "parts": [
+        {
+          "text": " 庐江雷绪率部曲数万口稽颡。琦病死，群下推"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "为荆州牧，治"
+        },
+        {
+          "text": "公安",
+          "placeId": "gongan"
+        },
+        {
+          "text": "。权稍畏之，进妹固好。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "至京见权，绸缪恩纪"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p12-note1"
+          ]
+        },
+        {
+          "text": " 权遣使欲共取蜀，或以为宜报听许，吴终不能越荆有蜀，蜀地可为己有。荆州主簿殷观进曰：「若为吴先驱，进未能克蜀，退为吴所乘，即事去矣。今但可然赞其伐蜀，而自说新据诸郡，未可兴动，吴必不敢越我而独取蜀。如此进退之计，可以收吴、蜀之利。」"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "从之，权果辍计。迁观为别驾从事"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p12-note2"
+          ]
+        }
+      ],
+      "translation": "庐江的雷绪率数万部众前来归附。刘琦病逝后，部下推举刘备为荆州牧，治所设在公安。孙权渐渐忌惮刘备，便把妹妹嫁给他以巩固关系。刘备到京口会见孙权，双方进一步维系交情。孙权派使者提出共同攻取蜀地。有人认为应该答应，因为吴军终究不能越过荆州占有蜀地，而蜀地可以由刘备取得。荆州主簿殷观却说：“如果替吴军做先锋，前进未必能攻下蜀地，后退又会被吴军乘机袭击，事情就无法挽回。如今只应口头赞同伐蜀，同时说自己刚得到几郡，尚不能兴兵，吴军必定不敢越过我们独自取蜀。这样进退都有余地，可以兼收吴、蜀的利益。”刘备听从了他的建议，孙权果然停止计划。刘备升任殷观为别驾从事。",
+      "summary": "刘琦去世后，刘备被推为荆州牧，治所设于公安。孙权以联姻维系关系；刘备采纳殷观的建议，应对孙权提出的共同取蜀。",
+      "placeIds": [
+        "gongan"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p12-note1",
+        "xianzhu-p12-note2"
+      ],
+      "focusPlaceId": "gongan",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 12,
+        "excerptStart": "庐江雷绪率部曲数万口稽",
+        "excerptEnd": "果辍计。迁观为别驾从事。",
+        "startOffset": 48,
+        "endOffsetExclusive": 236,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "battle",
+      "mapProfileId": "jianghan-relief",
+      "battlePhases": [
+        {
+          "id": "xianzhu-scene-7-phase",
+          "title": "公安立足",
+          "summary": "刘琦去世后，刘备被推为荆州牧，治所设于公安。孙权以联姻维系关系；刘备采纳殷观的建议，应对孙权提出的共同取蜀。",
+          "deployments": [
+            {
+              "id": "xianzhu-scene-7-flag-1",
+              "label": "刘备",
+              "faction": "liu",
+              "commanderId": "liu-bei",
+              "role": "区域位置示意",
+              "placeId": "gongan",
+              "coordinates": [
+                112.22,
+                30.2
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本传所叙相关行动的区域参照，具体军营和阵位未定位。刘备立营油江口后称公安；此为区域参照，不是营址坐标。",
+              "action": "刘琦去世后，刘备被推为荆州牧，治所设于公安。孙权以联姻维系关系；刘备采纳殷观的建议，应对孙权提出的共同取蜀。",
+              "sourceIds": [
+                "epub",
+                "gongan-ref"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub"
+          ]
+        }
+      ],
+      "marches": []
+    },
+    {
+      "id": "xianzhu-p15",
+      "title": "迎入益州",
+      "time": {
+        "year": 211,
+        "era": "建安十六年",
+        "label": "建安十六年",
+        "certainty": "inferred"
+      },
+      "originalText": "十六年，益州牧刘璋遥闻曹公将遣钟繇等向汉中讨张鲁，内怀恐惧。别驾从事蜀郡张松说璋曰：「曹公兵强无敌于天下，若因张鲁之资以取蜀土，谁能御之者乎？」璋曰：「吾固忧之而未有计。」松曰：「刘豫州，使君之宗室而曹公之深雠也，善用兵，若使之讨鲁，鲁必破。鲁破，则益州强，曹公虽来，无能为也。」璋然之，遣法正将四千人迎先主，前后赂遗以巨亿计。正因陈益州可取之策。 先主留诸葛亮、关羽等据荆州，将步卒数万人入益州。至涪，璋自出迎，相见甚欢。张松令法正白先主，及谋臣庞统进说，便可于会所袭璋。先主曰：「此大事也，不可仓卒。」璋推先主行大司马，领司隶校尉；先主亦推璋行镇西大将军，领益州牧。璋增先主兵，使击张鲁，又令督白水军。先主并军三万余人，车甲器械资货甚盛。是岁，璋还成都。先主北到葭萌，未即讨鲁，厚树恩德，以收众心。",
+      "parts": [
+        {
+          "text": "十六年，益州牧"
+        },
+        {
+          "text": "刘璋",
+          "personId": "liu-zhang"
+        },
+        {
+          "text": "遥闻曹公将遣钟繇等向"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "讨张鲁，内怀恐惧。别驾从事蜀郡张松说璋曰：「曹公兵强无敌于天下，若因张鲁之资以取蜀土，谁能御之者乎？」璋曰：「吾固忧之而未有计。」松曰：「刘豫州，使君之宗室而曹公之深雠也，善用兵，若使之讨鲁，鲁必破。鲁破，则益州强，曹公虽来，无能为也。」璋然之，遣"
+        },
+        {
+          "text": "法正",
+          "personId": "fa-zheng"
+        },
+        {
+          "text": "将四千人迎"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，前后赂遗以巨亿计。正因陈益州可取之策"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p15-note0"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "留"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "等据荆州，将步卒数万人入益州。至涪，璋自出迎，相见甚欢。张松令"
+        },
+        {
+          "text": "法正",
+          "personId": "fa-zheng"
+        },
+        {
+          "text": "白"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "，及谋臣"
+        },
+        {
+          "text": "庞统",
+          "personId": "pang-tong"
+        },
+        {
+          "text": "进说，便可于会所袭璋。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "曰：「此大事也，不可仓卒。」璋推"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "行大司马，领司隶校尉；"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "亦推璋行镇西大将军，领益州牧。璋增"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "兵，使击张鲁，又令督白水军。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "并军三万余人，车甲器械资货甚盛。是岁，璋还"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "北到葭萌，未即讨鲁，厚树恩德，以收众心。"
+        }
+      ],
+      "translation": "建安十六年，益州牧刘璋远远听说曹操将派钟繇等到汉中讨伐张鲁，心中恐惧。别驾从事、蜀郡人张松劝他说：‘曹操兵强，天下无人能敌。如果他借助张鲁的力量夺取蜀地，谁能抵挡？’刘璋说：‘我本来就忧虑，却没有办法。’张松说：‘刘豫州是您的宗室，又与曹操有深仇，善于用兵；让他讨伐张鲁，张鲁一定被击破。张鲁一破，益州强盛，曹操即使到来，也无能为力。’刘璋认为有理，派法正率四千人迎接先主，前后馈赠极多财物。法正趁机陈说可以夺取益州的计策。先主留下诸葛亮、关羽等守荆州，率几万步兵入益州。到涪时，刘璋亲自出迎，双方见面非常欢愉。张松让法正向先主转达，谋士庞统也劝说，可以在会面时袭取刘璋。先主说：‘这是大事，不能仓促。’刘璋推举先主代理大司马、兼领司隶校尉；先主也推举刘璋代理镇西大将军、领益州牧。刘璋为先主增兵，让他攻打张鲁，又令他统率白水军。先主合兵三万余人，车辆、铠甲、兵器和财货十分充足。这一年刘璋回成都，先主北上葭萌，没有立即讨伐张鲁，而是广施恩德，收取人心。",
+      "summary": "建安十六年，益州牧刘璋远远听说曹操将派钟繇等到汉中讨伐张鲁，心中恐惧。",
+      "placeIds": [
+        "hanzhong",
+        "chengdu"
+      ],
+      "personIds": [
+        "liu-zhang",
+        "fa-zheng",
+        "liu-bei",
+        "zhuge-liang",
+        "guan-yu",
+        "pang-tong"
+      ],
+      "noteIds": [
+        "xianzhu-p15-note0"
+      ],
+      "focusPlaceId": "chengdu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 15,
+        "excerptStart": "十六年，益州牧刘璋遥闻曹",
+        "excerptEnd": "鲁，厚树恩德，以收众心。",
+        "startOffset": 2,
+        "endOffsetExclusive": 353,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p16",
+      "title": "刘璋决裂与围雒",
+      "time": {
+        "year": null,
+        "era": "建安十七至十九年",
+        "label": "建安十七至十九年",
+        "certainty": "unknown"
+      },
+      "originalText": "明年，曹公征孙权，权呼先主自救。先主遣使告璋曰：「曹公征吴，吴忧危急。孙氏与孤本为唇齿，又乐进在青泥与关羽相拒，今不往救羽，进必大克，转侵州界，其忧有甚于鲁。鲁自守之贼，不足虑也。」乃从璋求万兵及资（宝），欲以东行。璋但许兵四千，其余皆给半。 张松书与先主及法正曰：「今大事垂可立，如何释此去乎！」松兄广汉太守肃，惧祸逮己，白璋发其谋。于是璋收斩松，嫌隙始构矣。 璋敕关戍诸将文书勿复关通先主。先主大怒，召璋白水军督杨怀，责以无礼，斩之。乃使黄忠、卓膺勒兵向璋。先主径至关中，质诸将并士卒妻子，引兵与忠、膺等进到涪，据其城。璋遣刘𪻺、冷苞、张任、邓贤等拒先主于涪，皆破败，退保绵竹。璋复遣李严督绵竹诸军，严率众降先主。先主军益强，分遣诸将平下属县，诸葛亮、张飞、赵云等将兵溯流定白帝、江州、江阳，惟关羽留镇荆州。先主进军围雒；时璋子循守城，被攻且一年。",
+      "parts": [
+        {
+          "text": "明年，曹公征"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "，权呼"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "自救。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "遣使告璋曰：「曹公征吴，吴忧危急。孙氏与孤本为唇齿，又乐进在青泥与"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "相拒，今不往救羽，进必大克，转侵州界，其忧有甚于鲁。鲁自守之贼，不足虑也。」乃从璋求万兵及资（宝），欲以东行。璋但许兵四千，其余皆给半"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p16-note0"
+          ]
+        },
+        {
+          "text": " 张松书与"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "及"
+        },
+        {
+          "text": "法正",
+          "personId": "fa-zheng"
+        },
+        {
+          "text": "曰：「今大事垂可立，如何释此去乎！」松兄广汉太守肃，惧祸逮己，白璋发其谋。于是璋收斩松，嫌隙始构矣"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p16-note1"
+          ]
+        },
+        {
+          "text": " 璋敕关戍诸将文书勿复关通"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "大怒，召璋白水军督杨怀，责以无礼，斩之。乃使"
+        },
+        {
+          "text": "黄忠",
+          "personId": "huang-zhong"
+        },
+        {
+          "text": "、卓膺勒兵向璋。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "径至关中，质诸将并士卒妻子，引兵与忠、膺等进到涪，据其城。璋遣刘𪻺、冷苞、张任、邓贤等拒"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "于涪"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p16-note2"
+          ]
+        },
+        {
+          "text": "皆破败，退保绵竹。璋复遣李严督绵竹诸军，严率众降"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "军益强，分遣诸将平下属县，"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "张飞",
+          "personId": "zhang-fei"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "赵云",
+          "personId": "zhao-yun"
+        },
+        {
+          "text": "等将兵溯流定"
+        },
+        {
+          "text": "白帝",
+          "placeId": "yongan"
+        },
+        {
+          "text": "、江州、江阳，惟"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "留镇荆州。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "进军围雒；时璋子循守城，被攻且一年。"
+        }
+      ],
+      "translation": "第二年，曹操征孙权，孙权召先主救援自己。先主派人告诉刘璋：‘曹操征吴，吴地情况危急。孙氏与我原本唇齿相依；乐进又在青泥与关羽对峙，如今不去救关羽，乐进必定大胜，继而侵入州界，这比张鲁的威胁还大。张鲁只是自守的贼，不足为虑。’于是向刘璋要求一万兵和物资，准备东行。刘璋只答应给四千兵，其余物资都只给一半。张松写信给先主和法正：‘大事眼看可以成功，怎么能放弃这里离开？’张松的哥哥、广汉太守张肃担心祸及自己，向刘璋告发阴谋。刘璋于是逮捕并斩杀张松，双方开始产生嫌隙。刘璋命令关口守将的文书不再为先主放行。先主大怒，召见刘璋的白水军督杨怀，责备其无礼并斩杀；又让黄忠、卓膺率兵进攻刘璋。先主径来到关中，扣留诸将和士卒的妻子儿女，带兵与黄忠、卓膺进到涪，占领城池。刘璋派刘璝、冷苞、张任、邓贤等在涪抵御先主，均被打败，退守绵竹。刘璋又派李严统领绵竹各军，李严率众投降先主。先主军势更强，分派将领平定下属各县；诸葛亮、张飞、赵云等率兵溯江平定白帝、江州、江阳，只有关羽留守荆州。先主进军围攻雒城，刘璋之子刘循守城，受到攻击近一年。",
+      "summary": "第二年，曹操征孙权，孙权召先主救援自己。",
+      "placeIds": [
+        "yongan"
+      ],
+      "personIds": [
+        "sun-quan",
+        "liu-bei",
+        "guan-yu",
+        "fa-zheng",
+        "huang-zhong",
+        "zhuge-liang",
+        "zhang-fei",
+        "zhao-yun"
+      ],
+      "noteIds": [
+        "xianzhu-p16-note0",
+        "xianzhu-p16-note1",
+        "xianzhu-p16-note2"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 16,
+        "excerptStart": "明年，曹公征孙权，权呼先",
+        "excerptEnd": "璋子循守城，被攻且一年。",
+        "startOffset": 2,
+        "endOffsetExclusive": 378,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p17",
+      "title": "取得益州与任用群士",
+      "time": {
+        "year": 214,
+        "era": "建安十九年",
+        "label": "建安十九年",
+        "certainty": "inferred"
+      },
+      "originalText": "十九年夏，雒城破，进围成都数十日，璋出降。 蜀中殷盛丰乐，先主置酒大飨士卒，取蜀城中金银分赐将士，还其谷帛。先主复领益州牧，诸葛亮为股肱，法正为谋主，关羽、张飞、马超为爪牙，许靖、麋竺、简雍为宾友。及董和、黄权、李严等本璋之所授用也，吴壹、费观等又璋之婚亲也，彭羕又璋之所排摈也，刘巴者宿昔之所忌恨也，皆处之显任，尽其器能。有志之士，无不竞劝。",
+      "parts": [
+        {
+          "text": "十九年夏，雒城破"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p17-note0"
+          ]
+        },
+        {
+          "text": "进围"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "数十日，璋出降"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p17-note1"
+          ]
+        },
+        {
+          "text": " 蜀中殷盛丰乐，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "置酒大飨士卒，取蜀城中金银分赐将士，还其谷帛。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "复领益州牧，"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "为股肱，"
+        },
+        {
+          "text": "法正",
+          "personId": "fa-zheng"
+        },
+        {
+          "text": "为谋主，"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "张飞",
+          "personId": "zhang-fei"
+        },
+        {
+          "text": "、马超为爪牙，"
+        },
+        {
+          "text": "许靖",
+          "personId": "xu-jing"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "麋竺",
+          "personId": "mi-zhu"
+        },
+        {
+          "text": "、简雍为宾友。及董和、黄权、李严等本璋之所授用也，吴壹、费观等又璋之婚亲也，彭羕又璋之所排摈也，刘巴者宿昔之所忌恨也，皆处之显任，尽其器能。有志之士，无不竞劝。"
+        }
+      ],
+      "translation": "建安十九年夏，雒城被攻破。先主进围成都几十天，刘璋出城投降。蜀地富庶安乐，先主设宴犒赏士卒，将城中金银分赐将士，归还他们的粮食和布帛。先主又领益州牧，以诸葛亮为辅佐、法正为主要谋士，以关羽、张飞、马超为将帅，以许靖、麋竺、简雍为宾友。董和、黄权、李严等原是刘璋任用的人，吴壹、费观等又是刘璋的姻亲，彭羕曾被刘璋排斥，刘巴又曾长期忌恨先主；先主都让他们担任显要职务，充分发挥才能。有志之士无不竞相勉励。",
+      "summary": "建安十九年夏，雒城被攻破。",
+      "placeIds": [
+        "chengdu"
+      ],
+      "personIds": [
+        "liu-bei",
+        "zhuge-liang",
+        "fa-zheng",
+        "guan-yu",
+        "zhang-fei",
+        "xu-jing",
+        "mi-zhu"
+      ],
+      "noteIds": [
+        "xianzhu-p17-note0",
+        "xianzhu-p17-note1"
+      ],
+      "focusPlaceId": "chengdu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 17,
+        "excerptStart": "十九年夏，雒城破，进围成",
+        "excerptEnd": "能。有志之士，无不竞劝。",
+        "startOffset": 2,
+        "endOffsetExclusive": 174,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p18",
+      "title": "荆州划界与汉中之争",
+      "time": {
+        "year": null,
+        "era": "建安二十年后",
+        "label": "建安二十年后",
+        "certainty": "unknown"
+      },
+      "originalText": "二十年，孙权以先主已得益州，使使报欲得荆州。先主言：「须得凉州，当以荆州相与。」权忿之，乃遣吕蒙袭夺长沙、零陵、桂阳三郡。先主引兵五万下公安，令关羽入益阳。是岁，曹公定汉中，张鲁遁走巴西。先主闻之，与权连和，分荆州、江夏、长沙、桂阳东属，南郡、零陵、武陵西属，引军还江州。遣黄权将兵迎张鲁，张鲁已降曹公。曹公使夏侯渊、张郃屯汉中，数数犯暴巴界。先主令张飞进兵宕渠，与郃等战于瓦口，破郃等，收兵还南郑。先主亦还成都。",
+      "parts": [
+        {
+          "text": "二十年，"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "以"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "已得益州，使使报欲得荆州。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "言：「须得凉州，当以荆州相与。」权忿之，乃遣"
+        },
+        {
+          "text": "吕蒙",
+          "personId": "lv-meng"
+        },
+        {
+          "text": "袭夺长沙、零陵、桂阳三郡。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "引兵五万下"
+        },
+        {
+          "text": "公安",
+          "placeId": "gongan"
+        },
+        {
+          "text": "，令"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "入益阳。是岁，曹公定"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "，张鲁遁走巴西。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "闻之，与权连和，分荆州、江夏、长沙、桂阳东属，"
+        },
+        {
+          "text": "南郡",
+          "placeId": "nan-jun"
+        },
+        {
+          "text": "、零陵、武陵西属，引军还江州。遣黄权将兵迎张鲁，张鲁已降曹公。曹公使夏侯渊、张郃屯"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "，数数犯暴巴界。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "令"
+        },
+        {
+          "text": "张飞",
+          "personId": "zhang-fei"
+        },
+        {
+          "text": "进兵宕渠，与郃等战于瓦口，破郃等，收兵还南郑。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "亦还"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "translation": "建安二十年，孙权认为先主已经得到益州，派使者要求交还荆州诸郡。先主说：‘等得到凉州，便把荆州给你。’孙权愤怒，派吕蒙袭取长沙、零陵、桂阳三郡。先主率五万兵南下公安，令关羽进入益阳。这一年曹操平定汉中，张鲁逃往巴西。先主得知后与孙权讲和，划分荆州：江夏、长沙、桂阳向东属孙权，南郡、零陵、武陵向西属先主。先主领军回江州，派黄权率兵迎接张鲁，张鲁已投降曹操。曹操派夏侯渊、张郃驻汉中，屡次侵扰巴地边界。先主令张飞进兵宕渠，在瓦口与张郃等交战，打败他们；张郃收兵回南郑，先主也回成都。",
+      "summary": "建安二十年，孙权认为先主已经得到益州，派使者要求交还荆州诸郡。",
+      "placeIds": [
+        "gongan",
+        "hanzhong",
+        "nan-jun",
+        "chengdu"
+      ],
+      "personIds": [
+        "sun-quan",
+        "liu-bei",
+        "lv-meng",
+        "guan-yu",
+        "zhang-fei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "chengdu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 18,
+        "excerptStart": "二十年，孙权以先主已得益",
+        "excerptEnd": "兵还南郑。先主亦还成都。",
+        "startOffset": 2,
+        "endOffsetExclusive": 209,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p19",
+      "title": "进军汉中",
+      "time": {
+        "year": 218,
+        "era": "建安二十三年",
+        "label": "建安二十三年",
+        "certainty": "inferred"
+      },
+      "originalText": "二十三年，先主率诸将进兵汉中。分遣将军吴兰、雷铜等入武都，皆为曹公军所没。先主次于阳平关，与渊、郃等相拒。",
+      "parts": [
+        {
+          "text": "二十三年，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "率诸将进兵"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "。分遣将军吴兰、雷铜等入武都，皆为曹公军所没。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "次于阳平关，与渊、郃等相拒。"
+        }
+      ],
+      "translation": "建安二十三年，先主率众将进兵汉中，另派吴兰、雷铜等将领进入武都，都被曹军消灭。先主驻在阳平关，与夏侯渊、张郃等对峙。",
+      "summary": "建安二十三年，先主率众将进兵汉中，另派吴兰、雷铜等将领进入武都，都被曹军消灭。",
+      "placeIds": [
+        "hanzhong"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "hanzhong",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 19,
+        "excerptStart": "二十三年，先主率诸将进兵",
+        "excerptEnd": "阳平关，与渊、郃等相拒。",
+        "startOffset": 2,
+        "endOffsetExclusive": 55,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p20",
+      "title": "定军山与汉中",
+      "time": {
+        "year": 219,
+        "era": "建安二十四年",
+        "label": "建安二十四年",
+        "certainty": "inferred"
+      },
+      "originalText": "二十四年春，自阳平南渡沔水，缘山稍前，于定军山势作营。渊将兵来争其地。先主命黄忠乘高鼓噪攻之，大破渊军，斩渊及曹公所署益州刺史赵颙等。曹公自长安举众南征。先主遥策之曰：「曹公虽来，无能为也，我必有汉川矣。」及曹公至，先主敛众拒险，终不交锋，积月不拔，亡者日多。夏，曹公果引军还，先主遂有汉中。遣刘封、孟达、李平等攻申耽于上庸。",
+      "parts": [
+        {
+          "text": "二十四年春，自阳平南渡沔水，缘山稍前，于定军山势作营。渊将兵来争其地。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "命"
+        },
+        {
+          "text": "黄忠",
+          "personId": "huang-zhong"
+        },
+        {
+          "text": "乘高鼓噪攻之，大破渊军，斩渊及曹公所署益州刺史赵颙等。曹公自长安举众南征。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "遥策之曰：「曹公虽来，无能为也，我必有汉川矣。」及曹公至，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "敛众拒险，终不交锋，积月不拔，亡者日多。夏，曹公果引军还，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "遂有"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "。遣刘封、孟达、李平等攻申耽于上庸。"
+        }
+      ],
+      "translation": "建安二十四年春，先主从阳平向南渡过沔水，沿山逐渐前进，在定军山险要地势扎营。夏侯渊率兵争夺此地。先主命黄忠居高处擂鼓呐喊进攻，大破夏侯渊军，斩夏侯渊及曹操任命的益州刺史赵颙等。曹操从长安率众南征。先主远远预判说：‘曹操虽来，也无能为力，我必定拥有汉川。’曹操到后，先主收拢部众据险拒守，始终不交锋。曹军久攻数月不克，逃亡日益增多。夏天，曹操果然带兵回去，先主于是占有汉中，又派刘封、孟达、李平等到上庸攻打申耽。",
+      "summary": "建安二十四年春，先主从阳平向南渡过沔水，沿山逐渐前进，在定军山险要地势扎营。",
+      "placeIds": [
+        "hanzhong"
+      ],
+      "personIds": [
+        "liu-bei",
+        "huang-zhong"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "hanzhong",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 20,
+        "excerptStart": "二十四年春，自阳平南渡沔",
+        "excerptEnd": "达、李平等攻申耽于上庸。",
+        "startOffset": 2,
+        "endOffsetExclusive": 165,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p21",
+      "title": "群臣上表",
+      "time": {
+        "year": 219,
+        "era": "建安二十四年",
+        "label": "建安二十四年",
+        "certainty": "inferred"
+      },
+      "originalText": "秋，群下上先主为汉中王，表于汉帝曰：",
+      "parts": [
+        {
+          "text": "秋，群下上"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "为"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "王，表于汉帝曰："
+        }
+      ],
+      "translation": "秋天，群臣推举先主为汉中王，上表汉献帝说：",
+      "summary": "秋天，群臣推举先主为汉中王，上表汉献帝说：。",
+      "placeIds": [
+        "hanzhong"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "hanzhong",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 21,
+        "excerptStart": "秋，群下上先主为汉中王，",
+        "excerptEnd": "主为汉中王，表于汉帝曰：",
+        "startOffset": 2,
+        "endOffsetExclusive": 20,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p22",
+      "title": "推举汉中王表",
+      "time": {
+        "year": 219,
+        "era": "建安二十四年",
+        "label": "建安二十四年",
+        "certainty": "inferred"
+      },
+      "originalText": "平西将军都亭侯臣马超、左将军（领）长史镇军将军臣许靖、营司马臣庞羲、议曹从事中郎军议中郎将臣射援、军师将军臣诸葛亮、荡寇将军汉寿亭侯臣关羽、征虏将军新亭侯臣张飞、征西将军臣黄忠、镇远将军臣赖恭、扬武将军臣法正、兴业将军臣李严等一百二十人上言曰：昔唐尧至圣而四凶在朝，周成仁贤而四国作难，高后称制而诸吕窃命，孝昭幼冲而上官逆谋，皆冯世宠，藉履国权，穷凶极乱，社稷几危。非大舜、周公、朱虚、博陆，则不能流放禽讨，安危定倾。伏惟陛下诞姿圣德，统理万邦，而遭厄运不造之艰。董卓首难，荡覆京畿，曹操阶祸，窃执天衡；皇后太子，鸩杀见害，剥乱天下，残毁民物。久令陛下蒙尘忧厄，幽处虚邑。人神无主，遏绝王命，厌昧皇极，欲盗神器。左将军领司隶校尉豫、荆、益三州牧宜城亭侯备，受朝爵秩，念在输力，以殉国难。睹其机兆，赫然愤发，与车骑将军董承同谋诛操，将安国家，克宁旧都。会承机事不密，令操游魂得遂长恶，残泯海内。臣等每惧王室大有阎乐之祸，小有定安之变，夙夜惴惴，战栗累息。昔在虞书，敦序九族，周监二代，封建同姓，诗著其义，历载长久。汉兴之初，割裂疆土，尊王子弟，是以卒折诸吕之难，而成太宗之基。臣等以备肺腑枝叶，宗子籓翰，心存国家，念在弭乱。自操破于汉中，海内英雄望风蚁附，而爵号不显，九锡未加，非所以镇卫社稷，光昭万世也。奉辞在外，礼命断绝。昔河西太守梁统等值汉中兴，限于山河，位同权均，不能相率，咸推窦融以为元帅，卒立效绩，摧破隗嚣。今社稷之难，急于陇、蜀。操外吞天下，内残群寮，朝廷有萧墙之危，而御侮未建，可为寒心。臣等辄依旧典，封备汉中王，拜大司马，董齐六军，纠合同盟，扫灭凶逆。以汉中、巴、蜀、广汉、犍为为国，所署置依汉初诸侯王故典。夫权宜之制，苟利社稷，专之可也。然后功成事立，臣等退伏矫罪，虽死无恨。",
+      "parts": [
+        {
+          "text": "平西将军都亭侯臣马超、左将军（领）长史镇军将军臣"
+        },
+        {
+          "text": "许靖",
+          "personId": "xu-jing"
+        },
+        {
+          "text": "、营司马臣庞羲、议曹从事中郎军议中郎将臣射援"
+        },
+        {
+          "text": "、",
+          "noteIds": [
+            "xianzhu-p22-note0"
+          ]
+        },
+        {
+          "text": "军师将军臣"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "、荡寇将军汉寿亭侯臣"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "、征虏将军新亭侯臣"
+        },
+        {
+          "text": "张飞",
+          "personId": "zhang-fei"
+        },
+        {
+          "text": "、征西将军臣"
+        },
+        {
+          "text": "黄忠",
+          "personId": "huang-zhong"
+        },
+        {
+          "text": "、镇远将军臣赖恭、扬武将军臣"
+        },
+        {
+          "text": "法正",
+          "personId": "fa-zheng"
+        },
+        {
+          "text": "、兴业将军臣李严等一百二十人上言曰：昔唐尧至圣而四凶在朝，周成仁贤而四国作难，高后称制而诸吕窃命，孝昭幼冲而上官逆谋，皆冯世宠，藉履国权，穷凶极乱，社稷几危。非大舜、周公、朱虚、博陆，则不能流放禽讨，安危定倾。伏惟陛下诞姿圣德，统理万邦，而遭厄运不造之艰。董卓首难，荡覆京畿，"
+        },
+        {
+          "text": "曹操",
+          "personId": "cao-cao"
+        },
+        {
+          "text": "阶祸，窃执天衡；皇后太子，鸩杀见害，剥乱天下，残毁民物。久令陛下蒙尘忧厄，幽处虚邑。人神无主，遏绝王命，厌昧皇极，欲盗神器。左将军领司隶校尉豫、荆、益三州牧宜城亭侯备，受朝爵秩，念在输力，以殉国难。睹其机兆，赫然愤发，与车骑将军董承同谋诛操，将安国家，克宁旧都。会承机事不密，令操游魂得遂长恶，残泯海内。臣等每惧王室大有阎乐之祸，小有定安之变"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p22-note1"
+          ]
+        },
+        {
+          "text": "夙夜惴惴，战栗累息。昔在虞书，敦序九族，周监二代，封建同姓，诗著其义，历载长久。汉兴之初，割裂疆土，尊王子弟，是以卒折诸吕之难，而成太宗之基。臣等以备肺腑枝叶，宗子籓翰，心存国家，念在弭乱。自操破于"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "，海内英雄望风蚁附，而爵号不显，九锡未加，非所以镇卫社稷，光昭万世也。奉辞在外，礼命断绝。昔河西太守梁统等值"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "兴，限于山河，位同权均，不能相率，咸推窦融以为元帅，卒立效绩，摧破隗嚣。今社稷之难，急于陇、蜀。操外吞天下，内残群寮，朝廷有萧墙之危，而御侮未建，可为寒心。臣等辄依旧典，封备"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "王，拜大司马，董齐六军，纠合同盟，扫灭凶逆。以"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "、巴、蜀、广汉、犍为为国，所署置依汉初诸侯王故典。夫权宜之制，苟利社稷，专之可也。然后功成事立，臣等退伏矫罪，虽死无恨。"
+        }
+      ],
+      "translation": "平西将军都亭侯马超、左将军长史镇军将军许靖、营司马庞羲、议曹从事中郎军议中郎将射援、军师将军诸葛亮、荡寇将军汉寿亭侯关羽、征虏将军新亭侯张飞、征西将军黄忠、镇远将军赖恭、扬武将军法正、兴业将军李严等一百二十人上言说：‘从前唐尧极其圣明，朝中仍有四凶；周成王仁贤，仍有四国作乱；高后临朝称制，诸吕窃取权柄；汉昭帝年幼，上官氏图谋叛逆。他们都仗着世代受宠，凭借执掌国权，穷凶极恶、扰乱国家，使社稷几乎危亡。若非舜、周公、朱虚侯、博陆侯，就不能流放、擒拿和讨伐乱臣，转危为安。我们恭想陛下天生圣德，统治万邦，却遭遇艰难厄运。董卓首先作乱，颠覆京畿；曹操乘乱起事，窃掌朝廷大权，毒杀皇后和太子，扰乱天下，残害百姓和财物，长久使陛下受困蒙尘，幽居空城。人神失去依靠，王命不通，皇权被遮蔽，曹操妄图盗取帝位。左将军、领司隶校尉、豫荆益三州牧、宜城亭侯刘备受朝廷爵位，一心想尽力赴国难。他见到乱事的苗头，愤然奋起，与车骑将军董承同谋诛杀曹操，以安国家、安定旧都。不料董承谋事不密，使曹操侥幸逃脱，继续作恶，残害天下。我们常恐怕王室大则遭受阎乐杀秦二世之祸，小则发生王莽废孺子为定安公之变，日夜惶恐，屏息战栗。从前《虞书》讲求亲睦九族，周朝借鉴前代，分封同姓，《诗经》也记载其意义，这些传统长久沿袭。汉初分封土地、尊立皇族子弟，所以最终平定诸吕之乱，奠定汉文帝的基业。我们认为刘备是皇室至亲、宗族屏障，心系国家，想要平息祸乱。自从曹操在汉中失败，天下英雄望风归附，而刘备爵号尚不显赫，九锡未加，这不足以镇守社稷、昭示后世。我们奉命在外，与朝廷的礼命隔绝。从前河西太守梁统等遇汉朝中兴，受山河阻隔，各人地位相当，不能互相统率，于是一同推窦融为元帅，终于建立功业、击破隗嚣。如今社稷危难比陇、蜀当时更急迫：曹操在外吞并天下，在内残害官员，朝廷有内部倾覆之危，而抵御外侮的统帅尚未确立，令人寒心。我们暂依旧例，封刘备为汉中王，任大司马，总领六军，联合盟友，扫灭凶逆；以汉中、巴、蜀、广汉、犍为为封国，官员设置依汉初诸侯王旧制。权宜之法，只要有利于社稷，可以暂时专断施行。待功业完成后，我们退而请受假托皇命的罪责，即使死也无遗憾。’",
+      "summary": "平西将军都亭侯马超、左将军长史镇军将军许靖、营司马庞羲、议曹从事中郎军议中郎将射援、军师将军诸葛亮、荡寇将军汉寿亭侯关羽、征虏将军新亭侯张飞、征西将军黄忠、镇远将军赖恭、扬武将军法正、兴业将军李严等一百二十人上言说：‘从前唐尧极其圣明，朝中仍有四凶；周成王仁贤，仍有四国作乱；高后",
+      "placeIds": [
+        "hanzhong"
+      ],
+      "personIds": [
+        "xu-jing",
+        "zhuge-liang",
+        "guan-yu",
+        "zhang-fei",
+        "huang-zhong",
+        "fa-zheng",
+        "cao-cao",
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p22-note0",
+        "xianzhu-p22-note1"
+      ],
+      "focusPlaceId": "hanzhong",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 22,
+        "excerptStart": "平西将军都亭侯臣马超、左",
+        "excerptEnd": "臣等退伏矫罪，虽死无恨。",
+        "startOffset": 0,
+        "endOffsetExclusive": 747,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p23",
+      "title": "沔阳受王冠",
+      "time": {
+        "year": 219,
+        "era": "建安二十四年",
+        "label": "建安二十四年",
+        "certainty": "inferred"
+      },
+      "originalText": "遂于沔阳设坛场，陈兵列众，群臣陪位，读奏讫，御王冠于先主。",
+      "parts": [
+        {
+          "text": "遂于沔阳设坛场，陈兵列众，群臣陪位，读奏讫，御王冠于"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "translation": "于是他们在沔阳设置坛场，陈列军队与众人，群臣陪列。宣读奏表后，将王冠戴在先主头上。",
+      "summary": "于是他们在沔阳设置坛场，陈列军队与众人，群臣陪列。",
+      "placeIds": [],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 23,
+        "excerptStart": "遂于沔阳设坛场，陈兵列众",
+        "excerptEnd": "，读奏讫，御王冠于先主。",
+        "startOffset": 2,
+        "endOffsetExclusive": 31,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p24",
+      "title": "先主上言",
+      "time": {
+        "year": 219,
+        "era": "建安二十四年",
+        "label": "建安二十四年",
+        "certainty": "inferred"
+      },
+      "originalText": "先主上言汉帝曰：",
+      "parts": [
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "上言汉帝曰："
+        }
+      ],
+      "translation": "先主上表汉献帝说：",
+      "summary": "先主上表汉献帝说：。",
+      "placeIds": [],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 24,
+        "excerptStart": "先主上言汉帝曰：",
+        "excerptEnd": "先主上言汉帝曰：",
+        "startOffset": 2,
+        "endOffsetExclusive": 10,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p25",
+      "title": "先主自陈受王号",
+      "time": {
+        "year": 219,
+        "era": "建安二十四年",
+        "label": "建安二十四年",
+        "certainty": "inferred"
+      },
+      "originalText": "臣以具臣之才，荷上将之任，董督三军，奉辞于外，不得扫除寇难，靖匡王室，久使陛下圣教陵迟，六合之内，否而未泰，惟忧反侧，疢如疾首。曩者董卓造为乱阶，自是之后，群凶纵横，残剥海内。赖陛下圣德威灵，人神同应，或忠义奋讨，或上天降罚，暴逆并殪，以渐冰消。惟独曹操，久未枭除，侵擅国权，恣心极乱。臣昔与车骑将军董承图谋讨操，机事不密，承见陷害，臣播越失据，忠义不果。遂得使操穷凶极逆，主后戮杀，皇子鸩害。虽纠合同盟，念在奋力，懦弱不武，历年未效。常恐殒没，孤负国恩，寤寐永叹，夕惕若厉。今臣群寮以为在昔虞书敦叙九族，庶明励翼，五帝损益，此道不废。周监二代，并建诸姬，实赖晋、郑夹辅之福。高祖龙兴，尊王子弟，大启九国，卒斩诸吕，以安大宗。今操恶直丑正，寔繁有徒，包藏祸心，篡盗已显。既宗室微弱，帝族无位，斟酌古式，依假权宜，上臣大司马汉中王。臣伏自三省，受国厚恩，荷任一方，陈力未效，所获已过，不宜复忝高位以重罪谤。群寮见逼，迫臣以义。臣退惟寇贼不枭，国难未已，宗庙倾危，社稷将坠，成臣忧责碎首之负。若应权通变，以宁靖圣朝，虽赴水火，所不得辞，敢虑常宜，以防后悔。辄顺众议，拜受印玺，以崇国威。仰惟爵号，位高宠厚，俯思报效，忧深责重，惊怖累息，如临于谷。尽力输诚，奖厉六师，率齐群义，应天顺时，扑讨凶逆，以宁社稷，以报万分，谨拜章因驿上还所假左将军、宜城亭侯印绶。",
+      "parts": [
+        {
+          "text": "臣以具臣之才，荷上将之任，董督三军，奉辞于外，不得扫除寇难，靖匡王室，久使陛下圣教陵迟，六合之内，否而未泰，惟忧反侧，疢如疾首。曩者董卓造为乱阶，自是之后，群凶纵横，残剥海内。赖陛下圣德威灵，人神同应，或忠义奋讨，或上天降罚，暴逆并殪，以渐冰消。惟独"
+        },
+        {
+          "text": "曹操",
+          "personId": "cao-cao"
+        },
+        {
+          "text": "，久未枭除，侵擅国权，恣心极乱。臣昔与车骑将军董承图谋讨操，机事不密，承见陷害，臣播越失据，忠义不果。遂得使操穷凶极逆，主后戮杀，皇子鸩害。虽纠合同盟，念在奋力，懦弱不武，历年未效。常恐殒没，孤负国恩，寤寐永叹，夕惕若厉。今臣群寮以为在昔虞书敦叙九族，庶明励翼"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "xianzhu-p25-note0"
+          ]
+        },
+        {
+          "text": "五帝损益，此道不废。周监二代，并建诸姬，实赖晋、郑夹辅之福。高祖龙兴，尊王子弟，大启九国，卒斩诸吕，以安大宗。今操恶直丑正，寔繁有徒，包藏祸心，篡盗已显。既宗室微弱，帝族无位，斟酌古式，依假权宜，上臣大司马"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "王。臣伏自三省，受国厚恩，荷任一方，陈力未效，所获已过，不宜复忝高位以重罪谤。群寮见逼，迫臣以义。臣退惟寇贼不枭，国难未已，宗庙倾危，社稷将坠，成臣忧责碎首之负。若应权通变，以宁靖圣朝，虽赴水火，所不得辞，敢虑常宜，以防后悔。辄顺众议，拜受印玺，以崇国威。仰惟爵号，位高宠厚，俯思报效，忧深责重，惊怖累息，如临于谷。尽力输诚，奖厉六师，率齐群义，应天顺时，扑讨凶逆，以宁社稷，以报万分，谨拜章因驿上还所假左将军、宜城亭侯印绶。"
+        }
+      ],
+      "translation": "臣只有普通臣子的才干，却担任上将，统领三军，奉朝廷命令在外征战，未能扫除祸乱、安定扶持王室，长久让陛下的教化衰落，使天下否塞不安；我因此忧虑辗转，痛苦得像头疾发作。从前董卓制造祸乱，此后群凶横行，剥削残害天下。幸赖陛下圣德威灵，人与神共同响应，有的忠义之士奋起讨伐，有的受上天降罚，暴逆之人相继死去，祸乱渐渐消散。只有曹操长久未被除掉，侵占国权，恣意作恶。我过去与车骑将军董承谋划讨伐曹操，因谋事不密，董承被害，我也流离失所，忠义之志未能实现。于是曹操得以穷凶极恶，杀害君主与皇后，毒害皇子。我虽联合盟友、想要奋力讨伐，却软弱无能，多年来没有成效。常恐一旦死亡，有负国恩，日夜长叹，时刻警惕，如临危境。如今群臣认为，从前《虞书》讲求亲睦九族，众贤明之臣奋勉辅佐；五帝制度虽有增减，这个原则没有废弃。周朝借鉴前代，广封姬姓诸国，依赖晋、郑辅佐之福。高祖兴起，尊立皇室子弟，大规模分封九国，终于诛灭诸吕，安定汉室。如今曹操憎恶正直，党徒众多，包藏祸心，篡位意图已很明显。皇室衰弱，宗族无位，群臣斟酌古制、暂行权宜，推举我为大司马、汉中王。我反复自省：深受国家厚恩，担任一方重任，尚未建功，所得已经过分，不应再辱居高位、加重罪责和非议。群臣一再逼迫，以大义要求我接受。我退而思量：敌寇未除，国难未平，宗庙危急，社稷将倾，我负有忧患责任，即使粉身碎骨也难以偿还。如果顺应权宜变化可以安定朝廷，那么即使赴汤蹈火，也不能推辞，怎敢只考虑常规以防将来后悔？因此我顺从众议，接受印玺以振国威。仰想爵位高、恩宠厚，俯思报效不足，深感忧虑和责任重大，惶恐屏息，如临深谷。我将尽力效忠，激励军队，统率义士，顺应天时，讨伐凶逆，安定社稷，以报答国恩于万一。谨恭敬上表，并通过驿站交还先前授予的左将军、宜城亭侯印绶。",
+      "summary": "臣只有普通臣子的才干，却担任上将，统领三军，奉朝廷命令在外征战，未能扫除祸乱、安定扶持王室，长久让陛下的教化衰落，使天下否塞不安；我因此忧虑辗转，痛苦得像头疾发作。",
+      "placeIds": [
+        "hanzhong"
+      ],
+      "personIds": [
+        "cao-cao",
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p25-note0"
+      ],
+      "focusPlaceId": "hanzhong",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 25,
+        "excerptStart": "臣以具臣之才，荷上将之任",
+        "excerptEnd": "假左将军、宜城亭侯印绶。",
+        "startOffset": 0,
+        "endOffsetExclusive": 576,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p26",
+      "title": "还成都与荆州之失",
+      "time": {
+        "year": 219,
+        "era": "建安二十四年",
+        "label": "建安二十四年",
+        "certainty": "inferred"
+      },
+      "originalText": "于是还治成都。拔魏延为都督，镇汉中。 时关羽攻曹公将曹仁，禽于禁于樊。俄而孙权袭杀羽，取荆州。",
+      "parts": [
+        {
+          "text": "于是还治"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "。拔魏延为都督，镇"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p26-note0"
+          ]
+        },
+        {
+          "text": " 时"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "攻曹公将"
+        },
+        {
+          "text": "曹仁",
+          "personId": "cao-ren"
+        },
+        {
+          "text": "，禽于禁于樊。俄而"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "袭杀羽，取荆州。"
+        }
+      ],
+      "translation": "先主于是回成都治事，提拔魏延为都督，镇守汉中。当时关羽进攻曹操部将曹仁，在樊城俘获于禁。不久孙权袭击并杀死关羽，夺取荆州。",
+      "summary": "先主于是回成都治事，提拔魏延为都督，镇守汉中。",
+      "placeIds": [
+        "chengdu",
+        "hanzhong"
+      ],
+      "personIds": [
+        "guan-yu",
+        "cao-ren",
+        "sun-quan",
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p26-note0"
+      ],
+      "focusPlaceId": "chengdu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 26,
+        "excerptStart": "于是还治成都。拔魏延为都",
+        "excerptEnd": "俄而孙权袭杀羽，取荆州。",
+        "startOffset": 2,
+        "endOffsetExclusive": 49,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p27",
+      "title": "劝进前的传闻与祥瑞",
+      "time": {
+        "year": null,
+        "era": "建安二十五年后",
+        "label": "建安二十五年后",
+        "certainty": "unknown"
+      },
+      "originalText": "二十五年，魏文帝称尊号，改年曰黄初。或传闻汉帝见害，先主乃发丧制服，追谥曰孝愍皇帝。是后在所并言众瑞，日月相属，故议郎阳泉侯刘豹、青衣侯向举、偏将军张裔、黄权、大司马属殷纯、益州别驾从事赵莋、治中从事杨洪、从事祭酒何宗、议曹从事杜琼、劝学从事张爽、尹默、谯周等上言：",
+      "parts": [
+        {
+          "text": "二十五年，魏文帝称尊号，改年曰黄初。或传闻汉帝见害，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "乃发丧制服，追谥曰孝愍皇帝。是后在所并言众瑞，日月相属，故议郎阳泉侯刘豹、青衣侯向举、偏将军张裔、黄权、大司马属殷纯、益州别驾从事赵莋、治中从事杨洪、从事祭酒何宗、议曹从事杜琼、劝学从事张爽、尹默、谯周等上言："
+        }
+      ],
+      "translation": "建安二十五年，魏文帝称帝，改年号为黄初。有人传闻汉献帝被害，先主于是为他发丧，穿丧服，追谥为孝愍皇帝。此后各地接连报告许多祥瑞，几乎日日相继。议郎阳泉侯刘豹、青衣侯向举、偏将军张裔、黄权、大司马属殷纯、益州别驾从事赵莋、治中从事杨洪、从事祭酒何宗、议曹从事杜琼、劝学从事张爽、尹默、谯周等上言：",
+      "summary": "建安二十五年，魏文帝称帝，改年号为黄初。",
+      "placeIds": [],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 27,
+        "excerptStart": "二十五年，魏文帝称尊号，",
+        "excerptEnd": "张爽、尹默、谯周等上言：",
+        "startOffset": 2,
+        "endOffsetExclusive": 135,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p28",
+      "title": "祥瑞与图谶劝进",
+      "time": {
+        "year": null,
+        "era": "称帝前",
+        "label": "称帝前",
+        "certainty": "unknown"
+      },
+      "originalText": "臣闻河图、洛书，五经谶、纬，孔子所甄，验应自远。谨案洛书甄曜度曰：『赤三日德昌，九世会备，合为帝际。』洛书宝号命曰：『天度帝道备称皇，以统握契，百成不败。』洛书录运期曰：『九侯七杰争命民炊骸，道路籍籍履人头，谁使主者玄且来。』孝经钩命决录曰：『帝三建九会备。』臣父群未亡时，言西南数有黄气，直立数丈，见来积年，时时有景云祥风，从璇玑下来应之，此为异瑞。又二十二年中，数有气如旗，从西竟东，中天而行，图、书曰『必有天子出其方』。加是年太白、荧惑、填星，常从岁星相追。近汉初兴，五星从岁星谋；岁星主义，汉位在西，义之上方，故汉法常以岁星候人主。当有圣主起于此州，以致中兴。时许帝尚存，故群下不敢漏言。顷者荧惑复追岁星，见在胃昴毕；昴毕为天纲，经曰『帝星处之，众邪消亡』。圣讳豫睹，推揆期验，符合数至，若此非一。臣闻圣王先天而天不违，后天而奉天时，故应际而生，与神合契。原大王应天顺民，速即洪业，以宁海内。",
+      "parts": [
+        {
+          "text": "臣闻河图、洛书，五经谶、纬，孔子所甄，验应自远。谨案洛书甄曜度曰：『赤三日德昌，九世会备，合为帝际。』洛书宝号命曰：『天度帝道备称皇，以统握契，百成不败。』洛书录运期曰：『九侯七杰争命民炊骸，道路籍籍履人头，谁使主者玄且来。』孝经钩命决录曰：『帝三建九会备。』臣父群未亡时，言西南数有黄气，直立数丈，见来积年，时时有景云祥风，从璇玑下来应之，此为异瑞。又二十二年中，数有气如旗，从西竟东，中天而行，图、书曰『必有天子出其方』。加是年太白、荧惑、填星，常从岁星相追。近汉初兴，五星从岁星谋；岁星主义，汉位在西，义之上方，故汉法常以岁星候人主。当有圣主起于此州，以致中兴。时许帝尚存，故群下不敢漏言。顷者荧惑复追岁星，见在胃昴毕；昴毕为天纲，经曰『帝星处之，众邪消亡』。圣讳豫睹，推揆期验，符合数至，若此非一。臣闻圣王先天而天不违，后天而奉天时，故应际而生，与神合契。原大王应天顺民，速即洪业，以宁海内。"
+        }
+      ],
+      "translation": "臣听说《河图》《洛书》以及五经谶纬，是孔子所辨正的，其征验由来已久。谨查《洛书甄曜度》说：‘赤三日德昌，九世会备，合为帝际。’《洛书宝号命》说：‘天度帝道备称皇，以统握契，百成不败。’《洛书录运期》说：‘九侯七杰争命，百姓煮人骨充饥，路途纷乱，脚下尽是人头；谁来做主人？玄德将要到来。’《孝经钩命决录》说：‘帝三建九会备。’臣的父亲尚在人世时说，西南多次出现黄色云气，直立数丈，多年来时常显现，还有祥云祥风从璇玑处下降相应，这是祥瑞。又在建安二十二年间，多次出现旗帜般的云气，从西到东横行天空；图书说这意味着天子将从那一方出现。今年又有太白、荧惑、填星经常追随岁星。汉初兴起时，五星也曾追随岁星；岁星主义，汉的方位在西，西又是义之所在，所以汉朝历来以岁星观察君主命运。应当有圣明君主在本州兴起，使汉室中兴。当时许都的皇帝尚在，因此群臣不敢泄露。近来荧惑又追随岁星，出现在胃、昴、毕星宿；昴毕是天纲，经典说‘帝星处于此，众邪消亡’。大王的名讳早已显示在这些征验中，推算时机和应验，多有符合，并非一件。臣听说圣王先于天意行动，天意也不会违背；后于天意行动，便遵奉天时。因此圣王顺时而生，与神意契合。愿大王顺应天命民意，尽快登上帝位，安宁天下。’这些符命与星象均为奏者的解释和主张。",
+      "summary": "臣听说《河图》《洛书》以及五经谶纬，是孔子所辨正的，其征验由来已久。",
+      "placeIds": [],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 28,
+        "excerptStart": "臣闻河图、洛书，五经谶、",
+        "excerptEnd": "民，速即洪业，以宁海内。",
+        "startOffset": 0,
+        "endOffsetExclusive": 400,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p29",
+      "title": "群臣再度劝进",
+      "time": {
+        "year": null,
+        "era": "称帝前",
+        "label": "称帝前",
+        "certainty": "unknown"
+      },
+      "originalText": "太傅许靖、安汉将军糜竺、军师将军诸葛亮、太常赖恭、光禄勋〔黄柱〕、少府王谋等上言：",
+      "parts": [
+        {
+          "text": "太傅"
+        },
+        {
+          "text": "许靖",
+          "personId": "xu-jing"
+        },
+        {
+          "text": "、安汉将军糜竺、军师将军"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "、太常赖恭、光禄勋〔黄柱〕、少府王谋等上言："
+        }
+      ],
+      "translation": "太傅许靖、安汉将军麋竺、军师将军诸葛亮、太常赖恭、光禄勋黄柱、少府王谋等上言：",
+      "summary": "太傅许靖、安汉将军麋竺、军师将军诸葛亮、太常赖恭、光禄勋黄柱、少府王谋等上言：。",
+      "placeIds": [],
+      "personIds": [
+        "xu-jing",
+        "zhuge-liang",
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 29,
+        "excerptStart": "太傅许靖、安汉将军糜竺、",
+        "excerptEnd": "黄柱〕、少府王谋等上言：",
+        "startOffset": 2,
+        "endOffsetExclusive": 43,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p30",
+      "title": "许靖等奏请即位",
+      "time": {
+        "year": null,
+        "era": "称帝前",
+        "label": "称帝前",
+        "certainty": "unknown"
+      },
+      "originalText": "曹丕篡弑，湮灭汉室，窃据神器，劫迫忠良，酷烈无道。人鬼忿毒，咸思刘氏。今上无天子，海内惶惶，靡所式仰。群下前后上书者八百余人，咸称述符瑞，图、谶明征。间黄龙见武阳赤水，九日乃去。孝经援神契曰『德至渊泉则黄龙见』，龙者，君之像也。易干九五『飞龙在天』，大王当龙升，登帝位也。又前关羽围樊、襄阳，襄阳男子张嘉、王休献玉玺，玺潜汉水，伏于渊泉，晖景烛燿，灵光彻天。夫汉者，高祖本所起定天下之国号也，大王袭先帝轨迹，亦兴于汉中也。今天子玉玺神光先见，玺出襄阳，汉水之末，明大王承其下流，授与大王以天子之位，瑞命符应，非人力所致。昔周有乌鱼之瑞，咸曰休哉。二祖受命，图、书先著，以为征验。今上天告祥，群儒英俊，并进河、洛，孔子谶、记，咸悉具至。伏惟大王出自孝景皇帝中山靖王之胄，本支百世，祇降祚，圣姿硕茂，神武在躬，仁覆积德，爱人好士，是以四方归心焉。考省灵图，启发谶、纬，神明之表，名讳昭著。宜即帝位，以纂二祖，绍嗣昭穆，天下幸甚。臣等谨与博士许慈、议郎孟光，建立礼仪，择令辰，上尊号。",
+      "parts": [
+        {
+          "text": "曹丕篡弑，湮灭汉室，窃据神器，劫迫忠良，酷烈无道。人鬼忿毒，咸思刘氏。今上无天子，海内惶惶，靡所式仰。群下前后上书者八百余人，咸称述符瑞，图、谶明征。间黄龙见武阳赤水，九日乃去。孝经援神契曰『德至渊泉则黄龙见』，龙者，君之像也。易干九五『飞龙在天』，大王当龙升，登帝位也。又前"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "围樊、"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "，"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "男子张嘉、王休献玉玺，玺潜汉水，伏于渊泉，晖景烛燿，灵光彻天。夫汉者，高祖本所起定天下之国号也，大王袭先帝轨迹，亦兴于"
+        },
+        {
+          "text": "汉中",
+          "placeId": "hanzhong"
+        },
+        {
+          "text": "也。今天子玉玺神光先见，玺出"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "，汉水之末，明大王承其下流，授与大王以天子之位，瑞命符应，非人力所致。昔周有乌鱼之瑞，咸曰休哉。二祖受命，图、书先著，以为征验。今上天告祥，群儒英俊，并进河、洛，孔子谶、记，咸悉具至。伏惟大王出自孝景皇帝中山靖王之胄，本支百世，祇降祚，圣姿硕茂，神武在躬，仁覆积德，爱人好士，是以四方归心焉。考省灵图，启发谶、纬，神明之表，名讳昭著。宜即帝位，以纂二祖，绍嗣昭穆，天下幸甚。臣等谨与博士许慈、议郎孟光，建立礼仪，择令辰，上尊号。"
+        }
+      ],
+      "translation": "曹丕篡夺并杀害君主，毁灭汉室，窃取帝位，劫迫忠良，残酷无道。人鬼都愤恨痛苦，共同怀念刘氏。如今上无天子，天下惶惶，没有可仰望的君主。臣下前后上书八百多人，都称述符瑞，说图谶有明确征兆。近来黄龙出现在武阳赤水，九天后才离去。《孝经援神契》说‘德及深泉则黄龙出现’；龙是君主的象征。《周易》乾卦九五说‘飞龙在天’，大王应当如龙升天，登上帝位。先前关羽围樊城、襄阳时，襄阳人张嘉、王休献上玉玺；玉玺潜藏汉水深渊，光辉照耀，灵光直达天空。汉是高祖兴起并平定天下时的国号；大王继承先帝轨迹，也兴起于汉中。如今象征天子的玉玺先显神光，从襄阳汉水下游出现，表明大王承接汉运，获得天子之位，是祥瑞天命相符，并非人力所致。从前周朝有乌、鱼祥瑞，众人都说吉庆；汉高祖、光武受命时，图书事先显现作为征验。如今上天显示吉祥，诸位儒者英才都进献河图、洛书和孔子谶记，征兆全部具备。大王出自孝景皇帝之子中山靖王的后裔，根系相承百世，承蒙上天赐福；天资壮美，身怀神武，仁爱深厚，爱护百姓、礼遇贤士，因此四方人心归附。考察神图，检阅谶纬，神明显现的征兆中，您的名讳清楚可见。应当即皇帝位，继承高祖、光武，延续宗庙世系，天下就十分幸运。臣等谨与博士许慈、议郎孟光制订礼仪，选择吉日，进上尊号。’这些祥瑞、谶纬和政治指控属于上表者的说法。",
+      "summary": "曹丕篡夺并杀害君主，毁灭汉室，窃取帝位，劫迫忠良，残酷无道。",
+      "placeIds": [
+        "xiangyang",
+        "hanzhong"
+      ],
+      "personIds": [
+        "guan-yu",
+        "liu-bei"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "hanzhong",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 30,
+        "excerptStart": "曹丕篡弑，湮灭汉室，窃据",
+        "excerptEnd": "立礼仪，择令辰，上尊号。",
+        "startOffset": 0,
+        "endOffsetExclusive": 439,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p31",
+      "title": "成都即位",
+      "time": {
+        "year": 221,
+        "era": "建安二十六年",
+        "label": "建安二十六年",
+        "certainty": "inferred"
+      },
+      "originalText": "即皇帝位于成都武担之南。 为文曰：",
+      "parts": [
+        {
+          "text": "即皇帝位于"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "武担之南"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p31-note0"
+          ]
+        },
+        {
+          "text": " 为文曰："
+        }
+      ],
+      "translation": "先主在成都武担山南即皇帝位，并作告文说：",
+      "summary": "先主在成都武担山南即皇帝位，并作告文说：。",
+      "placeIds": [
+        "chengdu"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p31-note0"
+      ],
+      "focusPlaceId": "chengdu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 31,
+        "excerptStart": "即皇帝位于成都武担之南。",
+        "excerptEnd": "成都武担之南。 为文曰：",
+        "startOffset": 0,
+        "endOffsetExclusive": 17,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p32",
+      "title": "告祭天地",
+      "time": {
+        "year": 221,
+        "era": "建安二十六年",
+        "label": "建安二十六年",
+        "certainty": "inferred"
+      },
+      "originalText": "惟建安二十六年四月丙午，皇帝备敢用玄牡，昭告皇天上帝后土神祇：汉有天下，历数无疆。曩者王莽篡盗，光武皇帝震怒致诛，社稷复存。今曹操阻兵安忍，戮杀主后，滔天泯夏，罔顾天显。操子丕，载其凶逆，窃居神器。群臣将士以为社稷隳废，备宜修之，嗣武二祖，龚行天罚。备惟否德，惧忝帝位。询于庶民，外及蛮夷君长，佥曰『天命不可以不答，祖业不可以久替，四海不可以无主』 。率土式望，在备一人。备畏天明命，又惧汉阼将湮于地，谨择元日，与百寮登坛，受皇帝玺绶。修燔瘗，告类于天神，惟神飨祚于汉家，永绥四海！",
+      "parts": [
+        {
+          "text": "惟建安二十六年四月丙午，皇帝备敢用玄牡，昭告皇天上帝后土神祇：汉有天下，历数无疆。曩者王莽篡盗，光武皇帝震怒致诛，社稷复存。今"
+        },
+        {
+          "text": "曹操",
+          "personId": "cao-cao"
+        },
+        {
+          "text": "阻兵安忍，戮杀主后，滔天泯夏，罔顾天显。操子丕，载其凶逆，窃居神器。群臣将士以为社稷隳废，备宜修之，嗣武二祖，龚行天罚。备惟否德，惧忝帝位。询于庶民，外及蛮夷君长，佥曰『天命不可以不答，祖业不可以久替，四海不可以无主』 。率土式望，在备一人。备畏天明命，又惧汉阼将湮于地，谨择元日，与百寮登坛，受皇帝玺绶。修燔瘗，告类于天神，惟神飨祚于汉家，永绥四海"
+        },
+        {
+          "text": "！",
+          "noteIds": [
+            "xianzhu-p32-note0"
+          ]
+        }
+      ],
+      "translation": "建安二十六年四月丙午，皇帝刘备谨用黑色公牛，昭告皇天上帝和后土神祇：汉朝拥有天下，传承的命数本应没有穷尽。从前王莽篡位，光武皇帝震怒，讨伐诛灭他，社稷因而复兴。如今曹操倚仗兵力、残忍无道，杀戮君主和皇后，祸乱滔天，使汉室覆灭，全不顾天命彰显。他的儿子曹丕继承凶逆，窃取帝位。群臣将士认为社稷已毁，刘备应予恢复，继承高祖、光武二祖的事业，恭行天罚。我自认德行不足，恐怕玷污帝位。我向百姓询问，也问到各族首领，他们都说：‘天命不可不回应，祖业不可长久废弃，天下不可没有君主。’四方民众都寄望于我一人。我畏惧上天明命，又担心汉朝基业湮灭，谨选择吉日，与百官登坛，接受皇帝印玺绶带。现举行焚柴祭天、埋牲祭地等祭礼，向天神禀告，愿神灵保佑汉家基业，永远安定天下！",
+      "summary": "建安二十六年四月丙午，皇帝刘备谨用黑色公牛，昭告皇天上帝和后土神祇：汉朝拥有天下，传承的命数本应没有穷尽。",
+      "placeIds": [],
+      "personIds": [
+        "cao-cao",
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p32-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 32,
+        "excerptStart": "惟建安二十六年四月丙午，",
+        "excerptEnd": "神飨祚于汉家，永绥四海！",
+        "startOffset": 0,
+        "endOffsetExclusive": 241,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p34",
+      "title": "章武建制与东征",
+      "time": {
+        "year": 221,
+        "era": "章武元年",
+        "label": "章武元年",
+        "certainty": "inferred"
+      },
+      "originalText": "章武元年夏四月，大赦，改年。以诸葛亮为丞相，许靖为司徒。置百官，立宗庙，祫祭高皇帝以下。 五月，立皇后吴氏，子禅为皇太子。六月，以子永为鲁王，理为梁王。车骑将军张飞为其左右所害。初，先主忿孙权之袭关羽，将东征，秋七月，遂帅诸军伐吴。孙权遣书请和，先主盛怒不许，吴将陆议、李异、刘阿等屯巫、秭归；将军吴班、冯习自巫攻破异等，军次秭归，武陵五谿蛮夷遣使请兵。",
+      "parts": [
+        {
+          "text": "章武元年夏四月，大赦，改年。以"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "为丞相，"
+        },
+        {
+          "text": "许靖",
+          "personId": "xu-jing"
+        },
+        {
+          "text": "为司徒。置百官，立宗庙，祫祭高皇帝以下"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p34-note0"
+          ]
+        },
+        {
+          "text": " 五月，立皇后吴氏，子禅为皇太子。六月，以子永为鲁王，理为梁王。车骑将军"
+        },
+        {
+          "text": "张飞",
+          "personId": "zhang-fei"
+        },
+        {
+          "text": "为其左右所害。初，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "忿"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "之袭"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "，将东征，秋七月，遂帅诸军伐吴。"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "遣书请和，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "盛怒不许，吴将陆议、李异、刘阿等屯巫、秭归；将军吴班、冯习自巫攻破异等，军次秭归，武陵五谿蛮夷遣使请兵。"
+        }
+      ],
+      "translation": "章武元年夏四月，大赦天下，改年号。任诸葛亮为丞相，许靖为司徒；设置百官、建立宗庙，合祭高祖皇帝以下诸帝。五月，立吴氏为皇后，立儿子刘禅为皇太子。六月，封儿子刘永为鲁王、刘理为梁王。车骑将军张飞被部下杀害。当初先主愤恨孙权袭击关羽，准备东征；秋七月，便率众军讨伐吴。孙权致书求和，先主大怒，不肯答应。吴将陆议、李异、刘阿等驻扎巫、秭归；将军吴班、冯习从巫进攻打败李异等，军队驻到秭归。武陵五溪各部遣使请求派兵。",
+      "summary": "章武元年夏四月，大赦天下，改年号。",
+      "placeIds": [],
+      "personIds": [
+        "zhuge-liang",
+        "xu-jing",
+        "zhang-fei",
+        "liu-bei",
+        "sun-quan",
+        "guan-yu",
+        "liu-shan"
+      ],
+      "noteIds": [
+        "xianzhu-p34-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 34,
+        "excerptStart": "章武元年夏四月，大赦，改",
+        "excerptEnd": "，武陵五谿蛮夷遣使请兵。",
+        "startOffset": 2,
+        "endOffsetExclusive": 179,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p35",
+      "title": "猇亭战败与永安讲和",
+      "time": {
+        "year": 222,
+        "era": "章武二年",
+        "label": "章武二年",
+        "certainty": "inferred"
+      },
+      "originalText": "二年春正月，先主军还秭归，将军吴班、陈式水军屯夷陵，夹江东西岸。二月，先主自秭归率诸将进军，缘山截岭，于夷道猇亭驻营，自佷山通武陵，遣侍中马良安慰五谿蛮夷，咸相率响应。镇北将军黄权督江北诸军，与吴军相拒于夷陵道。夏六月，黄气见自秭归十余里中，广数十丈。后十余日，陆议大破先主军于猇亭，将军冯习、张南等皆没。先主自猇亭还秭归，收合离散兵，遂弃船舫，由步道还鱼复，改鱼复县曰永安。吴遣将军李异、刘阿等踵蹑先主军，屯驻南山。秋八月，收兵还巫。司徒许靖卒。冬十月，诏丞相亮营南北郊于成都。孙权闻先主住白帝，甚惧，遣使请和。先主许之，遣太中大夫宗玮报命。冬十二月，汉嘉太守黄元闻先主疾不豫，举兵拒守。",
+      "parts": [
+        {
+          "text": "二年春正月，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "军还秭归，将军吴班、陈式水军屯"
+        },
+        {
+          "text": "夷陵",
+          "placeId": "yiling"
+        },
+        {
+          "text": "，夹江东西岸。二月，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "自秭归率诸将进军，缘山截岭，于夷道猇"
+        },
+        {
+          "text": "亭",
+          "noteIds": [
+            "xianzhu-p35-note0"
+          ]
+        },
+        {
+          "text": "驻营，自佷"
+        },
+        {
+          "text": "山",
+          "noteIds": [
+            "xianzhu-p35-note1"
+          ]
+        },
+        {
+          "text": "通武陵，遣侍中马良安慰五谿蛮夷，咸相率响应。镇北将军黄权督江北诸军，与吴军相拒于"
+        },
+        {
+          "text": "夷陵",
+          "placeId": "yiling"
+        },
+        {
+          "text": "道。夏六月，黄气见自秭归十余里中，广数十丈。后十余日，陆议大破"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "军于猇亭，将军冯习、张南等皆没。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "自猇亭还秭归，收合离散兵，遂弃船舫，由步道还"
+        },
+        {
+          "text": "鱼复",
+          "placeId": "yongan"
+        },
+        {
+          "text": "，改"
+        },
+        {
+          "text": "鱼复",
+          "placeId": "yongan"
+        },
+        {
+          "text": "县曰"
+        },
+        {
+          "text": "永安",
+          "placeId": "yongan"
+        },
+        {
+          "text": "。吴遣将军李异、刘阿等踵蹑"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "军，屯驻南山。秋八月，收兵还巫。司徒"
+        },
+        {
+          "text": "许靖",
+          "personId": "xu-jing"
+        },
+        {
+          "text": "卒。冬十月，诏丞相亮营南北郊于"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "闻"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "住"
+        },
+        {
+          "text": "白帝",
+          "placeId": "yongan"
+        },
+        {
+          "text": "，甚惧，遣使请和。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "许之，遣太中大夫宗玮报命。冬十二月，汉嘉太守黄元闻"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "疾不豫，举兵拒守。"
+        }
+      ],
+      "translation": "章武二年春正月，先主军回到秭归，将军吴班、陈式的水军驻扎夷陵，分列长江东西两岸。二月，先主从秭归率诸将进军，沿山越岭，在夷道猇亭扎营，从佷山与武陵相通；派侍中马良安抚五溪各部，各部都率众响应。镇北将军黄权统领江北诸军，在夷陵道与吴军对峙。夏六月，从秭归一带出现长十余里、宽几十丈的黄色气象。十余天后，陆议在猇亭大破先主军，将军冯习、张南等都战死。先主从猇亭退回秭归，收拢溃散士兵，随后丢弃船只，走陆路回鱼复，把鱼复县改名永安。吴派李异、刘阿等追赶先主军，驻在南山。秋八月，吴军收兵回巫。司徒许靖去世。冬十月，先主下诏令丞相诸葛亮在成都营建南、北郊祭坛。孙权听说先主驻白帝，十分害怕，派使者求和。先主答应，派太中大夫宗玮回报。冬十二月，汉嘉太守黄元听说先主患病，举兵据守反叛。",
+      "summary": "章武二年春正月，先主军回到秭归，将军吴班、陈式的水军驻扎夷陵，分列长江东西两岸。",
+      "placeIds": [
+        "yiling",
+        "yongan",
+        "chengdu"
+      ],
+      "personIds": [
+        "liu-bei",
+        "xu-jing",
+        "sun-quan"
+      ],
+      "noteIds": [
+        "xianzhu-p35-note0",
+        "xianzhu-p35-note1"
+      ],
+      "focusPlaceId": "chengdu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 35,
+        "excerptStart": "二年春正月，先主军还秭归",
+        "excerptEnd": "闻先主疾不豫，举兵拒守。",
+        "startOffset": 2,
+        "endOffsetExclusive": 297,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p36",
+      "title": "永安托孤",
+      "time": {
+        "year": 223,
+        "era": "章武三年",
+        "label": "章武三年",
+        "certainty": "inferred"
+      },
+      "originalText": "三年春二月，丞相亮自成都到永安。三月，黄元进兵攻临邛县。遣将军陈曶讨元，元军败，顺流下江，为其亲兵所缚，生致成都，斩之。先主病笃，托孤于丞相亮，尚书令李严为副。夏四月癸巳，先主殂于永安宫，时年六十三。",
+      "parts": [
+        {
+          "text": "三年春二月，丞相亮自"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "到"
+        },
+        {
+          "text": "永安",
+          "placeId": "yongan"
+        },
+        {
+          "text": "。三月，黄元进兵攻临邛县。遣将军陈"
+        },
+        {
+          "text": "曶",
+          "noteIds": [
+            "xianzhu-p36-note0"
+          ]
+        },
+        {
+          "text": "讨元，元军败，顺流下江，为其亲兵所缚，生致"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "，斩之。"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "病笃，托孤于丞相亮，尚书令李严为副。夏四月癸巳，"
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "殂于"
+        },
+        {
+          "text": "永安",
+          "placeId": "yongan"
+        },
+        {
+          "text": "宫，时年六十三"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p36-note1"
+          ]
+        }
+      ],
+      "translation": "章武三年春二月，丞相诸葛亮从成都到永安。三月，黄元进兵攻临邛县。先主派将军陈曶讨伐，黄元军败，顺江而下，被自己的亲兵捆住，活送成都处斩。先主病重，将幼主托付丞相诸葛亮，以尚书令李严为辅。夏四月癸巳，先主在永安宫去世，享年六十三岁。",
+      "summary": "章武三年春二月，丞相诸葛亮从成都到永安。",
+      "placeIds": [
+        "chengdu",
+        "yongan"
+      ],
+      "personIds": [
+        "liu-bei",
+        "liu-shan",
+        "zhuge-liang"
+      ],
+      "noteIds": [
+        "xianzhu-p36-note0",
+        "xianzhu-p36-note1"
+      ],
+      "focusPlaceId": "chengdu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 36,
+        "excerptStart": "三年春二月，丞相亮自成都",
+        "excerptEnd": "殂于永安宫，时年六十三。",
+        "startOffset": 2,
+        "endOffsetExclusive": 102,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p39",
+      "title": "诸葛亮上言后主",
+      "time": {
+        "year": 223,
+        "era": "章武三年",
+        "label": "章武三年",
+        "certainty": "inferred"
+      },
+      "originalText": "亮上言于后主曰：",
+      "parts": [
+        {
+          "text": "亮上言于"
+        },
+        {
+          "text": "后主",
+          "personId": "liu-shan"
+        },
+        {
+          "text": "曰："
+        }
+      ],
+      "translation": "诸葛亮向后主上言说：",
+      "summary": "诸葛亮向后主上言说：。",
+      "placeIds": [],
+      "personIds": [
+        "liu-shan",
+        "liu-bei",
+        "zhuge-liang"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 39,
+        "excerptStart": "亮上言于后主曰：",
+        "excerptEnd": "亮上言于后主曰：",
+        "startOffset": 2,
+        "endOffsetExclusive": 10,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p40",
+      "title": "奉行遗诏",
+      "time": {
+        "year": 223,
+        "era": "章武三年",
+        "label": "章武三年",
+        "certainty": "inferred"
+      },
+      "originalText": "伏惟大行皇帝迈仁树德，覆焘无疆，昊天不吊，寝疾弥留，今月二十四日奄忽升遐，臣妾号咷，若丧考妣。乃顾遗诏，事惟大宗，动容损益；百寮发哀，满三日除服，到葬期复如礼；其郡国太守、相、都尉、县令长，三日便除服。臣亮亲受敕戒，震畏神灵，不敢有违。臣请宣下奉行。",
+      "parts": [
+        {
+          "text": "伏惟大行皇帝迈仁树德，覆焘无疆，昊天不吊，寝疾弥留，今月二十四日奄忽升遐，臣妾号咷，若丧考妣。乃顾遗诏，事惟大宗，动容损益；百寮发哀，满三日除服，到葬期复如礼；其郡国太守、相、都尉、县令长，三日便除服。臣亮亲受敕戒，震畏神灵，不敢有违。臣请宣下奉行。"
+        }
+      ],
+      "translation": "先帝推行仁德，恩泽无边。不幸上天不加怜悯，他患病垂危，本月二十四日忽然去世，臣民号哭，如同失去父母。然而回顾遗诏，着重考虑国家大事，要求依实际情况调整丧礼：百官哀悼满三天便除去丧服，到了下葬时再依礼服丧；各郡国太守、相、都尉和县令、县长，三天后就除服。我诸葛亮亲自接受先帝告诫，敬畏他的神灵，不敢违背。请将此诏宣告下达并奉行。",
+      "summary": "先帝推行仁德，恩泽无边。",
+      "placeIds": [],
+      "personIds": [
+        "liu-bei",
+        "liu-shan",
+        "zhuge-liang"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 40,
+        "excerptStart": "伏惟大行皇帝迈仁树德，覆",
+        "excerptEnd": "不敢有违。臣请宣下奉行。",
+        "startOffset": 0,
+        "endOffsetExclusive": 125,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "xianzhu-p41",
+      "title": "归葬惠陵",
+      "time": {
+        "year": 223,
+        "era": "章武三年",
+        "label": "章武三年",
+        "certainty": "inferred"
+      },
+      "originalText": "五月，梓宫自永安还成都，谥曰昭烈皇帝。秋，八月，葬惠陵。",
+      "parts": [
+        {
+          "text": "五月，梓宫自"
+        },
+        {
+          "text": "永安",
+          "placeId": "yongan"
+        },
+        {
+          "text": "还"
+        },
+        {
+          "text": "成都",
+          "placeId": "chengdu"
+        },
+        {
+          "text": "，谥曰昭烈皇帝。秋，八月，葬惠陵"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "xianzhu-p41-note0"
+          ]
+        }
+      ],
+      "translation": "五月，先主的灵柩从永安送回成都，谥号昭烈皇帝。秋八月，葬于惠陵。",
+      "summary": "五月，先主的灵柩从永安送回成都，谥号昭烈皇帝。",
+      "placeIds": [
+        "yongan",
+        "chengdu"
+      ],
+      "personIds": [
+        "liu-bei"
+      ],
+      "noteIds": [
+        "xianzhu-p41-note0"
+      ],
+      "focusPlaceId": "chengdu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 41,
+        "excerptStart": "五月，梓宫自永安还成都，",
+        "excerptEnd": "皇帝。秋，八月，葬惠陵。",
+        "startOffset": 2,
+        "endOffsetExclusive": 30,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "xianzhu-p42",
+      "title": "陈寿评先主",
+      "time": {
+        "year": null,
+        "era": "年代未详",
+        "label": "年代未详",
+        "certainty": "unknown"
+      },
+      "originalText": "评曰：先主之弘毅宽厚，知人待士，盖有高祖之风，英雄之器焉。及其举国托孤于诸葛亮，而心神无贰，诚君臣之至公，古今之盛轨也。机权干略，不逮魏武，是以基宇亦狭。然折而不挠，终不为下者，抑揆彼之量必不容己，非唯竞利，且以避害云尔。",
+      "parts": [
+        {
+          "text": "评曰："
+        },
+        {
+          "text": "先主",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "之弘毅宽厚，知人待士，盖有高祖之风，英雄之器焉。及其举国托孤于"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "，而心神无贰，诚君臣之至公，古今之盛轨也。机权干略，不逮魏武，是以基宇亦狭。然折而不挠，终不为下者，抑揆彼之量必不容己，非唯竞利，且以避害云尔。"
+        }
+      ],
+      "translation": "陈寿评论说：先主弘毅宽厚，善于识人、礼待士人，大概有汉高祖的风度，是英雄之才。临终把全国和幼主托付给诸葛亮，毫无疑虑，实在是君臣之间至公无私的典范，古今都可效法。他的权谋和军事谋略不及魏武帝曹操，因此基业也较狭小。然而他屡经挫折而不屈服，始终不肯居于他人之下，大约也是因为他估计曹操的度量必定容不下自己，不仅是争夺利益，也是为了避免祸害。",
+      "summary": "陈寿评论说：先主弘毅宽厚，善于识人、礼待士人，大概有汉高祖的风度，是英雄之才。",
+      "placeIds": [],
+      "personIds": [
+        "liu-bei",
+        "zhuge-liang"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub",
+        "chapterPath": "OPS/c35_san_guo_zhi_juan32.xhtml",
+        "paragraphIndex": 42,
+        "excerptStart": "评曰：先主之弘毅宽厚，知",
+        "excerptEnd": "非唯竞利，且以避害云尔。",
+        "startOffset": 2,
+        "endOffsetExclusive": 113,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    }
+  ],
+  "historicalRiver": {
+    "status": "unavailable",
+    "label": "古水系未复原",
+    "explanation": "本篇未核定汉末长江、汉水与支流水道，现代水系仅供现代地理对照，不代表古河道。",
+    "sourceIds": [
+      "editor"
+    ]
+  },
+  "coverageAudit": {
+    "sourceSha256": "f7661db306fb961c0e2331db581fcda37bcaf23fbb841ee3ee04b1989bf2e40f",
+    "paragraphs": [
+      {
+        "paragraphIndex": 1,
+        "startOffset": 2,
+        "endOffsetExclusive": 85,
+        "sha256": "07f7f9fe6b28266b9219ae1079b45f26c2190bfbb22fcb8fd5f9d4409523da78",
+        "notes": [
+          {
+            "id": "xianzhu-p1-note0",
+            "offset": 59,
+            "sha256": "e47e54a5f372ae347b6c2961b4de7bdd79fae3aee48b5a7bf0f28e832680f5b3",
+            "paragraphStart": 1,
+            "paragraphEnd": 1
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 2,
+        "startOffset": 2,
+        "endOffsetExclusive": 322,
+        "sha256": "136a373ff9433a069d298d8b1149621b76326c8d00d24412c7816fb37f54ad26",
+        "notes": [
+          {
+            "id": "xianzhu-p2-note0",
+            "offset": 58,
+            "sha256": "cc9ce08056cfd9c9dba0b226852108b8e41bb4ff9257a6a83f9c58c7f3b4024e",
+            "paragraphStart": 2,
+            "paragraphEnd": 2
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 3,
+        "startOffset": 2,
+        "endOffsetExclusive": 230,
+        "sha256": "97c7274a4dfc73ff84c61a83b74bf14a2523a9f7b88c1f53603e56c7426b7fb6",
+        "notes": [
+          {
+            "id": "xianzhu-p3-note0",
+            "offset": 39,
+            "sha256": "e42e1474708e01cc58083daaf1adb1a86157f1837fc350b3e8ee072be5f879a0",
+            "paragraphStart": 3,
+            "paragraphEnd": 3
+          },
+          {
+            "id": "xianzhu-p3-note1",
+            "offset": 75,
+            "sha256": "155c3eaf74ee0b5889281b5db61a44193257df2cf56ff337168de05a1bb8e956",
+            "paragraphStart": 3,
+            "paragraphEnd": 3
+          },
+          {
+            "id": "xianzhu-p3-note2",
+            "offset": 80,
+            "sha256": "a5c2de17c089d6201d9f5be5b54329d09edbdc8207f50122f9782bcf14f2b8b4",
+            "paragraphStart": 3,
+            "paragraphEnd": 3
+          },
+          {
+            "id": "xianzhu-p3-note3",
+            "offset": 138,
+            "sha256": "9078bc210b716a003de17ebc07e7ee7ca550256dbd4fa10f85405205fe32340f",
+            "paragraphStart": 3,
+            "paragraphEnd": 3
+          },
+          {
+            "id": "xianzhu-p3-note4",
+            "offset": 230,
+            "sha256": "9c5a10fc594a4acef55f89e71443c46a993f0e26bb56b98451fd677be5172af7",
+            "paragraphStart": 3,
+            "paragraphEnd": 3
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 4,
+        "startOffset": 2,
+        "endOffsetExclusive": 495,
+        "sha256": "ff13efa9ccce5c0e1ede662d46547b6f5ce787c9f3f7c42b7050e3c987be04d3",
+        "notes": [
+          {
+            "id": "xianzhu-p4-note0",
+            "offset": 364,
+            "sha256": "63211f7ffdf8904d341d790d87168855e4e01aa87898803c3f04fbe0b0034e7e",
+            "paragraphStart": 4,
+            "paragraphEnd": 4
+          },
+          {
+            "id": "xianzhu-p4-note1",
+            "offset": 451,
+            "sha256": "50b8774a5dc694cd928671d4e49959a8c2c2281e45de646728372d2b473659d7",
+            "paragraphStart": 4,
+            "paragraphEnd": 4
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 5,
+        "startOffset": 2,
+        "endOffsetExclusive": 190,
+        "sha256": "cac5f39e1f8c4d8c99ca382d79cf72f70db2189b1615dd4ec69db2c9ccbc7067",
+        "notes": [
+          {
+            "id": "xianzhu-p5-note0",
+            "offset": 8,
+            "sha256": "4d210d107f9b238b5a5ae3d0ad0dee839e22e107e74105e13ea785e90e52b922",
+            "paragraphStart": 5,
+            "paragraphEnd": 5
+          },
+          {
+            "id": "xianzhu-p5-note1",
+            "offset": 108,
+            "sha256": "9ed90d00538eea092fc27f3026ea596f3e5fdd09415ede492a00e08913b81f3f",
+            "paragraphStart": 5,
+            "paragraphEnd": 5
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 6,
+        "startOffset": 2,
+        "endOffsetExclusive": 122,
+        "sha256": "84b6835ec7fa33ec26328abb934993f0104a14e1321e6ad1551634311af295fb",
+        "notes": [
+          {
+            "id": "xianzhu-p6-note0",
+            "offset": 17,
+            "sha256": "be8f65f4ad3af72837a4b484b454f4e162f7669c7e72aab65129ac01ebc8ee9c",
+            "paragraphStart": 6,
+            "paragraphEnd": 6
+          },
+          {
+            "id": "xianzhu-p6-note1",
+            "offset": 81,
+            "sha256": "f9373549379de504d57ccda02a53b04e00f3fd8a5ac929b976c6c82d28a53f12",
+            "paragraphStart": 6,
+            "paragraphEnd": 6
+          },
+          {
+            "id": "xianzhu-p6-note2",
+            "offset": 122,
+            "sha256": "8cf41d35c9475e614046e22e0597ba578ce4b348fa485c66952c0fb3478732c8",
+            "paragraphStart": 6,
+            "paragraphEnd": 6
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 7,
+        "startOffset": 2,
+        "endOffsetExclusive": 116,
+        "sha256": "10905eed4cd0813a3105ff8775d85044d19254b2d0735ba353fcb3a1ed61910a",
+        "notes": [
+          {
+            "id": "xianzhu-p7-note0",
+            "offset": 36,
+            "sha256": "80d1e734d66dfdf002531d39455631fba86fac83ae76338c84d0ab048e14aad5",
+            "paragraphStart": 7,
+            "paragraphEnd": 7
+          },
+          {
+            "id": "xianzhu-p7-note1",
+            "offset": 95,
+            "sha256": "a09704002895519cbfffc8f60b9487dd6ea70f7eb5f40d259aecef5129a5a352",
+            "paragraphStart": 7,
+            "paragraphEnd": 7
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 8,
+        "startOffset": 2,
+        "endOffsetExclusive": 195,
+        "sha256": "6000ddd099a5a8e4dc42cc814704f239c83c5b48b587c4e7e7ee16f352e6746e",
+        "notes": [
+          {
+            "id": "xianzhu-p8-note0",
+            "offset": 64,
+            "sha256": "6d45f98678367b1aab4bdce44f31bdf8add3dfeae3076820c12e3a6aa6650787",
+            "paragraphStart": 8,
+            "paragraphEnd": 8
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 9,
+        "startOffset": 2,
+        "endOffsetExclusive": 110,
+        "sha256": "b2d4354c6295004869599b2bf1c56a087fa3fdb68b66bbcc4137af466aeb5be3",
+        "notes": [
+          {
+            "id": "xianzhu-p9-note0",
+            "offset": 69,
+            "sha256": "b1894e2a58b848e668008c053a6b52a584099148d67aa5bbbd776c2a8d68adba",
+            "paragraphStart": 9,
+            "paragraphEnd": 9
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 10,
+        "startOffset": 2,
+        "endOffsetExclusive": 226,
+        "sha256": "140f2c1247dc24af721db5e4d7c0710aa072fc79eab44e17ce11bac63bdac228",
+        "notes": [
+          {
+            "id": "xianzhu-p10-note0",
+            "offset": 25,
+            "sha256": "6a5117f8e7a8b821bd21baecd8dec72aca2946b4d310afc21220c93d590c0132",
+            "paragraphStart": 10,
+            "paragraphEnd": 10
+          },
+          {
+            "id": "xianzhu-p10-note1",
+            "offset": 36,
+            "sha256": "6b2e5be79af03ffa789965551118be7f4abdb91e08aef04f9c1d1f8457377a68",
+            "paragraphStart": 10,
+            "paragraphEnd": 10
+          },
+          {
+            "id": "xianzhu-p10-note2",
+            "offset": 99,
+            "sha256": "b63334ad6424ee70df367195925b8beb56daab8a6f38889237fd3dc782842d6c",
+            "paragraphStart": 10,
+            "paragraphEnd": 10
+          },
+          {
+            "id": "xianzhu-p10-note3",
+            "offset": 124,
+            "sha256": "ed45c303970b54f8dbae535def3b9ac3aa9bd71f0acc14efd270f6f1f8305fab",
+            "paragraphStart": 10,
+            "paragraphEnd": 10
+          },
+          {
+            "id": "xianzhu-p10-note4",
+            "offset": 226,
+            "sha256": "5f4c07fae0a1b51004329c10eef6a268618c11f1fbd26c10ff1c606c14427a41",
+            "paragraphStart": 10,
+            "paragraphEnd": 10
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 11,
+        "startOffset": 2,
+        "endOffsetExclusive": 210,
+        "sha256": "c9ee3f65bf434ddad809e0daa872a39500071341b68f344713cf2443b1d9d1bf",
+        "notes": [
+          {
+            "id": "xianzhu-p11-note0",
+            "offset": 144,
+            "sha256": "764bf01b4c218772ee9f2b1951a96c67624b59c500109bc06ef6341e4cc49d03",
+            "paragraphStart": 11,
+            "paragraphEnd": 11
+          },
+          {
+            "id": "xianzhu-p11-note1",
+            "offset": 163,
+            "sha256": "fbc717e934bf36fc1f4a051c3e628cff822ca193de2cf6a03e8b7dc42308ee94",
+            "paragraphStart": 11,
+            "paragraphEnd": 11
+          },
+          {
+            "id": "xianzhu-p11-note2",
+            "offset": 210,
+            "sha256": "e9fa299791bc6062e55a2f364d0bfbd527f6544e637bbe7fdbac3ae1af71fb90",
+            "paragraphStart": 11,
+            "paragraphEnd": 11
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 12,
+        "startOffset": 2,
+        "endOffsetExclusive": 236,
+        "sha256": "294c686bede84a382783f25a6b99036e11fb2c1cba1627e0001033459d4fb9e0",
+        "notes": [
+          {
+            "id": "xianzhu-p12-note0",
+            "offset": 48,
+            "sha256": "c84ce1b88594488704d62981e0edcfc86c143988d9f088d324e420d4308fd780",
+            "paragraphStart": 12,
+            "paragraphEnd": 12
+          },
+          {
+            "id": "xianzhu-p12-note1",
+            "offset": 102,
+            "sha256": "666a63c7a9177444d795fe698755027b765b38a5168abd9802a76512d94a43b4",
+            "paragraphStart": 12,
+            "paragraphEnd": 12
+          },
+          {
+            "id": "xianzhu-p12-note2",
+            "offset": 236,
+            "sha256": "f66f989f4ad2fb97e79627e02b0fb79c7beca46f959f58cbefddd5a41c28dd21",
+            "paragraphStart": 12,
+            "paragraphEnd": 14
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 15,
+        "startOffset": 2,
+        "endOffsetExclusive": 353,
+        "sha256": "cf65a4e70d12e33ed854ea7ef16b271c6135ff01c8e2a67361b02da75c0eb28f",
+        "notes": [
+          {
+            "id": "xianzhu-p15-note0",
+            "offset": 176,
+            "sha256": "ca48da103908791e493053ce1e6bc795c76acadcf2a02a37179a2fecf707f88b",
+            "paragraphStart": 15,
+            "paragraphEnd": 15
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 16,
+        "startOffset": 2,
+        "endOffsetExclusive": 378,
+        "sha256": "7cda6fb91fe7e0a709646865cdf52e0f58b99a396181d05f6af2ad78ea0c93e9",
+        "notes": [
+          {
+            "id": "xianzhu-p16-note0",
+            "offset": 123,
+            "sha256": "9a7ea10243b39c01cd82f9fe64cad15f3b5d756bd80b81977aa36b94f87d88e5",
+            "paragraphStart": 16,
+            "paragraphEnd": 16
+          },
+          {
+            "id": "xianzhu-p16-note1",
+            "offset": 183,
+            "sha256": "827628588ea369b8c62e6cc712d97efda7fb8601e8c013d1ed43717d9cfbb434",
+            "paragraphStart": 16,
+            "paragraphEnd": 16
+          },
+          {
+            "id": "xianzhu-p16-note2",
+            "offset": 284,
+            "sha256": "857b12bf2e7a292b94a17615c005074fdfe2bae63d9be103a24c2e20df42b040",
+            "paragraphStart": 16,
+            "paragraphEnd": 16
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 17,
+        "startOffset": 2,
+        "endOffsetExclusive": 174,
+        "sha256": "a4fcca2c2624c5fab3c77550e63fb836817a4d9f8f4799df2c8e6542139432a5",
+        "notes": [
+          {
+            "id": "xianzhu-p17-note0",
+            "offset": 11,
+            "sha256": "c03b080af3c383cce2a8dc769fa656b59cae219c50aea924d18327306d5729a1",
+            "paragraphStart": 17,
+            "paragraphEnd": 17
+          },
+          {
+            "id": "xianzhu-p17-note1",
+            "offset": 23,
+            "sha256": "75d4c29099b947cb1cbb4d2cb4a3f39baa82a07b0c7a5d7e355b2ff72b30fe85",
+            "paragraphStart": 17,
+            "paragraphEnd": 17
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 18,
+        "startOffset": 2,
+        "endOffsetExclusive": 209,
+        "sha256": "04790fa2e1f1d664da10243b9dbb30e2a3002378960158938645369e602fc479",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 19,
+        "startOffset": 2,
+        "endOffsetExclusive": 55,
+        "sha256": "c320031f50142280b29fbc5a4aea2f013b40f11c9572e5712189c396547ce633",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 20,
+        "startOffset": 2,
+        "endOffsetExclusive": 165,
+        "sha256": "6fb068236758ab06bc75ad13b1d393cfce7d666c27c89e40f610fb799700b9f3",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 21,
+        "startOffset": 2,
+        "endOffsetExclusive": 20,
+        "sha256": "f9cf64b07478c340fd53c20c2a166bef9266e8a07cf53b0a9eda4f5fc58a5db8",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 22,
+        "startOffset": 0,
+        "endOffsetExclusive": 747,
+        "sha256": "e856e4ca891cbc17d5dc335296dcb030084360dd43729096f16fc296da4bc803",
+        "notes": [
+          {
+            "id": "xianzhu-p22-note0",
+            "offset": 49,
+            "sha256": "2dfc7f49f2c28db951010708030b22d23b2759ddfdb79ecf1f1f2af2d8843756",
+            "paragraphStart": 22,
+            "paragraphEnd": 22
+          },
+          {
+            "id": "xianzhu-p22-note1",
+            "offset": 416,
+            "sha256": "acf38d1b9cb24cf0567533c4ba5e0d5c4631b364b6dd23c543fd8b0fe9606ebe",
+            "paragraphStart": 22,
+            "paragraphEnd": 22
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 23,
+        "startOffset": 2,
+        "endOffsetExclusive": 31,
+        "sha256": "ea1f4a0071e5975cadfed203e118bd0cee3e1c25fe52b796be97a5199a18fbfd",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 24,
+        "startOffset": 2,
+        "endOffsetExclusive": 10,
+        "sha256": "85adc68489db73fd353eb36938a11988b67018737e0e92e7aebd7115beebb6ef",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 25,
+        "startOffset": 0,
+        "endOffsetExclusive": 576,
+        "sha256": "3a157db4cb133cab15bf9e709eaa4679fd90d2f4e225f4cd0360c99bf2339f2f",
+        "notes": [
+          {
+            "id": "xianzhu-p25-note0",
+            "offset": 258,
+            "sha256": "5cb01a55a3db1540377cc9d74c8e0c60ed1177d4fbb094bc1e863536aeb11ba3",
+            "paragraphStart": 25,
+            "paragraphEnd": 25
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 26,
+        "startOffset": 2,
+        "endOffsetExclusive": 49,
+        "sha256": "86049a31ed69465282583ce5d58f411edfb356f15e1ddcfda830455637c8b274",
+        "notes": [
+          {
+            "id": "xianzhu-p26-note0",
+            "offset": 20,
+            "sha256": "d8b28fb9621b242648a77aa12d38586e57a87f5ce9a88b3d362143ce91d7e329",
+            "paragraphStart": 26,
+            "paragraphEnd": 26
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 27,
+        "startOffset": 2,
+        "endOffsetExclusive": 135,
+        "sha256": "fe2baece6cb6eb9965ad7341043c380a7a0452e2b53ecd2f5a20bd2cd05bd144",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 28,
+        "startOffset": 0,
+        "endOffsetExclusive": 400,
+        "sha256": "0d9782f54a34efa6009212a62e30a6347d7678039256e4c0420e6d8663c2d6ef",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 29,
+        "startOffset": 2,
+        "endOffsetExclusive": 43,
+        "sha256": "160c289d3fe52461c5e50ad1526db074f29a4f637b970da8780ad82e92125f50",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 30,
+        "startOffset": 0,
+        "endOffsetExclusive": 439,
+        "sha256": "6cb4a387a20fd8c3b871ccdf70eab745b9f2ff0086d08478e928de80cca2d958",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 31,
+        "startOffset": 0,
+        "endOffsetExclusive": 17,
+        "sha256": "0465ba740de70fab6ea400a677ad5c6db42e58c6a1285dd1e8b63ff1c3370e89",
+        "notes": [
+          {
+            "id": "xianzhu-p31-note0",
+            "offset": 12,
+            "sha256": "03e26f1336b97edd008258de6408e687fee9cc8d5f03dc2135932d432d03f707",
+            "paragraphStart": 31,
+            "paragraphEnd": 31
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 32,
+        "startOffset": 0,
+        "endOffsetExclusive": 241,
+        "sha256": "8bc64f3545048721f5c0a255e96e84f41bd1c12388d6b95f224c9e2a78a72b88",
+        "notes": [
+          {
+            "id": "xianzhu-p32-note0",
+            "offset": 241,
+            "sha256": "8b2abd9084a0977da0abbc649b40e4ac027116bb19d0a9b5eec07fec5d4786b1",
+            "paragraphStart": 33,
+            "paragraphEnd": 33
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 34,
+        "startOffset": 2,
+        "endOffsetExclusive": 179,
+        "sha256": "1e79664c4df97c3c8eb8a833d0838f85dda8c0c23cdd7adfcd892f228b905630",
+        "notes": [
+          {
+            "id": "xianzhu-p34-note0",
+            "offset": 46,
+            "sha256": "f26cc9bd45e4312e3462f48105e394a9132e2521d074717e04201a747de7bc0f",
+            "paragraphStart": 34,
+            "paragraphEnd": 34
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 35,
+        "startOffset": 2,
+        "endOffsetExclusive": 297,
+        "sha256": "f91b150a3d89b006f61e5107abf07754996606d4a30bdc3a64cadec38ae5bf92",
+        "notes": [
+          {
+            "id": "xianzhu-p35-note0",
+            "offset": 58,
+            "sha256": "63ec8d55bd28456427370f7ebf729a2db12a492480a727376517011fb046a56d",
+            "paragraphStart": 35,
+            "paragraphEnd": 35
+          },
+          {
+            "id": "xianzhu-p35-note1",
+            "offset": 64,
+            "sha256": "a2053c11db1aef320e1123b511accef2bc2cf46345b73bce352a4eb0ad096d94",
+            "paragraphStart": 35,
+            "paragraphEnd": 35
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 36,
+        "startOffset": 2,
+        "endOffsetExclusive": 102,
+        "sha256": "6914dbf8550252006e26a6af1bf69f5b69aecd1a74a79958ea260322341fd7a6",
+        "notes": [
+          {
+            "id": "xianzhu-p36-note0",
+            "offset": 35,
+            "sha256": "22fb1b002353ded4c3f4ed4953be35cabba148227704b81d054aa147d6c995b8",
+            "paragraphStart": 36,
+            "paragraphEnd": 36
+          },
+          {
+            "id": "xianzhu-p36-note1",
+            "offset": 102,
+            "sha256": "be75ae3506f643529479df37d7aa8bf9829fee29dda1811e3f4412f5c94101c3",
+            "paragraphStart": 36,
+            "paragraphEnd": 38
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 39,
+        "startOffset": 2,
+        "endOffsetExclusive": 10,
+        "sha256": "ef5658130aa4770ece46412a1468aa6cad23c6279cf619a32ba5b08159b94ffa",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 40,
+        "startOffset": 0,
+        "endOffsetExclusive": 125,
+        "sha256": "54835e32e013401e8496cf77fed33c5ef9e60d0ee1c922ad7ee4eef3bbd72ce1",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 41,
+        "startOffset": 2,
+        "endOffsetExclusive": 30,
+        "sha256": "b4521e5cbeaa1fa701dd5af9c1f1e40ea2d743d4e3ed380510a1ee3ae45d163c",
+        "notes": [
+          {
+            "id": "xianzhu-p41-note0",
+            "offset": 30,
+            "sha256": "a7e462abe2db844eaf2f2c318b21084d5928c8d8d1c5649110f946b301596a81",
+            "paragraphStart": 41,
+            "paragraphEnd": 41
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 42,
+        "startOffset": 2,
+        "endOffsetExclusive": 113,
+        "sha256": "c599aa5f7235d952debf1bdb71299cf62a5e287f81f2c369e47238838bba8281",
+        "notes": []
+      }
+    ],
+    "excluded": [
+      {
+        "paragraphIndex": 0,
+        "reason": "空白排版"
+      },
+      {
+        "paragraphIndex": 13,
+        "reason": "跨段裴注正文",
+        "anchorParagraphIndex": 12
+      },
+      {
+        "paragraphIndex": 14,
+        "reason": "跨段裴注收束",
+        "anchorParagraphIndex": 12
+      },
+      {
+        "paragraphIndex": 33,
+        "reason": "独立段裴注，已挂前段",
+        "anchorParagraphIndex": 32
+      },
+      {
+        "paragraphIndex": 37,
+        "reason": "跨段裴注正文",
+        "anchorParagraphIndex": 36
+      },
+      {
+        "paragraphIndex": 38,
+        "reason": "跨段裴注收束",
+        "anchorParagraphIndex": 36
+      }
+    ],
+    "bodyCharacters": 7375,
+    "noteCount": 47
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "title": "汉末与三国历史地理概略",
+  "description": "200与262年参考断面：州区为相邻方位的自绘粗略示意，不是完整边界或控制范围；河湖及苏北黄海古岸均为宽时段示意。长江口、杭州湾与东海古岸尚未核定。",
+  "geojsonPath": "/data/atlas-v7/features.geojson",
+  "snapshots": [
+    {
+      "id": "han-200",
+      "year": 200,
+      "label": "州郡概略 · 参考200年",
+      "description": "汉末参考断面；州区、治所与政权控制并不等同。"
+    },
+    {
+      "id": "three-262",
+      "year": 262,
+      "label": "州郡概略 · 参考262年",
+      "description": "魏蜀吴并立末期参考断面；与200年各自独立，不代表逐年疆界。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "houhan-1",
+      "title": "后汉书·郡国志（司隶）",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷109",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本；本项目仅据文字事实自行编写示意，不使用图像或原地图坐标。"
+    },
+    {
+      "id": "houhan-2",
+      "title": "后汉书·郡国志（豫州、冀州）",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷110",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本；数字版本须依其条款，本层不复制电子整理文本。"
+    },
+    {
+      "id": "houhan-3",
+      "title": "后汉书·郡国志（兖州、徐州）",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷111",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本；以文字地理关系自绘示意。"
+    },
+    {
+      "id": "houhan-4",
+      "title": "后汉书·郡国志（益、凉、并、幽等）",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本；以文字地理关系自绘示意。"
+    },
+    {
+      "id": "song-35",
+      "title": "宋书·州郡志一",
+      "url": "https://zh.wikisource.org/wiki/宋書/卷35",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本，供历史州治变迁核对；仅依据文本，不复用地图。"
+    },
+    {
+      "id": "three-wei",
+      "title": "三国志·魏书·武帝纪",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本，核对汉末许都及州名；本项目不复制页面内容。"
+    },
+    {
+      "id": "three-wu",
+      "title": "三国志·吴书·吴主传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷47",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本，核对孙权迁治、建业及海上记载。"
+    },
+    {
+      "id": "three-shu",
+      "title": "三国志·蜀书·先主传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本，核对蜀地、荆州及主要地理关系。"
+    },
+    {
+      "id": "jin-geo",
+      "title": "宋书·州郡志一（魏晋州郡沿革）",
+      "url": "https://zh.wikisource.org/wiki/宋書/卷35",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "古籍文本；为三国后资料，作为跨期考核辅助，不直接倒推所有属县。"
+    },
+    {
+      "id": "yellow-research",
+      "title": "过去2000年黄河中下游环境变化研究",
+      "url": "https://www.resci.cn/article/2020/1007-7588/1007-7588-42-1-3.shtml",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "研究文章，仅引用方向与时段结论；不复制图件或数据。"
+    },
+    {
+      "id": "yellow-paper",
+      "title": "两千年来中国自然与人文地理环境变迁",
+      "url": "https://www.geog.com.cn/CN/abstract/article/0375-5444/49025",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "研究文章，仅参考历史黄河、江湖变迁文字结论；不复制图件或数据。"
+    },
+    {
+      "id": "xu-research",
+      "title": "京都府埋藏文化财调查研究中心：徐州治所研究",
+      "url": "https://www.kyotofu-maibun.or.jp/data/kankou/kankou-pdf/jyouhou/kyoutofu-J002.pdf",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "研究文章，仅据文字；确认东汉郯县及魏晋彭城的州治。"
+    },
+    {
+      "id": "yangzhou-record",
+      "title": "TGAZ 扬州历史条目（文字考据）",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_30056",
+      "license": "仅引用历史事实与文字研究；不复制受限图件",
+      "note": "仅将条目引用文字用于核验建业州治，不复制 CHGIS 图形或坐标；页面具体许可应复核。"
+    },
+    {
+      "id": "ne-physical",
+      "title": "Natural Earth 现代自然地理",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "license": "Public domain（Natural Earth 自然地理数据）",
+      "note": "Natural Earth 数据公共领域；这里以自行给出的近似点表示现代岛屿和海域名称。"
+    },
+    {
+      "id": "houhan-qing",
+      "title": "后汉书·郡国志（青、荆、扬州）",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "license": "古籍文本；不复制受限地图",
+      "note": "据文字关系核对州郡，不能认作262年精确边界。"
+    },
+    {
+      "id": "coast-yancheng",
+      "title": "盐城地情：秦汉至宋代沿海地理",
+      "url": "https://szw.yancheng.gov.cn/art/2021/8/18/art_539_325048.html",
+      "license": "公开研究资料，仅引用文字事实，不复制地图",
+      "note": "据地标顺序独立示意，不指特定年份岸线。"
+    },
+    {
+      "id": "hangzhou-bay",
+      "title": "杭州市地理地质特点",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3390/site/attach/0/74913f1e90114463ab90e041fae9202f.pdf",
+      "license": "公开研究资料，仅引用文字事实，不复制图像",
+      "note": "距今约2600—2100年古湾背景早于汉末，不能外推200或262年岸线。"
+    },
+    {
+      "id": "coast-yearbook",
+      "title": "盐城年鉴2025：人口方言及沿海变迁",
+      "url": "https://wap.yancheng.gov.cn/nj/2025/2025.pdf",
+      "license": "公开研究资料，仅引用文字事实；未复制图像",
+      "note": "第21页叙述秦汉至南宋及上冈、盐城、草堰、东台一带长期海岸；该线为低精度独立示意。"
+    },
+    {
+      "id": "pengli-research",
+      "title": "鄱阳湖成因与演变的历史论证",
+      "url": "https://www.sciengine.com/parse/pdf/1003-5427/C95491580F3A4BC6876FAAFA977FD1FC.pdf",
+      "license": "研究文章，仅参考文字结论；未复制地图",
+      "note": "古彭蠡和现代鄱阳湖的关系有争议，相关学者提出两者不是同一湖泊。"
+    },
+    {
+      "id": "pengli-ecology",
+      "title": "从历史起源和现代生态透视长江的生物多样性危机",
+      "url": "https://www.jlakes.org/uploadfile/news_images/hpkx/2018-12-05/%E4%BB%8E%E5%8E%86%E5%8F%B2%E8%B5%B7%E6%BA%90%E5%92%8C%E7%8E%B0%E4%BB%A3%E7%94%9F%E6%80%81%E9%80%8F%E8%A7%86%E9%95%BF%E6%B1%9F%E7%9A%84%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8D%B1%E6%9C%BA-%E8%B0%A2%E5%B9%B32018.pdf",
+      "license": "研究文章，仅参考文字结论；未复制图像",
+      "note": "提供古彭蠡泽在九江、黄梅、宿松、望江一带的研究观点，并强调历史演变。"
+    },
+    {
+      "id": "taihu-research",
+      "title": "无锡市政府：太湖与震泽",
+      "url": "https://www.wuxi.gov.cn/doc/2024/01/19/4161600.shtml",
+      "license": "仅参考文字研究，未复制历史地图或几何",
+      "note": "说明太湖古称震泽；不提供汉末湖岸几何。"
+    },
+    {
+      "id": "yunmeng-research",
+      "title": "中国地质大学：古云梦泽湖群",
+      "url": "https://ses.cug.edu.cn/info/1119/11214.htm",
+      "license": "仅参考文字研究，未复制历史地图或几何",
+      "note": "古云梦泽为江汉平原多变的湖群，文献见于先秦至汉晋，不能与洞庭简单合并。"
+    },
+    {
+      "id": "changan-research",
+      "title": "陕西地方志：三国州郡及雍州治所",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/dqcs/201706/P020240924619552796725.pdf",
+      "license": "仅参考文字研究，未复制历史地图或几何",
+      "note": "正文论三国雍州治长安，参考地点不是确定官署位置。"
+    },
+    {
+      "id": "liang-research",
+      "title": "天水地方志：凉州建置",
+      "url": "https://www.tianshui.gov.cn/dsb/info/1783/27662.htm",
+      "license": "仅参考文字研究，未复制历史地图或几何",
+      "note": "该资料称三国凉州治姑臧；仅用于262年参照。"
+    },
+    {
+      "id": "song-38",
+      "title": "宋书·州郡志三：交州沿革",
+      "url": "https://zh.wikisource.org/wiki/宋書/卷38",
+      "license": "古籍文本，仅以文字事实作依据，未复制历史地图",
+      "note": "叙述交趾刺史治龙编、改称交州、迁番禺与交广分治；不将州名起始时间争议当定论。"
+    },
+    {
+      "id": "jiaozhou-research",
+      "title": "学术研究：汉代交阯刺史部与交州建置",
+      "url": "https://www.his.ntnu.edu.tw/publish01/downloadfile.php?issue_id=14&locale=en&paper_id=44",
+      "license": "研究资料，仅引用观点；未复制图件",
+      "note": "交州称谓与建安前后州制沿革存在文献与研究争议。"
+    }
+  ]
+}

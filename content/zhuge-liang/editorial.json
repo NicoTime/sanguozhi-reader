@@ -1,0 +1,1659 @@
+{
+  "id": "zhuge-liang",
+  "chapterPath": "OPS/c38_san_guo_zhi_juan35.xhtml",
+  "title": "诸葛亮传",
+  "subtitle": "诸葛亮与附传",
+  "editorialNote": "全卷包括诸葛亮事迹、出师表、文集目录、诸葛乔与诸葛瞻等附传及评语。正文和裴注来自 EPUB，白话为现代整理；历史地理存在不确定性。",
+  "meta": {
+    "workTitle": "诸葛亮传",
+    "protagonist": "诸葛亮及附传人物",
+    "volume": "卷三十五",
+    "division": "蜀书",
+    "displayTitle": "诸葛亮传",
+    "seal": "亮",
+    "periodLabel": "东汉末至西晋初",
+    "coverage": "complete",
+    "coverageLabel": "全传"
+  },
+  "sources": [
+    {
+      "id": "epub",
+      "title": "本地简体《三国志》裴注 EPUB",
+      "kind": "epub",
+      "locator": "EPUB",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "editor",
+      "title": "本项目原创义注与编排",
+      "kind": "editorial",
+      "locator": "docs/content/",
+      "note": "由本项目整理。"
+    },
+    {
+      "id": "changban",
+      "title": "宜昌民政：长坂坡",
+      "kind": "web",
+      "locator": "https://mzj.yichang.gov.cn/content-63849-997459-1.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "xiangyang-ref",
+      "title": "《襄阳府志》卷二：沿革",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/NA02618/chapter/1ktionhudsuua",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "jiangling",
+      "title": "湖北省文旅厅：荆州、江陵",
+      "kind": "web",
+      "locator": "https://wlt.hubei.gov.cn/bmdt/ztzl/zshb/201912/t20191226_1799529.shtml",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "xiakou-ref",
+      "title": "武汉文史：夏口地望变迁",
+      "kind": "web",
+      "locator": "https://www.whzx.gov.cn/zxzl/wsl/whwszl/202312/P020240123571845853720.pdf",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chibi-debate",
+      "title": "武汉经开区：赤壁地望各说",
+      "kind": "web",
+      "locator": "https://www.whkfq.gov.cn/xwzx/yw/kfqyw/qnxw/202206/t20220618_1989688.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chibi-puqi",
+      "title": "湖北档案：蒲圻赤壁之说",
+      "kind": "web",
+      "locator": "https://www.hbda.gov.cn/info/535.jspx",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "yiling-ref",
+      "title": "重庆地方志：甘宁与夷陵",
+      "kind": "web",
+      "locator": "https://dfz.cq.gov.cn/zqlswh/rwby_417819/202311/t20231102_12510429.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "gongan-ref",
+      "title": "湖北档案：公安由来",
+      "kind": "web",
+      "locator": "https://www.hbda.gov.cn/info/2461",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "hefei-ref",
+      "title": "合肥逍遥津公园与历史地望",
+      "kind": "web",
+      "locator": "https://www.huaihua.gov.cn/cgzfj/c108771/202601/a21fbbf368134bbc862d26936ca8f822.shtml",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chengdu-ref",
+      "title": "刘备成都即位：汉中市汉台区政府",
+      "kind": "web",
+      "locator": "https://www.htq.gov.cn/hzshtqzf/zjht/lswh/202511/3c466408a451409ba2b2f9bfb8f510bd.shtml"
+    },
+    {
+      "id": "hanzhong-ref",
+      "title": "阳平关地望：汉中市地方志",
+      "kind": "web",
+      "locator": "https://hzdqw.hanzhong.gov.cn/hzdfz/zjsy/202608/ca8a0e6df08c465985a51202e338b581.shtml"
+    },
+    {
+      "id": "yongan-ref",
+      "title": "白帝城与永安：重庆文旅",
+      "kind": "web",
+      "locator": "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqwwzy/202405/t20240507_13182414.html"
+    },
+    {
+      "id": "wuchang-ref",
+      "title": "吴武昌与鄂州：湖北省文旅厅",
+      "kind": "web",
+      "locator": "https://wlt.hubei.gov.cn/bmdt/ztzl/zshb/201912/t20191226_1799420.shtml"
+    },
+    {
+      "id": "jianye-ref",
+      "title": "东吴迁都建业：南京地方志",
+      "kind": "web",
+      "locator": "https://dfz.nanjing.gov.cn/gzdt/202403/t20240315_4186987.html"
+    },
+    {
+      "id": "zhuoxian-ref",
+      "title": "河北省文物局：涿州与刘备故里",
+      "kind": "web",
+      "locator": "https://wenwu.hebei.gov.cn/system/2024/03/17/030280758.shtml"
+    },
+    {
+      "id": "xiapi-ref",
+      "title": "江苏政务：古邳与下邳",
+      "kind": "web",
+      "locator": "https://snxgzz.jszwfw.gov.cn/index.html"
+    },
+    {
+      "id": "xinye-ref",
+      "title": "新野县政府：刘备屯兵",
+      "kind": "web",
+      "locator": "https://www.xinye.gov.cn/2018/10-01/977404.html"
+    },
+    {
+      "id": "pingyuan-ref",
+      "title": "德州地域历史文化：国家能源局",
+      "kind": "web",
+      "locator": "https://www.nea.gov.cn/2011/10/19/c_131199845_2.htm"
+    },
+    {
+      "id": "yangdu-ref",
+      "title": "临沂市政府：诸葛亮故里",
+      "kind": "web",
+      "locator": "https://www.linyi.gov.cn/info/5389/209810.htm"
+    },
+    {
+      "id": "wuzhangyuan-ref",
+      "title": "宝鸡蔡家坡：五丈原诸葛亮庙",
+      "kind": "web",
+      "locator": "https://cjp.baoji.gov.cn/col3866/col3880/200810/t20081027_710024.html"
+    },
+    {
+      "id": "gengdu-ref",
+      "title": "苏州地方志：诸葛躬耕地争议",
+      "kind": "web",
+      "locator": "https://dfzb.suzhou.gov.cn/dfzb/fzxh/201102/00e1bc2955a34d61a7ef203329994767.shtml"
+    },
+    {
+      "id": "qishan-ref",
+      "title": "甘肃方志《礼县志》祁山镇与祁山村",
+      "kind": "web",
+      "locator": "https://www.gsdfszw.org.cn/gsxz/lns_274/lx/202009/P020200901387537775425.pdf"
+    },
+    {
+      "id": "chencang-ref",
+      "title": "宝鸡市文物局：陈仓城址讨论",
+      "kind": "web",
+      "locator": "https://wwj.baoji.gov.cn/zzzb/wbwy/202309/t20230905_755253.html"
+    },
+    {
+      "id": "mianzhu-ref",
+      "title": "绵竹融媒：绵竹故城遗址",
+      "kind": "web",
+      "locator": "https://www.mztoday.gov.cn/show/36941.html"
+    }
+  ],
+  "places": [
+    [
+      "xiangyang",
+      "襄阳",
+      "湖北襄阳城区附近",
+      [
+        112.13,
+        32.02
+      ],
+      "city",
+      "古襄阳所在地域；坐标为现代城区区域参考，不表示城墙或军营。",
+      "xiangyang-ref"
+    ],
+    [
+      "dangyang",
+      "当阳长坂",
+      "湖北当阳城区一带",
+      [
+        111.79,
+        30.82
+      ],
+      "battlefield",
+      "宜昌民政资料称长坂坡位于当阳城区西南；取当阳城区近似区域，非具体交战点。",
+      "changban"
+    ],
+    [
+      "xiakou",
+      "夏口",
+      "武汉汉水入江区域",
+      [
+        114.27,
+        30.58
+      ],
+      "region",
+      "以现代武汉汉水与长江会合区域为参考，古水道变化且后世夏口城易位，不作为渡口定点。",
+      "xiakou-ref"
+    ],
+    [
+      "chibi",
+      "赤壁",
+      "湖北赤壁市西北一说",
+      [
+        113.65,
+        29.98
+      ],
+      "battlefield",
+      "赤壁战场地望存在蒲圻、江夏等多说；此点只示蒲圻一说的大致区域，非确定战场或营地。",
+      "chibi-debate"
+    ],
+    [
+      "nan-jun",
+      "南郡／江陵",
+      "湖北荆州区域",
+      [
+        112.23,
+        30.35
+      ],
+      "region",
+      "东汉南郡范围宽广，此以江陵所在荆州区域为显示参照，不代表郡域或围城阵地。",
+      "jiangling"
+    ],
+    [
+      "yiling",
+      "夷陵",
+      "湖北宜昌城区区域",
+      [
+        111.28,
+        30.7
+      ],
+      "region",
+      "取现代宜昌城区为夷陵区域参照，非甘宁营垒。",
+      "yiling-ref"
+    ],
+    [
+      "gongan",
+      "公安",
+      "湖北荆州公安县油江口一带",
+      [
+        112.22,
+        30.2
+      ],
+      "region",
+      "刘备立营油江口后称公安；此为区域参照，不是营址坐标。",
+      "gongan-ref"
+    ],
+    [
+      "hefei",
+      "合肥",
+      "安徽合肥市城区区域",
+      [
+        117.28,
+        31.86
+      ],
+      "region",
+      "以现代合肥城区为战区参考，非东汉城址、营地或渡口坐标。",
+      "hefei-ref"
+    ],
+    [
+      "chengdu",
+      "成都",
+      "四川成都城区",
+      [
+        104.07,
+        30.67
+      ],
+      "region",
+      "以现代成都城区为区域参照；入蜀、登基及治所事迹不代表同一具体地点。",
+      "chengdu-ref"
+    ],
+    [
+      "hanzhong",
+      "汉中",
+      "陕西汉中盆地",
+      [
+        107.02,
+        33.07
+      ],
+      "region",
+      "以汉中盆地城市区域为参照，不对应古代行政边界或战场。",
+      "hanzhong-ref"
+    ],
+    [
+      "yongan",
+      "永安",
+      "重庆奉节白帝区域",
+      [
+        109.55,
+        31.04
+      ],
+      "region",
+      "以奉节区域参考永安；不以点位等同永安宫精确范围。",
+      "yongan-ref"
+    ],
+    [
+      "zhuoxian",
+      "涿县",
+      "河北涿州一带",
+      [
+        115.98,
+        39.48
+      ],
+      "county",
+      "以涿州城区为刘备籍贯地域参考，不对应具体旧宅；本段涉及求学与交往，地图不代表每次活动地点。",
+      "zhuoxian-ref"
+    ],
+    [
+      "xiapi",
+      "下邳",
+      "江苏睢宁古邳镇区域",
+      [
+        117.89,
+        34.14
+      ],
+      "region",
+      "以古邳镇区域参考下邳；城址、军营和战场不由图点精确定位。",
+      "xiapi-ref"
+    ],
+    [
+      "xinye",
+      "新野",
+      "河南新野县一带",
+      [
+        112.36,
+        32.52
+      ],
+      "region",
+      "以现代新野县城作为刘备驻屯的区域参考，并非营址。",
+      "xinye-ref"
+    ],
+    [
+      "pingyuan",
+      "平原",
+      "山东德州平原县区域",
+      [
+        116.43,
+        37.16
+      ],
+      "region",
+      "以今平原县区域参考刘备曾任职的平原，非古治所定位；地望边界需进一步考证。",
+      "pingyuan-ref"
+    ],
+    [
+      "yangdu",
+      "阳都",
+      "山东沂南一带",
+      [
+        118.45,
+        35.55
+      ],
+      "region",
+      "以沂南区域表示阳都籍贯，具体旧居及行政界线未定位。",
+      "yangdu-ref"
+    ],
+    [
+      "wuzhangyuan",
+      "五丈原",
+      "陕西宝鸡岐山蔡家坡一带",
+      [
+        107.7,
+        34.28
+      ],
+      "region",
+      "以岐山蔡家坡附近区域示意五丈原，不代表营垒坐标。",
+      "wuzhangyuan-ref"
+    ],
+    [
+      "nanyang-gengdu",
+      "南阳",
+      "躬耕地点说法不一，未定位",
+      null,
+      "region",
+      "《出师表》说躬耕南阳，具体地点存在南阳、襄阳等争议，未选择坐标。",
+      "gengdu-ref"
+    ],
+    [
+      "qishan",
+      "祁山",
+      "甘肃礼县祁山镇地域",
+      [
+        105.383,
+        34.233
+      ],
+      "region",
+      "现代祁山村坐标作地域参照，不代表蜀军营垒；街亭地望尚有争议。",
+      "qishan-ref"
+    ],
+    [
+      "chencang",
+      "陈仓",
+      "陕西宝鸡市区地域",
+      [
+        107.15,
+        34.37
+      ],
+      "region",
+      "陈仓古城地域参照；不将现代城市坐标视为郝昭城精确位置。",
+      "chencang-ref"
+    ],
+    [
+      "mianzhu-old",
+      "绵竹故城",
+      "四川德阳黄许地域",
+      [
+        104.48,
+        31.26
+      ],
+      "region",
+      "以黄许一带作古绵竹地域参照，并非今绵竹市区或确指战场。",
+      "mianzhu-ref"
+    ]
+  ],
+  "people": [
+    [
+      "刘备",
+      "liu-bei"
+    ],
+    [
+      "孙权",
+      "sun-quan"
+    ],
+    [
+      "曹操",
+      "cao-cao"
+    ],
+    [
+      "周瑜",
+      "zhou-yu"
+    ],
+    [
+      "程普",
+      "cheng-pu"
+    ],
+    [
+      "鲁肃",
+      "lu-su"
+    ],
+    [
+      "诸葛亮",
+      "zhuge-liang"
+    ],
+    [
+      "关羽",
+      "guan-yu"
+    ],
+    [
+      "刘琦",
+      "liu-qi"
+    ],
+    [
+      "刘琮",
+      "liu-cong"
+    ],
+    [
+      "刘表",
+      "liu-biao"
+    ],
+    [
+      "黄祖",
+      "huang-zu"
+    ],
+    [
+      "吕蒙",
+      "lv-meng"
+    ],
+    [
+      "甘宁",
+      "gan-ning"
+    ],
+    [
+      "曹仁",
+      "cao-ren"
+    ],
+    [
+      "张昭",
+      "zhang-zhao"
+    ],
+    [
+      "张飞",
+      "zhang-fei"
+    ],
+    [
+      "赵云",
+      "zhao-yun"
+    ],
+    [
+      "刘禅",
+      "liu-shan"
+    ],
+    [
+      "刘璋",
+      "liu-zhang"
+    ],
+    [
+      "庞统",
+      "pang-tong"
+    ],
+    [
+      "法正",
+      "fa-zheng"
+    ],
+    [
+      "黄忠",
+      "huang-zhong"
+    ],
+    [
+      "许靖",
+      "xu-jing"
+    ],
+    [
+      "卢植",
+      "lu-zhi"
+    ],
+    [
+      "公孙瓒",
+      "gongsun-zan"
+    ],
+    [
+      "刘德然",
+      "liu-deran"
+    ],
+    [
+      "刘元起",
+      "liu-yuanqi"
+    ],
+    [
+      "张世平",
+      "zhang-shiping"
+    ],
+    [
+      "苏双",
+      "su-shuang"
+    ],
+    [
+      "麋竺",
+      "mi-zhu"
+    ],
+    [
+      "陶谦",
+      "tao-qian"
+    ],
+    [
+      "陈登",
+      "chen-deng"
+    ],
+    [
+      "孔融",
+      "kong-rong"
+    ],
+    [
+      "徐庶",
+      "xu-shu"
+    ],
+    [
+      "诸葛玄",
+      "zhuge-xuan"
+    ],
+    [
+      "诸葛瑾",
+      "zhuge-jin"
+    ],
+    [
+      "诸葛乔",
+      "zhuge-qiao"
+    ],
+    [
+      "诸葛瞻",
+      "zhuge-zhan"
+    ],
+    [
+      "董厥",
+      "dong-jue"
+    ],
+    [
+      "樊建",
+      "fan-jian"
+    ],
+    [
+      "马谡",
+      "ma-su"
+    ],
+    [
+      "司马懿",
+      "sima-yi"
+    ],
+    [
+      "张郃",
+      "zhang-he"
+    ],
+    [
+      "郭攸之",
+      "guo-youzhi"
+    ],
+    [
+      "费祎",
+      "fei-yi"
+    ],
+    [
+      "董允",
+      "dong-yun"
+    ],
+    [
+      "向宠",
+      "xiang-chong"
+    ],
+    [
+      "陈寿",
+      "chen-shou"
+    ],
+    [
+      "邓艾",
+      "deng-ai"
+    ],
+    [
+      "诸葛尚",
+      "zhuge-shang"
+    ],
+    [
+      "诸葛攀",
+      "zhuge-pan"
+    ]
+  ],
+  "personDetails": {
+    "liu-bei": {
+      "description": "蜀汉开国君主，字玄德；本传称先主。"
+    },
+    "sun-quan": {
+      "description": "孙策之弟，后来建立孙吴，字仲谋。"
+    },
+    "cao-cao": {
+      "description": "东汉末年丞相，曹魏奠基者，字孟德。"
+    },
+    "zhou-yu": {
+      "description": "孙权部将，赤壁与南郡战事的吴方统帅之一。"
+    },
+    "cheng-pu": {
+      "description": "孙氏部将，与周瑜共同率军参加赤壁战事。"
+    },
+    "lu-su": {
+      "description": "孙权谋臣，参与促成孙刘联盟，曾镇守陆口。"
+    },
+    "zhuge-liang": {
+      "description": "刘备谋臣、蜀汉丞相，受托辅佐刘禅。"
+    },
+    "guan-yu": {
+      "description": "刘备部将，曾镇守荆州，于孙权袭取荆州时被俘杀。"
+    },
+    "liu-qi": {
+      "description": "刘表长子，曾任江夏太守，刘备表其为荆州刺史。"
+    },
+    "liu-cong": {
+      "description": "刘表之子，刘表死后接替荆州并向曹操请降。"
+    },
+    "liu-biao": {
+      "description": "东汉末荆州牧，曾接待刘备并令其驻新野。"
+    },
+    "huang-zu": {
+      "description": "东汉末江夏太守，曾与孙氏交战。"
+    },
+    "lv-meng": {
+      "description": "孙权部将，曾率军袭取刘备一方的荆州。"
+    },
+    "gan-ning": {
+      "description": "孙权部将，曾驻夷陵并遭围。"
+    },
+    "cao-ren": {
+      "description": "曹操宗室将领，曾驻守江陵并与周瑜对峙。"
+    },
+    "zhang-zhao": {
+      "description": "孙策、孙权的重要辅佐大臣。"
+    },
+    "zhang-fei": {
+      "description": "刘备部将，蜀汉车骑将军。"
+    },
+    "zhao-yun": {
+      "description": "刘备部将，曾随刘备逃离长坂并参与平定益州。"
+    },
+    "liu-shan": {
+      "description": "刘备之子，蜀汉后主，名禅。"
+    },
+    "liu-zhang": {
+      "description": "东汉末益州牧，刘备进入益州后向其投降。"
+    },
+    "pang-tong": {
+      "description": "刘备谋臣，劝其在会面时袭取刘璋。"
+    },
+    "fa-zheng": {
+      "description": "刘璋部属，后归刘备并参与谋划取益州。"
+    },
+    "huang-zhong": {
+      "description": "刘备部将，曾在定军山击败夏侯渊。"
+    },
+    "xu-jing": {
+      "description": "蜀汉大臣，曾与群臣上表推举刘备为汉中王。"
+    },
+    "lu-zhi": {
+      "description": "东汉末学者、官员，曾任九江太守，刘备与公孙瓒从其求学。"
+    },
+    "gongsun-zan": {
+      "description": "东汉末幽州军阀，曾与刘备同师卢植并任用刘备。"
+    },
+    "liu-deran": {
+      "description": "刘备同族，与他共同从卢植求学。"
+    },
+    "liu-yuanqi": {
+      "description": "刘德然之父，刘备早年求学时曾资助他。"
+    },
+    "zhang-shiping": {
+      "description": "中山商人，与苏双资助早年刘备聚集部众。"
+    },
+    "su-shuang": {
+      "description": "中山商人，与张世平资助早年刘备。"
+    },
+    "mi-zhu": {
+      "description": "徐州别驾，陶谦死后迎刘备领徐州，后为刘备大臣。"
+    },
+    "tao-qian": {
+      "description": "东汉末徐州牧，曾请求援救并任用刘备。"
+    },
+    "chen-deng": {
+      "description": "下邳人，劝刘备接受徐州。"
+    },
+    "kong-rong": {
+      "description": "东汉末北海相，劝刘备接受徐州。"
+    },
+    "xu-shu": {
+      "description": "东汉末谋士，曾向刘备推荐诸葛亮。"
+    },
+    "zhuge-xuan": {
+      "description": "诸葛亮叔父，曾任豫章太守，后依附刘表。"
+    },
+    "zhuge-jin": {
+      "description": "诸葛亮兄长，孙吴大臣；诸葛乔生父。"
+    },
+    "zhuge-qiao": {
+      "description": "诸葛瑾次子，过继诸葛亮为子，后随亮赴汉中。"
+    },
+    "zhuge-zhan": {
+      "description": "诸葛亮之子，蜀汉将领，在绵竹战死。"
+    },
+    "dong-jue": {
+      "description": "蜀汉大臣，曾任诸葛亮府中令史，后与诸葛瞻共掌政事。"
+    },
+    "fan-jian": {
+      "description": "蜀汉大臣，曾出使吴国并任中书令。"
+    },
+    "ma-su": {
+      "description": "蜀汉将领，街亭之战违背指挥、战败后被处死。"
+    },
+    "sima-yi": {
+      "description": "曹魏将领，与诸葛亮在五丈原对峙。"
+    },
+    "zhang-he": {
+      "description": "曹魏将领，曾在街亭击败马谡。"
+    },
+    "guo-youzhi": {
+      "description": "蜀汉侍中，诸葛亮在出师表中向刘禅推荐。"
+    },
+    "fei-yi": {
+      "description": "蜀汉大臣，诸葛亮在出师表中向刘禅推荐。"
+    },
+    "dong-yun": {
+      "description": "蜀汉大臣，诸葛亮在出师表中向刘禅推荐。"
+    },
+    "xiang-chong": {
+      "description": "蜀汉将领，诸葛亮在出师表中举荐。"
+    },
+    "chen-shou": {
+      "description": "西晋史家，《三国志》作者，整理诸葛亮文集并作评语。"
+    },
+    "deng-ai": {
+      "description": "曹魏将领，率军由阴平进蜀，诸葛瞻于绵竹抵抗战死。"
+    },
+    "zhuge-shang": {
+      "description": "诸葛瞻长子，随父于绵竹战死。"
+    },
+    "zhuge-pan": {
+      "description": "诸葛乔之子，后复为诸葛瑾一系继嗣。"
+    }
+  },
+  "personAliases": {
+    "诸葛孔明": "zhuge-liang",
+    "孔明": "zhuge-liang",
+    "先主": "liu-bei",
+    "后主": "liu-shan"
+  },
+  "placeAliases": {
+    "当阳": "dangyang",
+    "长坂": "dangyang",
+    "江陵": "nan-jun",
+    "南郡": "nan-jun",
+    "夷陵": "yiling",
+    "白帝": "yongan",
+    "鱼复": "yongan",
+    "涿郡": "zhuoxian",
+    "南阳": "nanyang-gengdu",
+    "祁山": "qishan",
+    "陈仓": "chencang",
+    "绵竹": "mianzhu-old"
+  },
+  "factions": [
+    {
+      "id": "liu",
+      "name": "刘备军",
+      "color": "#356A45",
+      "paperColor": "#E4F0E4",
+      "borderColor": "#699776"
+    },
+    {
+      "id": "sun",
+      "name": "孙权军",
+      "color": "#946B24",
+      "paperColor": "#F6EDD9",
+      "borderColor": "#B9995B"
+    },
+    {
+      "id": "cao",
+      "name": "曹操军",
+      "color": "#8B3827",
+      "paperColor": "#F7E7DF",
+      "borderColor": "#B87563"
+    },
+    {
+      "id": "huang",
+      "name": "黄祖军",
+      "color": "#6E637A",
+      "paperColor": "#EDE8F0",
+      "borderColor": "#9B8DA7"
+    }
+  ],
+  "mapProfiles": [
+    {
+      "id": "wide-relief",
+      "label": "中国东部广域现代地势",
+      "bounds": {
+        "west": 95.625,
+        "south": 16.636191878397653,
+        "east": 132.1875,
+        "north": 45.089035564831015
+      },
+      "center": [
+        108.8,
+        32.5
+      ],
+      "minZoom": 3,
+      "maxZoom": 10,
+      "reliefPath": "/maps/eastern-china-relief.jpg",
+      "modernRiversPath": "/maps/eastern-china-modern-rivers.geojson",
+      "modernCitiesPath": "/maps/eastern-china-modern-cities.json",
+      "attribution": "现代地形：Mapzen / Tilezen、USGS；现代河流及城市：Natural Earth。河网不代表古河道。"
+    }
+  ],
+  "defaultMapProfileId": "wide-relief",
+  "historicalRiver": {
+    "status": "unavailable",
+    "label": "古水系未复原",
+    "explanation": "本篇未核定汉末长江、汉水与支流水道，现代水系仅供现代地理对照，不代表古河道。",
+    "sourceIds": [
+      "editor"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "zhuge-liang-p0",
+      "paragraphIndex": 0,
+      "endMarker": null,
+      "title": "家世与躬耕",
+      "summary": "诸葛亮字孔明，是琅邪阳都人，汉代司隶校尉诸葛丰的后代。",
+      "translation": "诸葛亮字孔明，是琅邪阳都人，汉代司隶校尉诸葛丰的后代。父亲诸葛圭字君贡，汉末任太山郡丞。诸葛亮早年失去父亲，叔父诸葛玄被袁术任命为豫章太守，带诸葛亮和弟弟诸葛均赴任。恰逢汉朝另选朱皓接替诸葛玄，诸葛玄与荆州牧刘表一向有旧，便去投靠他。诸葛玄死后，诸葛亮亲自耕种田地，喜欢唱《梁父吟》。他身高八尺，常自比管仲、乐毅，当时人没有认可的，只有博陵崔州平、颍川徐庶与他友善，认为确实如此。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "yangdu",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p1",
+      "paragraphIndex": 1,
+      "endMarker": null,
+      "title": "三顾与隆中对",
+      "summary": "当时刘备驻在新野。",
+      "translation": "当时刘备驻在新野。徐庶见刘备，刘备很器重他。徐庶说：‘诸葛孔明是卧龙，将军愿意见他吗？’刘备说：‘请你带他一起来。’徐庶说：‘这个人可以登门拜访，不能委屈他来见您。将军应亲自前往。’刘备于是去拜访，往返三次才见到诸葛亮。刘备屏退旁人，说：‘汉室衰颓，奸臣窃权，皇帝蒙难。我没有衡量自己的德行和力量，想向天下伸张大义，却智谋浅短，屡遭失败，直到今天。然而志向还没停止，先生认为应当怎样谋划？’诸葛亮答：‘自董卓以来，豪杰并起，占据多个州郡的人数不胜数。曹操与袁绍相比，原本名望小、兵众少，却能打败袁绍、由弱变强，不仅由于天时，也由于人的谋划。如今曹操号称百万，挟天子以号令诸侯，确实不能与他正面争胜。孙权占据江东已有三代，地势险要，百姓归附，贤能为他所用，只能结为外援，不能图谋。荆州北据汉水、沔水，南尽南海之利，东连吴会，西通巴蜀，是用兵之地，而主人守不住，恐怕是上天留给将军的，将军可有意？益州地势险固、沃野千里，物产富饶，汉高祖凭借它成就帝业。刘璋昏暗懦弱，张鲁在北；百姓富裕、国家殷实，刘璋却不知体恤，有智慧才能的人盼望明主。将军是皇室后裔，信义闻名天下，广揽英雄，求贤若渴；如果兼有荆、益，守住险阻，西面与各族和好，南面安抚夷越，对外结好孙权，对内治理政事；天下有变，命一位上将率荆州兵指向宛、洛，将军亲率益州部众出秦川，百姓谁不带着饭食酒浆迎接？果能如此，霸业可成，汉室可兴。’刘备说‘好’，从此与诸葛亮情谊日益密切。关羽、张飞等不高兴，刘备解释：‘我有孔明，就像鱼有水。希望诸位不要再说。’关羽、张飞才停止。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "xinye",
+      "personIds": [
+        "zhuge-liang",
+        "liu-bei",
+        "xu-shu"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p2",
+      "paragraphIndex": 2,
+      "endMarker": null,
+      "title": "刘琦求策与徐庶离去",
+      "summary": "刘表长子刘琦也很器重诸葛亮。",
+      "translation": "刘表长子刘琦也很器重诸葛亮。刘表听从后妻的话，偏爱幼子刘琮，不喜欢刘琦。刘琦每次想向诸葛亮商量保全自己的办法，诸葛亮总是推辞，不替他谋划。刘琦于是带诸葛亮游览后园，一同登高楼，宴饮时命人移走梯子，说：‘今天上不着天、下不着地，话从你口中出，进入我的耳中，可以说了吗？’诸葛亮答：‘你没看到申生留在国内反而危险，重耳在外却平安吗？’刘琦领悟，暗中谋求离开的计策。恰好黄祖死去，他得以外出，任江夏太守。不久刘表去世，刘琮听说曹操来征，派使者请降。刘备在樊城听闻，率众南行，诸葛亮与徐庶一同跟随，被曹军追击打败，徐庶母亲被俘。徐庶辞别刘备，指着心口说：‘原想与将军共谋王霸事业，靠的是这方寸之心。如今失去老母，心神已乱，对大事没有帮助，请从此别过。’于是到曹操那里。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p3",
+      "paragraphIndex": 3,
+      "endMarker": null,
+      "title": "出使孙权与联吴抗曹",
+      "summary": "刘备到夏口，诸葛亮说：‘情势紧急，请允许我奉命向孙将军求援。",
+      "translation": "刘备到夏口，诸葛亮说：‘情势紧急，请允许我奉命向孙将军求援。’当时孙权率军在柴桑，观望成败。诸葛亮劝孙权：‘天下大乱，将军起兵据有江东，刘豫州也在汉南聚众，与曹操争夺天下。如今曹操已大体平定主要敌手，又攻破荆州，威震天下，英雄无处施展，所以刘豫州逃到这里。将军应衡量力量：若能以吴、越之众与中原抗衡，不如早与曹操决裂；如果不能抵挡，何不收兵卸甲、面北臣事他？如今表面称服从，内心却犹豫，危急而不断，灾祸很快就到。’孙权说：‘若如先生所言，刘豫州为什么不投靠曹操？’诸葛亮说：‘田横不过齐国壮士，还能守义不辱；刘豫州是王室后裔、英才出众，士人仰慕如水归海；即使不成功，也是天命，怎能屈居曹操之下？’孙权勃然说：‘我不能拿全吴土地和十万兵众受人控制。我已决心抗曹！除了刘豫州无人能抵挡曹操，但豫州新败，如何应付大难？’诸葛亮说：‘刘豫州虽在长坂战败，如今回来的战士和关羽水军精兵合一万人，刘琦江夏战士也不下一万。曹军远来疲惫，追刘豫州时轻骑一昼夜走三百多里，是强弩之末，力量穿不透鲁地薄绢。兵法忌讳这种情况，说会挫败上将。北方人不熟水战；荆州人归附曹操也只是受兵势逼迫，不是心服。如果将军命勇将率数万人与刘豫州协同，必能打败曹军。曹军败后一定北返，荆、吴势力增强，鼎足之势便可形成。成败关键就在今天。’孙权大喜，派周瑜、程普、鲁肃等率三万水军随诸葛亮去见刘备，共同抵御曹操。曹操败于赤壁，领军回邺。刘备收取江南，任诸葛亮为军师中郎将，督管零陵、桂阳、长沙三郡，征调赋税补充军需。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "xiakou",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p4",
+      "paragraphIndex": 4,
+      "endMarker": null,
+      "title": "入蜀辅政与拜相",
+      "summary": "建安十六年，益州牧刘璋派法正迎刘备，让他攻张鲁；诸葛亮与关羽镇守荆州。",
+      "translation": "建安十六年，益州牧刘璋派法正迎刘备，让他攻张鲁；诸葛亮与关羽镇守荆州。刘备从葭萌回军进攻刘璋，诸葛亮与张飞、赵云等率众溯江，分定郡县，与刘备共同围成都。成都平定后，任诸葛亮为军师将军，主持左将军府事务。刘备外出时，诸葛亮常留守成都，保证粮食兵员。二十六年群臣劝刘备称帝，刘备未答应。诸葛亮说：‘从前吴汉、耿弇等劝光武帝即位，光武多次推辞。耿纯说天下英雄都急切盼望，如果不接受，士大夫将各自寻找君主，不会无故追随。光武感其言恳切，遂答应。如今曹氏篡汉，天下无主，大王是刘氏后裔，继承世业而起，称帝正合时宜；随大王长期受苦的士大夫，也希望有少许功劳，正如耿纯所说。’刘备于是即位，册诸葛亮为丞相说：‘我遇到汉室不幸，继承大统，日夜谨慎，不敢安宁，想安定百姓，恐怕不能做到。唉！丞相应体会我的心意，不懈地补救我的过失，帮助恢复光明，照耀天下，请勉力。’诸葛亮以丞相总领尚书事务，获赐节；张飞死后，兼领司隶校尉。",
+      "time": {
+        "year": null,
+        "era": "建安十六年至二十六年",
+        "label": "建安十六年至二十六年",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "chengdu",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p5",
+      "paragraphIndex": 5,
+      "endMarker": null,
+      "title": "永安受托",
+      "summary": "章武三年春，刘备在永安病重，从成都召诸葛亮托以后事，说：‘你的才能十倍曹丕，一定能安定国家、成就大业。",
+      "translation": "章武三年春，刘备在永安病重，从成都召诸葛亮托以后事，说：‘你的才能十倍曹丕，一定能安定国家、成就大业。如果继承人可以辅佐，就辅佐他；如果没有才能，你可以自己取代。’诸葛亮流泪说：‘臣愿竭尽辅佐之力，保持忠贞之节，至死不渝！’刘备又下诏告诫后主：‘你与丞相共事，要像对待父亲一样对待他。’",
+      "time": {
+        "year": 223,
+        "era": "章武三年",
+        "label": "章武三年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "yongan",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p6",
+      "paragraphIndex": 6,
+      "endMarker": null,
+      "title": "开府与结吴",
+      "summary": "建兴元年，封诸葛亮为武乡侯，开府处理事务。",
+      "translation": "建兴元年，封诸葛亮为武乡侯，开府处理事务。不久又兼领益州牧。政事无论大小都由他决定。南中各郡都发生叛乱，诸葛亮因刚遇先帝大丧，暂未发兵，而先派使者访问吴国，结成和亲，双方成为盟国。",
+      "time": {
+        "year": 223,
+        "era": "建兴元年",
+        "label": "建兴元年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p7",
+      "paragraphIndex": 7,
+      "endMarker": null,
+      "title": "南征与出师上疏",
+      "summary": "建兴三年春，诸葛亮率众南征，到秋天全部平定。",
+      "translation": "建兴三年春，诸葛亮率众南征，到秋天全部平定。军需从当地供应，国家因而富足。他于是整治军备、演习军事，等待大举行动。五年，率诸军向北驻汉中，临行前上疏说：",
+      "time": {
+        "year": null,
+        "era": "建兴三至五年",
+        "label": "建兴三至五年",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "hanzhong",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p8",
+      "paragraphIndex": 8,
+      "endMarker": null,
+      "title": "出师表：开听与任贤",
+      "summary": "先帝开创事业尚未完成一半便中途去世。",
+      "translation": "先帝开创事业尚未完成一半便中途去世。如今天下分为三方，益州疲惫困苦，这确实是危急存亡的时候。然而侍卫之臣在朝廷内不懈怠，忠诚有志的士人在外忘身作战，都是追念先帝特别的恩遇，想报答在陛下身上。陛下确实应广泛听取意见，发扬先帝遗德，振奋志士的气概；不应随意看轻自己，说话引譬失当，堵塞忠谏的道路。宫中、府中都是一体，升降、赏罚和对善恶的评价不应不同。如果有人作奸违法或忠诚行善，应交主管官员议定刑赏，以显示陛下公平明察的治理；不可偏私，使宫内宫外法度不同。侍中、侍郎郭攸之、费祎、董允等都是善良诚实、志虑忠纯的人，因此先帝选拔留下辅佐陛下。臣愚见，宫中事务无论大小，都先向他们咨询再施行，必能弥补缺漏，广有益处。将军向宠品行善良平正，通晓军事，过去试用时先帝称赞他能干，所以众人推举他为都督。臣愚见，军营事务无论大小，都与他商议，必能使军队和睦，让才能高低的人各得其所。亲近贤臣、远离小人，是西汉兴盛的原因；亲近小人、远离贤臣，是东汉衰败的原因。先帝在时每与臣谈论这些，对汉桓帝、灵帝的作为没有不叹息痛恨的。侍中、尚书、长史、参军，都是忠贞善良、愿以死守节的人，愿陛下亲近信任他们，汉室兴隆就可以指日而待。",
+      "time": {
+        "year": 227,
+        "era": "建兴五年",
+        "label": "建兴五年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang",
+        "liu-shan"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p9",
+      "paragraphIndex": 9,
+      "endMarker": null,
+      "title": "出师表：追念先帝与北定中原",
+      "summary": "臣本是平民，在南阳亲自耕种，只求在乱世保全性命，不求在诸侯间扬名。",
+      "translation": "臣本是平民，在南阳亲自耕种，只求在乱世保全性命，不求在诸侯间扬名。先帝不因臣身份低微、见识浅陋，屈驾三次到草庐探访，向臣询问时事；我因此感激，答应为先帝奔走效劳。后来遭遇失败，在兵败时接受任命，在危难中奉命出使，从那以来已有二十一年。先帝知道臣谨慎，所以临终把大事托付我。自受命以来，我日夜忧叹，恐怕不能完成托付，损伤先帝识人之明，因此五月渡泸水，深入荒远之地。如今南方已定、军备充足，应激励统率三军北定中原，希望竭尽微薄才能，铲除奸凶，复兴汉室，回到旧都。这是我报答先帝、效忠陛下的职责。",
+      "time": {
+        "year": 227,
+        "era": "建兴五年",
+        "label": "建兴五年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang",
+        "liu-shan"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p10",
+      "paragraphIndex": 10,
+      "endMarker": null,
+      "title": "出师表：托责与临别",
+      "summary": "至于斟酌政事的增减、竭尽忠言，是郭攸之、费祎、董允的责任。",
+      "translation": "至于斟酌政事的增减、竭尽忠言，是郭攸之、费祎、董允的责任。愿陛下把讨伐敌人、复兴汉室的任务托付给我；如果没有成效，请治我的罪，以告先帝之灵。若他们没有提出发扬德政的意见，就责罚郭攸之、费祎、董允等人的怠慢，彰显他们的过失。陛下也应自己谋划，询问治国良道，明察并采纳正言，深切追念先帝遗诏。臣感激受恩之深，如今即将远离，面对奏表泪流，不知说了些什么。",
+      "time": {
+        "year": 227,
+        "era": "建兴五年",
+        "label": "建兴五年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang",
+        "liu-shan"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p11",
+      "paragraphIndex": 11,
+      "endMarker": null,
+      "title": "屯于沔阳",
+      "summary": "诸葛亮出军驻沔阳。",
+      "translation": "诸葛亮于是出发，驻扎沔阳。",
+      "time": {
+        "year": 227,
+        "era": "建兴五年",
+        "label": "建兴五年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "hanzhong",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p12",
+      "paragraphIndex": 12,
+      "endMarker": null,
+      "title": "祁山、街亭与自贬",
+      "summary": "建兴六年春，诸葛亮声称经斜谷道攻眉县，派赵云、邓芝作疑兵，占据箕谷；魏大将军曹真率众抵御。",
+      "translation": "建兴六年春，诸葛亮声称经斜谷道攻眉县，派赵云、邓芝作疑兵，占据箕谷；魏大将军曹真率众抵御。诸葛亮亲率诸军攻祁山，军阵整齐，赏罚严肃、号令分明，南安、天水、安定三郡背魏响应，关中震动。魏明帝向西坐镇长安，命张郃抵御诸葛亮。诸葛亮派马谡统率前军，在街亭与张郃交战。马谡违背诸葛亮指挥，举措不当，被张郃大败。诸葛亮迁走西县一千多户，退回汉中，处死马谡以向众人谢罪，上疏说：‘我以薄弱才能居于不相称之位，亲自执掌军权激励三军，却不能严明法纪、临事谨慎，致使街亭有违令之过、箕谷有戒备不足之失，责任都在我任用不当。我不明识人，考虑事情多有不周；《春秋》责备主帅，我职当其责。请求自降三级，以督促承担罪责。’于是朝廷任诸葛亮为右将军，代理丞相事务，统率职权仍与以前相同。",
+      "time": {
+        "year": 228,
+        "era": "建兴六年",
+        "label": "建兴六年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "qishan",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p15",
+      "paragraphIndex": 15,
+      "endMarker": null,
+      "title": "陈仓之役与复相",
+      "summary": "冬天，诸葛亮再出散关，围攻陈仓，曹真抵御，诸葛亮因粮尽撤回。",
+      "translation": "冬天，诸葛亮再出散关，围攻陈仓，曹真抵御，诸葛亮因粮尽撤回。魏将王双率骑兵追击，诸葛亮与他交战，打败并斩杀王双。建兴七年，诸葛亮派陈式攻武都、阴平。魏雍州刺史郭淮率军准备攻击，诸葛亮亲出至建威，郭淮退回，两郡遂被平定。后主下诏说：‘街亭之役过失来自马谡，而你引咎自责，坚决要求降职，我不忍违背你的心意，便顺从你的坚持。前年出兵斩杀王双，今年征战郭淮逃走，降服氐、羌，收复两郡，威慑凶暴，功勋显著。如今天下骚乱，元凶未除，你承担重任、主持国事，却长久自我贬抑，不足以发扬大功。现在恢复你的丞相职务，请不要推辞。’",
+      "time": {
+        "year": null,
+        "era": "建兴六至七年",
+        "label": "建兴六至七年",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "chencang",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p16",
+      "paragraphIndex": 16,
+      "endMarker": null,
+      "title": "再出祁山",
+      "summary": "建兴九年，诸葛亮再次出祁山，用木牛运粮。",
+      "translation": "建兴九年，诸葛亮再次出祁山，用木牛运粮。粮尽退军，与魏将张郃交战，射杀张郃。",
+      "time": {
+        "year": 231,
+        "era": "建兴九年",
+        "label": "建兴九年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "qishan",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p17",
+      "paragraphIndex": 17,
+      "endMarker": null,
+      "title": "五丈原与病逝",
+      "summary": "建兴十二年春，诸葛亮率全部兵众由斜谷出发，以流马运输，占据武功五丈原，与司马懿在渭水南岸对峙。",
+      "translation": "建兴十二年春，诸葛亮率全部兵众由斜谷出发，以流马运输，占据武功五丈原，与司马懿在渭水南岸对峙。诸葛亮常担忧军粮不能接续，使志向无法施展，因此分兵屯田，为长期驻军打基础。耕作者与渭水边居民混居，百姓安居，军队没有侵犯私利。双方相持一百多天。这年八月，诸葛亮患病，在军中去世，享年五十四岁。蜀军撤退后，司马懿巡视其营垒，说：‘天下奇才！’",
+      "time": {
+        "year": 234,
+        "era": "建兴十二年",
+        "label": "建兴十二年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "wuzhangyuan",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p18",
+      "paragraphIndex": 18,
+      "endMarker": null,
+      "title": "遗命葬定军山",
+      "summary": "诸葛亮遗命葬在汉中定军山，依山作坟，墓穴只需容得下棺木，以平时衣服装殓，不用随葬器物。",
+      "translation": "诸葛亮遗命葬在汉中定军山，依山作坟，墓穴只需容得下棺木，以平时衣服装殓，不用随葬器物。后主下诏册说：",
+      "time": {
+        "year": 234,
+        "era": "建兴十二年",
+        "label": "建兴十二年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "hanzhong",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p19",
+      "paragraphIndex": 19,
+      "endMarker": null,
+      "title": "追谥忠武侯诏",
+      "summary": "你兼具文武才能，明智笃诚，接受遗命托孤，匡扶我这个君主，继绝兴微，志在平定祸乱。",
+      "translation": "你兼具文武才能，明智笃诚，接受遗命托孤，匡扶我这个君主，继绝兴微，志在平定祸乱。你整顿军队，几乎年年征战，神武显赫，威震四方，即将为季汉建立特殊功业，可与伊尹、周公的大功相比。怎料上天不怜，事情将近成功，却遭疾病去世！我悲痛哀伤，如肝肠撕裂。尊崇德行、记叙功绩，记载事迹并授谥号，是为了昭示将来、流传不朽。现派持节使者、左中郎将杜琼，追赠你丞相、武乡侯印绶，谥为忠武侯。若魂灵有知，请享受这份荣宠。唉，悲痛啊！唉，悲痛啊！",
+      "time": {
+        "year": 234,
+        "era": "建兴十二年",
+        "label": "建兴十二年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p20",
+      "paragraphIndex": 20,
+      "endMarker": null,
+      "title": "自陈家产",
+      "summary": "此前诸葛亮曾上表后主：‘成都有桑树八百株、薄田十五顷，子弟衣食自有余裕。",
+      "translation": "此前诸葛亮曾上表后主：‘成都有桑树八百株、薄田十五顷，子弟衣食自有余裕。至于我在外任职，没有另行调度收入，随身衣食全靠官府，不另外经营产业增加一点私财。如果我死时家中留下多余绢帛、外面有多余财产，就是辜负陛下。’他去世时果如所言。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "chengdu",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p21",
+      "paragraphIndex": 21,
+      "endMarker": null,
+      "title": "巧思与文集",
+      "summary": "诸葛亮擅长巧妙构思，改进连弩，木牛、流马都出自他的构想；推演兵法，制作八阵图，都掌握了要领。",
+      "translation": "诸葛亮擅长巧妙构思，改进连弩，木牛、流马都出自他的构想；推演兵法，制作八阵图，都掌握了要领。他的教令、书信、奏章多有可观之处，另编为一集。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p22",
+      "paragraphIndex": 22,
+      "endMarker": null,
+      "title": "沔阳立庙",
+      "summary": "景耀六年春，下诏在沔阳为诸葛亮立庙。",
+      "translation": "景耀六年春，下诏在沔阳为诸葛亮立庙。秋天，魏镇西将军钟会征蜀，到汉川时祭祀诸葛亮的庙，命士兵不得在其墓周围割草、放牧、砍柴。诸葛亮弟弟诸葛均官至长水校尉；儿子诸葛瞻继承爵位。",
+      "time": {
+        "year": 263,
+        "era": "景耀六年",
+        "label": "景耀六年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "hanzhong",
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p23",
+      "paragraphIndex": 23,
+      "endMarker": null,
+      "title": "诸葛氏集目录",
+      "summary": "以下列出诸葛亮文集目录。",
+      "translation": "《诸葛氏集》目录。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p24",
+      "paragraphIndex": 24,
+      "endMarker": null,
+      "title": "文集一至三",
+      "summary": "目录第一至三篇为开府、权制与南征。",
+      "translation": "第一篇《开府作牧》，第二篇《权制》，第三篇《南征》。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p25",
+      "paragraphIndex": 25,
+      "endMarker": null,
+      "title": "文集四至六",
+      "summary": "目录第四至六篇为北出、计算与训厉。",
+      "translation": "第四篇《北出》，第五篇《计算》，第六篇《训厉》。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p26",
+      "paragraphIndex": 26,
+      "endMarker": null,
+      "title": "文集七至九",
+      "summary": "目录第七至九篇为综核与杂言。",
+      "translation": "第七篇《综核上》，第八篇《综核下》，第九篇《杂言上》。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p27",
+      "paragraphIndex": 27,
+      "endMarker": null,
+      "title": "文集十至十二",
+      "summary": "目录第十至十二篇为杂言、贵和与兵要。",
+      "translation": "第十篇《杂言》，第十一篇《贵和》，第十二篇《兵要》。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p28",
+      "paragraphIndex": 28,
+      "endMarker": null,
+      "title": "文集十三至十五",
+      "summary": "目录第十三至十五篇为传运及致孙权、诸葛谨书。",
+      "translation": "第十三篇《传运》，第十四篇《与孙权书》，第十五篇《与诸葛谨书》。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p29",
+      "paragraphIndex": 29,
+      "endMarker": null,
+      "title": "文集十六至十八",
+      "summary": "目录第十六至十八篇为致孟达书、废李平与法检。",
+      "translation": "第十六篇《与孟达书》，第十七篇《废李平》，第十八篇《法检上》。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p30",
+      "paragraphIndex": 30,
+      "endMarker": null,
+      "title": "文集十九至二十一",
+      "summary": "目录第十九至二十一篇为法检与科令。",
+      "translation": "第十九篇《法检下》，第二十篇《科令上》，第二十一篇《科令下》。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p31",
+      "paragraphIndex": 31,
+      "endMarker": null,
+      "title": "文集二十二至二十四",
+      "summary": "目录第二十二至二十四篇为军令三篇。",
+      "translation": "第二十二篇《军令上》，第二十三篇《军令中》，第二十四篇《军令下》。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p32",
+      "paragraphIndex": 32,
+      "endMarker": null,
+      "title": "文集篇数",
+      "summary": "文集共二十四篇、十万余字。",
+      "translation": "以上二十四篇，共十万四千一百一十二字。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p33",
+      "paragraphIndex": 33,
+      "endMarker": null,
+      "title": "陈寿整理诸葛亮事迹",
+      "summary": "臣陈寿等上言：我以前任著作郎时，侍中兼中书监济北侯荀勖、中书令关内侯和峤上奏，命我整理蜀故丞相诸葛亮的事迹。",
+      "translation": "臣陈寿等上言：我以前任著作郎时，侍中兼中书监济北侯荀勖、中书令关内侯和峤上奏，命我整理蜀故丞相诸葛亮的事迹。诸葛亮辅佐危弱之国，凭险据守、不肯归附，而朝廷仍保存记录他的言论，以遗漏善行可耻，这确实体现大晋光明盛大的德行，恩泽广大，古来未有。我删除重复内容，按类别编排，共二十四篇，篇名如上。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p34",
+      "paragraphIndex": 34,
+      "endMarker": null,
+      "title": "陈寿上表述其生平",
+      "summary": "诸葛亮年少时便有出众才能和英雄气度，身高八尺，容貌伟岸，当时人认为他不凡。",
+      "translation": "诸葛亮年少时便有出众才能和英雄气度，身高八尺，容貌伟岸，当时人认为他不凡。遭汉末乱世，他随叔父诸葛玄避难荆州，亲自耕田，不求扬名。当时左将军刘备认为他气度非凡，三次到草庐探访。诸葛亮深知刘备雄姿杰出，于是坦诚相待，与他深交。魏武帝南征荆州，刘琮献州归附，刘备失势、人少，连立足之地都没有。诸葛亮当时二十七岁，提出奇策，亲自出使孙权，向吴会求援。孙权早已钦佩刘备，又见诸葛亮卓异高雅，十分敬重，当即派三万兵帮助刘备。刘备借此与魏武帝作战，大破曹军，乘胜取捷，江南平定。后来刘备西取益州，平定后任诸葛亮为军师将军；刘备称帝，任诸葛亮丞相、总领尚书事。刘备去世，继承人年幼，事情无论大小均由诸葛亮主持。他对外联结东吴，对内平定南方各部，制定法令制度、整顿军队；工匠技艺和器械尽力做到最好，法令教化严明，赏罚必信；恶无不惩，善无不彰，官吏不能行奸，人民自我勉励，路不拾遗，强者不欺弱者，风气肃正。这是陈寿上表中对其治理的评价。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p35",
+      "paragraphIndex": 35,
+      "endMarker": null,
+      "title": "陈寿论用兵与治政",
+      "summary": "当时诸葛亮的平素志向，进则欲纵横天下，退也要跨越边疆、震动四方；又认为自己不在之后，无人能进入中原与强敌抗衡，因此不断用兵，屡次显示军威。",
+      "translation": "当时诸葛亮的平素志向，进则欲纵横天下，退也要跨越边疆、震动四方；又认为自己不在之后，无人能进入中原与强敌抗衡，因此不断用兵，屡次显示军威。然而诸葛亮的才能长于整治军队，短于奇谋；治理百姓的才能胜过统兵谋略。对手有时也是杰出人物，加之双方兵力不相当、攻守形势不同，所以虽然连年出兵，未能取胜。从前萧何推荐韩信，管仲举荐王子城父，都是衡量自己的长处，知道不能兼备各方面才能。诸葛亮治政才能大约可与管仲、萧何相提并论，而当时名将中没有王子城父、韩信那样的人，因此功业进展迟缓、复兴大义未能实现吗？大概天命有所归属，不能单凭智力争取。以上是陈寿上表的判断。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p36",
+      "paragraphIndex": 36,
+      "endMarker": null,
+      "title": "陈寿论民心与文辞",
+      "summary": "青龙二年春，诸葛亮率军出武功，分兵屯田，为长期驻扎打基础；秋天病逝，百姓追思，传为口中话题。",
+      "translation": "青龙二年春，诸葛亮率军出武功，分兵屯田，为长期驻扎打基础；秋天病逝，百姓追思，传为口中话题。直到现在梁、益两地百姓谈及诸葛亮，声音仍在耳边；即使《甘棠》歌颂召公、郑人歌颂子产，也没有更贴切的比方。孟子说：‘用使民安乐的方法役使百姓，即使劳苦也不怨恨；为使人得生而杀人，即使被杀也不愤恨。’确实如此。有人奇怪诸葛亮文章辞藻不华美，过于反复叮咛周详。我认为皋陶是大贤、周公是圣人；查《尚书》，皋陶的谋议简略雅正，周公的诰书繁复详尽。为什么？因为皋陶与舜、禹交谈，周公则向群臣宣誓。诸葛亮谈话对象都是普通士人，所以文辞不能寄意过于深远。但他的教令遗言都切合具体事务，公正诚恳之心表现在文字中，足以了解他的思想，也对当世有益。这是陈寿对其民心和文风的评价。",
+      "time": {
+        "year": null,
+        "era": "青龙二年及其后",
+        "label": "234年出军病逝与陈寿追述 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p37",
+      "paragraphIndex": 37,
+      "endMarker": null,
+      "title": "陈寿表末",
+      "summary": "臣恭想陛下超越古圣，坦荡无所忌讳，所以即使敌国诽谤的言辞，也允许充分记载，不予改动避讳，以显明开通之道。",
+      "translation": "臣恭想陛下超越古圣，坦荡无所忌讳，所以即使敌国诽谤的言辞，也允许充分记载，不予改动避讳，以显明开通之道。谨抄录上呈著作部门。臣陈寿诚惶诚恐，叩头叩头，死罪死罪。泰始十年二月癸巳日，平阳侯相臣陈寿上。",
+      "time": {
+        "year": 274,
+        "era": "泰始十年",
+        "label": "泰始十年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang"
+      ],
+      "kind": "document"
+    },
+    {
+      "id": "zhuge-liang-p38",
+      "paragraphIndex": 38,
+      "endMarker": null,
+      "title": "诸葛乔与嗣系",
+      "summary": "诸葛乔字伯松，是诸葛亮兄长诸葛瑾的次子，原字仲慎。",
+      "translation": "诸葛乔字伯松，是诸葛亮兄长诸葛瑾的次子，原字仲慎。他与兄长元逊当时都有名，评论者认为他的才能不如兄长，品行操守却胜过。先前诸葛亮没有儿子，请求以乔为继嗣，诸葛瑾上奏孙权，送乔西行；诸葛亮把他当作嫡子，因此改其字。乔任驸马都尉，随诸葛亮到汉中，二十五岁、建兴六年去世。其子诸葛攀官至代理护军、翊武将军，也早逝。诸葛恪在吴被杀，子孙断绝，而诸葛亮已有亲生后裔，所以诸葛攀回归诸葛瑾一系为后。源文‘元’校作‘六’，保留原书异文。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-qiao",
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p39",
+      "paragraphIndex": 39,
+      "endMarker": null,
+      "title": "诸葛瞻与绵竹",
+      "summary": "诸葛瞻字思远。",
+      "translation": "诸葛瞻字思远。建兴十二年，诸葛亮出武功，写信给诸葛瑾说：‘瞻如今八岁，聪慧可爱，只嫌他早熟，恐怕不能成大器。’十七岁时娶公主，任骑都尉；次年任羽林中郎将，屡迁射声校尉、侍中、尚书仆射，加军师将军。诸葛瞻擅书画、记忆力强。蜀人追念诸葛亮，都喜爱他的才智；朝廷每有好政事，即使不是瞻倡议，百姓也互相传说‘是葛侯所做’，因此美誉超过实际。景耀四年，他代理都护、卫将军，与辅国大将军南乡侯董厥共同主持尚书事务。六年冬，魏征西将军邓艾伐蜀，从阴平经景谷道旁路入蜀。诸葛瞻统军到涪停住，前锋被破，退驻绵竹。邓艾写信劝降：‘如投降，必上表封你琅邪王。’瞻大怒，斩来使，随后交战，大败阵亡，时年三十七。众军离散，邓艾长驱成都。瞻长子诸葛尚一同战死，次子诸葛京与诸葛攀之子诸葛显等，在咸熙元年内迁河东。",
+      "time": {
+        "year": null,
+        "era": "建兴十二年至景耀六年",
+        "label": "234—263年，诸葛瞻生平 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "mianzhu-old",
+      "personIds": [
+        "zhuge-zhan",
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p40",
+      "paragraphIndex": 40,
+      "endMarker": null,
+      "title": "董厥与樊建",
+      "summary": "董厥在丞相诸葛亮时任府令史。",
+      "translation": "董厥在丞相诸葛亮时任府令史。诸葛亮称赞说：‘董令史是好士人，我每次与他谈话，他思虑谨慎而得当。’他转任主簿。诸葛亮死后逐渐升任尚书仆射，接替陈祗任尚书令，又升大将军、主持尚书事务，义阳人樊建接替他。延熙十四年，樊建以校尉出使吴，恰逢孙权病重，不能亲自见他。孙权问诸葛恪：‘樊建与宗预相比如何？’诸葛恪答：‘才能见识不及宗预，而品性雅正胜过他。’樊建后来任侍中，代理中书令。自诸葛瞻、董厥、樊建主持政事，姜维常在外征伐，宦官黄皓暗中弄权，众人都护持他，无法纠正；只有樊建特别不与黄皓交好往来。蜀灭后次年春，董厥、樊建同到京师，都任相国参军；秋天又兼散骑常侍，出使蜀地慰劳。",
+      "time": {
+        "year": null,
+        "era": "诸葛亮在世至蜀亡后",
+        "label": "含延熙十四年（251年）出使 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "dong-jue",
+        "fan-jian",
+        "zhuge-liang"
+      ],
+      "kind": "narrative"
+    },
+    {
+      "id": "zhuge-liang-p41",
+      "paragraphIndex": 41,
+      "endMarker": null,
+      "title": "陈寿评诸葛亮",
+      "summary": "陈寿评论：诸葛亮任相国，安抚百姓，显示礼法准则，精简官职，灵活处理制度，开诚布公；忠诚有益时政的人，即使是仇人也必赏；违法怠慢的人，即使是亲近者…。",
+      "translation": "陈寿评论：诸葛亮任相国，安抚百姓，显示礼法准则，精简官职，灵活处理制度，开诚布公；忠诚有益时政的人，即使是仇人也必赏；违法怠慢的人，即使是亲近者也必罚。认罪坦白的人，即使罪重也释放；巧言掩饰的人，即使罪轻也惩处。善行再小也赏，恶行再小也贬；各项事务精细熟练，处理事物抓住根本，依据名分考核实际，不接纳虚伪。最终国内百姓都敬畏又爱戴他；刑政虽严而无人怨恨，因为他用心公平，劝善戒恶分明。可称善于治理的良才，与管仲、萧何相当。然而连年兴兵，未能成功，或许随机应变的将帅谋略并非其所长吧！",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "年代见原文",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "zhuge-liang",
+        "chen-shou"
+      ],
+      "kind": "narrative"
+    }
+  ]
+}

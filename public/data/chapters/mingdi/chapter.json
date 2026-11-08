@@ -1,0 +1,5007 @@
+{
+  "schemaVersion": 2,
+  "id": "mingdi",
+  "title": "明帝纪",
+  "subtitle": "曹叡生平与魏朝政事",
+  "editorialNote": "《三国志》连续正文与裴注，白话由本项目整理；地图为区域参照，古河道未复原。",
+  "meta": {
+    "workTitle": "明帝纪",
+    "protagonist": "曹叡",
+    "volume": "卷三",
+    "division": "魏书",
+    "displayTitle": "明帝纪",
+    "seal": "叡",
+    "periodLabel": "东汉末年至魏朝",
+    "coverage": "complete",
+    "coverageLabel": "全篇连续正文与裴注"
+  },
+  "factions": [
+    {
+      "id": "cao",
+      "name": "曹操军",
+      "color": "#8B3827",
+      "paperColor": "#F7E7DF",
+      "borderColor": "#B87563"
+    },
+    {
+      "id": "yuan",
+      "name": "袁绍军",
+      "color": "#315C86",
+      "paperColor": "#E2EEF8",
+      "borderColor": "#6B8FAA"
+    }
+  ],
+  "mapProfiles": [
+    {
+      "id": "mingdi-relief",
+      "label": "中原与周边地势",
+      "bounds": {
+        "west": 108.28125,
+        "south": 27.059125784374054,
+        "east": 122.34375,
+        "north": 39.909736234537185
+      },
+      "center": [
+        114.2,
+        34.5
+      ],
+      "minZoom": 4,
+      "maxZoom": 10,
+      "reliefPath": "/maps/central-plains-relief.jpg",
+      "modernRiversPath": "/maps/modern-rivers.geojson",
+      "modernCitiesPath": "/data/chapters/mingdi/modern-cities.json",
+      "attribution": "地势：Mapzen / Tilezen、USGS；现代河流及城市：Natural Earth。现代水系仅供对照。"
+    }
+  ],
+  "defaultMapProfileId": "mingdi-relief",
+  "sources": [
+    {
+      "id": "epub-simplified",
+      "title": "三国志（陈寿撰裴松之注·简体转换版）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c12_san_guo_zhi_juan03.xhtml",
+      "note": "维基文库《三國志》导出本或其派生版本；卷页：https://zh.wikisource.org/wiki/三國志/卷03。 源卷 XHTML SHA-256 27ccc7d62b762154a26ebe74e65893c3a4a59db0fd5847f4d7fcfab0b6eb18a1；维基文库导出简体转换版。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "editorial-guandu",
+      "title": "本项目整理",
+      "kind": "editorial",
+      "locator": "docs/content-report.md",
+      "note": "原创义注、事件摘要、人物身份提要及地图取点说明。"
+    },
+    {
+      "id": "tgaz-baima",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：白马县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82320",
+      "note": "东汉东郡县治参考点；详页考证落在今滑县东南白马墙。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-liyang",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：黎阳县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82316",
+      "note": "详页定在今浚县东郊大伾山东北，古县治参考点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-yangwu",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：阳武县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82525",
+      "note": "覆盖建安五年的古县条目，采用坐标及地望详注。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-xu",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：许县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_83011",
+      "note": "覆盖建安五年的许县县治参考点，详注讨论张潘故城。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-suanzao",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：酸枣县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82282",
+      "note": "东汉酸枣县治参考点；仅作延津古河段的区域参照，非渡口或战场定位。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "baima-local",
+      "title": "滑县留固镇政府：白马古城遗址与白马墙村",
+      "kind": "web",
+      "locator": "https://www.hnhx.gov.cn/jczwgk/jdzjczwgk/lgz/ggwhfw/webinfo/2022/11/1672745123515782.htm",
+      "note": "明确白马墙村为省级文物保护单位白马古城遗址所在地。"
+    },
+    {
+      "id": "xu-local",
+      "title": "许昌市建安区政府：汉魏许都故城",
+      "kind": "web",
+      "locator": "https://www.jianan.gov.cn/jagk/002003/20180711/21d701f7-882c-4a7a-9f56-a59b579a75dc.html",
+      "note": "确定张潘镇古城村一带的故城范围。"
+    },
+    {
+      "id": "guandu-local",
+      "title": "郑州文明网：谈古论今说官渡",
+      "kind": "web",
+      "locator": "https://zz.wenming.cn/wmzz_xwzx/202509/t20250909_9020921.html",
+      "note": "汇列明清《中牟县志》关于官渡城、官渡台及官渡桥的记载；后世记载给出地望线索。"
+    },
+    {
+      "id": "guandu-osm",
+      "title": "OpenStreetMap：官渡桥村（现代位置）",
+      "kind": "dataset",
+      "locator": "https://www.openstreetmap.org/node/6945971714",
+      "note": "取现代村落节点附近作为官渡地域显示锚点。",
+      "license": "© OpenStreetMap contributors，ODbL 1.0"
+    },
+    {
+      "id": "shuijing-he",
+      "title": "《水经注》卷五·河水",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/CADAL02030776/chapter/1l1xa0l7bhlx0",
+      "note": "记述酸枣附近一段黄河通称延津，不能落实汉末某一登岸点。"
+    },
+    {
+      "id": "shuijing-ji",
+      "title": "《水经注》卷七·济水",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/SBCK047/chapter/1j715dhpatoor_23",
+      "note": "将酸枣乌巢泽与泽北故市亭并记，另记河南郡的故市县故城；古籍所记水路关系不能直接转成现代坐标。"
+    },
+    {
+      "id": "tongjian-geo",
+      "title": "王应麟《通鉴地理通释》卷十一",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/mid-page/7352264494015512585",
+      "note": "官渡水、官渡口与中牟台的古地望汇考；也汇列延津渡相关记载。"
+    },
+    {
+      "id": "wuchao-local",
+      "title": "延津县政府：僧固乡麦海骑行活动报道",
+      "kind": "web",
+      "locator": "https://www.yanjin.gov.cn/newsinfo/22360.html",
+      "note": "当地把乌巢之战联系到僧固乡；作为地方定位说法，不是考古定点。"
+    },
+    {
+      "id": "wuchao-dongshigu",
+      "title": "新乡日报：延津渡（东史固村说）",
+      "kind": "web",
+      "locator": "https://news.xxrb.com.cn/html/2026/xinxiang_0112/427808.html",
+      "note": "将乌巢进一步比定在东史固村；作为当地报道，与《水经注》地望线索分开。"
+    },
+    {
+      "id": "river-research",
+      "title": "《地理学报》：过去2000年中国自然与人文地理环境变化",
+      "kind": "web",
+      "locator": "https://www.geog.com.cn/EN/abstract/article/0375-5444/49025",
+      "note": "说明黄河下游多次改道及王景治河的时代背景，区域综述不能定位建安五年战区河岸。"
+    },
+    {
+      "id": "epub-yuan",
+      "title": "《三国志》卷六·袁绍传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c1_san_guo_zhi_juan06.xhtml；袁绍将攻许及官渡败退段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷06。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-cao-hong",
+      "title": "《三国志》卷九·曹洪传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c16_san_guo_zhi_juan09.xhtml；曹洪传开篇",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷09。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-strategists",
+      "title": "《三国志》卷十·荀彧荀攸贾诩传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c17_san_guo_zhi_juan10.xhtml；荀彧传官渡书信；荀攸传白马、延津、断粮、袭淳于琼",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷10。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-generals",
+      "title": "《三国志》卷十七·张辽张郃徐晃传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c21_san_guo_zhi_juan17.xhtml；张辽、张郃、徐晃各本传开篇及官渡相关叙事",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷17。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-liu",
+      "title": "《三国志》卷三十二·先主传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c35_san_guo_zhi_juan32.xhtml；先主传开篇及徐州败后从袁绍段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷32。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-guan",
+      "title": "《三国志》卷三十六·关羽传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c39_san_guo_zhi_juan36.xhtml；关羽传开篇及斩颜良后归刘备段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷36。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "wuchao-osm",
+      "title": "OpenStreetMap：东史固村（现代位置）",
+      "kind": "dataset",
+      "locator": "https://www.openstreetmap.org/node/6626944424",
+      "note": "取现代村落节点附近标出东史固说的地域，非粮屯位置。",
+      "license": "© OpenStreetMap contributors，ODbL 1.0"
+    },
+    {
+      "id": "atlas-east-han",
+      "title": "谭其骧主编《中国历史地图集》第二册·东汉图组",
+      "kind": "web",
+      "locator": "https://www.dituji.com/lsdt/zglsdtj/donghan/",
+      "note": "东汉《冀州刺史部》提供黄河走向控制点，《东郡齐国间诸郡》核对白马南侧地望，《司隶校尉部》核对并定位中牟渠水河段。出版信息：中国地图出版社，1982年。",
+      "license": "图集地图版权归权利方。样章只引用可核对的地域走向和经纬网读数，未收录原图或现成矢量。"
+    },
+    {
+      "id": "shuijing-qu",
+      "title": "《水经注》卷二十二·渠水（《水经注疏》所录）",
+      "kind": "web",
+      "locator": "https://www.kepub.net/book/51073/10022",
+      "note": "郦注记渠水经阳武县故城南，向东名官渡水，再经曹太祖垒北。古籍所记水道关系不等于建安五年河岸。"
+    },
+    {
+      "id": "dapishan-study",
+      "title": "张新斌《大伾山与早期黄河河道变迁的再认识》",
+      "kind": "web",
+      "locator": "https://www.zywhyj.cn/Uploads/PdfFile/2021-07-15/60eff1e781270.pdf",
+      "note": "《中原文化研究》2021年第4期，第108—115页。整理卷县、延津、滑台、黎阳河段次序及大河故渎之别。"
+    },
+    {
+      "id": "editorial-geography-v2",
+      "title": "本项目整理：官渡样章历史河道控制点与态势",
+      "kind": "editorial",
+      "locator": "docs/historical-geography-v2.md",
+      "note": "公开列出地图经纬网和控制点的读数方法，以及战时位置与区域示意的边界。"
+    },
+    {
+      "id": "tgaz-qiao",
+      "title": "中国历史地理信息系统 CHGIS：谯县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_43340",
+      "note": "东汉谯县参考坐标，地名条目未附详细考证。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-luoyang",
+      "title": "中国历史地理信息系统 CHGIS：雒阳县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82828",
+      "note": "覆盖东汉的雒阳县县治参考点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-dongpingling",
+      "title": "中国历史地理信息系统 CHGIS：东平陵县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_45020",
+      "note": "东汉济南国治所在东平陵，用县治参考点标示任职区域。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-dongwuyang",
+      "title": "中国历史地理信息系统 CHGIS：东武阳县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_85093",
+      "note": "记录曹操任东郡太守时期的东武阳新城地望。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-juancheng",
+      "title": "中国历史地理信息系统 CHGIS：鄄城县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_85065",
+      "note": "东汉鄄城县治参考点；兖州范围不等于单点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-ye",
+      "title": "中国历史地理信息系统 CHGIS：邺县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82196",
+      "note": "东汉魏郡治邺县参考点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "shandong-chronography",
+      "title": "山东省情资料库：东汉行政区划",
+      "kind": "web",
+      "locator": "https://shandong-chorography.org/database/a/section/3/article/10/",
+      "note": "记东汉济南国治东平陵，今章丘龙山镇一带。"
+    }
+  ],
+  "persons": [
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-cao",
+      "name": "曹操",
+      "description": "官渡一方主帅，《武帝纪》在本章多称“公”。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ],
+      "id": "zhang-he",
+      "name": "张郃",
+      "description": "袁绍将领，袭粮后归降曹操；本传另记其主张先救乌巢。",
+      "courtesyName": "隽乂"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-pi",
+      "name": "曹丕",
+      "description": "魏文帝，曹操之子，受汉禅即位。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-ren",
+      "name": "曹仁",
+      "description": "曹操将领，曾进攻宛城并守樊城。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cheng-yu",
+      "name": "程昱",
+      "description": "曹操谋臣，曾守鄄城并参与迎接汉献帝的决策。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "sun-quan",
+      "name": "孙权",
+      "description": "东汉末年江东势力首领，与曹操多次交战。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "xiahou-dun",
+      "name": "夏侯惇",
+      "description": "曹操将领，早年随曹募兵。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "sima-zhongyou",
+      "name": "钟繇",
+      "description": "曹魏相国，曾受命征张鲁，后被免职。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "dong-zhao",
+      "name": "董昭",
+      "description": "东汉官员，曾劝曹操迁都许县。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-rui",
+      "name": "曹叡",
+      "description": "魏明帝，曹丕之子，即位后营建宫室。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "sima-yi",
+      "name": "司马懿",
+      "description": "魏朝重臣，谥宣王，曾受命辅佐幼主。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-zhen",
+      "name": "曹真",
+      "description": "魏宗室将领，曾统军伐蜀。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-shuang",
+      "name": "曹爽",
+      "description": "魏宗室，魏明帝临终托其辅佐嗣主。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "description": "蜀汉丞相，曾多次北伐魏。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "wen-pin",
+      "name": "文聘",
+      "description": "魏江夏太守，曾坚守江夏。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-fang",
+      "name": "曹芳",
+      "description": "魏明帝养子，后继位，曾封齐王。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-xun",
+      "name": "曹询",
+      "description": "魏明帝养子，曾封秦王。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "zhen-hou",
+      "name": "甄夫人",
+      "description": "曹丕夫人，曹叡生母，后追谥文昭皇后。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "mao-hou",
+      "name": "毛氏",
+      "description": "魏明帝皇后，死后谥悼皇后。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "chen-qun",
+      "name": "陈群",
+      "description": "魏朝大臣，曾任司空，并接受文帝遗诏辅嗣主。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "cao-xiu",
+      "name": "曹休",
+      "description": "魏宗室将领，官至大司马。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "id": "gongsun-yuan",
+      "name": "公孙渊",
+      "description": "辽东势力首领，后自称燕王，被魏军击败。"
+    }
+  ],
+  "places": [
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-baima",
+        "baima-local"
+      ],
+      "id": "baima",
+      "name": "白马",
+      "modernName": "河南滑县留固镇白马墙村一带",
+      "kind": "county",
+      "coordinates": [
+        114.71,
+        35.54
+      ],
+      "precision": "approximate-area",
+      "note": "东郡白马县治附近。取 CHGIS 县治坐标并作舍入；当地文保材料亦指白马墙村。标点不代表颜良阵地、关羽斩将处或白马津。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-xu",
+        "xu-local"
+      ],
+      "id": "xu",
+      "name": "许",
+      "modernName": "河南许昌建安区张潘镇古城村一带",
+      "kind": "city",
+      "coordinates": [
+        114.01,
+        33.99
+      ],
+      "precision": "approximate-area",
+      "note": "建安五年的许县，是当时汉献帝所在。坐标取 CHGIS 许县县治近似值，并参照当地公布的汉魏许都故城；不以现代许昌市区代替。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-qiao"
+      ],
+      "id": "qiao",
+      "name": "谯",
+      "modernName": "安徽亳州谯城区一带",
+      "kind": "county",
+      "coordinates": [
+        115.77,
+        33.88
+      ],
+      "precision": "approximate-area",
+      "note": "东汉沛国谯县的县治区域，以 CHGIS 谯县条目坐标舍入作为地域参考。本段说明曹操籍贯，不能凭此确定宅第或出生地点。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-ye"
+      ],
+      "id": "ye",
+      "name": "邺",
+      "modernName": "河北临漳西南邺镇及河南安阳东北一带",
+      "kind": "county",
+      "coordinates": [
+        114.41,
+        36.27
+      ],
+      "precision": "approximate-area",
+      "note": "东汉邺县与魏郡治地域，以 CHGIS 邺县坐标舍入。城内官署与围城阵地未由该点确定。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-luoyang"
+      ],
+      "id": "luoyang",
+      "name": "洛阳",
+      "modernName": "河南洛阳市东部汉魏故城一带",
+      "kind": "city",
+      "coordinates": [
+        112.6,
+        34.73
+      ],
+      "precision": "approximate-area",
+      "note": "东汉雒阳县及其都城地域，以 CHGIS 古县治坐标舍入。本段所记洛阳北部尉的办公位置未核定。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "changan",
+      "name": "长安",
+      "modernName": "今陕西西安西北一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "jingzhou",
+      "name": "荆州",
+      "modernName": "汉末荆州辖境涉及今湖北、湖南及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "yizhou-yuan",
+      "name": "幽州",
+      "modernName": "汉末幽州辖境涉及今河北北部及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "xiangyang",
+      "name": "襄阳",
+      "modernName": "今湖北襄阳一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "hefei",
+      "name": "合肥",
+      "modernName": "今安徽合肥一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "liaodong",
+      "name": "辽东",
+      "modernName": "今辽宁东部及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "pengcheng",
+      "name": "彭城",
+      "modernName": "今江苏徐州一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "liangzhou",
+      "name": "凉州",
+      "modernName": "汉末凉州包括今甘肃及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "henei",
+      "name": "河内",
+      "modernName": "汉末河内郡涉及今河南黄河北岸一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。"
+    },
+    {
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "id": "shouchun",
+      "name": "寿春",
+      "modernName": "今安徽寿县一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。"
+    }
+  ],
+  "notes": [
+    {
+      "id": "mingdi-p0-note0",
+      "kind": "pei",
+      "anchorText": "元仲，文帝太子也。生而太祖爱之，常令在左右。",
+      "original": "《魏书》曰：帝生数岁而有岐嶷之姿，武皇帝异之，曰：「我基于尔三世矣。」每朝宴会同，与侍中近臣并列帷幄。好学多识，特留意于法理。",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 0,
+        "blockIndex": 0,
+        "bodyOffset": 29,
+        "epubAnchor": "#mwt3",
+        "paragraphStart": 0,
+        "paragraphEnd": 0
+      }
+    },
+    {
+      "id": "mingdi-p0-note1",
+      "kind": "pei",
+      "anchorText": "为齐公，三年为平原王。以其母诛，故未建为嗣。",
+      "original": "《魏略》曰：文帝以郭后无子，诏使子养帝。帝以母不以道终，意甚不平。后不获已，乃敬事郭后，旦夕因长御问起居，郭后亦自以无子，遂加慈爱。文帝始以帝不恱，有意欲以他姬子京兆王为嗣，故久不拜太子。魏末传曰：帝常从文帝猎，见子母鹿。文帝射杀鹿母，使帝射鹿子，帝不从，曰：「陛下已杀其母，臣不忍复杀其子。」因涕泣。文帝即放弓箭，以此深奇之，而树立之意定。",
+      "sourceTitles": [
+        "魏略"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 0,
+        "blockIndex": 1,
+        "bodyOffset": 64,
+        "epubAnchor": "#mwt6",
+        "paragraphStart": 0,
+        "paragraphEnd": 0
+      }
+    },
+    {
+      "id": "mingdi-p0-note2",
+      "kind": "pei",
+      "anchorText": "后曰太皇太后，皇后曰皇太后。诸臣封爵各有差。",
+      "original": "《世语》曰：帝与朝士素不接，即位之后，群下想闻风采。居数日，独见侍中刘晔，语尽日。众人侧听，晔既出，问「何如」？晔曰：「秦始皇、汉孝武之俦，才具微不及耳。」",
+      "sourceTitles": [
+        "世语"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 0,
+        "blockIndex": 2,
+        "bodyOffset": 117,
+        "epubAnchor": "#mwt7",
+        "paragraphStart": 0,
+        "paragraphEnd": 0
+      }
+    },
+    {
+      "id": "mingdi-p3-note0",
+      "kind": "pei",
+      "anchorText": "侯。新城太守孟达反，诏骠骑将军司马宣王讨之。",
+      "original": "《三辅决录》曰：伯郎，凉州人，名不令休。其注曰：伯郎姓孟，名他，扶风人。灵帝时。中常侍张让专朝政，让监奴典护家事。他仕不遂，乃尽以家财赂监奴，与共结亲，积年家业为之破尽。众奴皆慙，问他所欲，他曰：「欲得卿曹拜耳。」奴被恩久，皆许诺。时賔客求见让者，门下车常数百乘，或累日不得通。他最后到，众奴伺其至，皆迎车而拜，径将他车独入。众人悉惊，谓他与让善，争以珍物遗他。他得之，尽以赂让，让大喜。他又以蒲桃酒一斛遗让，即拜凉州刺史。他生达，少入蜀。其处蜀事迹在刘封传。《魏略》曰：达以延康元年率部曲四千余家归魏。文帝时初即王位，既宿知有达，闻其来，甚恱，令贵臣有识察者往观之，还曰「将帅之才也」，或曰「卿相之器也」，王益钦达。逆与达书曰：「近日有命，未足达旨，何者？昔伊挚背商而归周，百里去虞而入秦，乐毅感鸱夷以蝉蜕，王遵识逆顺以去就，皆审兴废之符效，知成败之必然，故丹青画其形容，良史载其功勋。闻卿姿度纯茂，器量优绝，当骋能明时，收名传记。今者翻然濯鳞清流，甚相嘉乐，虚心西望，依依若旧，下笔属辞，欢心从之。昔虞卿入赵，再见取相，陈平就汉，一觐参乘，孤今于卿，情过于往，故致所御马物以昭忠爱。」又曰：「今者海内清定，万里一统，三垂无风尘之警，中夏无狗吠之虞，以是弛罔阔禁，与世无疑，保官空虚，初无资任。卿来相就，当明孤意，慎勿令家人缤纷道路，以亲骇疏也。若卿欲来相见，且当先安部曲，有所保固，然后徐徐轻骑来东。」达既至谯，进见闲雅，才辩过人，众莫不属目。又王近出，乘小辇，执达手，抚其背戏之曰：「卿得无为刘备刺客邪？」遂与同载。又加拜散骑常侍，领新城太守，委以西南之任。时众臣或以为待之太猥，又不宜委以方任。王闻之曰：「吾保其无他，亦譬以蒿箭射蒿中耳。」达既为文帝所宠，又与桓阶、夏侯尚亲善，及文帝崩，时桓、尚皆卒，达自以羁旅久在疆场，心不自安。诸葛亮闻之，阴欲诱达，数书招之，达与相报荅。魏兴太守申仪与达有隙，密表达与蜀潜通，帝未之信也。司马宣王遣参军梁几察之，又劝其入朝。达惊惧，遂反。干宝《晋纪》曰：达初入新城，登白马塞，叹曰：「刘封、申耽，据金城千里而失之乎！」",
+      "sourceTitles": [
+        "三辅决录",
+        "魏略",
+        "晋纪"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 3,
+        "blockIndex": 0,
+        "bodyOffset": 218,
+        "epubAnchor": "#mwt10",
+        "paragraphStart": 3,
+        "paragraphEnd": 3
+      }
+    },
+    {
+      "id": "mingdi-p4-note0",
+      "kind": "pei",
+      "anchorText": "二年春正月，宣王攻破新城，斩达，传其首。",
+      "original": "《魏略》曰：宣王诱达将李辅及达甥邓贤，贤等开门内军。达被围旬有六日而败，焚其首于洛阳四达之衢。",
+      "sourceTitles": [
+        "魏略"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 4,
+        "blockIndex": 0,
+        "bodyOffset": 20,
+        "epubAnchor": "#mwt12",
+        "paragraphStart": 4,
+        "paragraphEnd": 4
+      }
+    },
+    {
+      "id": "mingdi-p5-note0",
+      "kind": "pei",
+      "anchorText": "诸葛亮寇边，天水、南安、安定三郡吏民叛应亮。",
+      "original": "《魏书》曰：是时朝臣未知计所出，帝曰：「亮阻山为固，今者自来，既合兵书致人之术；且亮贪三郡，知进而不知退，今因此时，破亮必也。」乃部勒兵马步骑五万拒亮。",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 5,
+        "blockIndex": 0,
+        "bodyOffset": 25,
+        "epubAnchor": "#mwt13",
+        "paragraphStart": 5,
+        "paragraphEnd": 5
+      }
+    },
+    {
+      "id": "mingdi-p5-note1",
+      "kind": "pei",
+      "anchorText": "亭，大破之。亮败走，三郡平。丁未，行幸长安。",
+      "original": "《魏略》载帝露布天下并班告益州曰：「刘备背恩，自窜巴蜀。诸葛亮弃父母之国，阿残贼之党，神人被毒，恶积身灭。亮外慕立孤之名，而内贪专擅之实。刘升之兄弟守空城而已。亮又侮易益土，虐用其民，是以利狼、宕渠、高定、青羌莫不瓦解，为亮仇敌。而亮反裘负薪，里尽毛殚，刖趾适屦，刻肌伤骨，反更称说，自以为能。行兵于井底，游步于牛蹄。自朕即位，三边无事，犹哀怜天下数遭兵革，且欲养四海之耆老，长后生之孤幼，先移风于礼乐，次讲武于农隙，置亮画外，未以为虞。而亮怀李熊愚勇之智，不思荆邯度德之戒，驱略吏民，盗利祁山。王师方振，胆破气夺，马谡、高祥望旗奔败。虎臣逐北，蹈尸涉血，亮也小子，震惊朕师。猛锐踊跃，咸思长驱。朕惟率土莫非王臣，师之所处，荆棘生焉，不欲使十室之邑忠信贞良与夫淫昏之党，同受涂炭。故先开示，以昭国诚，勉思变化，无滞乱邦。巴蜀将吏士民诸为亮所劫迫，公卿已下皆听束手。」",
+      "sourceTitles": [
+        "魏略"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 5,
+        "blockIndex": 1,
+        "bodyOffset": 71,
+        "epubAnchor": "#mwt14",
+        "paragraphStart": 5,
+        "paragraphEnd": 5
+      }
+    },
+    {
+      "id": "mingdi-p5-note2",
+      "kind": "pei",
+      "anchorText": "郡平。丁未，行幸长安。夏四月丁酉，还洛阳宫。",
+      "original": "《魏略》曰：是时譌言云帝已崩，从驾群臣迎立雍丘王植。京师自卞太后群公尽惧。及帝还，皆私察颜色。卞太后悲喜，欲推始言者，帝曰：「天下皆言，将何所推？」",
+      "sourceTitles": [
+        "魏略"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 5,
+        "blockIndex": 2,
+        "bodyOffset": 82,
+        "epubAnchor": "#mwt15",
+        "paragraphStart": 5,
+        "paragraphEnd": 5
+      }
+    },
+    {
+      "id": "mingdi-p5-note3",
+      "kind": "pei",
+      "anchorText": "十二月，诸葛亮围陈仓，曹真遣将军费曜等拒之。",
+      "original": "《魏略》曰：先是使将军郝昭筑陈仓城；会亮至，围昭，不能拔。昭字伯道，太原人，为人雄壮，少入军为部曲督，数有战功，为杂号将军，遂镇守河西十余年，民夷畏服。亮围陈仓，使昭乡人靳详于城外遥说之，昭于楼上应详曰：「魏家科法，卿所练也；我之为人，卿所知也。我受国恩多而门户重，卿无可言者，但有必死耳。卿还谢诸葛，便可攻也。」详以昭语告亮，亮又使详重说昭，言人兵不敌，无为空自破灭。昭谓详曰：「前言已定矣。我识卿耳，箭不识也。」详乃去。亮自以有众数万，而昭兵才千余人，又度东救未能便到，乃进兵攻昭，起云梯冲车以临城。昭于是以火箭逆射其云梯，梯然，梯上人皆烧死。昭又以绳连石磨压其冲车，冲车折。亮乃更为井阑百尺以付城中，以土丸填壍，欲直攀城，昭又于内筑重墙。亮足为城突，欲踊出于城里，昭又于城内穿地横截之。昼夜相攻拒二十余日，亮无计，救至，引退。诏嘉昭善守，赐爵列侯。及还，帝引见慰劳之，顾谓中书令孙资曰：「卿乡里乃有尔曹快人，为将灼如此，朕复何忧乎？」仍欲大用之。会病亡，遗令戒其子凯曰：「吾为将，知将不可为也。吾数发冢，取其木以为攻战具，又知厚葬无益于死者也。汝必敛以时服。且人生有处所耳，死复何在邪？今去本墓远，东西南北，在汝而已。」",
+      "sourceTitles": [
+        "魏略"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 5,
+        "blockIndex": 3,
+        "bodyOffset": 271,
+        "epubAnchor": "#mwt16",
+        "paragraphStart": 5,
+        "paragraphEnd": 5
+      }
+    },
+    {
+      "id": "mingdi-p9-note0",
+      "kind": "pei",
+      "anchorText": "、文帝神主于邺，十二月己丑至，奉安神主于庙。",
+      "original": "臣松之按：黄初四年，有司奏立二庙，太皇帝大长秋与文帝之高祖共一庙，特立武帝庙，百世不毁。今此无高祖神主，盖以亲尽毁也。此则魏初唯立亲庙，祀四室而已。至景初元年，始定七庙之制。孙盛曰：事亡犹存，祭如神在，迎迁神主，正斯宜矣。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 9,
+        "blockIndex": 0,
+        "bodyOffset": 63,
+        "epubAnchor": "#mwt17",
+        "paragraphStart": 9,
+        "paragraphEnd": 9
+      }
+    },
+    {
+      "id": "mingdi-p11-note0",
+      "kind": "pei",
+      "anchorText": "伐蜀。八月辛巳，行东巡，遣使者以特牛祠中岳。",
+      "original": "《魏书》曰：行过繁昌，使执金吾臧霸行太尉事，以特牛祠受禅坛。　　臣松之按：《汉纪》章帝元和三年，诏高邑县祠即位坛，五成陌北，腊祠门户。此虽前代已行故事，然为坛以祀天，而坛非神也，今无事于上帝，而致祀于虚坛，求之义典，未详所据。",
+      "sourceTitles": [
+        "魏书",
+        "汉纪"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 11,
+        "blockIndex": 0,
+        "bodyOffset": 245,
+        "epubAnchor": "#mwt20",
+        "paragraphStart": 11,
+        "paragraphEnd": 11
+      }
+    },
+    {
+      "id": "mingdi-p12-note0",
+      "kind": "pei",
+      "anchorText": "郎将。秋七月丙子，以亮退走，封爵增位各有差。",
+      "original": "《魏书》曰：初，亮出，议者以为亮军无辎重，粮必不继，不击自破，无为劳兵；或欲自芟上邽左右生麦以夺贼食，帝皆不从。前后遣兵增宣王军，又𠡠使护麦。宣王与亮相持，赖得此麦以为军粮。",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 12,
+        "blockIndex": 0,
+        "bodyOffset": 115,
+        "epubAnchor": "#mwt22",
+        "paragraphStart": 12,
+        "paragraphEnd": 12
+      }
+    },
+    {
+      "id": "mingdi-p15-note0",
+      "kind": "pei",
+      "anchorText": "夏侯惇、大司马曹仁、车骑将军程昱于太祖庙庭。",
+      "original": "《魏书》载诏曰：「昔先王之礼，于功臣存则显其爵禄，没则祭于大蒸，故汉氏功臣祠于庙庭。大魏元功之臣功勋优著，终始休明者，其皆依礼祀之。」于是以惇等配飨之。",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 15,
+        "blockIndex": 0,
+        "bodyOffset": 115,
+        "epubAnchor": "#mwt25",
+        "paragraphStart": 15,
+        "paragraphEnd": 15
+      }
+    },
+    {
+      "id": "mingdi-p18-note0",
+      "kind": "pei",
+      "anchorText": "度根部落大人戴胡阿狼泥等诣并州降，朗引军还。",
+      "original": "《魏氏春秋》曰：朗字元明，新兴人。《献帝传》曰：朗父名宜禄，为吕布使诣袁术，术妻以汉宗室女。其前妻杜氏留下邳。布之被围，关羽屡请于太祖，求以杜氏为妻，太祖疑其有色，及城陷，太祖见之，乃自纳之。宜禄归降，以为铚长。及刘备走小沛，张飞随之，过谓宜禄曰：「人取汝妻，而为之长，何蚩蚩若是邪！随我去乎？」宜禄从之数里，悔欲还，飞杀之。朗随母氏畜于公宫，太祖甚爱之，每坐席，谓賔客曰：「岂有人爱假子如孤者乎？」《魏略》曰：朗游遨诸侯间，历武、文之世而无尤也。及明帝即位，授以内官，为骁骑将军、给事中，每车驾出入，朗常随从。时明帝喜发举，数有以轻微而致大辟者，朗终不能有所谏止，又未甞进一善人，帝亦以是亲爱；每顾问之，多呼其小字阿稣，数加赏赐，为起大第于京城中。四方虽知朗无能为益，犹以附近至尊，多赂遗之，富均公侯。《世语》曰：朗子秀，劲厉能直言，为晋武帝博士。《魏略》以朗与孔桂俱在佞幸篇。桂字叔林，天水人也。建安初，数为将军杨秋使诣太祖，太祖表拜骑都尉。桂性便辟，晓博弈、蹹鞠，故太祖爱之，每在左右，出入随从。桂察太祖意，喜乐之时，因言次曲有所陈，事多见从，数得赏赐，人多餽遗，桂由此侯服玉食。太祖既爱桂，五官将及诸侯亦皆亲之。其后桂见太祖久不立太子，而有意于临菑侯，因更亲附临菑侯而简于五官将，将甚衔之。及太祖薨，文帝即王位，未及致其罪。黄初元年，随例转拜驸马都尉。而桂私受西域货赂，许为人事。事发，有诏收问，遂杀之。鱼豢曰：为上者不虚授，处下者不虚受，然后外无伐檀之叹，内无尸素之刺，雍熙之美著，太平之律显矣。而佞幸之徒，但姑息人主，至乃无德而荣，无功而禄，如是焉得不使中正日朘，倾邪滋多乎！以武皇帝之慎赏，明皇帝之持法，而犹有若此等人，而况下斯者乎？",
+      "sourceTitles": [
+        "魏氏春秋",
+        "献帝传",
+        "魏略",
+        "世语"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 18,
+        "blockIndex": 0,
+        "bodyOffset": 27,
+        "epubAnchor": "#mwt26",
+        "paragraphStart": 18,
+        "paragraphEnd": 18
+      }
+    },
+    {
+      "id": "mingdi-p19-note0",
+      "kind": "pei",
+      "anchorText": "孙权所遣使张弥、许晏首，以渊为大司马乐浪公。",
+      "original": "《世语》曰：并州刺史毕轨送汉故度辽将军范明友鲜卑奴，年三百五十岁，言语饮食如常人。奴云：「霍显，光后小妻。明友妻，光前妻女。」《博物志》曰：时京邑有一人失其姓名，食啖兼十许人，遂肥不能动。其父曾作远方长吏，官徙送彼县，令故义传供食之；一二年中，一乡中辄为之俭。《傅子》曰：时太原发冢破棺，棺中有一生妇人，将出与语，生人也。送之京师，问其本事，不知也。视其冢上树木可三十岁，不知此妇人三十岁常生于地中邪？将一朝欻生，偶与发冢者会也？",
+      "sourceTitles": [
+        "世语",
+        "博物志",
+        "傅子"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 19,
+        "blockIndex": 0,
+        "bodyOffset": 31,
+        "epubAnchor": "#mwt28",
+        "paragraphStart": 19,
+        "paragraphEnd": 19
+      }
+    },
+    {
+      "id": "mingdi-p20-note0",
+      "kind": "pei",
+      "anchorText": "祠文帝庙。追谥山阳公为汉孝献皇帝，葬以汉礼。",
+      "original": "《献帝传》曰：帝变服，率群臣哭之，使使持节行司徒太常和洽吊祭，又使持节行大司空大司农崔林监护丧事。诏曰：「盖五帝之事尚矣，仲尼盛称尧、舜巍巍荡荡之功者，以为禅代乃大圣之懿事也。山阳公深识天禄永终之运，禅位文皇帝以顺天命。先帝命公行汉正朔，郊天祀祖以天子之礼，言事不称臣，此舜事尧之义也。昔放勋殂落，四海如丧考妣，遏密八音，明丧葬之礼同于王者也。今有司奏丧礼比诸侯王，此岂古之遗制而先帝之至意哉？今谥公汉孝献皇帝。」使太尉具以一太牢告祠文帝庙，曰：「叡闻夫礼也者，反本请吉，不忘厥初，是以先代之君，尊尊亲亲，戚有尚焉。今山阳公寝疾弃国，有司建言丧纪之礼视诸侯王。叡惟山阳公昔知天命永终于己，深观历数允在圣躬，传祚禅位，尊我民主，斯乃陶唐懿德之事也。黄初受终，命公于国行汉正朔，郊天祀祖礼乐制度率乃汉旧，斯亦舜、禹明堂之义也。上考遂初，皇极攸建，允熙克让，莫明于兹。盖子以继志嗣训为孝，臣以配命钦述为忠，故诗称『匪棘其犹，聿追来孝』，书曰『前人受命，兹不忘大功』。叡敢不奉承徽典，以昭皇考之神灵。今追谥山阳公曰孝献皇帝，册赠玺绂。命司徒、司空持节吊祭护丧，光禄、大鸿胪为副，将作大匠、复土将军营成陵墓，及置百官群吏，车旗服章丧葬礼仪，一如汉氏故事；丧葬所供群官之费，皆仰大司农。立其后嗣为山阳公，以通三统，永为魏賔。」于是赠册曰：「呜呼，昔皇天降戾于汉，俾逆臣董卓，播厥凶虐，焚灭京都，劫迁大驾。于时六合云扰，奸雄熛起。帝自西京，徂唯求定，臻兹洛邑。畴咨圣贤，聿改乘辕，又迁许昌，武皇帝是依。岁在玄枵，皇师肇征，迄于鹑尾，十有八载，群寇歼殄，九域咸乂。惟帝念功，祚兹魏国，大启土宇。爰及文皇帝，齐圣广渊，仁声旁流，柔远能迩，殊俗向义，干精承祚，坤灵吐曜，稽极玉衡，允膺历数，度于轨仪，克猒帝心。乃仰钦七政，俯察五典，弗采四岳之谋，不俟师锡之举，幽赞神明，承天禅位。祚逮朕躬，统承洪业。盖闻昔帝尧，元恺既举，凶族未流，登舜百揆，然后百揆时序，内平外成，授位明堂，退终天禄，故能冠德百王，表功高岳。自往迄今，弥历七代，岁曁三千，而大运来复，庸命底绩，纂我民主，作建皇极。念重光，绍咸池，继韶夏，超群后之遐踪，邈商、周之慙德，可谓高朗令终，昭明洪烈之懿盛者矣。非夫汉、魏与天地合德，与四时合信，动和民神，格于上下，其孰能至于此乎？朕惟孝献享年不永，钦若顾命，考之典谟，恭述皇考先灵遗意，阐崇弘谥，奉成圣美，以章希世同符之隆，以传亿载不朽之荣。魂而有灵，嘉兹弘休。呜呼哀哉！」八月壬申，葬于山阳国，陵曰禅陵，置园邑。葬之日，帝制锡衰弁绖，哭之恸。适孙桂氏乡侯康，嗣立为山阳公。",
+      "sourceTitles": [
+        "献帝传"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 20,
+        "blockIndex": 0,
+        "bodyOffset": 128,
+        "epubAnchor": "#mwt29",
+        "paragraphStart": 20,
+        "paragraphEnd": 20
+      }
+    },
+    {
+      "id": "mingdi-p21-note0",
+      "kind": "pei",
+      "anchorText": "则必走矣。走而追之，以逸待劳，全胜之道也。」",
+      "original": "《魏氏春秋》曰：亮既屡遣使交书，又致巾帼妇人之饰，以怒宣王。宣王将出战，辛毗杖节奉诏，勒宣王及军吏已下，乃止。宣王见亮使，唯问其寝食及其事之烦简，不问戎事。使对曰：「诸葛公夙兴夜寐，罚二十已上，皆亲览焉；所啖食不过数升。」宣王曰：「亮体毙矣，其能久乎？」",
+      "sourceTitles": [
+        "魏氏春秋"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 21,
+        "blockIndex": 0,
+        "bodyOffset": 84,
+        "epubAnchor": "#mwt30",
+        "paragraphStart": 21,
+        "paragraphEnd": 21
+      }
+    },
+    {
+      "id": "mingdi-p25-note0",
+      "kind": "pei",
+      "anchorText": "庚寅，葬文德郭后，营陵于首阳陵涧西，如终制。",
+      "original": "顾恺之《启蒙注》曰：魏时人有开周王冢者，得殉葬女子，经数日而有气，数月而能语；年可二十。送诣京师，郭太后爱养之。十余年，太后崩，哀思哭泣，一年余而死。",
+      "sourceTitles": [
+        "启蒙注"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 25,
+        "blockIndex": 0,
+        "bodyOffset": 76,
+        "epubAnchor": "#mwt31",
+        "paragraphStart": 25,
+        "paragraphEnd": 25
+      }
+    },
+    {
+      "id": "mingdi-p26-note0",
+      "kind": "pei",
+      "anchorText": "杨阜、高堂隆等各数切谏，虽不能听，常优容之。",
+      "original": "《魏略》曰：是年起太极诸殿，筑緫章观，高十余丈，建翔凤于其上；又于芳林园中起陂池，楫櫂越歌；又于列殿之北立八坊，诸才人以次序处其中，贵人夫人以上转南附焉，其秩石拟百官之数。帝常游宴在内，乃选女子知书可付信者六人，以为女尚书，使典省外奏事，处当画可，自贵人以下至尚保，及给掖庭洒扫，习伎歌者，各有千数。通引谷水过九龙殿前，为玉井绮栏，蟾蜍含受，神龙吐出。使博士马均作司南车，水转百戏。岁首建巨兽，鱼龙曼延，弄马倒骑，备如汉西京之制，筑阊阖诸门阙外罘罳。太子舍人张茂以吴、蜀数动，诸将出征，而帝盛兴宫室，留意于玩饰，赐与无度，帑藏空竭；又录夺士女前已嫁为吏民妻者，还以配士，既听以生口自赎，又简选其有姿首者内之掖庭，乃上书谏曰：「臣伏见诏书，诸士女嫁非士者，一切录夺，以配战士，斯诚权时之宜，然非大化之善者也。臣请论之。陛下，天之子也，百姓吏民，亦陛下之子也。礼，赐君子小人不同日，所以殊贵贱也。吏属君子，士为小人，今夺彼以与此，亦无以异于夺兄之妻妻弟也，于父母之恩偏矣。又诏书听得以生口年纪、颜色与妻相当者自代，故富者则倾家尽产，贫者举假贷贳，贵买生口以赎其妻；县官以配士为名而实内之掖庭，其丑恶者乃出与士。得妇者未必有懽心，而失妻者必有忧色，或穷或愁，皆不得志。夫君有天下而不得万姓之懽心者，尠不危殆。且军师在外数千万人，一日之费非徒千金，举天下之赋以奉此役，犹将不给，况复有宫庭非员无录之女，椒房母后之家赏赐横兴，内外交引，其费半军。昔汉武帝好神仙，信方士，掘地为海，封土为山，赖是时天下为一，莫敢与争者耳。自衰乱以来，四五十载，马不舍鞍，士不释甲，每一交战，血流丹野，创痍号痛之声于今未已。犹彊寇在疆，图危魏室。陛下不兢兢业业，念崇节约，思所以安天下者，而乃奢靡是务，中尚方纯作玩弄之物，炫燿后园，建承露之盘，斯诚快耳目之观，然亦足以骋寇雠之心矣。惜乎，舍尧舜之节俭，而为汉武之侈事，臣窃为陛下不取也。愿陛下沛然下诏，万几之事有无益而有损者悉除去之，以所除无益之费，厚赐将士父母妻子之饥寒者，问民所疾而除其所恶，实仓廪，缮甲兵，恪恭以临天下。如是，吴贼面缚，蜀虏舆榇，不待诛而自服，太平之路可计日而待也。陛下可无劳神思于海表，军师高枕，战士备员。今群公皆结舌，而臣所以不敢不献瞽言者，臣昔上要言，散骑奏臣书，以听谏篇为善，诏曰：『是也』，擢臣为太子舍人；且臣作书讥为人臣不能谏诤，今有可谏之事而臣不谏，此为作书虚妄而不能言也。臣年五十，常恐至死无以报国，是以投躯没身，冒昧以闻，惟陛下裁察。」书通，上顾左右曰：「张茂恃乡里故也。」以事付散骑而已。茂字彦林，沛人。",
+      "sourceTitles": [
+        "魏略"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 26,
+        "blockIndex": 0,
+        "bodyOffset": 52,
+        "epubAnchor": "#mwt32",
+        "paragraphStart": 26,
+        "paragraphEnd": 26
+      }
+    },
+    {
+      "id": "mingdi-p27-note0",
+      "kind": "pei",
+      "anchorText": "薨。壬申，太白昼见。十一月丁酉，行幸许昌宫。",
+      "original": "《魏氏春秋》曰：是岁张掖郡删丹县金山玄川溢涌，宝石负图，状象灵龟，广一丈六尺，长一丈七尺一寸，围五丈八寸，立于川西。有石马七，其一仙人骑之，其一羁绊，其五有形而不善成。有玉匣关盖于前，上有玉字，玉玦二，璜一。麒麟在东，凤鸟在南，白虎在西，牺牛在北，马自中布列四面，色皆苍白。其南有五字，曰「上上三天王」；又曰「述大金，大讨曹，金但取之，金立中，大金马一匹在中，大吉开寿，此马甲寅述水」。凡「中」字六，「金」字十；又有若八卦及列宿孛彗之象焉。《世语》曰：又有一鸡象。《搜神记》曰：初，汉元、成之世，先识之士有言曰，魏年有和，当有开石于西三千余里，系五马，文曰「大讨曹」。及魏之初兴也，张掖之柳谷，有开石焉，始见于建安，形成于黄初，文备于太和，周围七寻，中高一仞，苍质素章，龙马、麟鹿、凤皇、仙人之象，粲然咸著，此一事者，魏、晋代兴之符也。至晋泰始三年，张掖太守焦胜上言，以留郡本国图校今石文，文字多少不同，谨具图上。桉其文有五马象，其一有人平上帻，执戟而乘之，其一有若马形而不成，其字有「金」，有「中」，有「大司马」，有「王」，有「大吉」，有「正」，有「开寿」，其一成行，曰「金当取之」。《汉晋春秋》曰：氐池县大柳谷口夜激波涌溢，其声如雷，晓而有苍石立水中，长一丈六尺，高八尺，白石画之，为十三马，一牛，一鸟，八卦玉玦之象，皆隆起，其文曰「大讨曹，适水中，甲寅」。帝恶其「讨」也，使凿去为「计」，以苍石窒之，宿昔而白石满焉。至晋初，其文愈明，马象皆焕彻如玉焉。",
+      "sourceTitles": [
+        "魏氏春秋",
+        "世语",
+        "搜神记",
+        "汉晋春秋"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 27,
+        "blockIndex": 0,
+        "bodyOffset": 83,
+        "epubAnchor": "#mwt33",
+        "paragraphStart": 27,
+        "paragraphEnd": 27
+      }
+    },
+    {
+      "id": "mingdi-p31-note0",
+      "kind": "pei",
+      "anchorText": "景初元年春正月壬辰，山茌县言黄龙见。",
+      "original": "茌音仕狸反。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 31,
+        "blockIndex": 0,
+        "bodyOffset": 18,
+        "epubAnchor": "#mwt37",
+        "paragraphStart": 31,
+        "paragraphEnd": 31
+      }
+    },
+    {
+      "id": "mingdi-p31-note1",
+      "kind": "pei",
+      "anchorText": "宜以建丑之月为正。三月，定历改年为孟夏四月。",
+      "original": "《魏书》曰：初，文皇帝即位，以受禅于汉，因循汉正朔弗改。帝在东宫著论，以为五帝三王虽同气共祖，礼不相袭，正朔自宜改变，以明受命之运。及即位，优游者久之，史官复著言宜改，乃诏三公、特进、九卿、中郎将、大夫、博士、议郎、千石、六百石博议，议者或不同。帝据古典，甲子诏曰：「夫太极运三辰五星于上，元气转三统五行于下，登降周旋，终则又始。故仲尼作春秋，于三微之月，每月称王，以明三正迭相为首。今推三统之次，魏得地统，当以建丑之月为正月。考之群艺，厥义章矣。其改青龙五年三月为景初元年四月。」",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 31,
+        "blockIndex": 1,
+        "bodyOffset": 53,
+        "epubAnchor": "#mwt38",
+        "paragraphStart": 31,
+        "paragraphEnd": 31
+      }
+    },
+    {
+      "id": "mingdi-p31-note2",
+      "kind": "pei",
+      "anchorText": "戎事乘黑首白马，建大赤之旗，朝会建大白之旗。",
+      "original": "臣松之桉：魏为土行，故服色尚黄。行殷之时，以建丑为正，故牺牲旗旗一用殷礼。《礼记》云：「夏后氏尚黑，故戎事乘骊，牲用玄；殷人尚白，戎事乘翰，牲用白；周人尚赤，戎事乘𫘪，牲用骍。」郑玄云：「夏后氏以建寅为正，物生色黑；殷以建丑为正，物牙色白；周以建子为正，物萌色赤。翰，白色马也，《易》曰『白马翰如』。」《周礼巾车职》「建大赤以朝」，大白以即戎，此则周以正色之旗以朝，先代之旗即戎。今魏用殷礼，变周之制，故建大白以朝，大赤即戎。",
+      "sourceTitles": [
+        "礼记",
+        "易",
+        "周礼巾车职"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 31,
+        "blockIndex": 2,
+        "bodyOffset": 85,
+        "epubAnchor": "#mwt41",
+        "paragraphStart": 31,
+        "paragraphEnd": 31
+      }
+    },
+    {
+      "id": "mingdi-p33-note0",
+      "kind": "pei",
+      "anchorText": "其余四庙亲尽迭毁，如周后稷、文、武庙祧之制。",
+      "original": "孙盛曰：夫谥以表行，庙以存容，皆于既没然后著焉，所以原始要终，以示百世也。未有当年而逆制祖宗，未终而豫自尊显。昔华乐以厚敛致讥，周人以豫凶违礼，魏之群司，于是乎失正。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 33,
+        "blockIndex": 0,
+        "bodyOffset": 93,
+        "epubAnchor": "#mwt42",
+        "paragraphStart": 33,
+        "paragraphEnd": 33
+      }
+    },
+    {
+      "id": "mingdi-p35-note0",
+      "kind": "pei",
+      "anchorText": "葬悼毛后于愍陵。乙卯，营洛阳南委粟山为圜丘。",
+      "original": "《魏书》载诏曰：「盖帝王受命，莫不恭承天地以章神明，尊祀世统以昭功德，故先代之典既著，则禘郊祖宗之制备也。昔汉氏之初，承秦灭学之后，采摭残缺，以备郊祀，自甘泉后土、雍宫五畤，神祇兆位，多不见经，是以制度无常，一彼一此，四百余年，废无禘祀。古代之所更立者，遂有阙焉。曹氏系世，出自有虞氏，今祀圜丘，以始祖帝舜配，号圜丘曰皇皇帝天；方丘所祭曰皇皇后地，以舜妃伊氏配；天郊所祭曰皇天之神，以太祖武皇帝配；地郊所祭曰皇地之祇，以武宣后配；宗祀皇考高祖文皇帝于明堂，以配上帝。」至晋泰始二年，并圜丘、方丘二至之祀于南北郊。",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 35,
+        "blockIndex": 0,
+        "bodyOffset": 100,
+        "epubAnchor": "#mwt43",
+        "paragraphStart": 35,
+        "paragraphEnd": 35
+      }
+    },
+    {
+      "id": "mingdi-p35-note1",
+      "kind": "pei",
+      "anchorText": "冬至，始祀。丁巳，分襄阳临沮、宜城、旍阳、邔",
+      "original": "邔音其己反",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 35,
+        "blockIndex": 1,
+        "bodyOffset": 127,
+        "epubAnchor": "#mwt45",
+        "paragraphStart": 35,
+        "paragraphEnd": 35
+      }
+    },
+    {
+      "id": "mingdi-p35-note2",
+      "kind": "pei",
+      "anchorText": "文昭皇后立庙京都。分襄阳郡之鄀叶县属义阳郡。",
+      "original": "《魏略》曰：是岁，徙长安诸钟簴、骆驼、铜人、承露盘。盘折，铜人重不可致，留于霸城。大发铜铸作铜人二，号曰翁仲，列坐于司马门外。又铸黄龙、凤皇各一，龙高四丈，凤高三丈余，置内殿前。起土山于芳林园西北陬，使公卿群僚皆负土成山，树松竹杂木善草于其上，捕山禽杂兽置其中。《汉晋春秋》曰：帝徙盘，盘折，声闻数十里，金狄或泣，因留于霸城。《魏略》载司徒军议掾河东董寻上书谏曰：「臣闻古之直士，尽言于国，不避死亡。故周昌比高祖于桀、纣，刘辅譬赵后于人婢。天生忠直，虽白刃沸汤，往而不顾者，诚为时主爱惜天下也。建安以来，野战死亡，或门殚户尽，虽有存者，遗孤老弱。若今宫室狭小，当广大之，犹宜随时，不妨农务，况乃作无益之物，黄龙、凤皇，九龙、承露盘，土山、渊池，此皆圣明之所不兴也，其功参倍于殿舍。三公九卿侍中尚书，天下至德，皆知非道而不敢言者，以陛下春秋方刚，心畏雷霆。今陛下既尊群臣，显以冠冕，被以文绣，载以华舆，所以异于小人；而使穿方举土，面目垢黑，沾体涂足，衣冠了鸟，毁国之光以崇无益，甚非谓也。孔子曰：『君使臣以礼，臣事君以忠。』无忠无礼，国何以立！故有君不君，臣不臣，上下不通，心怀郁结，使阴阳不和，灾害屡降，凶恶之徒因闲而起，谁当为陛下尽言是者乎？又谁当干万乘以死为戏乎？臣知言出必死，而臣自比于牛之一毛，生既无益，死亦何损？秉笔流涕，心与世辞。臣有八子，臣死之后，累陛下矣！」将奏，沐浴。既通，帝曰：「董寻不畏死邪！」主者奏收寻，有诏勿问。后为贝丘令，清省得民心。",
+      "sourceTitles": [
+        "魏略",
+        "汉晋春秋"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 35,
+        "blockIndex": 2,
+        "bodyOffset": 166,
+        "epubAnchor": "#mwt46",
+        "paragraphStart": 35,
+        "paragraphEnd": 35
+      }
+    },
+    {
+      "id": "mingdi-p36-note0",
+      "kind": "pei",
+      "anchorText": "二年春正月，诏太尉司马宣王帅众讨辽东。",
+      "original": "干窦《晋纪》曰：帝问宣王：「度渊将何计以待君？」宣王对曰：「渊弃城预走，上计也；据辽水拒大军，其次也；坐守襄平，此为成禽耳。」帝曰：「然则三者何出？」对曰：「唯明智审量彼我，乃预有所割弃，此既非渊所及，又谓今往县远，不能持久，必先拒辽水，后守也。」帝曰：「往还几日？」对曰：「往百日，攻百日；还百日，以六十日为休息，如此，一年足矣。」魏名臣奏载散骑常侍何曾表曰：「臣闻先王制法，必于全慎，故建官授任，则置假辅，陈师命将，则立监贰，宣命遣使，则设介副，临敌交刃，则参御右，盖以尽谋思之功，防安危之变也。是以在险当难，则权足相济，陨缺不预，则手足相代，其为固防，至深至远。及至汉氏，亦循旧章。韩信伐赵，张耳为贰；马援讨越，刘隆副军。前世之迹，著在篇志。今懿奉辞诛罪，步骑数万，道路回阻，四千余里，虽假天威，有征无战，寇或潜遁，消散日月，命无常期。人非金石，远虑详备，诚宜有副。今北边诸将及懿所督，皆为僚属，名位不殊，素无定分，卒有变急，不相镇摄。存不忘亡，圣达所戒，宜选大臣名将威重宿著者，盛其礼秩，遣诣懿军，进同谋略，退为副佐。虽有万一不虞之灾，军主有储，则无患矣。」毌丘俭志记云，时以俭为宣王副也。",
+      "sourceTitles": [
+        "晋纪"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 36,
+        "blockIndex": 0,
+        "bodyOffset": 19,
+        "epubAnchor": "#mwt47",
+        "paragraphStart": 36,
+        "paragraphEnd": 36
+      }
+    },
+    {
+      "id": "mingdi-p37-note0",
+      "kind": "pei",
+      "anchorText": "、相、竹邑、符离、蕲、铚、龙亢、山桑、洨、虹",
+      "original": "洨音胡交反。虹音绛。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 37,
+        "blockIndex": 0,
+        "bodyOffset": 74,
+        "epubAnchor": "#mwt48",
+        "paragraphStart": 37,
+        "paragraphEnd": 37
+      }
+    },
+    {
+      "id": "mingdi-p37-note1",
+      "kind": "pei",
+      "anchorText": "，大赦。五月乙亥，月犯心距星，又犯中央大星。",
+      "original": "《魏书》载戊子诏曰：「昔汉高祖创业，光武中兴，谋除残暴，功昭四海，而坟陵崩颓，童儿牧竖践蹈其上，非大魏尊崇所承代之意也。其表高祖、光武陵四面百步，不得使民耕牧樵采。」",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 37,
+        "blockIndex": 1,
+        "bodyOffset": 142,
+        "epubAnchor": "#mwt49",
+        "paragraphStart": 37,
+        "paragraphEnd": 37
+      }
+    },
+    {
+      "id": "mingdi-p38-note0",
+      "kind": "pei",
+      "anchorText": "史率诸郡攻讨，斩注诣首。癸丑，有彗星见张宿。",
+      "original": "《汉晋春秋》曰：史官言于帝曰：「此周之分野也，洛邑恶之。」于是大修禳祷之术以厌焉。《魏书》曰：九月，蜀阴平太守廖惇反，攻守善羌侯宕蕈营。雍州刺史郭淮遣广魏太守王赟、南安太守游弈将兵讨惇。淮上书：「赟、弈等分兵夹山东西，围落贼表，破在旦夕。」帝曰：「兵势恶离。」促诏淮𠡠弈诸别营非要处者，还令据便地。诏𠡠未到，弈军为惇所破；赟为流矢所中死。",
+      "sourceTitles": [
+        "汉晋春秋",
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 38,
+        "blockIndex": 0,
+        "bodyOffset": 41,
+        "epubAnchor": "#mwt50",
+        "paragraphStart": 38,
+        "paragraphEnd": 38
+      }
+    },
+    {
+      "id": "mingdi-p40-note0",
+      "kind": "pei",
+      "anchorText": "燕王宇为大将军，甲申免，以武衞将军曹爽代之。",
+      "original": "《汉晋春秋》曰：帝以燕王宇为大将军，使与领军将军夏侯献、武衞将军曹爽、屯骑校尉曹肈、骁骑将军秦朗等对辅政。中书监刘放、令孙资久专权宠，为朗等素所不善，惧有后害，阴图间之，而宇常在帝侧，故未得有言。甲申，帝气微，宇下殿呼曹肈有所议，未还，而帝少间，惟曹爽独在。放知之，呼资与谋。资曰：「不可动也。」放曰：「俱入鼎镬，何不可之有？」乃突前见帝，垂泣曰：「陛下气微，若有不讳，将以天下付谁？」帝曰：「卿不闻用燕王耶？」放曰：「陛下忘先帝诏𠡠，藩王不得辅政。且陛下方病，而曹肈、秦朗等便与才人侍疾者言戏。燕王拥兵南面，不听臣等入，此即竖刀、赵高也。今皇太子幼弱，未能统政，外有彊暴之寇，内有劳怨之民，陛下不远虑存亡，而近系恩旧。委祖考之业，付二三凡士，寝疾数日，外内拥隔，社稷危殆，而己不知，此臣等所以痛心也。」帝得放言，大怒曰：「谁可任者？」放、资乃举爽代宇，又白「宜诏司马宣王使相参」，帝从之。放、资出，曹肈入，泣涕固谏，帝使肈𠡠停。肈出户，放、资趋而往，复说止帝，帝又从其言。放曰：「宜为手诏。」帝曰：「我困笃，不能。」放即上床，执帝手强作之，遂赍出，大言曰：「有诏免燕王宇等官，不得停省中。」于是宇、肈、献、朗相与泣而归第。",
+      "sourceTitles": [
+        "汉晋春秋"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 40,
+        "blockIndex": 0,
+        "bodyOffset": 91,
+        "epubAnchor": "#mwt51",
+        "paragraphStart": 40,
+        "paragraphEnd": 40
+      }
+    },
+    {
+      "id": "mingdi-p42-note0",
+      "kind": "pei",
+      "anchorText": "爽辅少子。吾得见君，无所恨！」宣王顿首流涕。",
+      "original": "《魏略》曰：帝既从刘放计，召司马宣王，自力为诏，既封，顾呼宫中常所给使者曰：「辟邪来！汝持我此诏授太尉也。」辟邪驰去。先是，燕王为帝画计，以为关中事重，宜便道遣宣王从河内西还，事以施行。宣王得前诏，斯须复得后手笔，疑京师有变，乃驰到，入见帝。劳问讫，乃召齐、秦二王以示宣王，别指齐王谓宣王曰：「此是也，君谛视之，勿误也！」又教齐王令前抱宣王颈。《魏氏春秋》曰：时太子芳年八岁，秦王九岁，在于御侧。帝执宣王手，目太子曰：「死乃复可忍，朕忍死待君，君其与爽辅此。」宣王曰：「陛下不见先帝属臣以陛下乎？」",
+      "sourceTitles": [
+        "魏略",
+        "魏氏春秋"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 42,
+        "blockIndex": 0,
+        "bodyOffset": 70,
+        "epubAnchor": "#mwt54",
+        "paragraphStart": 42,
+        "paragraphEnd": 42
+      }
+    },
+    {
+      "id": "mingdi-p42-note1",
+      "kind": "pei",
+      "anchorText": "无所恨！」宣王顿首流涕。即日，帝崩于嘉福殿，",
+      "original": "《魏书》曰：殡于九龙前殿。",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 42,
+        "blockIndex": 1,
+        "bodyOffset": 80,
+        "epubAnchor": "#mwt55",
+        "paragraphStart": 42,
+        "paragraphEnd": 42
+      }
+    },
+    {
+      "id": "mingdi-p42-note2",
+      "kind": "pei",
+      "anchorText": "王顿首流涕。即日，帝崩于嘉福殿，时年三十六。",
+      "original": "臣松之桉：魏武以建安九年八月定邺，文帝始纳甄后，明帝应以十年生，计至此年正月，整三十四年耳。时改正朔，以故年十二月为今年正月，可彊名三十五年，不得三十六也。",
+      "sourceTitles": [],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 42,
+        "blockIndex": 2,
+        "bodyOffset": 86,
+        "epubAnchor": "#mwt56",
+        "paragraphStart": 42,
+        "paragraphEnd": 42
+      }
+    },
+    {
+      "id": "mingdi-p42-note3",
+      "kind": "pei",
+      "anchorText": "，帝崩于嘉福殿，时年三十六。癸丑，葬高平陵。",
+      "original": "《魏书》曰：帝容止可观，望之俨然。自在东宫，不交朝臣，不问政事，唯潜思书籍而已。即位之后，褒礼大臣，料简功能，真伪不得相贸，务绝浮华谮毁之端，行师动众，论决大事，谋臣将相咸服帝之大略。性特彊识，虽左右小臣官簿性行，名迹所履，及其父兄子弟，一经耳目，终不遗忘。含垢藏疾，容受直言，听受吏民士庶上书，一月之中至数十百封，虽文辞鄙陋，犹览省究竟，意无猒倦。孙盛曰：闻之长老，魏明帝天姿秀出，立发垂地，口吃少言，而沉毅好断。初，诸公受遗辅导，帝皆以方任处之，政自己出。而优礼大臣，开容善直，虽犯颜极谏，无所摧戮，其君人之量如此之伟也。然不思建德垂风，不固维城之基，至使大权偏据，社稷无衞，悲夫！",
+      "sourceTitles": [
+        "魏书"
+      ],
+      "sourceIds": [
+        "epub-simplified"
+      ],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 42,
+        "blockIndex": 3,
+        "bodyOffset": 94,
+        "epubAnchor": "#mwt58",
+        "paragraphStart": 43,
+        "paragraphEnd": 43
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mingdi-p0",
+      "title": "明帝继位",
+      "time": {
+        "year": 226,
+        "era": "黄初七年",
+        "label": "黄初七年",
+        "certainty": "inferred"
+      },
+      "originalText": "明皇帝讳叡，字元仲，文帝太子也。生而太祖爱之，常令在左右。年十五，封武德侯，黄初二年为齐公，三年为平原王。以其母诛，故未建为嗣。七年夏五月，帝病笃，乃立为皇太子。丁巳，即皇帝位，大赦。尊皇太后曰太皇太后，皇后曰皇太后。诸臣封爵各有差。癸未，追谥母甄夫人曰文昭皇后。壬辰，立皇弟蕤为阳平王。",
+      "parts": [
+        {
+          "text": "明皇帝讳叡，字元仲，文帝太子也。生而太祖爱之，常令在左右"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p0-note0"
+          ]
+        },
+        {
+          "text": "年十五，封武德侯，黄初二年为齐公，三年为平原王。以其母诛，故未建为嗣"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p0-note1"
+          ]
+        },
+        {
+          "text": "七年夏五月，帝病笃，乃立为皇太子。丁巳，即皇帝位，大赦。尊皇太后曰太皇太后，皇后曰皇太后。诸臣封爵各有差"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p0-note2"
+          ]
+        },
+        {
+          "text": "癸未，追谥母"
+        },
+        {
+          "text": "甄夫人",
+          "personId": "zhen-hou"
+        },
+        {
+          "text": "曰文昭皇后。壬辰，立皇弟蕤为阳平王。"
+        }
+      ],
+      "translation": "明皇帝名叡，字元仲，是文帝太子。出生后，太祖喜爱他，常让他在身边。十五岁封武德侯，黄初二年为齐公，三年为平原王。因母亲被诛，始终未立为继承人。七年夏五月，文帝病重，才立他为皇太子。丁巳日，他即皇帝位，大赦天下，尊皇太后为太皇太后、皇后为皇太后，诸臣封爵各有差别。癸未日，追谥母亲甄夫人为文昭皇后。壬辰日，立皇弟曹蕤为阳平王。",
+      "summary": "明皇帝名叡，字元仲，是文帝太子。",
+      "placeIds": [],
+      "personIds": [
+        "zhen-hou",
+        "cao-rui",
+        "cao-pi",
+        "cao-cao"
+      ],
+      "noteIds": [
+        "mingdi-p0-note0",
+        "mingdi-p0-note1",
+        "mingdi-p0-note2"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 0,
+        "excerptStart": "明皇帝讳叡，字元仲，文帝",
+        "excerptEnd": "壬辰，立皇弟蕤为阳平王。",
+        "startOffset": 0,
+        "endOffsetExclusive": 144,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p1",
+      "title": "文聘守江夏",
+      "time": {
+        "year": 226,
+        "era": "黄初七年",
+        "label": "黄初七年",
+        "certainty": "inferred"
+      },
+      "originalText": "八月，孙权攻江夏郡，太守文聘坚守。朝议欲发兵救之，帝曰：「权习水战，所以敢下船陆攻者，几掩不备也。今已与聘相持，夫攻守势倍，终不敢久也。」先时遣治书侍御史荀禹慰劳边方，禹到，于江夏发所经县兵及所从步骑千人乘山举火，权退走。",
+      "parts": [
+        {
+          "text": "八月，"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "攻江夏郡，太守"
+        },
+        {
+          "text": "文聘",
+          "personId": "wen-pin"
+        },
+        {
+          "text": "坚守。朝议欲发兵救之，帝曰：「权习水战，所以敢下船陆攻者，几掩不备也。今已与聘相持，夫攻守势倍，终不敢久也。」先时遣治书侍御史荀禹慰劳边方，禹到，于江夏发所经县兵及所从步骑千人乘山举火，权退走。"
+        }
+      ],
+      "translation": "八月，孙权攻江夏郡，太守文聘坚守。朝廷商议发兵救援，皇帝说：“孙权惯于水战，敢下船陆攻，是想乘其不备。如今已与文聘相持，攻城需要数倍兵力，他终究不敢久留。”此前朝廷派治书侍御史荀禹慰劳边境，荀禹到达江夏后，征调沿途各县兵和随行步骑千人，在山上举火，孙权撤走。",
+      "summary": "八月，孙权攻江夏郡，太守文聘坚守。",
+      "placeIds": [],
+      "personIds": [
+        "sun-quan",
+        "wen-pin",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 1,
+        "excerptStart": "八月，孙权攻江夏郡，太守",
+        "excerptEnd": "骑千人乘山举火，权退走。",
+        "startOffset": 0,
+        "endOffsetExclusive": 111,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p2",
+      "title": "吴军攻襄阳与任大臣",
+      "time": {
+        "year": 226,
+        "era": "黄初七年",
+        "label": "黄初七年",
+        "certainty": "inferred"
+      },
+      "originalText": "辛巳，立皇子冏为清河王。吴将诸葛瑾、张霸等寇襄阳，抚军大将军司马宣王讨破之，斩霸，征东大将军曹休又破其别将于寻阳。论功行赏各有差。冬十月，清河王冏薨。十二月，以太尉钟繇为太傅，征东大将军曹休为大司马，中军大将军曹真为大将军，司徒华歆为太尉，司空王朗为司徒，镇军大将军陈群为司空，抚军大将军司马宣王为骠骑大将军。",
+      "parts": [
+        {
+          "text": "辛巳，立皇子冏为清河王。吴将诸葛瑾、张霸等寇"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "，抚军大将军"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "讨破之，斩霸，征东大将军"
+        },
+        {
+          "text": "曹休",
+          "personId": "cao-xiu"
+        },
+        {
+          "text": "又破其别将于寻阳。论功行赏各有差。冬十月，清河王冏薨。十二月，以太尉"
+        },
+        {
+          "text": "钟繇",
+          "personId": "sima-zhongyou"
+        },
+        {
+          "text": "为太傅，征东大将军"
+        },
+        {
+          "text": "曹休",
+          "personId": "cao-xiu"
+        },
+        {
+          "text": "为大司马，中军大将军"
+        },
+        {
+          "text": "曹真",
+          "personId": "cao-zhen"
+        },
+        {
+          "text": "为大将军，司徒华歆为太尉，司空王朗为司徒，镇军大将军"
+        },
+        {
+          "text": "陈群",
+          "personId": "chen-qun"
+        },
+        {
+          "text": "为司空，抚军大将军"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "为骠骑大将军。"
+        }
+      ],
+      "translation": "辛巳日，立皇子曹冏为清河王。吴将诸葛瑾、张霸等侵攻襄阳，抚军大将军司马宣王讨破他们，斩张霸；征东大将军曹休又在寻阳击破另一支吴军，按功行赏各有差别。冬十月，清河王曹冏去世。十二月，任太尉钟繇为太傅、曹休为大司马、曹真为大将军、司徒华歆为太尉、司空王朗为司徒、陈群为司空、司马宣王为骠骑大将军。",
+      "summary": "辛巳日，立皇子曹冏为清河王。",
+      "placeIds": [
+        "xiangyang"
+      ],
+      "personIds": [
+        "sima-yi",
+        "cao-xiu",
+        "sima-zhongyou",
+        "cao-zhen",
+        "chen-qun",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 2,
+        "excerptStart": "辛巳，立皇子冏为清河王。",
+        "excerptEnd": "军司马宣王为骠骑大将军。",
+        "startOffset": 0,
+        "endOffsetExclusive": 155,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p3",
+      "title": "祭祀营庙与孟达反",
+      "time": {
+        "year": 227,
+        "era": "太和元年",
+        "label": "太和元年",
+        "certainty": "inferred"
+      },
+      "originalText": "太和元年春正月，郊祀武皇帝以配天，宗祀文皇帝于明堂以配上帝。分江夏南部，置江夏南部都尉。西平曲英反，杀临羌令、西都长，遣将军郝昭、鹿磐讨斩之。二月辛未，帝耕于藉田。辛巳，立文昭皇后寝庙于邺。丁亥，朝日于东郊。夏四月乙亥，行五铢钱。甲申，初营宗庙。秋八月，夕月于西郊。冬十月丙寅，治兵于东郊。焉耆王遣子入侍。十一月，立皇后毛氏。赐天下男子爵人二级，鳏寡孤独不能自存者赐谷。十二月，封后父毛嘉为列侯。新城太守孟达反，诏骠骑将军司马宣王讨之。",
+      "parts": [
+        {
+          "text": "太和元年春正月，郊祀武皇帝以配天，宗祀文皇帝于明堂以配上帝。分江夏南部，置江夏南部都尉。西平曲英反，杀临羌令、西都长，遣将军郝昭、鹿磐讨斩之。二月辛未，帝耕于藉田。辛巳，立文昭皇后寝庙于"
+        },
+        {
+          "text": "邺",
+          "placeId": "ye"
+        },
+        {
+          "text": "。丁亥，朝日于东郊。夏四月乙亥，行五铢钱。甲申，初营宗庙。秋八月，夕月于西郊。冬十月丙寅，治兵于东郊。焉耆王遣子入侍。十一月，立皇后"
+        },
+        {
+          "text": "毛氏",
+          "personId": "mao-hou"
+        },
+        {
+          "text": "。赐天下男子爵人二级，鳏寡孤独不能自存者赐谷。十二月，封后父毛嘉为列侯。新城太守孟达反，诏骠骑将军"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "讨之"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p3-note0"
+          ]
+        }
+      ],
+      "translation": "太和元年春正月，郊祭天时以武帝配享，在明堂祭文帝以配上帝。分江夏南部设置都尉。西平曲英反叛，杀临羌令和西都长，朝廷派郝昭、鹿磐讨斩他。二月辛未日，皇帝亲耕籍田；辛巳日，为文昭皇后在邺立寝庙；丁亥日在东郊朝日。夏四月乙亥日，发行五铢钱；甲申日，开始营建宗庙。秋八月，在西郊祭月。冬十月丙寅日，在东郊整军。焉耆王派儿子入朝侍奉。十一月，立毛氏为皇后，赐天下男子爵各二级，不能自养的鳏寡孤独者赐粮。十二月，封皇后之父毛嘉为列侯。新城太守孟达反叛，诏骠骑将军司马宣王讨伐。",
+      "summary": "太和元年春正月，郊祭天时以武帝配享，在明堂祭文帝以配上帝。",
+      "placeIds": [
+        "ye"
+      ],
+      "personIds": [
+        "mao-hou",
+        "sima-yi",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p3-note0"
+      ],
+      "focusPlaceId": "ye",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 3,
+        "excerptStart": "太和元年春正月，郊祀武皇",
+        "excerptEnd": "诏骠骑将军司马宣王讨之。",
+        "startOffset": 0,
+        "endOffsetExclusive": 218,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p4",
+      "title": "司马懿破孟达",
+      "time": {
+        "year": 228,
+        "era": "太和二年",
+        "label": "太和二年",
+        "certainty": "inferred"
+      },
+      "originalText": "二年春正月，宣王攻破新城，斩达，传其首。分新城之上庸、武陵、巫县为上庸郡，锡县为锡郡。",
+      "parts": [
+        {
+          "text": "二年春正月，宣王攻破新城，斩达，传其首"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p4-note0"
+          ]
+        },
+        {
+          "text": "分新城之上庸、武陵、巫县为上庸郡，锡县为锡郡。"
+        }
+      ],
+      "translation": "太和二年春正月，司马宣王攻破新城，斩孟达，传送首级。分新城的上庸、武陵、巫县设上庸郡，以锡县设锡郡。",
+      "summary": "太和二年春正月，司马宣王攻破新城，斩孟达，传送首级。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p4-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 4,
+        "excerptStart": "二年春正月，宣王攻破新城",
+        "excerptEnd": "县为上庸郡，锡县为锡郡。",
+        "startOffset": 0,
+        "endOffsetExclusive": 43,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p5",
+      "title": "街亭与求贤将",
+      "time": {
+        "year": 228,
+        "era": "太和二年",
+        "label": "太和二年",
+        "certainty": "inferred"
+      },
+      "originalText": "蜀大将诸葛亮寇边，天水、南安、安定三郡吏民叛应亮。遣大将军曹真都督关右，并进兵。右将军张郃击亮于街亭，大破之。亮败走，三郡平。丁未，行幸长安。夏四月丁酉，还洛阳宫。赦系囚非殊死以下。乙巳，论讨亮功，封爵增邑各有差。五月，大旱。六月，诏曰：「尊儒贵学，王教之本也。自顷儒官或非其人，将何以宣明圣道？其高选博士，才任侍中常侍者。申𠡠郡国，贡士以经学为先。」秋九月，曹休率诸军至皖，与吴将陆议战于石亭，败绩。乙酉，立皇子穆为繁阳王。庚子，大司马曹休薨。冬十月，诏公卿近臣举良将各一人。十一月，司徒王朗薨。十二月，诸葛亮围陈仓，曹真遣将军费曜等拒之。辽东太守公孙恭兄子渊劫夺恭位，遂以渊领辽东太守。",
+      "parts": [
+        {
+          "text": "蜀大将"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "寇边，天水、南安、安定三郡吏民叛应亮"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p5-note0"
+          ]
+        },
+        {
+          "text": "遣大将军"
+        },
+        {
+          "text": "曹真",
+          "personId": "cao-zhen"
+        },
+        {
+          "text": "都督关右，并进兵。右将军"
+        },
+        {
+          "text": "张郃",
+          "personId": "zhang-he"
+        },
+        {
+          "text": "击亮于街亭，大破之。亮败走，三郡平。丁未，行幸"
+        },
+        {
+          "text": "长安",
+          "placeId": "changan"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p5-note1"
+          ]
+        },
+        {
+          "text": "夏四月丁酉，还"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "宫"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p5-note2"
+          ]
+        },
+        {
+          "text": "赦系囚非殊死以下。乙巳，论讨亮功，封爵增邑各有差。五月，大旱。六月，诏曰：「尊儒贵学，王教之本也。自顷儒官或非其人，将何以宣明圣道？其高选博士，才任侍中常侍者。申𠡠郡国，贡士以经学为先。」秋九月，"
+        },
+        {
+          "text": "曹休",
+          "personId": "cao-xiu"
+        },
+        {
+          "text": "率诸军至皖，与吴将陆议战于石亭，败绩。乙酉，立皇子穆为繁阳王。庚子，大司马"
+        },
+        {
+          "text": "曹休",
+          "personId": "cao-xiu"
+        },
+        {
+          "text": "薨。冬十月，诏公卿近臣举良将各一人。十一月，司徒王朗薨。十二月，"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "围陈仓，"
+        },
+        {
+          "text": "曹真",
+          "personId": "cao-zhen"
+        },
+        {
+          "text": "遣将军费曜等拒之"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p5-note3"
+          ]
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "太守公孙恭兄子渊劫夺恭位，遂以渊领"
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "太守。"
+        }
+      ],
+      "translation": "蜀大将诸葛亮入侵边境，天水、南安、安定三郡官民反叛响应。朝廷派大将军曹真统督关右并进兵。右将军张郃在街亭大败诸葛亮，诸葛亮败退，三郡平定。丁未日，皇帝到长安；夏四月丁酉日回洛阳宫，赦免关押犯人中死罪以下者。乙巳日评定讨诸葛亮的功劳，封爵增邑各有差别。五月大旱。六月诏曰：“尊崇儒学是王朝教化的根本。近来儒官有的并非合适人选，如何宣明圣道？应选拔才堪侍中、常侍的人担任博士，重申命令各郡国举荐士人以经学为先。”秋九月，曹休率诸军到皖，与吴将陆议在石亭交战，大败。乙酉日立皇子曹穆为繁阳王。庚子日，大司马曹休去世。冬十月，诏公卿近臣各推举一名良将。十一月，司徒王朗去世。十二月，诸葛亮围陈仓，曹真派费曜等抵御。辽东太守公孙恭的侄子公孙渊夺取其位，朝廷于是任公孙渊领辽东太守。",
+      "summary": "蜀大将诸葛亮入侵边境，天水、南安、安定三郡官民反叛响应。",
+      "placeIds": [
+        "changan",
+        "luoyang",
+        "liaodong"
+      ],
+      "personIds": [
+        "zhuge-liang",
+        "cao-zhen",
+        "zhang-he",
+        "cao-xiu",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p5-note0",
+        "mingdi-p5-note1",
+        "mingdi-p5-note2",
+        "mingdi-p5-note3"
+      ],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 5,
+        "excerptStart": "蜀大将诸葛亮寇边，天水、",
+        "excerptEnd": "恭位，遂以渊领辽东太守。",
+        "startOffset": 0,
+        "endOffsetExclusive": 295,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "mingdi-p6",
+      "title": "追尊高祖",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "originalText": "三年夏四月，元城王礼薨。六月癸卯，繁阳王穆薨。戊申，追尊高祖大长秋曰高皇帝，夫人吴氏曰高皇后。",
+      "parts": [
+        {
+          "text": "三年夏四月，元城王礼薨。六月癸卯，繁阳王穆薨。戊申，追尊高祖大长秋曰高皇帝，夫人吴氏曰高皇后。"
+        }
+      ],
+      "translation": "太和三年夏四月，元城王曹礼去世。六月癸卯日，繁阳王曹穆去世。戊申日，追尊高祖大长秋为高皇帝，夫人吴氏为高皇后。",
+      "summary": "太和三年夏四月，元城王曹礼去世。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 6,
+        "excerptStart": "三年夏四月，元城王礼薨。",
+        "excerptEnd": "皇帝，夫人吴氏曰高皇后。",
+        "startOffset": 0,
+        "endOffsetExclusive": 47,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p7",
+      "title": "定继统祭祀之制",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "originalText": "秋七月，诏曰：「礼，王后无嗣，择建支子以继太宗，则当纂正统而奉公义，何得复顾私亲哉！汉宣继昭帝后，加悼考以皇号；哀帝以外藩援立，而董宏等称引亡秦，或误时朝，既尊恭皇，立庙京都，又宠藩妾，使比长信，叙昭穆于前殿，并四位于东宫，僭差无度，人神弗祐，而非罪师丹忠正之谏，用致丁、傅焚如之祸。自是之后，相踵行之。昔鲁文逆祀，罪由夏父；宋国非度，讥在华元。其令公卿有司，深以前世行事为戒。后嗣万一有由诸侯入奉大统，则当明为人后之义；敢为佞邪导谀时君，妄建非正之号以干正统，谓考为皇，称妣为后，则股肱大臣，诛之无赦。其书之金策，藏之宗庙，著于今典。」",
+      "parts": [
+        {
+          "text": "秋七月，诏曰：「礼，王后无嗣，择建支子以继太宗，则当纂正统而奉公义，何得复顾私亲哉！汉宣继昭帝后，加悼考以皇号；哀帝以外藩援立，而董宏等称引亡秦，或误时朝，既尊恭皇，立庙京都，又宠藩妾，使比长信，叙昭穆于前殿，并四位于东宫，僭差无度，人神弗祐，而非罪师丹忠正之谏，用致丁、傅焚如之祸。自是之后，相踵行之。昔鲁文逆祀，罪由夏父；宋国非度，讥在华元。其令公卿有司，深以前世行事为戒。后嗣万一有由诸侯入奉大统，则当明为人后之义；敢为佞邪导谀时君，妄建非正之号以干正统，谓考为皇，称妣为后，则股肱大臣，诛之无赦。其书之金策，藏之宗庙，著于今典。」"
+        }
+      ],
+      "translation": "秋七月，诏曰：“依礼，王后没有后嗣时，从旁支选择子弟继承大宗，便应继承正统、奉行公义，怎能再顾及私人亲属？汉宣帝继承昭帝后，给亲生父亲悼考加皇号；哀帝从外藩入继，董宏等援引已经灭亡的秦朝制度，迷惑当时朝廷，既尊生父为恭皇、在京城建庙，又尊宠藩邸妾室，使其与长信宫并列，在前殿安排昭穆次序，在东宫并列四个尊位，僭越失序，没有限度，人神不保佑他们；反而以忠正进谏的师丹为有罪，终于招致丁、傅两家被焚毁的大祸。此后人们又相继仿行。昔日鲁文公颠倒祭祀次序，责任在夏父；宋国违反制度，受讥责的是华元。命公卿有司深以前代行事为戒。后世万一从诸侯中迎立继承大统者，应明白为人后嗣的道义。若有人奸佞谄媚当时君主，妄立不正当尊号干扰正统，称生父为皇、生母为后，辅政大臣应将其诛杀，不得赦免。将此写在金策，藏宗庙，列入现行法典。”",
+      "summary": "诏书讨论继承大宗与生父母称谓的礼制。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 7,
+        "excerptStart": "秋七月，诏曰：「礼，王后",
+        "excerptEnd": "，藏之宗庙，著于今典。」",
+        "startOffset": 0,
+        "endOffsetExclusive": 269,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "mingdi-p8",
+      "title": "改听讼观",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "originalText": "冬十月，改平望观曰听讼观。帝常言「狱者，天下之性命也」，每断大狱，常幸观临听之。",
+      "parts": [
+        {
+          "text": "冬十月，改平望观曰听讼观。帝常言「狱者，天下之性命也」，每断大狱，常幸观临听之。"
+        }
+      ],
+      "translation": "冬十月，改平望观为听讼观。皇帝常说：“刑狱关系天下人的性命。”每逢审断重大案件，常亲临观中听审。",
+      "summary": "冬十月，改平望观为听讼观。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 8,
+        "excerptStart": "冬十月，改平望观曰听讼观",
+        "excerptEnd": "每断大狱，常幸观临听之。",
+        "startOffset": 0,
+        "endOffsetExclusive": 40,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p9",
+      "title": "迎神主入洛阳宗庙",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "originalText": "初，洛阳宗庙未成，神主在邺庙。十一月，庙始成，使太常韩曁持节迎高皇帝、太皇帝、武帝、文帝神主于邺，十二月己丑至，奉安神主于庙。",
+      "parts": [
+        {
+          "text": "初，"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "宗庙未成，神主在"
+        },
+        {
+          "text": "邺",
+          "placeId": "ye"
+        },
+        {
+          "text": "庙。十一月，庙始成，使太常韩曁持节迎高皇帝、太皇帝、武帝、文帝神主于"
+        },
+        {
+          "text": "邺",
+          "placeId": "ye"
+        },
+        {
+          "text": "，十二月己丑至，奉安神主于庙"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p9-note0"
+          ]
+        }
+      ],
+      "translation": "起初洛阳宗庙尚未建成，神主留在邺庙。十一月，宗庙建成，命太常韩曁持节到邺迎高皇帝、太皇帝、武帝、文帝神主。十二月己丑日到达，安奉在庙中。",
+      "summary": "起初洛阳宗庙尚未建成，神主留在邺庙。",
+      "placeIds": [
+        "luoyang",
+        "ye"
+      ],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p9-note0"
+      ],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 9,
+        "excerptStart": "初，洛阳宗庙未成，神主在",
+        "excerptEnd": "月己丑至，奉安神主于庙。",
+        "startOffset": 0,
+        "endOffsetExclusive": 63,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p10",
+      "title": "大月氏奉献",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "originalText": "癸卯，大月氏王波调遣使奉献，以调为亲魏大月氏王。",
+      "parts": [
+        {
+          "text": "癸卯，大月氏王波调遣使奉献，以调为亲魏大月氏王。"
+        }
+      ],
+      "translation": "癸卯日，大月氏王波调派使者进献，朝廷封波调为亲魏大月氏王。",
+      "summary": "大月氏王波调派使者进献，获封亲魏大月氏王。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 10,
+        "excerptStart": "癸卯，大月氏王波调遣使奉",
+        "excerptEnd": "献，以调为亲魏大月氏王。",
+        "startOffset": 0,
+        "endOffsetExclusive": 24,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p11",
+      "title": "重经学与伐蜀班师",
+      "time": {
+        "year": 230,
+        "era": "太和四年",
+        "label": "太和四年",
+        "certainty": "inferred"
+      },
+      "originalText": "四年春二月壬午，诏曰：「世之质文，随教而变。兵乱以来，经学废绝，后生进趣，不由典谟。岂训导未洽，将进用者不以德显乎？其郎吏学通一经，才任牧民，博士课试，擢其高第者，亟用；其浮华不务道本者，皆罢退之。」戊子，诏太傅三公：以文帝《典论》刻石，立于庙门之外。癸巳，以大将军曹真为大司马，骠骑将军司马宣王为大将军，辽东太守公孙渊为车骑将军。夏四月，太傅钟繇薨。六月戊子，太皇太后崩。丙申，省上庸郡。秋七月，武宣卞后祔葬于高陵。诏大司马曹真、大将军司马宣王伐蜀。八月辛巳，行东巡，遣使者以特牛祠中岳。乙未，幸许昌宫。九月，大雨，伊、洛、河、汉水溢，诏真等班师。冬十月乙卯，行还洛阳宫。庚申，令：「罪非殊死听赎各有差。」十一月，太白犯岁星。十二月辛未，改葬文昭甄后于朝阳陵。丙寅，诏公卿举贤良。",
+      "parts": [
+        {
+          "text": "四年春二月壬午，诏曰：「世之质文，随教而变。兵乱以来，经学废绝，后生进趣，不由典谟。岂训导未洽，将进用者不以德显乎？其郎吏学通一经，才任牧民，博士课试，擢其高第者，亟用；其浮华不务道本者，皆罢退之。」戊子，诏太傅三公：以文帝《典论》刻石，立于庙门之外。癸巳，以大将军"
+        },
+        {
+          "text": "曹真",
+          "personId": "cao-zhen"
+        },
+        {
+          "text": "为大司马，骠骑将军"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "为大将军，"
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "太守"
+        },
+        {
+          "text": "公孙渊",
+          "personId": "gongsun-yuan"
+        },
+        {
+          "text": "为车骑将军。夏四月，太傅"
+        },
+        {
+          "text": "钟繇",
+          "personId": "sima-zhongyou"
+        },
+        {
+          "text": "薨。六月戊子，太皇太后崩。丙申，省上庸郡。秋七月，武宣卞后祔葬于高陵。诏大司马"
+        },
+        {
+          "text": "曹真",
+          "personId": "cao-zhen"
+        },
+        {
+          "text": "、大将军"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "伐蜀。八月辛巳，行东巡，遣使者以特牛祠中岳"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p11-note0"
+          ]
+        },
+        {
+          "text": "乙未，幸"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "昌宫。九月，大雨，伊、洛、河、汉水溢，诏真等班师。冬十月乙卯，行还"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "宫。庚申，令：「罪非殊死听赎各有差。」十一月，太白犯岁星。十二月辛未，改葬文昭甄后于朝阳陵。丙寅，诏公卿举贤良。"
+        }
+      ],
+      "translation": "太和四年春二月壬午日，诏曰：“世间质朴和文饰的风尚随教化而变。战乱以来经学废绝，后生进取不遵循经典。难道是教导未普及，还是选任者不以德行显达？郎吏中通晓一经、才堪治理百姓的，由博士考核，选拔成绩优异者尽快任用；浮华而不务根本的，都罢退。”戊子日诏太傅三公将文帝《典论》刻石立庙门外。癸巳日，以曹真为大司马、司马宣王为大将军、公孙渊为车骑将军。夏四月，太傅钟繇去世。六月戊子日，太皇太后去世；丙申日撤销上庸郡。秋七月，武宣卞后合葬高陵。诏曹真、司马宣王伐蜀。八月辛巳日东巡，派使者以一头牛祭中岳；乙未日到许昌宫。九月大雨，伊水、洛水、黄河、汉水泛滥，诏曹真等回师。冬十月乙卯日回洛阳宫。庚申日下令，死罪以下准依不同等级赎罪。十一月，太白星靠近岁星。十二月辛未日改葬文昭甄后于朝阳陵，丙寅日诏公卿举荐贤良。",
+      "summary": "诏令选用通经之士，曹真与司马懿伐蜀遇雨回师。",
+      "placeIds": [
+        "liaodong",
+        "xu",
+        "luoyang"
+      ],
+      "personIds": [
+        "cao-zhen",
+        "sima-yi",
+        "gongsun-yuan",
+        "sima-zhongyou",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p11-note0"
+      ],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 11,
+        "excerptStart": "四年春二月壬午，诏曰：「",
+        "excerptEnd": "陵。丙寅，诏公卿举贤良。",
+        "startOffset": 0,
+        "endOffsetExclusive": 341,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "mingdi-p12",
+      "title": "司马懿拒诸葛亮",
+      "time": {
+        "year": 231,
+        "era": "太和五年",
+        "label": "太和五年",
+        "certainty": "inferred"
+      },
+      "originalText": "五年春正月，帝耕于藉田。三月，大司马曹真薨。诸葛亮寇天水，诏大将军司马宣王拒之。自去冬十月至此月不雨，辛巳，大雩。夏四月，鲜卑附义王轲比能率其种人及丁零大人儿禅诣幽州贡名马。复置护匈奴中郎将。秋七月丙子，以亮退走，封爵增位各有差。乙酉，皇子殷生，大赦。",
+      "parts": [
+        {
+          "text": "五年春正月，帝耕于藉田。三月，大司马"
+        },
+        {
+          "text": "曹真",
+          "personId": "cao-zhen"
+        },
+        {
+          "text": "薨。"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "寇天水，诏大将军"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "拒之。自去冬十月至此月不雨，辛巳，大雩。夏四月，鲜卑附义王轲比能率其种人及丁零大人儿禅诣"
+        },
+        {
+          "text": "幽州",
+          "placeId": "yizhou-yuan"
+        },
+        {
+          "text": "贡名马。复置护匈奴中郎将。秋七月丙子，以亮退走，封爵增位各有差"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p12-note0"
+          ]
+        },
+        {
+          "text": "乙酉，皇子殷生，大赦。"
+        }
+      ],
+      "translation": "太和五年春正月，皇帝亲耕籍田。三月，大司马曹真去世。诸葛亮进攻天水，诏大将军司马宣王抵御。自去年冬十月至本月不雨，辛巳日举行大规模求雨祭祀。夏四月，鲜卑附义王轲比能率部众及丁零首领儿禅到幽州进贡名马。恢复护匈奴中郎将。秋七月丙子日，因诸葛亮退兵，封爵升位各有差别。乙酉日，皇子曹殷出生，大赦天下。",
+      "summary": "太和五年春正月，皇帝亲耕籍田。",
+      "placeIds": [
+        "yizhou-yuan"
+      ],
+      "personIds": [
+        "cao-zhen",
+        "zhuge-liang",
+        "sima-yi",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p12-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 12,
+        "excerptStart": "五年春正月，帝耕于藉田。",
+        "excerptEnd": "。乙酉，皇子殷生，大赦。",
+        "startOffset": 0,
+        "endOffsetExclusive": 126,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p13",
+      "title": "召宗室朝见",
+      "time": {
+        "year": 231,
+        "era": "太和五年",
+        "label": "太和五年",
+        "certainty": "inferred"
+      },
+      "originalText": "八月，诏曰：「古者诸侯朝聘，所以敦睦亲亲协和万国也。先帝著令，不欲使诸王在京都者，谓幼主在位，母后摄政，防微以渐，关诸盛衰也。朕惟不见诸王十有二载，悠悠之怀，能不兴思！其令诸王及宗室公侯各将适子一人朝。后有少主、母后在宫者，自如先帝令，申明著于令。」十一月乙酉，月犯轩辕大星。戊戌晦，日有蚀之。十二月甲辰，月犯镇星。戊午，太尉华歆薨。",
+      "parts": [
+        {
+          "text": "八月，诏曰：「古者诸侯朝聘，所以敦睦亲亲协和万国也。先帝著令，不欲使诸王在京都者，谓幼主在位，母后摄政，防微以渐，关诸盛衰也。朕惟不见诸王十有二载，悠悠之怀，能不兴思！其令诸王及宗室公侯各将适子一人朝。后有少主、母后在宫者，自如先帝令，申明著于令。」十一月乙酉，月犯轩辕大星。戊戌晦，日有蚀之。十二月甲辰，月犯镇星。戊午，太尉华歆薨。"
+        }
+      ],
+      "translation": "八月，诏曰：“古代诸侯朝聘，是为了敦睦亲族、协调各国。先帝规定不让诸王留在京城，是考虑幼主在位、母后摄政时防止事变萌生，关系国家兴衰。朕已有十二年未见诸王，悠悠怀念，怎能不思念？命诸王和宗室公侯各带一名嫡子朝见。以后若有少主、母后在宫，仍照先帝之令，重申载入法令。”十一月乙酉日，月亮靠近轩辕大星。戊戌月末发生日食。十二月甲辰日，月亮靠近镇星。戊午日，太尉华歆去世。",
+      "summary": "曹叡命诸王及宗室带嫡子入朝，并重申幼主时的限制。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 13,
+        "excerptStart": "八月，诏曰：「古者诸侯朝",
+        "excerptEnd": "镇星。戊午，太尉华歆薨。",
+        "startOffset": 0,
+        "endOffsetExclusive": 167,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "mingdi-p14",
+      "title": "改封诸王与曹植去世",
+      "time": {
+        "year": 232,
+        "era": "太和六年",
+        "label": "太和六年",
+        "certainty": "inferred"
+      },
+      "originalText": "六年春二月，诏曰：「古之帝王，封建诸侯，所以藩屏王室也。诗不云乎，『怀德维宁，宗子维城』。秦、汉继周，或彊或弱，俱失厥中。大魏创业，诸王开国，随时之宜，未有定制，非所以永为后法也。其改封诸侯王，皆以郡为国。」三月癸酉，行东巡，所过存问高年鳏寡孤独，赐谷帛。乙亥，月犯轩辕大星。夏四月壬寅，行幸许昌宫。甲子，初进新果于庙。五月，皇子殷薨，追封谥安平哀王。秋七月，以衞尉董昭为司徒。九月，行幸摩陂，治许昌宫，起景福、承光殿。冬十月，殄夷将军田豫帅众讨吴将周贺于成山，杀贺。十一月丙寅，太白昼见。有星孛于翼，近太微上将星。庚寅，陈思王植薨。十二月，行还许昌宫。",
+      "parts": [
+        {
+          "text": "六年春二月，诏曰：「古之帝王，封建诸侯，所以藩屏王室也。诗不云乎，『怀德维宁，宗子维城』。秦、汉继周，或彊或弱，俱失厥中。大魏创业，诸王开国，随时之宜，未有定制，非所以永为后法也。其改封诸侯王，皆以郡为国。」三月癸酉，行东巡，所过存问高年鳏寡孤独，赐谷帛。乙亥，月犯轩辕大星。夏四月壬寅，行幸"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "昌宫。甲子，初进新果于庙。五月，皇子殷薨，追封谥安平哀王。秋七月，以衞尉"
+        },
+        {
+          "text": "董昭",
+          "personId": "dong-zhao"
+        },
+        {
+          "text": "为司徒。九月，行幸摩陂，治"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "昌宫，起景福、承光殿。冬十月，殄夷将军田豫帅众讨吴将周贺于成山，杀贺。十一月丙寅，太白昼见。有星孛于翼，近太微上将星。庚寅，陈思王植薨。十二月，行还"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "昌宫。"
+        }
+      ],
+      "translation": "太和六年春二月，诏曰：“古代帝王封建诸侯，是为了屏卫王室。《诗》不是说‘怀德维宁，宗子维城’吗？秦汉继周之后，诸侯制度有的过强、有的过弱，都失于中道。大魏创业，诸王开国，因时制宜，尚无定制，不足以长久作为后世法度。应改封诸侯王，都以一郡为国。”三月癸酉日东巡，沿途慰问高龄、鳏寡孤独者，赐粮帛。乙亥日月亮靠近轩辕大星。夏四月壬寅日到许昌宫，甲子日首次向宗庙进献新果。五月，皇子曹殷去世，追封谥安平哀王。秋七月，任卫尉董昭为司徒。九月到摩陂，修许昌宫，建景福、承光殿。冬十月，殄夷将军田豫率军在成山讨吴将周贺，杀周贺。十一月丙寅日，太白白天可见；彗星出现在翼宿，靠近太微上将星。庚寅日，陈思王曹植去世。十二月回许昌宫。",
+      "summary": "诏书讨论封建诸侯、屏卫王室的作用。",
+      "placeIds": [
+        "xu"
+      ],
+      "personIds": [
+        "dong-zhao",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "xu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 14,
+        "excerptStart": "六年春二月，诏曰：「古之",
+        "excerptEnd": "薨。十二月，行还许昌宫。",
+        "startOffset": 0,
+        "endOffsetExclusive": 277,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "mingdi-p15",
+      "title": "改元青龙",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "originalText": "青龙元年春正月甲申，青龙见郏之摩陂井中。二月丁酉，幸摩陂观龙，于是改年；改摩陂为龙陂，赐男子爵人二级，鳏寡孤独无出今年租赋。三月甲子，诏公卿举贤良笃行之士各一人。夏五月壬申，诏祀故大将军夏侯惇、大司马曹仁、车骑将军程昱于太祖庙庭。戊寅，北海王蕤薨。闰月庚寅朔，日有蚀之。丁酉，改封宗室女非诸王女皆为邑主。诏诸郡国山川不在祠典者勿祠。六月，洛阳宫鞠室灾。",
+      "parts": [
+        {
+          "text": "青龙元年春正月甲申，青龙见郏之摩陂井中。二月丁酉，幸摩陂观龙，于是改年；改摩陂为龙陂，赐男子爵人二级，鳏寡孤独无出今年租赋。三月甲子，诏公卿举贤良笃行之士各一人。夏五月壬申，诏祀故大将军"
+        },
+        {
+          "text": "夏侯惇",
+          "personId": "xiahou-dun"
+        },
+        {
+          "text": "、大司马"
+        },
+        {
+          "text": "曹仁",
+          "personId": "cao-ren"
+        },
+        {
+          "text": "、车骑将军"
+        },
+        {
+          "text": "程昱",
+          "personId": "cheng-yu"
+        },
+        {
+          "text": "于太祖庙庭"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p15-note0"
+          ]
+        },
+        {
+          "text": "戊寅，北海王蕤薨。闰月庚寅朔，日有蚀之。丁酉，改封宗室女非诸王女皆为邑主。诏诸郡国山川不在祠典者勿祠。六月，"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "宫鞠室灾。"
+        }
+      ],
+      "translation": "青龙元年春正月甲申日，青龙出现在郏县摩陂井中。二月丁酉日，皇帝到摩陂观龙，因此改年号；将摩陂改名龙陂，赐男子每人爵二级，免鳏寡孤独者本年租赋。三月甲子日，诏公卿各举荐一名贤良笃行之士。夏五月壬申日，诏在太祖庙庭祭故大将军夏侯惇、大司马曹仁、车骑将军程昱。戊寅日，北海王曹蕤去世。闰月庚寅初一日发生日食。丁酉日，改封宗室女子中非诸王之女者为邑主。诏诸郡国不在祭典的山川不得祭祀。六月，洛阳宫球室失火。",
+      "summary": "青龙元年春正月甲申日，青龙出现在郏县摩陂井中。",
+      "placeIds": [
+        "luoyang"
+      ],
+      "personIds": [
+        "xiahou-dun",
+        "cao-ren",
+        "cheng-yu",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p15-note0"
+      ],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 15,
+        "excerptStart": "青龙元年春正月甲申，青龙",
+        "excerptEnd": "祠。六月，洛阳宫鞠室灾。",
+        "startOffset": 0,
+        "endOffsetExclusive": 176,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p16",
+      "title": "鲜卑边事",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "originalText": "保塞鲜卑大人步度根与叛鲜卑大人轲比能私通，并州刺史毕轨表，辄出军以外威比能，内镇步度根。帝省表曰：「步度根以为比能所诱，有自疑心。今轨出军，适使二部惊合为一，何所威镇乎？」促𠡠轨，以出军者慎勿越塞过句注也。比诏书到，轨以进军屯阴馆，遣将军苏尚、董弼追鲜卑。比能遣子将千余骑迎步度根部落，与尚、弼相遇，战于楼烦，二将败没。步度根部落皆叛出塞，与比能合寇边。遣骁骑将军秦朗将中军讨之，虏乃走漠北。",
+      "parts": [
+        {
+          "text": "保塞鲜卑大人步度根与叛鲜卑大人轲比能私通，并州刺史毕轨表，辄出军以外威比能，内镇步度根。帝省表曰：「步度根以为比能所诱，有自疑心。今轨出军，适使二部惊合为一，何所威镇乎？」促𠡠轨，以出军者慎勿越塞过句注也。比诏书到，轨以进军屯阴馆，遣将军苏尚、董弼追鲜卑。比能遣子将千余骑迎步度根部落，与尚、弼相遇，战于楼烦，二将败没。步度根部落皆叛出塞，与比能合寇边。遣骁骑将军秦朗将中军讨之，虏乃走漠北。"
+        }
+      ],
+      "translation": "归附守边的鲜卑首领步度根与反叛的鲜卑首领轲比能暗中往来。并州刺史毕轨上表，随即出兵，想对外威慑轲比能、对内镇住步度根。皇帝看表后说：“步度根以为自己受轲比能引诱，心中已有疑惧。毕轨出兵，只会使两部受惊联合，哪有什么威慑镇定作用？”急令毕轨，出兵者谨慎不要越塞过句注山。诏书到时，毕轨已进军驻阴馆，派苏尚、董弼追鲜卑。轲比能派儿子率千余骑迎接步度根部落，与苏尚、董弼相遇，在楼烦交战，两将战败阵亡。步度根部落都反叛出塞，与轲比能共同侵扰边境。朝廷派骁骑将军秦朗率中军讨伐，敌军才逃往漠北。",
+      "summary": "归附守边的鲜卑首领步度根与反叛的鲜卑首领轲比能暗中往来。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 16,
+        "excerptStart": "保塞鲜卑大人步度根与叛鲜",
+        "excerptEnd": "将中军讨之，虏乃走漠北。",
+        "startOffset": 0,
+        "endOffsetExclusive": 196,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p17",
+      "title": "胡遵追讨匈奴",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "originalText": "秋九月，安定保塞匈奴大人胡薄居姿职等叛，司马宣王遣将军胡遵等追讨，破降之。",
+      "parts": [
+        {
+          "text": "秋九月，安定保塞匈奴大人胡薄居姿职等叛，"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "遣将军胡遵等追讨，破降之。"
+        }
+      ],
+      "translation": "秋九月，安定归附守边的匈奴首领胡薄居姿职等反叛，司马宣王派胡遵等追讨，击破并使其投降。",
+      "summary": "安定匈奴首领反叛，胡遵追讨并使其投降。",
+      "placeIds": [],
+      "personIds": [
+        "sima-yi",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 17,
+        "excerptStart": "秋九月，安定保塞匈奴大人",
+        "excerptEnd": "将军胡遵等追讨，破降之。",
+        "startOffset": 0,
+        "endOffsetExclusive": 37,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p18",
+      "title": "步度根部众归降",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "originalText": "冬十月，步度根部落大人戴胡阿狼泥等诣并州降，朗引军还。",
+      "parts": [
+        {
+          "text": "冬十月，步度根部落大人戴胡阿狼泥等诣并州降，朗引军还"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p18-note0"
+          ]
+        }
+      ],
+      "translation": "冬十月，步度根部落首领戴胡阿狼泥等到并州投降，秦朗率军返回。",
+      "summary": "步度根部落首领到并州投降，秦朗率军返回。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p18-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 18,
+        "excerptStart": "冬十月，步度根部落大人戴",
+        "excerptEnd": "泥等诣并州降，朗引军还。",
+        "startOffset": 0,
+        "endOffsetExclusive": 27,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p19",
+      "title": "公孙渊斩吴使",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "originalText": "十二月，公孙渊斩送孙权所遣使张弥、许晏首，以渊为大司马乐浪公。",
+      "parts": [
+        {
+          "text": "十二月，"
+        },
+        {
+          "text": "公孙渊",
+          "personId": "gongsun-yuan"
+        },
+        {
+          "text": "斩送"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "所遣使张弥、"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "晏首，以渊为大司马乐浪公"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p19-note0"
+          ]
+        }
+      ],
+      "translation": "十二月，公孙渊斩杀孙权派来的使者张弥、许晏，送来首级。朝廷任公孙渊为大司马，封乐浪公。",
+      "summary": "十二月，公孙渊斩杀孙权派来的使者张弥、许晏，送来首级。",
+      "placeIds": [
+        "xu"
+      ],
+      "personIds": [
+        "gongsun-yuan",
+        "sun-quan",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p19-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 19,
+        "excerptStart": "十二月，公孙渊斩送孙权所",
+        "excerptEnd": "首，以渊为大司马乐浪公。",
+        "startOffset": 0,
+        "endOffsetExclusive": 31,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p20",
+      "title": "减鞭杖与葬汉献帝",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "originalText": "二年春二月乙未，太白犯荧惑。癸酉，诏曰：「鞭作官刑，所以纠慢怠也，而顷多以无辜死。其减鞭杖之制，著于令。」三月庚寅，山阳公薨，帝素服发哀，遣使持节典护丧事。己酉，大赦。夏四月，大疫。崇华殿灾。丙寅，诏有司以太牢告祠文帝庙。追谥山阳公为汉孝献皇帝，葬以汉礼。",
+      "parts": [
+        {
+          "text": "二年春二月乙未，太白犯荧惑。癸酉，诏曰：「鞭作官刑，所以纠慢怠也，而顷多以无辜死。其减鞭杖之制，著于令。」三月庚寅，山阳公薨，帝素服发哀，遣使持节典护丧事。己酉，大赦。夏四月，大疫。崇华殿灾。丙寅，诏有司以太牢告祠文帝庙。追谥山阳公为汉孝献皇帝，葬以汉礼"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p20-note0"
+          ]
+        }
+      ],
+      "translation": "青龙二年春二月乙未日，太白星靠近荧惑。癸酉日，诏曰：“用鞭作为官刑，是为纠正怠慢，但近来有许多无罪者被打死。应减轻鞭杖制度，写入法令。”三月庚寅日，山阳公去世，皇帝穿素服举哀，派持节使者主持护送丧事。己酉日大赦。夏四月大疫，崇华殿失火。丙寅日，诏有司以太牢告祭文帝庙。追谥山阳公为汉孝献皇帝，依汉朝礼制安葬。",
+      "summary": "青龙二年春二月乙未日，太白星靠近荧惑。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p20-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 20,
+        "excerptStart": "二年春二月乙未，太白犯荧",
+        "excerptEnd": "为汉孝献皇帝，葬以汉礼。",
+        "startOffset": 0,
+        "endOffsetExclusive": 128,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "mingdi-p21",
+      "title": "诏司马懿坚守",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "originalText": "是月，诸葛亮出斜谷，屯渭南，司马宣王率诸军拒之。诏宣王：「但坚壁拒守以挫其锋，彼进不得志，退无与战，乆停则粮尽，虏略无所获，则必走矣。走而追之，以逸待劳，全胜之道也。」",
+      "parts": [
+        {
+          "text": "是月，"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "出斜谷，屯渭南，"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "率诸军拒之。诏宣王：「但坚壁拒守以挫其锋，彼进不得志，退无与战，乆停则粮尽，虏略无所获，则必走矣。走而追之，以逸待劳，全胜之道也。"
+        },
+        {
+          "text": "」",
+          "noteIds": [
+            "mingdi-p21-note0"
+          ]
+        }
+      ],
+      "translation": "这月，诸葛亮出斜谷，驻渭南，司马宣王率诸军抵御。皇帝诏他说：“只要坚守营垒挫其锐气，他前进不能得志，退后无人交战，久留则粮尽，掳掠又无所得，必定撤走。撤走时追击，以逸待劳，是全胜的办法。”",
+      "summary": "这月，诸葛亮出斜谷，驻渭南，司马宣王率诸军抵御。",
+      "placeIds": [],
+      "personIds": [
+        "zhuge-liang",
+        "sima-yi",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p21-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 21,
+        "excerptStart": "是月，诸葛亮出斜谷，屯渭",
+        "excerptEnd": "以逸待劳，全胜之道也。」",
+        "startOffset": 0,
+        "endOffsetExclusive": 84,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p22",
+      "title": "亲征孙权",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "originalText": "五月，太白昼见。孙权入居巢湖口，向合肥新城，又遣将陆议、孙韶各将万余人入淮、沔。六月，征东将军满宠进军拒之。宠欲拔新城守，致贼寿春，帝不听，曰：「昔汉光武遣兵县据略阳，终以破隗嚣，先帝东置合肥，南守襄阳，西固祁山，贼来辄破于三城之下者，地有所必争也。纵权攻新城，必不能拔。𠡠诸将坚守，吾将自往征之，比至，恐权走也。」秋七月壬寅，帝亲御龙舟东征，权攻新城，将军张颕等拒守力战，帝军未至数百里，权遁走，议、韶等亦退。群臣以为大将军方与诸葛亮相持未解，车驾可西幸长安。帝曰：「权走，亮胆破，大将军以制之，吾无忧矣。」遂进军幸寿春，录诸将功，封赏各有差。八月己未，大曜兵，飨六军，遣使者持节犒劳合肥、寿春诸军。辛巳，行还许昌宫。",
+      "parts": [
+        {
+          "text": "五月，太白昼见。"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "入居巢湖口，向"
+        },
+        {
+          "text": "合肥",
+          "placeId": "hefei"
+        },
+        {
+          "text": "新城，又遣将陆议、孙韶各将万余人入淮、沔。六月，征东将军满宠进军拒之。宠欲拔新城守，致贼"
+        },
+        {
+          "text": "寿春",
+          "placeId": "shouchun"
+        },
+        {
+          "text": "，帝不听，曰：「昔汉光武遣兵县据略阳，终以破隗嚣，先帝东置"
+        },
+        {
+          "text": "合肥",
+          "placeId": "hefei"
+        },
+        {
+          "text": "，南守"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "，西固祁山，贼来辄破于三城之下者，地有所必争也。纵权攻新城，必不能拔。𠡠诸将坚守，吾将自往征之，比至，恐权走也。」秋七月壬寅，帝亲御龙舟东征，权攻新城，将军张颕等拒守力战，帝军未至数百里，权遁走，议、韶等亦退。群臣以为大将军方与"
+        },
+        {
+          "text": "诸葛亮",
+          "personId": "zhuge-liang"
+        },
+        {
+          "text": "相持未解，车驾可西幸"
+        },
+        {
+          "text": "长安",
+          "placeId": "changan"
+        },
+        {
+          "text": "。帝曰：「权走，亮胆破，大将军以制之，吾无忧矣。」遂进军幸"
+        },
+        {
+          "text": "寿春",
+          "placeId": "shouchun"
+        },
+        {
+          "text": "，录诸将功，封赏各有差。八月己未，大曜兵，飨六军，遣使者持节犒劳"
+        },
+        {
+          "text": "合肥",
+          "placeId": "hefei"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "寿春",
+          "placeId": "shouchun"
+        },
+        {
+          "text": "诸军。辛巳，行还"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "昌宫。"
+        }
+      ],
+      "translation": "五月，太白白天可见。孙权进入居巢湖口，逼向合肥新城，又派陆议、孙韶各率万余人进入淮水、沔水。六月，征东将军满宠进军抵御，想放弃新城防守，把敌军引到寿春。皇帝不听，说：“汉光武帝派兵孤悬据守略阳，最终击破隗嚣。先帝在东设合肥、南守襄阳、西固祁山，敌军每来都败在这三城下，因为有必须争夺的地利。即使孙权攻新城，一定攻不下。命诸将坚守，我将亲征；等我到时，恐怕孙权已逃走。”秋七月壬寅日，皇帝亲乘龙舟东征。孙权攻新城，将军张颕等坚守力战。帝军尚距数百里，孙权逃走，陆议、孙韶等也撤退。群臣认为大将军正与诸葛亮相持未解，皇帝可以西到长安。皇帝说：“孙权逃走，诸葛亮胆气已丧，大将军可以制住他，我没有忧虑。”于是进军寿春，评诸将功劳，封赏有差。八月己未日，大阅兵，宴六军，派持节使者犒劳合肥、寿春各军。辛巳日回许昌宫。",
+      "summary": "五月，太白白天可见。",
+      "placeIds": [
+        "hefei",
+        "shouchun",
+        "xiangyang",
+        "changan",
+        "xu"
+      ],
+      "personIds": [
+        "sun-quan",
+        "zhuge-liang",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "xu",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 22,
+        "excerptStart": "五月，太白昼见。孙权入居",
+        "excerptEnd": "诸军。辛巳，行还许昌宫。",
+        "startOffset": 0,
+        "endOffsetExclusive": 310,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p23",
+      "title": "诸葛亮去世",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "originalText": "司马宣王与亮相持，连围积日，亮数挑战，宣王坚垒不应。会亮卒，其军退还。",
+      "parts": [
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "与亮相持，连围积日，亮数挑战，宣王坚垒不应。会亮卒，其军退还。"
+        }
+      ],
+      "translation": "司马宣王与诸葛亮相持，久围多日，诸葛亮多次挑战，司马宣王坚守不应。恰逢诸葛亮去世，蜀军撤回。",
+      "summary": "司马宣王与诸葛亮相持，久围多日，诸葛亮多次挑战，司马宣王坚守不应。",
+      "placeIds": [],
+      "personIds": [
+        "sima-yi",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 23,
+        "excerptStart": "司马宣王与亮相持，连围积",
+        "excerptEnd": "不应。会亮卒，其军退还。",
+        "startOffset": 0,
+        "endOffsetExclusive": 35,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p24",
+      "title": "地震与减死罪",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "originalText": "冬十月乙丑，月犯镇星及轩辕。戊寅，月犯太白。十一月，京都地震，从东南来，隐隐有声，摇动屋瓦。十二月，诏有司删定大辟，减死罪。",
+      "parts": [
+        {
+          "text": "冬十月乙丑，月犯镇星及轩辕。戊寅，月犯太白。十一月，京都地震，从东南来，隐隐有声，摇动屋瓦。十二月，诏有司删定大辟，减死罪。"
+        }
+      ],
+      "translation": "冬十月乙丑日，月亮靠近镇星和轩辕。戊寅日，月亮靠近太白。十一月，京城地震，从东南而来，隐隐有声，震动屋瓦。十二月，诏有司删定死刑条目，减少死罪。",
+      "summary": "冬十月乙丑日，月亮靠近镇星和轩辕。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 24,
+        "excerptStart": "冬十月乙丑，月犯镇星及轩",
+        "excerptEnd": "诏有司删定大辟，减死罪。",
+        "startOffset": 0,
+        "endOffsetExclusive": 62,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p25",
+      "title": "郭太后去世",
+      "time": {
+        "year": 235,
+        "era": "青龙三年",
+        "label": "青龙三年",
+        "certainty": "inferred"
+      },
+      "originalText": "三年春正月戊子，以大将军司马宣王为太尉。己亥，复置朔方郡。京都大疫。丁巳，皇太后崩。乙亥，陨石于寿光县。三月庚寅，葬文德郭后，营陵于首阳陵涧西，如终制。",
+      "parts": [
+        {
+          "text": "三年春正月戊子，以大将军"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "为太尉。己亥，复置朔方郡。京都大疫。丁巳，皇太后崩。乙亥，陨石于寿光县。三月庚寅，葬文德郭后，营陵于首阳陵涧西，如终制"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p25-note0"
+          ]
+        }
+      ],
+      "translation": "青龙三年春正月戊子日，任大将军司马宣王为太尉。己亥日恢复朔方郡。京城大疫。丁巳日皇太后去世。乙亥日寿光县陨石。三月庚寅日，葬文德郭后于首阳陵涧西，依照终制营建陵墓。",
+      "summary": "青龙三年春正月戊子日，任大将军司马宣王为太尉。",
+      "placeIds": [],
+      "personIds": [
+        "sima-yi",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p25-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 25,
+        "excerptStart": "三年春正月戊子，以大将军",
+        "excerptEnd": "陵于首阳陵涧西，如终制。",
+        "startOffset": 0,
+        "endOffsetExclusive": 76,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p26",
+      "title": "营宫与谏臣",
+      "time": {
+        "year": 235,
+        "era": "青龙三年",
+        "label": "青龙三年",
+        "certainty": "inferred"
+      },
+      "originalText": "是时，大治洛阳宫，起昭阳、太极殿，筑緫章观。百姓失农时，直臣杨阜、高堂隆等各数切谏，虽不能听，常优容之。",
+      "parts": [
+        {
+          "text": "是时，大治"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "宫，起昭阳、太极殿，筑緫章观。百姓失农时，直臣杨阜、高堂隆等各数切谏，虽不能听，常优容之"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p26-note0"
+          ]
+        }
+      ],
+      "translation": "这时大修洛阳宫，建昭阳殿、太极殿，筑总章观。百姓耽误农时，直臣杨阜、高堂隆等多次恳切进谏；皇帝虽不能听从，仍常宽容优待他们。",
+      "summary": "这时大修洛阳宫，建昭阳殿、太极殿，筑总章观。",
+      "placeIds": [
+        "luoyang"
+      ],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p26-note0"
+      ],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 26,
+        "excerptStart": "是时，大治洛阳宫，起昭阳",
+        "excerptEnd": "谏，虽不能听，常优容之。",
+        "startOffset": 0,
+        "endOffsetExclusive": 52,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p27",
+      "title": "立齐王秦王",
+      "time": {
+        "year": 235,
+        "era": "青龙三年",
+        "label": "青龙三年",
+        "certainty": "inferred"
+      },
+      "originalText": "秋七月，洛阳崇华殿灾，八月庚午，立皇子芳为齐王，询为秦王。丁巳，行还洛阳宫。命有司复崇华，改名九龙殿。冬十月己酉，中山王衮薨。壬申，太白昼见。十一月丁酉，行幸许昌宫。",
+      "parts": [
+        {
+          "text": "秋七月，"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "崇华殿灾，八月庚午，立皇子芳为齐王，询为秦王。丁巳，行还"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "宫。命有司复崇华，改名九龙殿。冬十月己酉，中山王衮薨。壬申，太白昼见。十一月丁酉，行幸"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "昌宫"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p27-note0"
+          ]
+        }
+      ],
+      "translation": "秋七月，洛阳崇华殿失火。八月庚午日，立皇子曹芳为齐王、曹询为秦王。丁巳日回洛阳宫，命有司重建崇华殿，改名九龙殿。冬十月己酉日，中山王曹衮去世。壬申日太白白天可见。十一月丁酉日到许昌宫。",
+      "summary": "秋七月，洛阳崇华殿失火。",
+      "placeIds": [
+        "luoyang",
+        "xu"
+      ],
+      "personIds": [
+        "cao-rui",
+        "cao-fang",
+        "cao-xun"
+      ],
+      "noteIds": [
+        "mingdi-p27-note0"
+      ],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 27,
+        "excerptStart": "秋七月，洛阳崇华殿灾，八",
+        "excerptEnd": "十一月丁酉，行幸许昌宫。",
+        "startOffset": 0,
+        "endOffsetExclusive": 83,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p28",
+      "title": "置崇文观",
+      "time": {
+        "year": 236,
+        "era": "青龙四年",
+        "label": "青龙四年",
+        "certainty": "inferred"
+      },
+      "originalText": "四年春二月，太白复昼见，月犯太白，又犯轩辕一星，入太微而出。夏四月，置崇文观，征善属文者以充之。五月乙卯，司徒董昭薨。丁巳，肃慎氏献楛矢。",
+      "parts": [
+        {
+          "text": "四年春二月，太白复昼见，月犯太白，又犯轩辕一星，入太微而出。夏四月，置崇文观，征善属文者以充之。五月乙卯，司徒"
+        },
+        {
+          "text": "董昭",
+          "personId": "dong-zhao"
+        },
+        {
+          "text": "薨。丁巳，肃慎氏献楛矢。"
+        }
+      ],
+      "translation": "青龙四年春二月，太白又在白天可见，月亮靠近太白、轩辕一星，进入太微星垣又出来。夏四月设置崇文观，征召善于写文章的人充任。五月乙卯日，司徒董昭去世。丁巳日，肃慎氏进献楛木箭。",
+      "summary": "青龙四年春二月，太白又在白天可见，月亮靠近太白、轩辕一星，进入太微星垣又出来。",
+      "placeIds": [],
+      "personIds": [
+        "dong-zhao",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 28,
+        "excerptStart": "四年春二月，太白复昼见，",
+        "excerptEnd": "薨。丁巳，肃慎氏献楛矢。",
+        "startOffset": 0,
+        "endOffsetExclusive": 69,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p29",
+      "title": "宽慎死刑",
+      "time": {
+        "year": 236,
+        "era": "青龙四年",
+        "label": "青龙四年",
+        "certainty": "inferred"
+      },
+      "originalText": "六月壬申，诏曰：「有虞氏画象而民弗犯，周人刑错而不用。朕从百王之末，追望上世之风，邈乎何相去之远？法令滋章，犯者弥多，刑罚愈众，而奸不可止。往者桉大辟之条，多所蠲除，思济生民之命，此朕之至意也。而郡国毙狱，一岁之中尚过数百，岂朕训导不醇，俾民轻罪，将苛法犹存，为之陷穽乎？有司其议狱缓死，务从宽简，及乞恩者，或辞未出而狱以报断，非所以究理尽情也。其令廷尉及天下狱官，诸有死罪具狱以定，非谋反及手杀人，亟语其亲治，有乞恩者，使与奏当文书俱上，朕将思所以全之。其布告天下，使明朕意。」",
+      "parts": [
+        {
+          "text": "六月壬申，诏曰：「有虞氏画象而民弗犯，周人刑错而不用。朕从百王之末，追望上世之风，邈乎何相去之远？法令滋章，犯者弥多，刑罚愈众，而奸不可止。往者桉大辟之条，多所蠲除，思济生民之命，此朕之至意也。而郡国毙狱，一岁之中尚过数百，岂朕训导不醇，俾民轻罪，将苛法犹存，为之陷穽乎？有司其议狱缓死，务从宽简，及乞恩者，或辞未出而狱以报断，非所以究理尽情也。其令廷尉及天下狱官，诸有死罪具狱以定，非谋反及手杀人，亟语其亲治，有乞恩者，使与奏当文书俱上，朕将思所以全之。其布告天下，使明朕意。」"
+        }
+      ],
+      "translation": "六月壬申日，诏曰：“有虞氏画刑具之象，百姓不触犯；周人刑罚搁置不用。朕处于历代君王之后，追望上古风俗，相去何其遥远！法令越来越繁多，犯法的人也越来越多，刑罚越来越重，奸邪仍不能制止。以前审查死刑条目，已多所废除，想挽救百姓性命，这是朕的至意。然而郡国狱中死者一年仍超过数百，难道是朕教导不周，使百姓轻易犯罪，还是苛法仍存，像陷阱一样使人落入？有司应审议案件、缓行死刑，尽力从宽从简。请求恩赦的人，有时申诉尚未递出，案件已判决上报，这不是彻底查明情理。命廷尉及天下狱官，对死罪已经审理定案的，除谋反及亲手杀人外，赶快通知亲属办理；有请求恩赦的，让他们与判案文书一同上奏，朕将考虑保全其性命。布告天下，使众人明白朕的意思。”",
+      "summary": "诏书议论刑罚和治民。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 29,
+        "excerptStart": "六月壬申，诏曰：「有虞氏",
+        "excerptEnd": "其布告天下，使明朕意。」",
+        "startOffset": 0,
+        "endOffsetExclusive": 240,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "document"
+    },
+    {
+      "id": "mingdi-p30",
+      "title": "天象与陈群去世",
+      "time": {
+        "year": 236,
+        "era": "青龙四年",
+        "label": "青龙四年",
+        "certainty": "inferred"
+      },
+      "originalText": "秋七月，高句骊王宫斩送孙权使胡衞等首，诣幽州。甲寅，太白犯轩辕大星。冬十月己卯，行还洛阳宫。甲申，有星孛于大辰，乙酉，又孛于东方。十一月己亥，彗星见，犯宦者天纪星。十二月癸巳，司空陈群薨。乙未，行幸许昌宫。",
+      "parts": [
+        {
+          "text": "秋七月，高句骊王宫斩送"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "使胡衞等首，诣"
+        },
+        {
+          "text": "幽州",
+          "placeId": "yizhou-yuan"
+        },
+        {
+          "text": "。甲寅，太白犯轩辕大星。冬十月己卯，行还"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "宫。甲申，有星孛于大辰，乙酉，又孛于东方。十一月己亥，彗星见，犯宦者天纪星。十二月癸巳，司空"
+        },
+        {
+          "text": "陈群",
+          "personId": "chen-qun"
+        },
+        {
+          "text": "薨。乙未，行幸"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "昌宫。"
+        }
+      ],
+      "translation": "秋七月，高句骊王宫斩杀孙权使者胡卫等，送首级到幽州。甲寅日太白靠近轩辕大星。冬十月己卯日回洛阳宫。甲申日彗星出现在大辰，乙酉日又现东方。十一月己亥日，彗星出现并靠近宦者、天纪星。十二月癸巳日，司空陈群去世。乙未日到许昌宫。",
+      "summary": "秋七月，高句骊王宫斩杀孙权使者胡卫等，送首级到幽州。",
+      "placeIds": [
+        "yizhou-yuan",
+        "luoyang",
+        "xu"
+      ],
+      "personIds": [
+        "sun-quan",
+        "chen-qun",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 30,
+        "excerptStart": "秋七月，高句骊王宫斩送孙",
+        "excerptEnd": "群薨。乙未，行幸许昌宫。",
+        "startOffset": 0,
+        "endOffsetExclusive": 103,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p31",
+      "title": "改景初历",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "originalText": "景初元年春正月壬辰，山茌县言黄龙见。于是有司奏，以为魏得地统，宜以建丑之月为正。三月，定历改年为孟夏四月。服色尚黄，牺牲用白，戎事乘黑首白马，建大赤之旗，朝会建大白之旗。改〈大和历〉曰〈景初历〉。其春夏秋冬孟仲季月虽与正岁不同，至于郊祀、迎气、礿祠、蒸甞、巡狩、搜田、分至启闭、班宣时令、中气早晚、敬授民事，皆以正岁斗建为历数之序。",
+      "parts": [
+        {
+          "text": "景初元年春正月壬辰，山茌县言黄龙见"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p31-note0"
+          ]
+        },
+        {
+          "text": "于是有司奏，以为魏得地统，宜以建丑之月为正。三月，定历改年为孟夏四月"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p31-note1"
+          ]
+        },
+        {
+          "text": "服色尚黄，牺牲用白，戎事乘黑首"
+        },
+        {
+          "text": "白马",
+          "placeId": "baima"
+        },
+        {
+          "text": "，建大赤之旗，朝会建大白之旗"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p31-note2"
+          ]
+        },
+        {
+          "text": "改〈大和历〉曰〈景初历〉。其春夏秋冬孟仲季月虽与正岁不同，至于郊祀、迎气、礿祠、蒸甞、巡狩、搜田、分至启闭、班宣时令、中气早晚、敬授民事，皆以正岁斗建为历数之序。"
+        }
+      ],
+      "translation": "景初元年春正月壬辰日，山茌县报告黄龙出现。有司于是上奏，认为魏朝获得土德之统，宜以建丑之月为正月。三月制定历法，把当年改为孟夏四月。服色崇黄，祭牲用白色，军事乘黑头白马，树大红旗，朝会树大白旗。改《大和历》为《景初历》。春夏秋冬的孟仲季月虽与正岁不同，郊祀、迎气、时祭、巡狩、田猎、二分二至、节令启闭、颁布时令、节气早晚及指导农事，都仍以正岁斗建为历法次序。",
+      "summary": "景初元年春正月壬辰日，山茌县报告黄龙出现。",
+      "placeIds": [
+        "baima"
+      ],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p31-note0",
+        "mingdi-p31-note1",
+        "mingdi-p31-note2"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 31,
+        "excerptStart": "景初元年春正月壬辰，山茌",
+        "excerptEnd": "皆以正岁斗建为历数之序。",
+        "startOffset": 0,
+        "endOffsetExclusive": 166,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p32",
+      "title": "任三公与调整郡县",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "originalText": "五月己巳，行还洛阳宫。己丑，大赦。六月戊申，京都地震。己亥，以尚书令陈矫为司徒，尚书右仆射衞臻为司空。丁未，分魏兴之魏阳、锡郡之安富、上庸为上庸郡。省锡郡，以锡县属魏兴郡。",
+      "parts": [
+        {
+          "text": "五月己巳，行还"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "宫。己丑，大赦。六月戊申，京都地震。己亥，以尚书令陈矫为司徒，尚书右仆射衞臻为司空。丁未，分魏兴之魏阳、锡郡之安富、上庸为上庸郡。省锡郡，以锡县属魏兴郡。"
+        }
+      ],
+      "translation": "五月己巳日回洛阳宫。己丑日大赦。六月戊申日京城地震。己亥日，以尚书令陈矫为司徒、尚书右仆射卫臻为司空。丁未日，分魏兴郡的魏阳和锡郡的安富、上庸设置上庸郡；撤销锡郡，将锡县属魏兴郡。",
+      "summary": "五月己巳日回洛阳宫。",
+      "placeIds": [
+        "luoyang"
+      ],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 32,
+        "excerptStart": "五月己巳，行还洛阳宫。己",
+        "excerptEnd": "省锡郡，以锡县属魏兴郡。",
+        "startOffset": 0,
+        "endOffsetExclusive": 86,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p33",
+      "title": "确定三祖庙制",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "originalText": "有司奏：武皇帝拨乱反正，为魏太祖，乐用武始之舞。文皇帝应天受命，为魏高祖，乐用咸熙之舞。帝制作兴治，为魏烈祖，乐用章武之舞。三祖之庙万世不毁，其余四庙亲尽迭毁，如周后稷、文、武庙祧之制。",
+      "parts": [
+        {
+          "text": "有司奏：武皇帝拨乱反正，为魏太祖，乐用武始之舞。文皇帝应天受命，为魏高祖，乐用咸熙之舞。帝制作兴治，为魏烈祖，乐用章武之舞。三祖之庙万世不毁，其余四庙亲尽迭毁，如周后稷、文、武庙祧之制"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p33-note0"
+          ]
+        }
+      ],
+      "translation": "有司上奏：武皇帝平乱恢复正道，为魏太祖，祭乐用武始舞；文皇帝顺应天命，为魏高祖，祭乐用咸熙舞；当今皇帝创制兴治，为魏烈祖，祭乐用章武舞。三祖庙万世不毁，其余四庙亲代已尽则依次迁毁，依周朝后稷、文王、武王宗庙制度办理。",
+      "summary": "有司议定武帝、文帝的庙号及祭乐。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p33-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 33,
+        "excerptStart": "有司奏：武皇帝拨乱反正，",
+        "excerptEnd": "周后稷、文、武庙祧之制。",
+        "startOffset": 0,
+        "endOffsetExclusive": 93,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p34",
+      "title": "江夏与辽东战事",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "originalText": "秋七月丁卯，司徒陈矫薨。孙权遣将朱然等二万人围江夏郡，荆州刺史胡质等击之，然退走。初，权遣使浮海与高句骊通，欲袭辽东。遣幽州刺史毌丘俭率诸军及鲜卑、乌丸屯辽东南界，玺书征公孙渊。渊发兵反，俭进军讨之，会连雨十日，辽水大涨，诏俭引军还。右北平乌丸单于寇娄敦、辽西乌丸都督王护留等居辽东，率部众随俭内附。己卯，诏辽东将吏士民为渊所胁略不得降者，一切赦之。辛卯，太白昼见。渊自俭还，遂自立为燕王，置百官，称绍汉元年。",
+      "parts": [
+        {
+          "text": "秋七月丁卯，司徒陈矫薨。"
+        },
+        {
+          "text": "孙权",
+          "personId": "sun-quan"
+        },
+        {
+          "text": "遣将朱然等二万人围江夏郡，"
+        },
+        {
+          "text": "荆州",
+          "placeId": "jingzhou"
+        },
+        {
+          "text": "刺史胡质等击之，然退走。初，权遣使浮海与高句骊通，欲袭"
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "。遣"
+        },
+        {
+          "text": "幽州",
+          "placeId": "yizhou-yuan"
+        },
+        {
+          "text": "刺史毌丘俭率诸军及鲜卑、乌丸屯"
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "南界，玺书征"
+        },
+        {
+          "text": "公孙渊",
+          "personId": "gongsun-yuan"
+        },
+        {
+          "text": "。渊发兵反，俭进军讨之，会连雨十日，辽水大涨，诏俭引军还。右北平乌丸单于寇娄敦、辽西乌丸都督王护留等居"
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "，率部众随俭内附。己卯，诏"
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "将吏士民为渊所胁略不得降者，一切赦之。辛卯，太白昼见。渊自俭还，遂自立为燕王，置百官，称绍汉元年。"
+        }
+      ],
+      "translation": "秋七月丁卯日，司徒陈矫去世。孙权派朱然等二万人围江夏郡，荆州刺史胡质等攻击，朱然退走。起初孙权派使者渡海联系高句骊，想袭击辽东。朝廷派幽州刺史毌丘俭率诸军及鲜卑、乌丸驻辽东南界，以玺书征召公孙渊。公孙渊起兵反叛，毌丘俭进军讨伐，恰逢连续下雨十天，辽水暴涨，皇帝诏他回军。右北平乌丸单于寇娄敦、辽西乌丸都督王护留等居辽东，率部随毌丘俭归附。己卯日，诏辽东将吏士民被公孙渊胁迫、不能归降者一律赦免。辛卯日太白白天可见。毌丘俭返回后，公孙渊自立燕王、设置百官，称绍汉元年。",
+      "summary": "秋七月丁卯日，司徒陈矫去世。",
+      "placeIds": [
+        "jingzhou",
+        "liaodong",
+        "yizhou-yuan"
+      ],
+      "personIds": [
+        "sun-quan",
+        "gongsun-yuan",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 34,
+        "excerptStart": "秋七月丁卯，司徒陈矫薨。",
+        "excerptEnd": "王，置百官，称绍汉元年。",
+        "startOffset": 0,
+        "endOffsetExclusive": 205,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p35",
+      "title": "赈水灾与建圜丘",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "originalText": "诏青、兖、幽、冀四州大作海船。九月，冀、兖、徐、豫四州民遇水，遣侍御史循行没溺死亡及失财产者，在所开仓振救之。庚辰，皇后毛氏卒。冬十月丁未，月犯荧惑。癸丑，葬悼毛后于愍陵。乙卯，营洛阳南委粟山为圜丘。十二月壬子冬至，始祀。丁巳，分襄阳临沮、宜城、旍阳、邔四县，置襄阳南部都尉。己未，有司奏文昭皇后立庙京都。分襄阳郡之鄀叶县属义阳郡。",
+      "parts": [
+        {
+          "text": "诏青、兖、幽、冀四州大作海船。九月，冀、兖、徐、豫四州民遇水，遣侍御史循行没溺死亡及失财产者，在所开仓振救之。庚辰，皇后"
+        },
+        {
+          "text": "毛氏",
+          "personId": "mao-hou"
+        },
+        {
+          "text": "卒。冬十月丁未，月犯荧惑。癸丑，葬悼毛后于愍陵。乙卯，营"
+        },
+        {
+          "text": "洛阳",
+          "placeId": "luoyang"
+        },
+        {
+          "text": "南委粟山为圜丘"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p35-note0"
+          ]
+        },
+        {
+          "text": "十二月壬子冬至，始祀。丁巳，分"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "临沮、宜城、旍阳、"
+        },
+        {
+          "text": "邔",
+          "noteIds": [
+            "mingdi-p35-note1"
+          ]
+        },
+        {
+          "text": "四县，置"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "南部都尉。己未，有司奏文昭皇后立庙京都。分"
+        },
+        {
+          "text": "襄阳",
+          "placeId": "xiangyang"
+        },
+        {
+          "text": "郡之鄀叶县属义阳郡"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p35-note2"
+          ]
+        }
+      ],
+      "translation": "皇帝诏青、兖、幽、冀四州大造海船。九月，冀、兖、徐、豫四州百姓遭水灾，派侍御史巡视淹死及财产受损者，在当地开仓赈济。庚辰日，毛皇后去世。冬十月丁未日月亮靠近荧惑。癸丑日葬悼毛后于愍陵。乙卯日，在洛阳南委粟山营建圜丘。十二月壬子冬至，开始祭祀。丁巳日，从襄阳划临沮、宜城、旍阳、邔四县设置襄阳南部都尉。己未日，有司奏请在京城为文昭皇后立庙。划襄阳郡的鄀叶县归义阳郡。",
+      "summary": "皇帝诏青、兖、幽、冀四州大造海船。",
+      "placeIds": [
+        "luoyang",
+        "xiangyang"
+      ],
+      "personIds": [
+        "mao-hou",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p35-note0",
+        "mingdi-p35-note1",
+        "mingdi-p35-note2"
+      ],
+      "focusPlaceId": "luoyang",
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 35,
+        "excerptStart": "诏青、兖、幽、冀四州大作",
+        "excerptEnd": "襄阳郡之鄀叶县属义阳郡。",
+        "startOffset": 0,
+        "endOffsetExclusive": 166,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p36",
+      "title": "遣司马懿讨辽东",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "originalText": "二年春正月，诏太尉司马宣王帅众讨辽东。",
+      "parts": [
+        {
+          "text": "二年春正月，诏太尉"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "帅众讨"
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p36-note0"
+          ]
+        }
+      ],
+      "translation": "景初二年春正月，皇帝诏太尉司马宣王率众讨辽东。",
+      "summary": "曹叡命司马懿率军征讨辽东。",
+      "placeIds": [
+        "liaodong"
+      ],
+      "personIds": [
+        "sima-yi",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p36-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 36,
+        "excerptStart": "二年春正月，诏太尉司马宣",
+        "excerptEnd": "太尉司马宣王帅众讨辽东。",
+        "startOffset": 0,
+        "endOffsetExclusive": 19,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p37",
+      "title": "设置汝阴与沛王国",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "originalText": "二月癸卯，以大中大夫韩曁为司徒。癸丑，月犯心距星，又犯心中央大星。夏四月庚子，司徒韩曁薨。壬寅，分沛国萧、相、竹邑、符离、蕲、铚、龙亢、山桑、洨、虹十县为汝阴郡。宋县、陈郡苦县皆属谯郡。以沛、杼秋、公丘、彭城丰国、广戚，并五县为沛王国。庚戌，大赦。五月乙亥，月犯心距星，又犯中央大星。六月，省渔阳郡之狐奴县，复置安乐县。",
+      "parts": [
+        {
+          "text": "二月癸卯，以大中大夫韩曁为司徒。癸丑，月犯心距星，又犯心中央大星。夏四月庚子，司徒韩曁薨。壬寅，分沛国萧、相、竹邑、符离、蕲、铚、龙亢、山桑、洨、"
+        },
+        {
+          "text": "虹",
+          "noteIds": [
+            "mingdi-p37-note0"
+          ]
+        },
+        {
+          "text": "十县为汝阴郡。宋县、陈郡苦县皆属"
+        },
+        {
+          "text": "谯",
+          "placeId": "qiao"
+        },
+        {
+          "text": "郡。以沛、杼秋、公丘、"
+        },
+        {
+          "text": "彭城",
+          "placeId": "pengcheng"
+        },
+        {
+          "text": "丰国、广戚，并五县为沛王国。庚戌，大赦。五月乙亥，月犯心距星，又犯中央大星"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p37-note1"
+          ]
+        },
+        {
+          "text": "六月，省渔阳郡之狐奴县，复置安乐县。"
+        }
+      ],
+      "translation": "二月癸卯日，以大中大夫韩曁为司徒。癸丑日，月亮靠近心宿距星和中央大星。夏四月庚子日，司徒韩曁去世。壬寅日，从沛国划萧、相、竹邑、符离、蕲、铚、龙亢、山桑、洨、虹十县为汝阴郡。宋县与陈郡苦县归谯郡。以沛、杼秋、公丘、彭城的丰国、广戚五县组成沛王国。庚戌日大赦。五月乙亥日，月亮靠近心宿距星和中央大星。六月，撤销渔阳郡狐奴县，恢复安乐县。",
+      "summary": "二月癸卯日，以大中大夫韩曁为司徒。",
+      "placeIds": [
+        "qiao",
+        "pengcheng"
+      ],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p37-note0",
+        "mingdi-p37-note1"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 37,
+        "excerptStart": "二月癸卯，以大中大夫韩曁",
+        "excerptEnd": "郡之狐奴县，复置安乐县。",
+        "startOffset": 0,
+        "endOffsetExclusive": 160,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p38",
+      "title": "讨烧当羌",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "originalText": "秋八月，烧当羌王芒中、注诣等叛，凉州刺史率诸郡攻讨，斩注诣首。癸丑，有彗星见张宿。",
+      "parts": [
+        {
+          "text": "秋八月，烧当羌王芒中、注诣等叛，"
+        },
+        {
+          "text": "凉州",
+          "placeId": "liangzhou"
+        },
+        {
+          "text": "刺史率诸郡攻讨，斩注诣首。癸丑，有彗星见张宿"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p38-note0"
+          ]
+        }
+      ],
+      "translation": "秋八月，烧当羌王芒中、注诣等反叛，凉州刺史率诸郡攻讨，斩注诣。癸丑日，彗星见于张宿。",
+      "summary": "秋八月，烧当羌王芒中、注诣等反叛，凉州刺史率诸郡攻讨，斩注诣。",
+      "placeIds": [
+        "liangzhou"
+      ],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p38-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 38,
+        "excerptStart": "秋八月，烧当羌王芒中、注",
+        "excerptEnd": "首。癸丑，有彗星见张宿。",
+        "startOffset": 0,
+        "endOffsetExclusive": 41,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p39",
+      "title": "平公孙渊",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "originalText": "丙寅，司马宣王围公孙渊于襄平，大破之，传渊首于京都，海东诸郡平。冬十一月，录讨渊功，太尉宣王以下增邑封爵各有差。初，帝议遣宣王讨渊，发卒四万人。议臣皆以为四万兵多，役费难供。帝曰：「四千里征伐，虽云用奇，亦当任力，不当稍计役费。」遂以四万人行。及宣王至辽东，霖雨不得时攻，群臣或以为渊未可卒破，宜诏宣王还。帝曰：「司马懿临危制变，擒渊可计日待也。」卒皆如所策。",
+      "parts": [
+        {
+          "text": "丙寅，"
+        },
+        {
+          "text": "司马宣王",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "围"
+        },
+        {
+          "text": "公孙渊",
+          "personId": "gongsun-yuan"
+        },
+        {
+          "text": "于襄平，大破之，传渊首于京都，海东诸郡平。冬十一月，录讨渊功，太尉宣王以下增邑封爵各有差。初，帝议遣宣王讨渊，发卒四万人。议臣皆以为四万兵多，役费难供。帝曰：「四千里征伐，虽云用奇，亦当任力，不当稍计役费。」遂以四万人行。及宣王至"
+        },
+        {
+          "text": "辽东",
+          "placeId": "liaodong"
+        },
+        {
+          "text": "，霖雨不得时攻，群臣或以为渊未可卒破，宜诏宣王还。帝曰：「"
+        },
+        {
+          "text": "司马懿",
+          "personId": "sima-yi"
+        },
+        {
+          "text": "临危制变，擒渊可计日待也。」卒皆如所策。"
+        }
+      ],
+      "translation": "丙寅日，司马宣王在襄平围公孙渊，大败他，传首级到京城，海东各郡平定。冬十一月，评讨伐公孙渊的功劳，太尉司马宣王以下增邑封爵各有差别。起初皇帝商议派司马宣王讨公孙渊，征兵四万。议臣都认为四万人太多，劳役费用难供。皇帝说：“远征四千里，虽说要用奇谋，也应依靠兵力，不该过分计较役费。”于是派四万人出征。司马宣王到辽东后，连雨不能及时进攻，群臣有人认为公孙渊不能很快攻破，应诏司马宣王回来。皇帝说：“司马懿临危应变，擒获公孙渊可以计日等待。”最后都如所预料。",
+      "summary": "丙寅日，司马宣王在襄平围公孙渊，大败他，传首级到京城，海东各郡平定。",
+      "placeIds": [
+        "liaodong"
+      ],
+      "personIds": [
+        "sima-yi",
+        "gongsun-yuan",
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 39,
+        "excerptStart": "丙寅，司马宣王围公孙渊于",
+        "excerptEnd": "计日待也。」卒皆如所策。",
+        "startOffset": 0,
+        "endOffsetExclusive": 180,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p40",
+      "title": "明帝病重与曹爽为大将军",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "originalText": "壬午，以司空衞臻为司徒，司隷校尉崔林为司空。闰月，月犯心中央大星。十二月乙丑，帝寝疾不豫。辛巳，立皇后。赐天下男子爵人二级，鳏寡孤独谷。以燕王宇为大将军，甲申免，以武衞将军曹爽代之。",
+      "parts": [
+        {
+          "text": "壬午，以司空衞臻为司徒，司隷校尉崔林为司空。闰月，月犯心中央大星。十二月乙丑，帝寝疾不豫。辛巳，立皇后。赐天下男子爵人二级，鳏寡孤独谷。以燕王宇为大将军，甲申免，以武衞将军"
+        },
+        {
+          "text": "曹爽",
+          "personId": "cao-shuang"
+        },
+        {
+          "text": "代之"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p40-note0"
+          ]
+        }
+      ],
+      "translation": "壬午日，任司空卫臻为司徒、司隶校尉崔林为司空。闰月，月亮靠近心宿中央大星。十二月乙丑日，皇帝卧病。辛巳日立皇后，赐天下男子各爵二级、鳏寡孤独者粮食。任燕王曹宇为大将军，甲申日免去，以武卫将军曹爽代替。",
+      "summary": "壬午日，任司空卫臻为司徒、司隶校尉崔林为司空。",
+      "placeIds": [],
+      "personIds": [
+        "cao-shuang",
+        "cao-rui"
+      ],
+      "noteIds": [
+        "mingdi-p40-note0"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 40,
+        "excerptStart": "壬午，以司空衞臻为司徒，",
+        "excerptEnd": "免，以武衞将军曹爽代之。",
+        "startOffset": 0,
+        "endOffsetExclusive": 91,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p41",
+      "title": "登女受宠被杀",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "originalText": "初，青龙三年中，寿春农民妻自言为天神所下，命为登女，当营衞帝室，蠲邪纳福。饮人以水，及以洗创，或多愈者。于是立馆后宫，下诏称扬，甚见优宠。及帝疾，饮水无验，于是杀焉。",
+      "parts": [
+        {
+          "text": "初，青龙三年中，"
+        },
+        {
+          "text": "寿春",
+          "placeId": "shouchun"
+        },
+        {
+          "text": "农民妻自言为天神所下，命为登女，当营衞帝室，蠲邪纳福。饮人以水，及以洗创，或多愈者。于是立馆后宫，下诏称扬，甚见优宠。及帝疾，饮水无验，于是杀焉。"
+        }
+      ],
+      "translation": "起初，青龙三年间，寿春农妇自称天神降临，命名为登女，应当保护皇室、驱邪纳福。她给人喝水，用水洗伤口，有些人多能痊愈。于是皇帝在后宫为她设馆，下诏称扬，极为宠信。等皇帝生病，饮水无效，于是杀了她。",
+      "summary": "起初，青龙三年间，寿春农妇自称天神降临，命名为登女，应当保护皇室、驱邪纳福。",
+      "placeIds": [
+        "shouchun"
+      ],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 41,
+        "excerptStart": "初，青龙三年中，寿春农民",
+        "excerptEnd": "疾，饮水无验，于是杀焉。",
+        "startOffset": 0,
+        "endOffsetExclusive": 83,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p42",
+      "title": "托孤与去世",
+      "time": {
+        "year": 239,
+        "era": "景初三年",
+        "label": "景初三年",
+        "certainty": "inferred"
+      },
+      "originalText": "三年春正月丁亥，太尉宣王还至河内，帝驿马召到，引入卧内，执其手谓曰：「吾疾甚，以后事属君，君其与爽辅少子。吾得见君，无所恨！」宣王顿首流涕。即日，帝崩于嘉福殿，时年三十六。癸丑，葬高平陵。",
+      "parts": [
+        {
+          "text": "三年春正月丁亥，太尉宣王还至"
+        },
+        {
+          "text": "河内",
+          "placeId": "henei"
+        },
+        {
+          "text": "，帝驿马召到，引入卧内，执其手谓曰：「吾疾甚，以后事属君，君其与爽辅少子。吾得见君，无所恨！」宣王顿首流涕"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p42-note0"
+          ]
+        },
+        {
+          "text": "即日，帝崩于嘉福殿"
+        },
+        {
+          "text": "，",
+          "noteIds": [
+            "mingdi-p42-note1"
+          ]
+        },
+        {
+          "text": "时年三十六"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p42-note2"
+          ]
+        },
+        {
+          "text": "癸丑，葬高平陵"
+        },
+        {
+          "text": "。",
+          "noteIds": [
+            "mingdi-p42-note3"
+          ]
+        }
+      ],
+      "translation": "景初三年春正月丁亥日，太尉司马宣王回到河内。皇帝以驿马急召，将他引入卧室，握手说：“我病重，后事托付给你，请与曹爽辅佐幼子。我能见到你，就没有遗憾了！”司马宣王叩头流泪。当日皇帝在嘉福殿去世，时年三十六。癸丑日，葬高平陵。",
+      "summary": "景初三年春正月丁亥日，太尉司马宣王回到河内。",
+      "placeIds": [
+        "henei"
+      ],
+      "personIds": [
+        "cao-rui",
+        "sima-yi",
+        "cao-shuang"
+      ],
+      "noteIds": [
+        "mingdi-p42-note0",
+        "mingdi-p42-note1",
+        "mingdi-p42-note2",
+        "mingdi-p42-note3"
+      ],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 42,
+        "excerptStart": "三年春正月丁亥，太尉宣王",
+        "excerptEnd": "三十六。癸丑，葬高平陵。",
+        "startOffset": 0,
+        "endOffsetExclusive": 94,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。"
+      },
+      "kind": "narrative"
+    },
+    {
+      "id": "mingdi-p44",
+      "title": "陈寿评语",
+      "time": {
+        "year": null,
+        "era": "陈寿评语",
+        "label": "陈寿评语",
+        "certainty": "unknown"
+      },
+      "originalText": "评曰：明帝沉毅断识，任心而行，盖有君人之至槩焉。于时百姓雕弊，四海分崩，不先聿修显祖，阐拓洪基，而遽追秦皇、汉武，宫馆是营，格之远猷，其殆疾乎！",
+      "parts": [
+        {
+          "text": "评曰：明帝沉毅断识，任心而行，盖有君人之至槩焉。于时百姓雕弊，四海分崩，不先聿修显祖，阐拓洪基，而遽追秦皇、汉武，宫馆是营，格之远猷，其殆疾乎！"
+        }
+      ],
+      "translation": "陈寿评论说：明帝沉稳坚毅，有决断和识见，任凭自己心意行事，大体具有君主的基本气概。当时百姓凋敝，天下分裂，他不先致力于发扬祖先功业、开拓宏大基业，却急于追仿秦始皇、汉武帝，专事营建宫殿馆舍。用长远谋略来衡量，这恐怕是他的弊病吧！",
+      "summary": "陈寿评论说：明帝沉稳坚毅，有决断和识见，任凭自己心意行事，大体具有君主的基本气概。",
+      "placeIds": [],
+      "personIds": [
+        "cao-rui"
+      ],
+      "noteIds": [],
+      "focusPlaceId": null,
+      "historicalRiverIds": [],
+      "movements": [],
+      "variants": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+        "paragraphIndex": 44,
+        "excerptStart": "评曰：明帝沉毅断识，任心",
+        "excerptEnd": "营，格之远猷，其殆疾乎！",
+        "startOffset": 0,
+        "endOffsetExclusive": 72,
+        "note": "按 EPUB 可见正文取段，裴注按原始注锚保留。",
+        "sourceTag": "dd"
+      },
+      "kind": "narrative"
+    }
+  ],
+  "historicalRiver": {
+    "status": "unavailable",
+    "label": "古水系未复原",
+    "explanation": "本篇未复原当时各地水道，现代水系只作地理对照。",
+    "sourceIds": [
+      "editorial-guandu"
+    ]
+  },
+  "coverageAudit": {
+    "sourceSha256": "27ccc7d62b762154a26ebe74e65893c3a4a59db0fd5847f4d7fcfab0b6eb18a1",
+    "paragraphs": [
+      {
+        "paragraphIndex": 0,
+        "startOffset": 0,
+        "endOffsetExclusive": 144,
+        "sha256": "1ec6d86e42ee4445316c419ba1dc2cc57275665ba582984b77556c923dd39eee",
+        "notes": [
+          {
+            "id": "mingdi-p0-note0",
+            "offset": 29,
+            "sha256": "ebc1f90b784952ad6bcc5a61d131afefefff64b00ecd9225bd9a71c4f0d91f2a",
+            "paragraphStart": 0,
+            "paragraphEnd": 0
+          },
+          {
+            "id": "mingdi-p0-note1",
+            "offset": 64,
+            "sha256": "04b133e365ef3a3773a4f952ba247c890f4dadf794f8e4ee0ea6869319fde1da",
+            "paragraphStart": 0,
+            "paragraphEnd": 0
+          },
+          {
+            "id": "mingdi-p0-note2",
+            "offset": 117,
+            "sha256": "eb5e1902058c5cca8577bb317b1780dae53aed65a63c71c773781a8f8c2c85d3",
+            "paragraphStart": 0,
+            "paragraphEnd": 0
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 1,
+        "startOffset": 0,
+        "endOffsetExclusive": 111,
+        "sha256": "4bba15f9eda5a8bdd76899c6cd3478eabea648a3535f547f2054d5b521a9c000",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 2,
+        "startOffset": 0,
+        "endOffsetExclusive": 155,
+        "sha256": "1ce27802f142572f9c2e336ea08375635b0852f34b153991e0e0c92905973cdd",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 3,
+        "startOffset": 0,
+        "endOffsetExclusive": 218,
+        "sha256": "98766cfffef2f1ff4ef3a965ad75b810bf5fb141ae49d30554cad543813c83a7",
+        "notes": [
+          {
+            "id": "mingdi-p3-note0",
+            "offset": 218,
+            "sha256": "c943ef7611acff5bcd7287cf82b0f2637ef7fbc5898f5ab713933c8a7ffb2e29",
+            "paragraphStart": 3,
+            "paragraphEnd": 3
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 4,
+        "startOffset": 0,
+        "endOffsetExclusive": 43,
+        "sha256": "db0c07d2a128de3bcdce966eca7e18ac87a89d335dfe5370d9bf9e64fbf8fa53",
+        "notes": [
+          {
+            "id": "mingdi-p4-note0",
+            "offset": 20,
+            "sha256": "d46604eb8f3cd8713a1736126bd6a9b7c5ebffe916c84b072493d067da90911a",
+            "paragraphStart": 4,
+            "paragraphEnd": 4
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 5,
+        "startOffset": 0,
+        "endOffsetExclusive": 295,
+        "sha256": "4d6e8c928734e884cd2aad340d38034574745c20a550d3a4e594dd8079b8191f",
+        "notes": [
+          {
+            "id": "mingdi-p5-note0",
+            "offset": 25,
+            "sha256": "ba4d93973cd391b9c38351872cbebef62653e2e3ee846de99eb6db77498969ea",
+            "paragraphStart": 5,
+            "paragraphEnd": 5
+          },
+          {
+            "id": "mingdi-p5-note1",
+            "offset": 71,
+            "sha256": "cc9a8df8becea2ab23ecd83d1ffbb801f0e7bb075e23b3d5384acf32bac89b4f",
+            "paragraphStart": 5,
+            "paragraphEnd": 5
+          },
+          {
+            "id": "mingdi-p5-note2",
+            "offset": 82,
+            "sha256": "122252210c5045a6de9983df9ab20ff8b9247d002dc0d66d210fe7914ab3cba9",
+            "paragraphStart": 5,
+            "paragraphEnd": 5
+          },
+          {
+            "id": "mingdi-p5-note3",
+            "offset": 271,
+            "sha256": "130526eda9fd94738251810395fe5fa82d1ce0335c06af0b08cc6ee85c411e49",
+            "paragraphStart": 5,
+            "paragraphEnd": 5
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 6,
+        "startOffset": 0,
+        "endOffsetExclusive": 47,
+        "sha256": "ff309e1d63686476abcb4ac89837640c7dbb4a18fcbbd74bdc6a41adf7cdfbe8",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 7,
+        "startOffset": 0,
+        "endOffsetExclusive": 269,
+        "sha256": "63e42eca2ba00bf663bb32942e40337dd4bf16795ad66bc86e1bedf248bac40e",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 8,
+        "startOffset": 0,
+        "endOffsetExclusive": 40,
+        "sha256": "812ffb13b951f2098883c8713170e5a212446bd16176b55e10a7c9899fa8348c",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 9,
+        "startOffset": 0,
+        "endOffsetExclusive": 63,
+        "sha256": "4bb1bad39d9ca2c8ae041cccc4960fa6161b52c13cd2109cb2b08087c521c168",
+        "notes": [
+          {
+            "id": "mingdi-p9-note0",
+            "offset": 63,
+            "sha256": "d10ba6a6af3096a6483205b235ad57e73a326bab13b2a1c6e645977e9357df89",
+            "paragraphStart": 9,
+            "paragraphEnd": 9
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 10,
+        "startOffset": 0,
+        "endOffsetExclusive": 24,
+        "sha256": "408bae7e16356687b950d9ee3ad2f84c77205673f9277b9b3eaf9a28dfc03a4f",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 11,
+        "startOffset": 0,
+        "endOffsetExclusive": 341,
+        "sha256": "176433ab1701081c280d96a0f5b96dc356aae3af213356f99770ce021ac9472f",
+        "notes": [
+          {
+            "id": "mingdi-p11-note0",
+            "offset": 245,
+            "sha256": "aec3013c27fe493a5ce98c9d58a6a70efdd5bc796fdc2f09e846bd32ea4a3d07",
+            "paragraphStart": 11,
+            "paragraphEnd": 11
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 12,
+        "startOffset": 0,
+        "endOffsetExclusive": 126,
+        "sha256": "2026420f7762e54bbca14be4b7fc703a541ed0eec88e68dbd08028ad35970f8f",
+        "notes": [
+          {
+            "id": "mingdi-p12-note0",
+            "offset": 115,
+            "sha256": "ce93f17ecd9349b5af317a95a710dc8a9419beff73ce36a82b781b618d3fed42",
+            "paragraphStart": 12,
+            "paragraphEnd": 12
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 13,
+        "startOffset": 0,
+        "endOffsetExclusive": 167,
+        "sha256": "29a3501cc3c9dc1e52b9c91fa015fa16b2bcff53ee239db7cc6b079f68fc69fe",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 14,
+        "startOffset": 0,
+        "endOffsetExclusive": 277,
+        "sha256": "277189aa1fda63d11008244fd7dbafec67b70fbef6dfb34f6b6d60449d7e093c",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 15,
+        "startOffset": 0,
+        "endOffsetExclusive": 176,
+        "sha256": "9be380a2ea8cfee58c9a6a4e1e65ba1e524e02018f0b3b6b8f47b0b2f70de64f",
+        "notes": [
+          {
+            "id": "mingdi-p15-note0",
+            "offset": 115,
+            "sha256": "6096e984b00852eac78572c6148bbe2b729209e88123677663a2ecad497df54c",
+            "paragraphStart": 15,
+            "paragraphEnd": 15
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 16,
+        "startOffset": 0,
+        "endOffsetExclusive": 196,
+        "sha256": "908cb16c721b97995a2d1d164c8e8b41225a13ea15e5cfa0897437e5d2c53d5a",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 17,
+        "startOffset": 0,
+        "endOffsetExclusive": 37,
+        "sha256": "d46941fbffa00f114116994a97650fa76523acd5e0362470987075517adf1d07",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 18,
+        "startOffset": 0,
+        "endOffsetExclusive": 27,
+        "sha256": "df25adb2c560cb07df774c29a231da2584c6a00df98ea85dad92ff446edab67e",
+        "notes": [
+          {
+            "id": "mingdi-p18-note0",
+            "offset": 27,
+            "sha256": "ad9b94860c636cac9853e49a475388e908e94533d8e23003d62c8d1d4ad505dd",
+            "paragraphStart": 18,
+            "paragraphEnd": 18
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 19,
+        "startOffset": 0,
+        "endOffsetExclusive": 31,
+        "sha256": "a8ff54b55af0927213296a1a23d91476e76b689f155ee4b0e0ee0fcc90ba72ab",
+        "notes": [
+          {
+            "id": "mingdi-p19-note0",
+            "offset": 31,
+            "sha256": "f993a6362faa04abd89e7bb138b7b36bb5372e59ad5a4f5f43ff95d6bbd22114",
+            "paragraphStart": 19,
+            "paragraphEnd": 19
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 20,
+        "startOffset": 0,
+        "endOffsetExclusive": 128,
+        "sha256": "3157acd14914e9f44edb819d9281da58acad14d9b2e7feb29878e8920fab4da7",
+        "notes": [
+          {
+            "id": "mingdi-p20-note0",
+            "offset": 128,
+            "sha256": "8982e04b11be6bcb2a4321f4446f478f1094824b6fa182c1792892ec25bd5839",
+            "paragraphStart": 20,
+            "paragraphEnd": 20
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 21,
+        "startOffset": 0,
+        "endOffsetExclusive": 84,
+        "sha256": "6a558c6600e9c107a46d9b242d54a4c6c3e8689e206e5f7a029bf36599da24f8",
+        "notes": [
+          {
+            "id": "mingdi-p21-note0",
+            "offset": 84,
+            "sha256": "a94d3fe770749ef6ab934c39808bed28ea3baf684fbe4e187aaf8411deb8ac0f",
+            "paragraphStart": 21,
+            "paragraphEnd": 21
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 22,
+        "startOffset": 0,
+        "endOffsetExclusive": 310,
+        "sha256": "decc759d08ca2f4a5e776ca2a15c36296565909e6e708e945f086d02a4470e8e",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 23,
+        "startOffset": 0,
+        "endOffsetExclusive": 35,
+        "sha256": "74ded5cda3475082a9d57f9f3fb41b568a51b977db1cdc982808f2d8c57b0c34",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 24,
+        "startOffset": 0,
+        "endOffsetExclusive": 62,
+        "sha256": "7c92d985fe875dac8dc22983dc6e3b5f845db7b910f48ce4fad9d97491811fd6",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 25,
+        "startOffset": 0,
+        "endOffsetExclusive": 76,
+        "sha256": "56532e0a36c1a6e7f25ca344cabd51481383b0bba4271633852c1b93208f89c7",
+        "notes": [
+          {
+            "id": "mingdi-p25-note0",
+            "offset": 76,
+            "sha256": "2bc12c6447cc07ea18f5c6eec55486c472246707f48dc4cd66a02c1007f58758",
+            "paragraphStart": 25,
+            "paragraphEnd": 25
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 26,
+        "startOffset": 0,
+        "endOffsetExclusive": 52,
+        "sha256": "55b5128d6eeccc3395ca16b32ff991aa38aab78da853f42dcf7f9a0b7e7267dd",
+        "notes": [
+          {
+            "id": "mingdi-p26-note0",
+            "offset": 52,
+            "sha256": "a0e413ced89f69eade43a1427f06b8622e6791736139d5fb1123b411887b504c",
+            "paragraphStart": 26,
+            "paragraphEnd": 26
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 27,
+        "startOffset": 0,
+        "endOffsetExclusive": 83,
+        "sha256": "61e96a3fd2006673a89183e90320e3a261458639a40e8c76e342a7dfb8cb0fb5",
+        "notes": [
+          {
+            "id": "mingdi-p27-note0",
+            "offset": 83,
+            "sha256": "ccbdc84f230bb8fc9115ea6827f0e0c9863f8eafa05538589144e8e37747eb90",
+            "paragraphStart": 27,
+            "paragraphEnd": 27
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 28,
+        "startOffset": 0,
+        "endOffsetExclusive": 69,
+        "sha256": "b760eec1ac706935ef42bf54fbf4b8c329c27b5265c128dd452a52c89fa9bd65",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 29,
+        "startOffset": 0,
+        "endOffsetExclusive": 240,
+        "sha256": "54b4f5ff8b1dd0ab5ca81969a13237589e6a50ad89cfaf91f4c428057aefefce",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 30,
+        "startOffset": 0,
+        "endOffsetExclusive": 103,
+        "sha256": "a763236ac8d2b3f16fa808eca6acff738ee10d577961e647d03c037f5ed621be",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 31,
+        "startOffset": 0,
+        "endOffsetExclusive": 166,
+        "sha256": "27f4f7dff9d787c8c7c57c51c4b266c4c97a03e26d306389edd61fcfa53a785a",
+        "notes": [
+          {
+            "id": "mingdi-p31-note0",
+            "offset": 18,
+            "sha256": "3763edc9e190b09d57e0612128dcd2c57deaacc26de21afa23d50b2484d06724",
+            "paragraphStart": 31,
+            "paragraphEnd": 31
+          },
+          {
+            "id": "mingdi-p31-note1",
+            "offset": 53,
+            "sha256": "2081b382cef91f24f58f4d284b294750e63945d8a9d33fe41dd3e7be13874b05",
+            "paragraphStart": 31,
+            "paragraphEnd": 31
+          },
+          {
+            "id": "mingdi-p31-note2",
+            "offset": 85,
+            "sha256": "a016c80173bc0faf43718479bea9b71e9368d77bc41b0df0d2a432c1d0de2721",
+            "paragraphStart": 31,
+            "paragraphEnd": 31
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 32,
+        "startOffset": 0,
+        "endOffsetExclusive": 86,
+        "sha256": "7068d600349c13c36c21eea2b8972c80ba63ae056f9c9c123fe1d6136e967f66",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 33,
+        "startOffset": 0,
+        "endOffsetExclusive": 93,
+        "sha256": "3f2ed0ce6524eda337bf3343b16d43652369a3f7ed99447e9847911ea797060e",
+        "notes": [
+          {
+            "id": "mingdi-p33-note0",
+            "offset": 93,
+            "sha256": "cefd0a65e984a05fd700e9a8595380ba1a131b6cc9307aab2186e4e73bbe2052",
+            "paragraphStart": 33,
+            "paragraphEnd": 33
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 34,
+        "startOffset": 0,
+        "endOffsetExclusive": 205,
+        "sha256": "91702ec31a0683b4ad3cc41d19ab9ec1f4a081aab650cb6907ac0cdfb30e59e7",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 35,
+        "startOffset": 0,
+        "endOffsetExclusive": 166,
+        "sha256": "4a3d06ceaa6f14b1f00e9bce8f731ed253f342e261401d5cce7982c2c2b8e39c",
+        "notes": [
+          {
+            "id": "mingdi-p35-note0",
+            "offset": 100,
+            "sha256": "616bfbd6058424850e00082413aa1668817ac8922495abbbc44527197876b308",
+            "paragraphStart": 35,
+            "paragraphEnd": 35
+          },
+          {
+            "id": "mingdi-p35-note1",
+            "offset": 127,
+            "sha256": "b7b976596da9e08595ee46f2afd4f15357ee2b5bdcb67d403d1b61d16e383a53",
+            "paragraphStart": 35,
+            "paragraphEnd": 35
+          },
+          {
+            "id": "mingdi-p35-note2",
+            "offset": 166,
+            "sha256": "06c77f3499d04d380ebb7f29c31b636ccabd42b472e1a3cee3425e0a29c0c761",
+            "paragraphStart": 35,
+            "paragraphEnd": 35
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 36,
+        "startOffset": 0,
+        "endOffsetExclusive": 19,
+        "sha256": "74b3c0bca60031a20d27dbdb566acec00798ebd62de4c9a8aa0c3e754b197ea9",
+        "notes": [
+          {
+            "id": "mingdi-p36-note0",
+            "offset": 19,
+            "sha256": "182665ef2d645272fa1d067e2bd4a6e8c327e56a1a436e42af84a5ccebb5fd6f",
+            "paragraphStart": 36,
+            "paragraphEnd": 36
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 37,
+        "startOffset": 0,
+        "endOffsetExclusive": 160,
+        "sha256": "151f072155fb80de592b42322d9ab17a68d422c2db225ad270494d02ef11def6",
+        "notes": [
+          {
+            "id": "mingdi-p37-note0",
+            "offset": 74,
+            "sha256": "641f2af025fb44f214da67c1f26475cc4acbaa5db5d8cb0c048d556ef19c0e21",
+            "paragraphStart": 37,
+            "paragraphEnd": 37
+          },
+          {
+            "id": "mingdi-p37-note1",
+            "offset": 142,
+            "sha256": "9b16213651ac3042056e3fd20a851052de64d4d01d3127b0f056835a26bf93ac",
+            "paragraphStart": 37,
+            "paragraphEnd": 37
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 38,
+        "startOffset": 0,
+        "endOffsetExclusive": 41,
+        "sha256": "b9430bf9e5c18e7cceb1865663f978991eb81be8a6c863298e8744bade71a6e9",
+        "notes": [
+          {
+            "id": "mingdi-p38-note0",
+            "offset": 41,
+            "sha256": "8bd4d3d57598520c3cc15727e46cff3ba994d72690f67d5b998a26c17742ef88",
+            "paragraphStart": 38,
+            "paragraphEnd": 38
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 39,
+        "startOffset": 0,
+        "endOffsetExclusive": 180,
+        "sha256": "82ef21fc39dbdd492ef44ed050d9ddbd9c8611a043757eaa51650994d61119c7",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 40,
+        "startOffset": 0,
+        "endOffsetExclusive": 91,
+        "sha256": "8d09d4a0243d05ff4749d16fa9918d95895aa7417f657e6648e6b82c1c900b16",
+        "notes": [
+          {
+            "id": "mingdi-p40-note0",
+            "offset": 91,
+            "sha256": "e9b759c053c60766e23dd5687d2f03bad9c43cf603a7db270afd98d71e60cd9c",
+            "paragraphStart": 40,
+            "paragraphEnd": 40
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 41,
+        "startOffset": 0,
+        "endOffsetExclusive": 83,
+        "sha256": "2fe5655611d4514e2c5d1cb44276a57bb5d4c9d5caa9a2a59269b1ae44dba78b",
+        "notes": []
+      },
+      {
+        "paragraphIndex": 42,
+        "startOffset": 0,
+        "endOffsetExclusive": 94,
+        "sha256": "ae9feba520e0d80252e17f08c46465577a0066113023fef4f49be4948653e1cf",
+        "notes": [
+          {
+            "id": "mingdi-p42-note0",
+            "offset": 70,
+            "sha256": "c7e54d3c8c15008fe099f0f847c2eaca22c513dcd8298356b3f9bd5d826f77bb",
+            "paragraphStart": 42,
+            "paragraphEnd": 42
+          },
+          {
+            "id": "mingdi-p42-note1",
+            "offset": 80,
+            "sha256": "77c2df8c74eff91b624e3c82a430df9010fb8da56a984c23f263823d2326ca53",
+            "paragraphStart": 42,
+            "paragraphEnd": 42
+          },
+          {
+            "id": "mingdi-p42-note2",
+            "offset": 86,
+            "sha256": "305dbb7483a1cd4a5f8de1612fba908adac81ecb24f3c8cb41df8b2bf7d1d945",
+            "paragraphStart": 42,
+            "paragraphEnd": 42
+          },
+          {
+            "id": "mingdi-p42-note3",
+            "offset": 94,
+            "sha256": "202f95c15ac946be1cf2ade5097d73b0f404d25fb18f77b4068f7871f73e4f1a",
+            "paragraphStart": 43,
+            "paragraphEnd": 43
+          }
+        ]
+      },
+      {
+        "paragraphIndex": 44,
+        "startOffset": 0,
+        "endOffsetExclusive": 72,
+        "sha256": "1627c616678ac27bb7a5c6ea9eb8f47d172691053c23fb1ef8f0aaa6d0a55eca",
+        "notes": [],
+        "sourceTag": "dd"
+      }
+    ],
+    "excluded": [
+      {
+        "paragraphIndex": 43,
+        "reason": "独立段裴注，已挂前段",
+        "anchorParagraphIndex": 42
+      }
+    ],
+    "bodyCharacters": 5485,
+    "noteCount": 36
+  }
+}

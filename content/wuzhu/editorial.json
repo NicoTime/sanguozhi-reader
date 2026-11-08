@@ -1,0 +1,2004 @@
+{
+  "id": "wuzhu",
+  "chapterPath": "OPS/c47_san_guo_zhi_juan47.xhtml",
+  "title": "吴主传",
+  "subtitle": "生平与江东政事",
+  "editorialNote": "本篇按 EPUB 源卷覆盖完整正文与裴注；白话译文、摘要、地望与事件说明由本项目整理。地点只作区域参考，路线示意不代表古道路或营址。",
+  "meta": {
+    "workTitle": "吴主传",
+    "protagonist": "孙权",
+    "volume": "卷四十七",
+    "division": "吴书",
+    "displayTitle": "孙权 · 吴主传",
+    "seal": "权",
+    "periodLabel": "东汉末至神凤元年",
+    "coverage": "complete",
+    "coverageLabel": "全传"
+  },
+  "sources": [
+    {
+      "id": "epub",
+      "title": "本地简体《三国志》裴注 EPUB",
+      "kind": "epub",
+      "locator": "EPUB",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "editor",
+      "title": "本项目原创义注与编排",
+      "kind": "editorial",
+      "locator": "docs/content/",
+      "note": "由本项目整理。"
+    },
+    {
+      "id": "changban",
+      "title": "宜昌民政：长坂坡",
+      "kind": "web",
+      "locator": "https://mzj.yichang.gov.cn/content-63849-997459-1.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "xiangyang-ref",
+      "title": "《襄阳府志》卷二：沿革",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/NA02618/chapter/1ktionhudsuua",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "jiangling",
+      "title": "湖北省文旅厅：荆州、江陵",
+      "kind": "web",
+      "locator": "https://wlt.hubei.gov.cn/bmdt/ztzl/zshb/201912/t20191226_1799529.shtml",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "xiakou-ref",
+      "title": "武汉文史：夏口地望变迁",
+      "kind": "web",
+      "locator": "https://www.whzx.gov.cn/zxzl/wsl/whwszl/202312/P020240123571845853720.pdf",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chibi-debate",
+      "title": "武汉经开区：赤壁地望各说",
+      "kind": "web",
+      "locator": "https://www.whkfq.gov.cn/xwzx/yw/kfqyw/qnxw/202206/t20220618_1989688.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chibi-puqi",
+      "title": "湖北档案：蒲圻赤壁之说",
+      "kind": "web",
+      "locator": "https://www.hbda.gov.cn/info/535.jspx",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "yiling-ref",
+      "title": "重庆地方志：甘宁与夷陵",
+      "kind": "web",
+      "locator": "https://dfz.cq.gov.cn/zqlswh/rwby_417819/202311/t20231102_12510429.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "gongan-ref",
+      "title": "湖北档案：公安由来",
+      "kind": "web",
+      "locator": "https://www.hbda.gov.cn/info/2461",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "hefei-ref",
+      "title": "合肥逍遥津公园与历史地望",
+      "kind": "web",
+      "locator": "https://www.huaihua.gov.cn/cgzfj/c108771/202601/a21fbbf368134bbc862d26936ca8f822.shtml",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chengdu-ref",
+      "title": "刘备成都即位：汉中市汉台区政府",
+      "kind": "web",
+      "locator": "https://www.htq.gov.cn/hzshtqzf/zjht/lswh/202511/3c466408a451409ba2b2f9bfb8f510bd.shtml"
+    },
+    {
+      "id": "hanzhong-ref",
+      "title": "阳平关地望：汉中市地方志",
+      "kind": "web",
+      "locator": "https://hzdqw.hanzhong.gov.cn/hzdfz/zjsy/202608/ca8a0e6df08c465985a51202e338b581.shtml"
+    },
+    {
+      "id": "yongan-ref",
+      "title": "白帝城与永安：重庆文旅",
+      "kind": "web",
+      "locator": "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqwwzy/202405/t20240507_13182414.html"
+    },
+    {
+      "id": "wuchang-ref",
+      "title": "吴武昌与鄂州：湖北省文旅厅",
+      "kind": "web",
+      "locator": "https://wlt.hubei.gov.cn/bmdt/ztzl/zshb/201912/t20191226_1799420.shtml"
+    },
+    {
+      "id": "jianye-ref",
+      "title": "东吴迁都建业：南京地方志",
+      "kind": "web",
+      "locator": "https://dfz.nanjing.gov.cn/gzdt/202403/t20240315_4186987.html"
+    },
+    {
+      "id": "yangxian-ref",
+      "title": "宜兴市政府：阳羡建置",
+      "kind": "web",
+      "locator": "https://www.yixing.gov.cn/zgyx/zzxx/yxgk/yxwww_zxzx_yxgk.shtml"
+    },
+    {
+      "id": "wu-ref",
+      "title": "苏州市园林局：汉吴郡治所",
+      "kind": "web",
+      "locator": "https://ylj.suzhou.gov.cn/szsylj/ylwh/201903/90158495bbcb4c4fbbb201dfd537987a.shtml"
+    }
+  ],
+  "places": [
+    [
+      "xiangyang",
+      "襄阳",
+      "湖北襄阳城区附近",
+      [
+        112.13,
+        32.02
+      ],
+      "city",
+      "古襄阳所在地域；坐标为现代城区区域参考，不表示城墙或军营。",
+      "xiangyang-ref"
+    ],
+    [
+      "dangyang",
+      "当阳长坂",
+      "湖北当阳城区一带",
+      [
+        111.79,
+        30.82
+      ],
+      "battlefield",
+      "宜昌民政资料称长坂坡位于当阳城区西南；取当阳城区近似区域，非具体交战点。",
+      "changban"
+    ],
+    [
+      "xiakou",
+      "夏口",
+      "武汉汉水入江区域",
+      [
+        114.27,
+        30.58
+      ],
+      "region",
+      "以现代武汉汉水与长江会合区域为参考，古水道变化且后世夏口城易位，不作为渡口定点。",
+      "xiakou-ref"
+    ],
+    [
+      "chibi",
+      "赤壁",
+      "湖北赤壁市西北一说",
+      [
+        113.65,
+        29.98
+      ],
+      "battlefield",
+      "赤壁战场地望存在蒲圻、江夏等多说；此点只示蒲圻一说的大致区域，非确定战场或营地。",
+      "chibi-debate"
+    ],
+    [
+      "nan-jun",
+      "南郡／江陵",
+      "湖北荆州区域",
+      [
+        112.23,
+        30.35
+      ],
+      "region",
+      "东汉南郡范围宽广，此以江陵所在荆州区域为显示参照，不代表郡域或围城阵地。",
+      "jiangling"
+    ],
+    [
+      "yiling",
+      "夷陵",
+      "湖北宜昌城区区域",
+      [
+        111.28,
+        30.7
+      ],
+      "region",
+      "取现代宜昌城区为夷陵区域参照，非甘宁营垒。",
+      "yiling-ref"
+    ],
+    [
+      "gongan",
+      "公安",
+      "湖北荆州公安县油江口一带",
+      [
+        112.22,
+        30.2
+      ],
+      "region",
+      "刘备立营油江口后称公安；此为区域参照，不是营址坐标。",
+      "gongan-ref"
+    ],
+    [
+      "hefei",
+      "合肥",
+      "安徽合肥市城区区域",
+      [
+        117.28,
+        31.86
+      ],
+      "region",
+      "以现代合肥城区为战区参考，非东汉城址、营地或渡口坐标。",
+      "hefei-ref"
+    ],
+    [
+      "jianye",
+      "建业",
+      "江苏南京城区",
+      [
+        118.78,
+        32.06
+      ],
+      "region",
+      "以今南京城区为建业区域参照，非宫城精确位置。",
+      "jianye-ref"
+    ],
+    [
+      "wuchang",
+      "武昌",
+      "湖北鄂州城区",
+      [
+        114.9,
+        30.39
+      ],
+      "region",
+      "此处孙吴武昌为今鄂州一带，不是今武汉武昌区；取现代城区区域参照。",
+      "wuchang-ref"
+    ],
+    [
+      "yangxian",
+      "阳羡",
+      "江苏宜兴一带",
+      [
+        119.82,
+        31.36
+      ],
+      "county",
+      "以现代宜兴城区参考古阳羡县地域，不作为县治遗址坐标；此处为孙权任职地。",
+      "yangxian-ref"
+    ],
+    [
+      "wujun",
+      "吴郡",
+      "江苏苏州一带",
+      [
+        120.62,
+        31.32
+      ],
+      "region",
+      "以今苏州区域参考吴郡治吴县，不代表整个吴郡行政范围。",
+      "wu-ref"
+    ]
+  ],
+  "people": [
+    [
+      "刘备",
+      "liu-bei"
+    ],
+    [
+      "孙权",
+      "sun-quan"
+    ],
+    [
+      "曹操",
+      "cao-cao"
+    ],
+    [
+      "周瑜",
+      "zhou-yu"
+    ],
+    [
+      "程普",
+      "cheng-pu"
+    ],
+    [
+      "鲁肃",
+      "lu-su"
+    ],
+    [
+      "诸葛亮",
+      "zhuge-liang"
+    ],
+    [
+      "关羽",
+      "guan-yu"
+    ],
+    [
+      "刘琦",
+      "liu-qi"
+    ],
+    [
+      "刘琮",
+      "liu-cong"
+    ],
+    [
+      "刘表",
+      "liu-biao"
+    ],
+    [
+      "黄祖",
+      "huang-zu"
+    ],
+    [
+      "吕蒙",
+      "lv-meng"
+    ],
+    [
+      "甘宁",
+      "gan-ning"
+    ],
+    [
+      "曹仁",
+      "cao-ren"
+    ],
+    [
+      "张昭",
+      "zhang-zhao"
+    ],
+    [
+      "孙策",
+      "sun-ce"
+    ],
+    [
+      "孙坚",
+      "sun-jian"
+    ],
+    [
+      "孙登",
+      "sun-deng"
+    ],
+    [
+      "孙和",
+      "sun-he"
+    ],
+    [
+      "孙亮",
+      "sun-liang"
+    ],
+    [
+      "陆逊",
+      "lu-xun"
+    ],
+    [
+      "顾雍",
+      "gu-yong"
+    ],
+    [
+      "步骘",
+      "bu-zhi"
+    ],
+    [
+      "朱然",
+      "zhu-ran"
+    ],
+    [
+      "朱桓",
+      "zhu-huan"
+    ],
+    [
+      "吕壹",
+      "lv-yi"
+    ],
+    [
+      "诸葛瑾",
+      "zhuge-jin"
+    ],
+    [
+      "张辽",
+      "zhang-liao"
+    ],
+    [
+      "吕岱",
+      "lu-dai"
+    ],
+    [
+      "诸葛恪",
+      "zhuge-ke"
+    ],
+    [
+      "刘琬",
+      "liu-wan"
+    ],
+    [
+      "刘勋",
+      "liu-xun"
+    ],
+    [
+      "吕范",
+      "lv-fan"
+    ],
+    [
+      "贺齐",
+      "he-qi"
+    ],
+    [
+      "凌统",
+      "ling-tong"
+    ],
+    [
+      "董袭",
+      "dong-xi"
+    ],
+    [
+      "吴夫人",
+      "wu-furen"
+    ]
+  ],
+  "placeAliases": {
+    "当阳": "dangyang",
+    "长坂": "dangyang",
+    "江陵": "nan-jun",
+    "南郡": "nan-jun",
+    "夷陵": "yiling"
+  },
+  "factions": [
+    {
+      "id": "liu",
+      "name": "刘备军",
+      "color": "#356A45",
+      "paperColor": "#E4F0E4",
+      "borderColor": "#699776"
+    },
+    {
+      "id": "sun",
+      "name": "孙权军",
+      "color": "#946B24",
+      "paperColor": "#F6EDD9",
+      "borderColor": "#B9995B"
+    },
+    {
+      "id": "cao",
+      "name": "曹操军",
+      "color": "#8B3827",
+      "paperColor": "#F7E7DF",
+      "borderColor": "#B87563"
+    },
+    {
+      "id": "huang",
+      "name": "黄祖军",
+      "color": "#6E637A",
+      "paperColor": "#EDE8F0",
+      "borderColor": "#9B8DA7"
+    }
+  ],
+  "mapProfile": {
+    "id": "jianghan-relief",
+    "label": "江汉与江淮地势",
+    "bounds": {
+      "west": 108.28125,
+      "south": 27.059125784374054,
+      "east": 122.34375,
+      "north": 39.909736234537185
+    },
+    "center": [
+      114.5,
+      30.9
+    ],
+    "minZoom": 4,
+    "maxZoom": 10,
+    "reliefPath": "/maps/central-plains-relief.jpg",
+    "modernRiversPath": "/maps/modern-rivers.geojson",
+    "modernCitiesPath": "/data/chapters/wuzhu/modern-cities.json",
+    "attribution": "地势：Mapzen / Tilezen、USGS；现代河流及城市：Natural Earth。现代水系仅供对照。"
+  },
+  "historicalRiver": {
+    "status": "unavailable",
+    "label": "古水系未复原",
+    "explanation": "本篇未核定汉末长江、汉水与支流水道，现代水系仅供现代地理对照，不代表古河道。",
+    "sourceIds": [
+      "editor"
+    ]
+  },
+  "routePlaceNotes": {
+    "chibi": "赤壁地望有争议，图中取蒲圻一说区域参考。"
+  },
+  "scenes": [
+    {
+      "paragraphIndex": 2,
+      "endMarker": null,
+      "title": "孙权早年",
+      "summary": "孙权，字仲谋。",
+      "translation": "孙权，字仲谋。兄长孙策平定各郡后，当时孙权十五岁，孙策任命他为阳羡县长。郡里举他为孝廉，州里举他为茂才，他代理奉义校尉。汉朝因孙策远在江东仍履行职贡，派使者刘琬赐予任命。刘琬对人说：‘我看孙氏兄弟虽然各有才华，聪明通达，但他们的福禄寿命都不能长久。唯独排行居中的孝廉孙权，容貌奇伟，骨相不凡，有大富贵的相貌，寿命也最长。你们试着记住。’",
+      "time": {
+        "year": null,
+        "era": "年代未详",
+        "label": "年代未详",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "yangxian",
+      "flags": [],
+      "route": null,
+      "kind": "narrative",
+      "personIds": [
+        "sun-ce",
+        "liu-wan"
+      ]
+    },
+    {
+      "paragraphIndex": 3,
+      "endMarker": null,
+      "title": "继承江东",
+      "summary": "建安四年，孙权跟随孙策进攻庐江太守刘勋。",
+      "translation": "建安四年，孙权跟随孙策进攻庐江太守刘勋。刘勋被击破后，又在沙羡进讨黄祖。五年，孙策去世，把事务托付孙权，孙权哭泣不止。孙策的长史张昭对他说：‘孝廉，如今哪里是哭泣的时候？周公制定制度，伯禽却不全部照办，并非要违背父亲，而是时势不允许。何况如今奸邪竞逐，豺狼遍地，你却只顾哀悼亲人、顾及礼制，这就像开门请强盗进来，不能算仁爱。’于是换掉孙权的丧服，扶他上马，让他出去巡察军队。当时所控制的只有会稽、吴郡、丹杨、豫章、庐陵，而深远险要地区仍未全部归服；天下英豪分布州郡，寄居的宾客士人也依据安危决定去留，君臣关系还不稳固。张昭、周瑜等认为孙权可以共成大业，所以诚心归服并侍奉他。曹操上表任孙权为讨虏将军、兼领会稽太守，驻吴，让郡丞到会稽处理公文事务。孙权以师傅之礼对待张昭，任周瑜、程普、吕范等为将帅。他招揽俊才、聘请名士，鲁肃、诸葛瑾等开始成为宾客；又分派诸将镇抚山越，征讨不服从者。",
+      "time": {
+        "year": null,
+        "era": "建安四至五年",
+        "label": "建安四至五年",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "wujun",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 4,
+      "endMarker": null,
+      "title": "吴夫人去世",
+      "summary": "本段记述：吴夫人去世。",
+      "translation": "建安七年，孙权的母亲吴氏去世。",
+      "time": {
+        "year": 202,
+        "era": "建安七年",
+        "label": "建安七年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative",
+      "personIds": [
+        "wu-furen"
+      ]
+    },
+    {
+      "paragraphIndex": 5,
+      "endMarker": null,
+      "title": "西伐黄祖与抚定各地",
+      "summary": "建安八年，孙权向西进攻黄祖，击破黄祖水军，但城池没有攻下，山中部众又起事。",
+      "translation": "建安八年，孙权向西进攻黄祖，击破黄祖水军，但城池没有攻下，山中部众又起事。孙权回师经过豫章时，让吕范平定鄱阳，程普讨伐乐安。太史慈兼领海昏，韩当、周泰、吕蒙等担任事务繁重的县令或县长。",
+      "time": {
+        "year": 203,
+        "era": "建安八年",
+        "label": "建安八年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 6,
+      "endMarker": null,
+      "title": "丹杨太守更替",
+      "summary": "本段记述：丹杨太守更替。",
+      "translation": "建安九年，孙权的弟弟、丹杨太守孙翊被身边人杀害，孙权任从兄孙瑜接替。",
+      "time": {
+        "year": 204,
+        "era": "建安九年",
+        "label": "建安九年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 7,
+      "endMarker": null,
+      "title": "上饶设县",
+      "summary": "本段记述：上饶设县。",
+      "translation": "建安十年，孙权派贺齐讨伐上饶，将当地分置为建平县。",
+      "time": {
+        "year": 205,
+        "era": "建安十年",
+        "label": "建安十年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 8,
+      "endMarker": null,
+      "title": "再向西用兵",
+      "summary": "本段记述：再向西用兵。",
+      "translation": "建安十二年，孙权向西进攻黄祖，俘获当地人民后返回。",
+      "time": {
+        "year": 207,
+        "era": "建安十二年",
+        "label": "建安十二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative",
+      "glosses": [
+        {
+          "term": "西黄祖",
+          "explanation": "简体 EPUB 原文如此，疑缺动词；结合上下文译作向西进攻黄祖，正文保留源貌。"
+        }
+      ]
+    },
+    {
+      "paragraphIndex": 9,
+      "endMarker": "虏其男女数万口。",
+      "title": "西击黄祖",
+      "summary": "建安十三年春，孙权再次进攻黄祖。吕蒙击破前锋，凌统、董袭等攻城，黄祖逃走后被追杀，许多人口被俘。",
+      "translation": "建安十三年春，孙权再次进攻黄祖。黄祖先派水军迎敌，都尉吕蒙击破其前锋。凌统、董袭等人率精锐奋力进攻，攻破城池。黄祖独自逃走，骑士冯则追上并斩下他的首级，数万男女被俘。",
+      "time": {
+        "year": 208,
+        "era": "建安十三年",
+        "label": "春",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "xiakou",
+      "flags": [
+        [
+          "孙权",
+          "sun",
+          "xiakou"
+        ],
+        [
+          "黄祖",
+          "huang",
+          "xiakou"
+        ]
+      ],
+      "route": null,
+      "glosses": [
+        {
+          "term": "权复黄祖",
+          "explanation": "源 EPUB 正文如此，疑有脱字；结合上下文译作孙权再次进攻黄祖，正文保留原貌。"
+        }
+      ],
+      "id": "wuzhu-scene-1",
+      "mapProfileId": "jianghan-relief",
+      "kind": "battle",
+      "marches": []
+    },
+    {
+      "paragraphIndex": 9,
+      "endMarker": "备进住夏口，使诸葛亮诣权，权遣周瑜、程普等行。",
+      "title": "鲁肃观变",
+      "summary": "孙权派贺齐征讨山越地区。刘表死后，鲁肃奉命吊唁并观察局势，与刘备相见；刘备进驻夏口，派诸葛亮赴孙权处，孙权派周瑜、程普出行。",
+      "translation": "这一年，孙权派贺齐讨伐黟、歙，将歙分置始新、新定、犂阳、休阳县，与原有县合为六县，设新都郡。荆州牧刘表去世后，鲁肃请求奉命吊唁刘表两个儿子，并借机观察形势。鲁肃还没到，曹操已经兵临荆州，刘表之子刘琮率众投降。刘备想南渡长江，鲁肃与他相见，传达孙权的意思，向他分析形势。刘备进驻夏口，派诸葛亮去见孙权，孙权派周瑜、程普等出行。",
+      "time": {
+        "year": 208,
+        "era": "建安十三年",
+        "label": "同年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "xiakou",
+      "flags": [
+        [
+          "刘备",
+          "liu",
+          "xiakou"
+        ]
+      ],
+      "route": null,
+      "id": "wuzhu-scene-2",
+      "mapProfileId": "jianghan-relief",
+      "kind": "battle",
+      "marches": []
+    },
+    {
+      "paragraphIndex": 9,
+      "endMarker": "意与权同。",
+      "title": "议战与拒降",
+      "summary": "曹操新收刘表部众，声势很大。许多人劝孙权迎降，周瑜、鲁肃主张抵抗，与孙权意见相同。裴注保留了《江表传》所载曹操书信。",
+      "translation": "当时曹操刚得到刘表的部众，声势十分强盛。参与商议的人听到风声都很害怕，大多劝孙权迎降。只有周瑜、鲁肃坚持抵抗，他们的意思与孙权相同。",
+      "time": {
+        "year": 208,
+        "era": "建安十三年",
+        "label": "同年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "xiakou",
+      "flags": [],
+      "route": null,
+      "id": "wuzhu-scene-3",
+      "mapProfileId": "jianghan-relief",
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 9,
+      "endMarker": "备、瑜等复追至南郡。",
+      "title": "赤壁与追击",
+      "summary": "周瑜、程普各率万人，与刘备一道在赤壁击破曹军。曹操烧余船后撤，军中饥疫严重；刘备和周瑜等追至南郡。",
+      "translation": "周瑜、程普担任左右都督，各统领一万人，与刘备共同进军，在赤壁遭遇曹军，大破曹操的军队。曹操烧毁剩余船只后撤，士卒饥饿染疫，死者大半。刘备、周瑜等又追到南郡。",
+      "time": {
+        "year": 208,
+        "era": "建安十三年",
+        "label": "同年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "chibi",
+      "flags": [
+        [
+          "周瑜",
+          "sun",
+          "chibi"
+        ],
+        [
+          "刘备",
+          "liu",
+          "chibi"
+        ],
+        [
+          "曹操",
+          "cao",
+          "chibi"
+        ]
+      ],
+      "route": [
+        "周瑜",
+        "sun",
+        "chibi",
+        "nan-jun"
+      ],
+      "id": "wuzhu-scene-4",
+      "mapProfileId": "jianghan-relief",
+      "kind": "battle",
+      "marches": [
+        {
+          "id": "wuzhu-scene-4-march",
+          "order": 1,
+          "faction": "sun",
+          "commanderId": "zhou-yu",
+          "from": "chibi",
+          "to": "nan-jun",
+          "fromLabel": "赤壁一带",
+          "toLabel": "南郡／江陵一带",
+          "label": "周瑜由赤壁方向至南郡／江陵",
+          "description": "依据本传相继记载的两处行动区域；只表达方向，不表示所走道路、岸线、营址或渡口。赤壁地望有争议，图中取蒲圻一说区域参考。",
+          "phaseIds": [
+            "wuzhu-scene-4-phase"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub",
+            "chibi-debate",
+            "jiangling"
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphIndex": 9,
+      "endMarker": "军以胜反。",
+      "title": "江陵与夷陵",
+      "summary": "曹操北还，留下曹仁、徐晃守江陵、乐进守襄阳。甘宁在夷陵被围，吴军采用吕蒙建议分兵救援后返回。",
+      "translation": "曹操于是北还，留下曹仁、徐晃守江陵，令乐进守襄阳。当时甘宁在夷陵，被曹仁一方围困。吴军采用吕蒙的计策，留下凌统抵御曹仁，分出一半兵力援救甘宁，军队获胜返回。",
+      "time": {
+        "year": null,
+        "era": "建安十三至十四年间",
+        "label": "赤壁之后",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "yiling",
+      "flags": [
+        [
+          "甘宁",
+          "sun",
+          "yiling"
+        ],
+        [
+          "曹仁",
+          "cao",
+          "nan-jun"
+        ]
+      ],
+      "route": [
+        "周瑜",
+        "sun",
+        "nan-jun",
+        "yiling"
+      ],
+      "id": "wuzhu-scene-5",
+      "mapProfileId": "jianghan-relief",
+      "kind": "battle",
+      "marches": [
+        {
+          "id": "wuzhu-scene-5-march",
+          "order": 1,
+          "faction": "sun",
+          "commanderId": "zhou-yu",
+          "from": "nan-jun",
+          "to": "yiling",
+          "fromLabel": "南郡／江陵一带",
+          "toLabel": "夷陵一带",
+          "label": "周瑜由南郡／江陵方向至夷陵",
+          "description": "依据本传相继记载的两处行动区域；只表达方向，不表示所走道路、岸线、营址或渡口。",
+          "phaseIds": [
+            "wuzhu-scene-5-phase"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub",
+            "jiangling",
+            "yiling-ref"
+          ]
+        }
+      ]
+    },
+    {
+      "paragraphIndex": 9,
+      "endMarker": null,
+      "title": "合肥另一战线",
+      "summary": "孙权亲率兵围合肥，并令张昭进攻九江当涂；战事不利，围城一月余未克。曹操派张喜骑兵赴援，尚未抵达，孙权已撤军。",
+      "translation": "孙权亲自率众围攻合肥，并派张昭进攻九江的当涂。张昭军队失利；孙权攻城一月多也没能攻下。曹操从荆州返回，派张喜率骑兵赶赴合肥。援军尚未到达，孙权已经撤退。",
+      "time": {
+        "year": null,
+        "era": "建安十三至十四年间",
+        "label": "合肥战事",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "hefei",
+      "flags": [
+        [
+          "孙权",
+          "sun",
+          "hefei"
+        ]
+      ],
+      "route": null,
+      "id": "wuzhu-scene-6",
+      "mapProfileId": "jianghan-relief",
+      "kind": "battle",
+      "marches": []
+    },
+    {
+      "paragraphIndex": 10,
+      "endMarker": null,
+      "title": "南郡易手",
+      "summary": "次年，周瑜与曹仁对峙一年多后，曹仁弃城离开。孙权任周瑜为南郡太守；刘备领荆州牧，屯公安。",
+      "translation": "建安十四年，周瑜与曹仁相持一年多，双方死伤很多。曹仁弃城撤退。孙权任命周瑜为南郡太守。刘备上表推举孙权代理车骑将军、兼领徐州牧。刘备自己领荆州牧，驻扎公安。",
+      "time": {
+        "year": 209,
+        "era": "建安十四年",
+        "label": "十四年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "nan-jun",
+      "flags": [
+        [
+          "周瑜",
+          "sun",
+          "nan-jun"
+        ]
+      ],
+      "route": null,
+      "id": "wuzhu-scene-7",
+      "mapProfileId": "jianghan-relief",
+      "kind": "battle",
+      "marches": []
+    },
+    {
+      "paragraphIndex": 11,
+      "endMarker": null,
+      "title": "分郡与陆口驻军",
+      "summary": "本段记述：分郡与陆口驻军。",
+      "translation": "建安十五年，从豫章分出鄱阳郡，从长沙分出汉昌郡；任鲁肃为太守，驻扎陆口。",
+      "time": {
+        "year": 210,
+        "era": "建安十五年",
+        "label": "建安十五年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 12,
+      "endMarker": null,
+      "title": "迁治建业与筑坞",
+      "summary": "建安十六年，孙权把治所迁到秣陵。",
+      "translation": "建安十六年，孙权把治所迁到秣陵。次年修筑石头城，把秣陵改名为建业。听说曹操将来入侵，又修筑濡须坞。",
+      "time": {
+        "year": null,
+        "era": "建安十六至十七年",
+        "label": "建安十六至十七年",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "jianye",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 13,
+      "endMarker": null,
+      "title": "濡须对峙与江滨徙民",
+      "summary": "建安十八年正月，曹操进攻濡须，孙权与他对峙一个多月。",
+      "translation": "建安十八年正月，曹操进攻濡须，孙权与他对峙一个多月。曹操望见孙权军容整肃，感叹后撤退。此前曹操担心长江边郡县被孙权攻取，下令居民内迁。民众互相惊扰，庐江、九江、蕲春、广陵十余万户都向东渡江。江北地区因此空虚，合肥以南只剩皖城。",
+      "time": {
+        "year": 213,
+        "era": "建安十八年",
+        "label": "建安十八年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 14,
+      "endMarker": null,
+      "title": "分荆州与合肥受袭",
+      "summary": "建安十九年五月，孙权进攻皖城，闰月攻克，俘获庐江太守朱光、参军董和，以及数万男女。",
+      "translation": "建安十九年五月，孙权进攻皖城，闰月攻克，俘获庐江太守朱光、参军董和，以及数万男女。这年刘备平定蜀地。孙权因刘备已得益州，派诸葛瑾向他索求荆州诸郡。刘备不答应，说：‘我要谋取凉州，等凉州安定，就把荆州全部给吴。’孙权说：‘这是借了不还，想用空话拖延岁月。’他于是任命荆南三郡长吏，都被关羽驱逐。孙权大怒，派吕蒙统领鲜于丹、徐忠、孙规等二万兵夺长沙、零陵、桂阳；派鲁肃率万人驻巴丘抵御关羽。孙权驻陆口，调度各军。吕蒙到后，两郡归服，只有零陵太守郝普不降。恰逢刘备到公安，命关羽率三万人到益阳，孙权召吕蒙等回援鲁肃。吕蒙派人诱降郝普，取得三郡守将，随后领军返回，与孙皎、潘璋会合鲁肃军，一同在益阳抵御关羽。尚未交战，曹操进入汉中，刘备担心失去益州，派使者求和；孙权令诸葛瑾回报，重新结盟。双方划分荆州，长沙、江夏、桂阳以东归孙权，南郡、零陵、武陵以西归刘备。刘备回去时，曹操已撤。孙权从陆口返回，随即攻合肥。合肥未攻下，撤军时各部已经上路，孙权与凌统、甘宁等人在津北被魏将张辽袭击，凌统等拼死保卫孙权。孙权骑快马跃过津桥逃脱。",
+      "time": {
+        "year": null,
+        "era": "建安十九年前后",
+        "label": "建安十九年前后",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 15,
+      "endMarker": null,
+      "title": "曹操攻濡须",
+      "summary": "本段记述：曹操攻濡须。",
+      "translation": "建安二十一年冬，曹操驻军居巢，随后进攻濡须。",
+      "time": {
+        "year": 216,
+        "era": "建安二十一年",
+        "label": "建安二十一年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 16,
+      "endMarker": null,
+      "title": "请降与修好",
+      "summary": "建安二十二年春，孙权派都尉徐详去曹操处请降。",
+      "translation": "建安二十二年春，孙权派都尉徐详去曹操处请降。曹操回信与他修好，盟誓重新结为姻亲。",
+      "time": {
+        "year": 217,
+        "era": "建安二十二年",
+        "label": "建安二十二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 17,
+      "endMarker": null,
+      "title": "庱亭射虎",
+      "summary": "建安二十三年十月，孙权将要去吴，亲自骑马在庱亭射虎。",
+      "translation": "建安二十三年十月，孙权将要去吴，亲自骑马在庱亭射虎。马被虎所伤，孙权投出两支戟，老虎退却倒地。常随张世用戈击虎，将它捕获。",
+      "time": {
+        "year": 218,
+        "era": "建安二十三年",
+        "label": "建安二十三年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 18,
+      "endMarker": null,
+      "title": "关羽败亡与荆州",
+      "summary": "建安二十四年，关羽在襄阳围困曹仁，曹操派左将军于禁救援。",
+      "translation": "建安二十四年，关羽在襄阳围困曹仁，曹操派左将军于禁救援。恰逢汉水暴涨，关羽用水军俘获于禁等三万步骑，送到江陵，但城仍未攻下。孙权内心忌惮关羽，表面想以讨伐关羽立功，上书曹操请求效力。曹操又想让关羽与孙权相互争斗，便通过驿站传来孙权的信，让曹仁用弩箭射进城外给关羽看。关羽犹豫不决，不能离去。闰月，孙权进攻关羽，先派吕蒙袭公安，俘获将军士仁。吕蒙到南郡，太守麋芳献城投降。吕蒙据江陵，安抚老弱，释放于禁手下被俘的人。陆逊另取宜都，攻得秭归、枝江、夷道，回驻夷陵，守峡口防备蜀军。关羽退到当阳，西守麦城，孙权派人诱降。关羽假装投降，在城上竖起旗幡假人，趁机逃走，部众溃散，只剩十余骑。孙权先命朱然、潘璋截断道路。十二月，潘璋的司马马忠在章乡抓获关羽及其子关平、都督赵累等，孙权于是平定荆州。这年大疫，孙权免除荆州百姓全部租税。曹操上表任孙权为骠骑将军，赐节、兼领荆州牧，封南昌侯。孙权派校尉梁寓向汉朝进贡；又命王惇买马，并派被俘的朱光等回去。",
+      "time": {
+        "year": 219,
+        "era": "建安二十四年",
+        "label": "建安二十四年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative",
+      "glosses": [
+        {
+          "term": "权羽",
+          "explanation": "简体 EPUB 此处疑缺动词，结合上下文译作孙权进攻关羽，正文仍保留源貌。"
+        }
+      ]
+    },
+    {
+      "paragraphIndex": 19,
+      "endMarker": null,
+      "title": "曹操去世与魏朝代汉",
+      "summary": "建安二十五年春正月，曹操去世。",
+      "translation": "建安二十五年春正月，曹操去世。太子曹丕接任丞相、魏王，改年号为延康。秋天，魏将梅敷派张俭求见，希望招抚归附。南阳的阴、酂、筑阳、山都、中庐五县五千户百姓前来依附。冬天，继位的魏王曹丕称帝，改元黄初。",
+      "time": {
+        "year": 220,
+        "era": "建安二十五年",
+        "label": "建安二十五年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 20,
+      "endMarker": null,
+      "title": "都鄂与魏册吴王",
+      "summary": "黄初二年四月，刘备在蜀称帝。",
+      "translation": "黄初二年四月，刘备在蜀称帝。孙权从公安迁都鄂，改名武昌，以武昌、下雉、寻阳、阳新、柴桑、沙羡六县设武昌郡。五月，建业报告降甘露。八月修筑武昌城，孙权对诸将下令：‘生存时不忘灭亡，安定时考虑危险，这是古代的良好教训。汉代名臣隽不疑在太平时也刀剑不离身，可见君子不能停止武备。何况如今身处边境，敌人环伺，怎能轻忽而不防变故？近来听说诸将出入都崇尚节俭，不带随从兵士，这绝不是防备危险、珍惜生命。保全自己并留下好名声，以安慰君主和亲人，难道不胜于遭遇危险和耻辱吗？应深加警戒，重视大事，符合我的心意。’魏文帝即位后，孙权遣使称臣，并送于禁等回去。十一月，魏帝以策命封孙权：‘圣王制定制度，按德行设爵，按功绩定俸禄；功劳大者俸厚，德行高者礼隆。周公有辅佐之勋，太公有奋武之功，都受封土地和完备礼物，以表彰大功、区别贤能。汉高祖初受命时，分封富庶土地给八个异姓王，这是前代美事，也是王者借鉴的准则。我以不足之德承接天命、改朝换代，统治万国，掌握天道，想要效法先代，坐而待旦。你天性忠诚明达，是当代的辅佐人才，深知天命变化，明白兴亡之理。你远派使者，经潜水、汉水而来，望风归附，上表称臣，又献上南方细微土产，将各位将领送回本朝。忠诚发于内，诚意显于外，信义坚如金石、重于山河，我十分赞许。现封你为吴王，派持节使者、太常高平侯贞，授予印玺绶带、策书、金虎符第一至第五、左竹使符第一至第十；令你以大将军持节都督交州，兼领荆州牧事务，赐青土并以白茅包裹，宣扬我的命令、治理东南。应交还原骠骑将军、南昌侯印绶符策。再加赐九锡，请恭敬听后命：你安抚东南、整治江外，使民众和各族安居，不生二心，所以赐大辂、戎辂各一辆，黑色公马两组各四匹；你重视财用、劝勉农业，使仓库充实，赐衮冕礼服和红鞋；你用德化民，使礼教兴行，赐轩县礼乐；你宣扬美好风教、安抚百越，赐朱户以居；你施展才能、任用贤人，赐纳陛以登堂；你忠勇奋发、清除奸恶，赐虎贲卫士百人；你威震荆南、铲除凶恶，赐斧钺各一；你内以文德和睦、外以武功取信，赐红弓一、红箭百、黑弓十、黑箭千；你以忠敬为本、恭俭为德，赐香酒一卣并圭瓒。要恭敬施行教令，奉行我的命令，勉力辅佐国家，使你的功业长久完成。’册命中的赞誉为魏帝政治文书的表述。",
+      "time": {
+        "year": 221,
+        "era": "黄初二年",
+        "label": "黄初二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 21,
+      "endMarker": null,
+      "title": "陆逊拒蜀与赵咨使魏",
+      "summary": "这年刘备率军进攻，到巫山、秭归，派使者招引武陵各部，暂授印信，许以封赏。",
+      "translation": "这年刘备率军进攻，到巫山、秭归，派使者招引武陵各部，暂授印信，许以封赏。各县及五溪民众于是反吴归蜀。孙权任陆逊为都督，统率朱然、潘璋等抵御，又派都尉赵咨出使魏。魏帝问：‘吴王是什么样的君主？’赵咨答：‘是聪明仁智、雄才大略的君主。’魏帝问具体表现，赵咨说：‘从普通人中接纳鲁肃，是聪；从军伍中提拔吕蒙，是明；俘获于禁而不杀，是仁；夺取荆州而兵不血刃，是智；占据三州、虎视天下，是雄；屈身事奉陛下，是略。’魏帝想封孙权儿子孙登，孙权以孙登年幼为由上书辞谢，另派西曹掾沈珩说明谢意，并进献方物；又立孙登为王太子。赵咨的话是使臣对吴主的外交称颂。",
+      "time": {
+        "year": 221,
+        "era": "黄初二年",
+        "label": "黄初二年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 22,
+      "endMarker": null,
+      "title": "夷陵击蜀",
+      "summary": "黄武元年春正月，陆逊部将宋谦等攻蜀军五处营垒，都攻破并斩杀守将。",
+      "translation": "黄武元年春正月，陆逊部将宋谦等攻蜀军五处营垒，都攻破并斩杀守将。三月鄱阳报告黄龙出现。蜀军分据险地，前后五十余营。陆逊依情势轻重分兵抵御，从正月到闰月大破蜀军，阵前斩杀和放下兵器投降的人达数万。刘备逃走，仅以身免。",
+      "time": {
+        "year": 222,
+        "era": "黄武元年",
+        "label": "黄武元年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 23,
+      "endMarker": null,
+      "title": "魏吴失和与三路来攻",
+      "summary": "孙权原先表面事奉魏，内心并不诚服。",
+      "translation": "孙权原先表面事奉魏，内心并不诚服。魏想派侍中辛毗、尚书桓阶与他盟誓，并要求送儿子作人质，孙权推辞不接受。秋九月，魏命曹休、张辽、臧霸出洞口，曹仁出濡须，曹真、夏侯尚、张郃、徐晃围南郡。孙权派吕范等统五军，以水军抵御曹休等；诸葛瑾、潘璋、杨粲救南郡；朱桓以濡须督身份抵御曹仁。当时扬、越各部多未平定，内部困难未消，孙权便措辞谦卑上书，请求自我改正：‘如果罪责难以消除，一定不能容我，我愿归还土地和人民，请允许我寄身交州，度过余年。’",
+      "time": {
+        "year": null,
+        "era": "黄武元年前后",
+        "label": "黄武元年前后",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 24,
+      "endMarker": null,
+      "title": "魏文帝致孙权书",
+      "summary": "魏文帝回信说：‘你生在动乱时代，原有纵横天下之志，屈身奉事国家，才享有如今爵禄。",
+      "translation": "魏文帝回信说：‘你生在动乱时代，原有纵横天下之志，屈身奉事国家，才享有如今爵禄。自你归附以来，贡使络绎不绝；讨伐刘备之功，本朝也依靠你完成。埋葬后又挖掘，是古人所羞耻的事。我与你的大义已经确定，难道乐意劳师远征江汉？朝廷议论不是君主能独自决定的；三公上奏你的过失，都有缘由。我因不够明察，虽有像曾母怀疑曾参杀人那样的疑虑，仍希望传言不实，以为国家之福。所以先派使者犒劳，又派尚书、侍中履行先前约定，确定送子为质。你却找借口不让他们前进，议论者觉得奇怪。先前都尉浩周劝你送子，其实是朝臣共同谋划，用此试探你。你果然推辞，对外引隗嚣送子未得善终为例，对内只说窦融守忠即可。时代不同，人心各异。浩周回来口头转述你的意思，更使议论者阐发疑虑，先前关系的基础无所依靠，因此我只得顺从群臣意见。如今读了你的上书，诚意深切，我感慨凄怆，深受触动。当日就下诏命诸军只挖深沟、筑高垒，不可妄进。如果你一定要表现忠节、消除疑议，只要孙登早晨到朝廷，晚上就召军撤回。这话真诚，有长江为证！’",
+      "time": {
+        "year": null,
+        "era": "黄武元年前后",
+        "label": "黄武元年前后",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 25,
+      "endMarker": null,
+      "title": "改元拒魏与重通蜀",
+      "summary": "孙权于是改年号，临江防守。",
+      "translation": "孙权于是改年号，临江防守。冬十一月起大风，吕范等部数千人溺死，余军回到江南。曹休派臧霸率五百轻舟、万名敢死士袭徐陵，烧毁攻城车辆，杀掠数千人。全琮、徐盛追击，斩魏将尹卢，杀获数百。十二月孙权派太中大夫郑泉到白帝拜访刘备，两方开始恢复交往；但孙权仍与魏文帝通信，到后来一年才断绝。这年把夷陵改名西陵。",
+      "time": {
+        "year": 222,
+        "era": "黄武元年",
+        "label": "黄武元年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 26,
+      "endMarker": null,
+      "title": "魏军撤退与蜀使来聘",
+      "summary": "黄武二年春正月，曹真分兵占据江陵中州；这个月吴方修筑江夏山城，改用《乾象历》取代四分历。",
+      "translation": "黄武二年春正月，曹真分兵占据江陵中州；这个月吴方修筑江夏山城，改用《乾象历》取代四分历。三月，曹仁派常雕等率五千兵乘油船，清晨渡濡须中州；曹仁之子曹泰引军急攻朱桓，朱桓率兵抵御，又派严圭等击破常雕部。这月魏军全部撤退。夏四月，群臣劝孙权称帝，孙权不答应。刘备在白帝去世。五月曲阿报告降甘露。此前戏口守将晋宗杀将领王直，率众叛吴投魏，魏任他为蕲春太守，他屡犯吴境。六月孙权派贺齐、麋芳、刘邵等袭蕲春，刘邵等生擒晋宗。冬十一月，蜀派中郎将邓芝来访。",
+      "time": {
+        "year": 223,
+        "era": "黄武二年",
+        "label": "黄武二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 27,
+      "endMarker": null,
+      "title": "遣使蜀与魏帝临江",
+      "summary": "黄武三年夏，吴派辅义中郎将张温出使蜀。",
+      "translation": "黄武三年夏，吴派辅义中郎将张温出使蜀。秋八月赦免死罪。九月，魏文帝到广陵，望大江说：‘对岸有人才，暂时不能谋取。’于是返回。",
+      "time": {
+        "year": 224,
+        "era": "黄武三年",
+        "label": "黄武三年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 28,
+      "endMarker": null,
+      "title": "孙邵卒与鄱阳动乱",
+      "summary": "黄武四年夏五月，丞相孙邵去世。",
+      "translation": "黄武四年夏五月，丞相孙邵去世。六月任太常顾雍为丞相。皖口报告树木连理。冬十二月，鄱阳的彭绮自称将军，攻陷多县，聚众数万人。这年地震连续发生。",
+      "time": {
+        "year": 225,
+        "era": "黄武四年",
+        "label": "黄武四年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 29,
+      "endMarker": null,
+      "title": "宽息百姓与陆逊劝谏",
+      "summary": "黄武五年春，孙权下令：‘战事长久，百姓离开农业、荒废耕作，父子夫妻不能相互照顾，我很怜悯。",
+      "translation": "黄武五年春，孙权下令：‘战事长久，百姓离开农业、荒废耕作，父子夫妻不能相互照顾，我很怜悯。如今北方敌军退缩，境外无事，应下令州郡，让百姓得到宽缓休息。’陆逊因当地缺粮，上表让诸将扩大耕种。孙权回信：‘很好。如今我父子亲自接受田地，车上八头牛组成四对耕牛。虽然不及古人，也想与大家均等分担劳苦。’秋七月，孙权听说魏文帝去世，进至江夏，围石阳，未攻下而回。苍梧报告见凤凰。将三郡偏远贫瘠的十县分置东安郡，任全琮为太守，平讨山越。冬十月，陆逊提出时政建议，劝孙权施恩德、缓刑罚、宽赋税、减徭役，又说：‘忠诚正直的话，不能详尽陈述；为求容身的小臣，多次凭利益进言。’孙权回答说：",
+      "time": {
+        "year": 226,
+        "era": "黄武五年",
+        "label": "黄武五年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 30,
+      "endMarker": null,
+      "title": "孙权答陆逊论刑与直言",
+      "summary": "设立法令是为了遏制罪恶、防止邪行，预先警戒。",
+      "translation": "设立法令是为了遏制罪恶、防止邪行，预先警戒。怎能没有刑罚威慑作恶的人？这是先公布法令、后施惩罚，本意是不愿有人犯罪。你认为刑罚太重，我又有什么好处，只是不得已这样做。如今承蒙来意，我会重新商议，力求采取可行办法。近臣有尽力规劝的谏言，亲族有补察过失的劝告，是为了匡正君主、表明忠信。《尚书》说‘我有过失你要辅弼，不要当面顺从’，我难道不喜欢忠言补益自己？你说不敢详尽陈述，怎能算忠直？小臣中若有可采纳的意见，难道能因人废言而不选择？只是谄媚取容的人，我即使昏暗也看得出来。至于征发徭役，只因天下未定，事情要靠众人完成；如果只守江东、推行宽政，兵员自会够用，还要那么多做什么？但坐守一隅实在目光短浅。如果不预先征调，恐怕临事不能立即使用。何况我与你情义特别，荣辱忧喜相同。你来表说不敢随众苟且容身，这正是我内心对你的期望。",
+      "time": {
+        "year": 226,
+        "era": "黄武五年",
+        "label": "黄武五年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 31,
+      "endMarker": null,
+      "title": "复议法条与广州",
+      "summary": "孙权于是命官员抄写全部法令条文，派郎中褚逢带给陆逊和诸葛瑾，对他们认为不妥的加以增减。",
+      "translation": "孙权于是命官员抄写全部法令条文，派郎中褚逢带给陆逊和诸葛瑾，对他们认为不妥的加以增减。这年从交州分置广州，不久又恢复原状。",
+      "time": {
+        "year": 226,
+        "era": "黄武五年",
+        "label": "黄武五年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 32,
+      "endMarker": null,
+      "title": "彭绮被擒与韩综降魏",
+      "summary": "黄武六年春正月，诸将抓获彭绮。",
+      "translation": "黄武六年春正月，诸将抓获彭绮。闰月，韩当之子韩综率部众投降魏。",
+      "time": {
+        "year": 227,
+        "era": "黄武六年",
+        "label": "黄武六年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 33,
+      "endMarker": null,
+      "title": "石亭与州郡调整",
+      "summary": "黄武七年三月，封儿子孙虑为建昌侯，撤销东安郡。",
+      "translation": "黄武七年三月，封儿子孙虑为建昌侯，撤销东安郡。夏五月，鄱阳太守周鲂假意叛吴，诱魏将曹休。秋八月，孙权到皖口，命陆逊统诸将于石亭大破曹休。大司马吕范去世。这年将合浦郡改名珠官郡。",
+      "time": {
+        "year": 228,
+        "era": "黄武七年",
+        "label": "黄武七年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 34,
+      "endMarker": null,
+      "title": "孙权称帝",
+      "summary": "黄龙元年春，公卿百官都劝孙权正式称帝。",
+      "translation": "黄龙元年春，公卿百官都劝孙权正式称帝。夏四月，夏口、武昌都报告见到黄龙和凤凰。丙申日，孙权在南郊即皇帝位，当天大赦、改元，追尊父亲破虏将军孙坚为武烈皇帝，母亲吴氏为武烈皇后，兄长讨逆将军孙策为长沙桓王。原吴王太子孙登成为皇太子，将领官吏都进爵加赏。",
+      "time": {
+        "year": 229,
+        "era": "黄龙元年",
+        "label": "黄龙元年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 35,
+      "endMarker": null,
+      "title": "吴蜀议分天下",
+      "summary": "从前兴平年间，吴地童谣说：‘黄金车，班兰耳，闿昌门，出天子。",
+      "translation": "从前兴平年间，吴地童谣说：‘黄金车，班兰耳，闿昌门，出天子。’五月，孙权派校尉张刚、管笃到辽东。六月，蜀派卫尉陈震祝贺孙权登基。孙权于是与蜀规划分天下，豫、青、徐、幽归吴，兖、冀、凉等归蜀；司州以函谷关为界，制定盟约说：原本此处州名存在缺字，不能擅自补写。",
+      "time": {
+        "year": 229,
+        "era": "黄龙元年",
+        "label": "黄龙元年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 36,
+      "endMarker": null,
+      "title": "吴蜀盟誓",
+      "summary": "上天降下祸乱，皇室纲纪失序，逆臣乘机夺取国柄，从董卓开始，到曹操结束，他们极其凶恶，使天下倾覆。",
+      "translation": "上天降下祸乱，皇室纲纪失序，逆臣乘机夺取国柄，从董卓开始，到曹操结束，他们极其凶恶，使天下倾覆。以致九州分裂，天下没有统一的君主，人民和神灵痛恨哀怨，无处安身。到曹操之子曹丕，继承凶逆，屡行奸恶，窃取帝位；曹睿年幼卑微，追随曹丕恶迹，依靠兵力盗据土地，尚未受到应有的诛罚。从前共工作乱，高辛氏出兵；三苗违乱法度，虞舜讨伐。如今消灭曹氏、擒拿其党徒，除了蜀汉与东吴，还有谁能担当？讨伐凶暴，必须先公布罪状；应先划分、夺取其土地，使士民各知归属。因此《春秋》记晋侯伐卫，先把卫地划分给宋人，道理就在这里。古人筹划大事必先盟誓，所以《周礼》有司盟之官，《尚书》有告誓之文。汉与吴虽然内心诚实互信，但既然划分疆土，也应订盟。诸葛亮德威远扬，辅佐本国，在外统军，诚信可感天地阴阳；故再次结盟，广布诚意，订立誓约，使东西士民共同知晓。因此筑坛杀牲，昭告神明，再次歃血并签立盟书，将副本存于天府。高天俯听，神灵威严显赫，掌慎和司盟诸神、所祭神灵，都来鉴临。从今天汉、吴结盟后，应同心协力讨伐曹魏，互救危难、共同分担灾祸和分享喜庆，爱憎一致，不得离心。有人危害汉，吴就讨伐；有人危害吴，汉就讨伐。各守分定土地，不相侵犯，传给后世，始终如一。各项约定都如盟书所写，诚言不事浮夸，实以友好为本。如有人改变盟约，先启祸乱，违约离心，轻慢天命，愿上帝明神讨伐监督，山川百神纠察惩罚，使其军队败亡、国家不得享福。各位大神，请明察！这是当事双方的盟誓及其政治表述。",
+      "time": {
+        "year": 229,
+        "era": "黄龙元年",
+        "label": "黄龙元年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 37,
+      "endMarker": null,
+      "title": "迁都建业",
+      "summary": "本段记述：迁都建业。",
+      "translation": "秋九月，孙权迁都建业，原有府署和住所仍旧，不另改建；令上大将军陆逊辅佐太子孙登，掌管留守武昌的事务。",
+      "time": {
+        "year": 229,
+        "era": "黄龙元年",
+        "label": "黄龙元年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 38,
+      "endMarker": null,
+      "title": "遣人浮海求洲",
+      "summary": "黄龙二年春正月，魏修筑合肥新城。",
+      "translation": "黄龙二年春正月，魏修筑合肥新城。孙权下诏设都讲、祭酒，教导诸子；派将军卫温、诸葛直率一万甲士出海寻找夷洲、亶洲。亶洲在海中，长者相传秦始皇曾派方士徐福率数千童男童女入海寻求蓬莱神山和仙药，他们停留此洲没有返回，世代相传有数万家。传说岛上居民有时到会稽买卖，会稽东部居民出海也有遭风漂到亶洲的。因为所在极远，最终无法到达，只从夷洲带回数千人。有关岛屿身世为文中传说，不作既定事实。",
+      "time": {
+        "year": 230,
+        "era": "黄龙二年",
+        "label": "黄龙二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 39,
+      "endMarker": null,
+      "title": "武陵用兵与改元",
+      "summary": "黄龙三年春二月，孙权派太常潘濬率五万人讨伐武陵各部；卫温、诸葛直因违诏无功被下狱处死。",
+      "translation": "黄龙三年春二月，孙权派太常潘濬率五万人讨伐武陵各部；卫温、诸葛直因违诏无功被下狱处死。夏天有野蚕结茧，大如鸡蛋。由拳出现自生野稻，县改名禾兴。中郎将孙布诈降诱魏将王凌，王凌率军迎接。冬十月，孙权在阜陵埋伏大军等候，王凌察觉后逃走。会稽南始平报告出现嘉禾。十二月丁卯，大赦，改次年为新元年。",
+      "time": {
+        "year": 231,
+        "era": "黄龙三年",
+        "label": "黄龙三年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 40,
+      "endMarker": null,
+      "title": "辽东往来",
+      "summary": "嘉禾元年春正月，建昌侯孙虑去世。",
+      "translation": "嘉禾元年春正月，建昌侯孙虑去世。三月，派将军周贺、校尉裴潜从海上前往辽东。秋九月，魏将田豫截击，在成山斩杀周贺。冬十月，魏辽东太守公孙渊派校尉宿舒、中郎令孙综向孙权称臣，并进献貂皮和马。孙权大喜，给公孙渊加爵。",
+      "time": {
+        "year": 232,
+        "era": "嘉禾元年",
+        "label": "嘉禾元年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 41,
+      "endMarker": null,
+      "title": "公孙渊来附与背盟",
+      "summary": "嘉禾二年春正月，孙权下诏：‘我因德行不足却初受天命，日夜戒惧，不敢安睡；想着平息乱世、救济百姓，上报神祇，下慰民望，所以殷切寻求俊杰，希望共同努力安定天下。",
+      "translation": "嘉禾二年春正月，孙权下诏：‘我因德行不足却初受天命，日夜戒惧，不敢安睡；想着平息乱世、救济百姓，上报神祇，下慰民望，所以殷切寻求俊杰，希望共同努力安定天下。只要同心，我愿与他们相伴到老。如今使持节、督幽州、领青州牧的辽东太守燕王公孙渊，长期受敌国胁迫，隔绝一方，虽然心向我国却无路相通。现在借天命远派两使，诚意显露、表章恳切，我得到这些有什么比这更高兴？即使商汤遇伊尹、周得吕望、光武未定天下而得河西，也不过如此。天下统一由此可定。《尚书》不是说“一人有庆，万民依赖”吗？应大赦天下，与民更始，明令州郡传知；特地下令燕国宣示诏恩，使天下都知道这件喜事。’三月，孙权遣宿舒、孙综返回，派太常张弥、执金吾许晏、将军贺达等率万人，携金银珍宝、九锡礼物乘海去授予公孙渊。满朝大臣从丞相顾雍以下都进谏，说公孙渊未可信，优待过厚，只宜派数百官兵护送宿舒、孙综；孙权终不听。公孙渊果然杀张弥等，送首级给魏，没收他们的兵员物资。孙权大怒，想亲自讨伐公孙渊，尚书仆射薛综等恳切进谏，他才停止。这年孙权进攻合肥新城，派全琼攻六安，都未取胜而返。",
+      "time": {
+        "year": 233,
+        "era": "嘉禾二年",
+        "label": "嘉禾二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 42,
+      "endMarker": null,
+      "title": "宽逋赋与合肥战事",
+      "summary": "嘉禾三年春正月，孙权诏说：‘战事长久不止，百姓困于徭役，年成有时不好。",
+      "translation": "嘉禾三年春正月，孙权诏说：‘战事长久不止，百姓困于徭役，年成有时不好。应宽免各种拖欠，不再追缴。’夏五月，派陆逊、诸葛瑾等驻江夏、沔口，孙韶、张承等向广陵、淮阳进军，自己率大军围合肥新城。当时蜀相诸葛亮出武功，孙权认为魏明帝不能远征；魏帝却派兵帮助司马懿抵御诸葛亮，自己率水军东征。魏帝未到寿春，孙权已退，孙韶也撤军。秋八月，任诸葛恪为丹杨太守，讨伐山越。九月初一霜降伤害庄稼。冬十一月，太常潘濬平定武陵各部，返回武昌。下诏恢复曲阿旧名云阳、丹徒旧名武进。庐陵的李桓、罗厉等起事。",
+      "time": {
+        "year": 234,
+        "era": "嘉禾三年",
+        "label": "嘉禾三年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 43,
+      "endMarker": null,
+      "title": "马与珠玉贸易",
+      "summary": "嘉禾四年夏，派吕岱讨伐李桓等。",
+      "translation": "嘉禾四年夏，派吕岱讨伐李桓等。秋七月下冰雹。魏使者想用马交换珠玑、翡翠、玳瑁。孙权说：‘这些都是我不用的东西，却可以换马，为什么不允许交易？’",
+      "time": {
+        "year": 235,
+        "era": "嘉禾四年",
+        "label": "嘉禾四年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 44,
+      "endMarker": null,
+      "title": "铸钱与灾荒",
+      "summary": "嘉禾五年春，铸造一枚抵五百钱的大钱；下诏让官吏百姓上交铜，按铜数量给价，并制定私铸货币的刑律。",
+      "translation": "嘉禾五年春，铸造一枚抵五百钱的大钱；下诏让官吏百姓上交铜，按铜数量给价，并制定私铸货币的刑律。二月，武昌报告礼宾殿降甘露。辅吴将军张昭去世。中郎将吾粲抓获李桓，将军唐咨抓获罗厉等。从十月起不下雨直到夏天。冬十月，彗星出现在东方。鄱阳彭旦等起事。",
+      "time": {
+        "year": 236,
+        "era": "嘉禾五年",
+        "label": "嘉禾五年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 45,
+      "endMarker": null,
+      "title": "议定奔丧制度",
+      "summary": "嘉禾六年春正月，孙权下诏说：。",
+      "translation": "嘉禾六年春正月，孙权下诏说：",
+      "time": {
+        "year": 237,
+        "era": "嘉禾六年",
+        "label": "嘉禾六年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 46,
+      "endMarker": null,
+      "title": "奔丧诏令",
+      "summary": "三年之丧是天下通行的礼制，也是人情中极大的悲痛。",
+      "translation": "三年之丧是天下通行的礼制，也是人情中极大的悲痛。有德行的人忍痛遵循礼节，普通人也勉力尽孝。世道安定、上下无事时，君子不剥夺人的情感，所以三年中不去追究守丧孝子的家庭。遇到事变，则应减省礼节以适应时宜，腰系丧带仍处理政务。所以圣人制定法度：礼制若不合时势就不能施行。遭丧不赶回并非古礼，而是顺应时宜，以公义裁断私人恩情。先前特设条规，地方长官在任，须等待交接才能离开，但有人故意违犯。虽然随后追究，其职责已荒废。如今事务繁重、国家多难，凡在官任职者应各尽忠节，先公后私；不恭敬奉行，十分不妥。朝廷内外群臣应重新公正商议，务必适中，详细制定办法。",
+      "time": {
+        "year": 237,
+        "era": "嘉禾六年",
+        "label": "嘉禾六年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 47,
+      "endMarker": null,
+      "title": "顾谭、胡综议丧制",
+      "summary": "顾谭议论说：‘对奔丧制定处罚，轻则不足以阻止孝子的心情，重则本不是应判死罪的事。",
+      "translation": "顾谭议论说：‘对奔丧制定处罚，轻则不足以阻止孝子的心情，重则本不是应判死罪的事。即使加设严刑，违犯的人也未必少。若偶有违犯，按重刑处置，出于恩情不忍；减刑则法令废弛。依我看，长官身处远方，若不告知，官府本无法知道。选派接任者期间，如果有人传报丧讯，就判传报者死刑，这样长官没有荒废职守的责任，孝子也没有触犯重罪的刑罚。’将军胡综议论说：‘丧礼虽有制度，不合时宜便不能实行。如今军国大事不同寻常，长官遭丧，明知禁止仍公然违反，只顾听到丧讯不回去的耻辱，不计为臣犯禁之罪，这是处罚原本太轻。忠节为国，孝道为家，出仕为臣怎能两全？所以做忠臣便不能尽孝子之道。应明确规定死刑，故意违反者有罪不赦。以杀止杀，只处决一人，以后必可杜绝。’丞相顾雍上奏赞成死刑。",
+      "time": {
+        "year": 237,
+        "era": "嘉禾六年",
+        "label": "嘉禾六年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 48,
+      "endMarker": null,
+      "title": "孟宗奔丧与军事调动",
+      "summary": "后来吴县县令孟宗因母丧赶回，之后在武昌自行拘禁等待处罚。",
+      "translation": "后来吴县县令孟宗因母丧赶回，之后在武昌自行拘禁等待处罚。陆逊陈述他平日品行，为他求情，孙权将其刑罚减一等，并规定后来不能援此为例，此类事于是杜绝。二月，陆逊讨伐彭旦等，当年全部击破。冬十月，派卫将军全琮袭击六安，没有成功。诸葛恪平定山越后向北驻庐江。",
+      "time": {
+        "year": null,
+        "era": "嘉禾六年后",
+        "label": "嘉禾六年后",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 49,
+      "endMarker": null,
+      "title": "赤乌改元与吕壹案",
+      "summary": "赤乌元年春，铸造一枚抵一千钱的大钱。",
+      "translation": "赤乌元年春，铸造一枚抵一千钱的大钱。夏，吕岱讨伐卢陵起事者，结束后回陆口。秋八月，武昌报告看见麒麟，官员奏称麒麟是太平征兆，应当改元。孙权诏说：‘此前赤乌落在殿前，是我亲眼看见。如果神灵视为吉祥，改元应以赤乌为名。’群臣说：‘从前周武王伐纣，有赤乌祥瑞，君臣看到后最终得到天下，圣人所记载极详。近事既然吉祥，又是陛下亲眼所见。’于是改元。步夫人去世，追尊为皇后。先前孙权信任校事吕壹，吕壹性情苛刻残忍，执法严酷。太子孙登多次进谏，孙权不听，大臣因此不敢再说。后来吕壹奸恶罪行暴露被处死，孙权引咎自责，派中书郎袁礼向各大将道歉，并询问时政应当增减之处。袁礼返回，孙权又下诏责问诸葛瑾、步骘、朱然、吕岱等说：",
+      "time": {
+        "year": 238,
+        "era": "赤乌元年",
+        "label": "赤乌元年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 50,
+      "endMarker": null,
+      "title": "自责并求直谏",
+      "summary": "袁礼回来，说已与诸葛瑾、步骘、朱然、吕岱相见，诸位都认为时政应有轻重先后，但各自以不掌管民事为由，不肯立即陈述，全都推给陆逊、顾雍。",
+      "translation": "袁礼回来，说已与诸葛瑾、步骘、朱然、吕岱相见，诸位都认为时政应有轻重先后，但各自以不掌管民事为由，不肯立即陈述，全都推给陆逊、顾雍。陆逊、顾雍见袁礼时流泪恳切，言辞痛苦，竟心怀恐惧、不能自安。我听后怅然，深深责怪自己。为什么？只有圣人没有过失，明白的人只是能自觉罢了。人的举措怎能全部正确？一定是我有伤害或拒绝众意之处而自己没有察觉，所以诸君才有所顾忌；不然怎会如此？自我起兵五十年，所有徭役赋税都出自百姓。天下未定、敌对势力尚存，士民辛苦，我确实一直知道；但劳役百姓是不得已。与诸君共事，从年轻到年长，头发已黑白相间，我以为彼此内外心意足够明白，公私情分足以互相保全。我期望诸君尽言直谏，拾遗补缺。从前卫武公年老志壮，勤求辅佐，常独自叹息自责。即使普通平民结交，情分和睦，也能共同承受污辱。如今诸君与我共事，虽有君臣之义，情分也不应差于骨肉，荣福忧喜共同承担。忠心不可隐瞒真情，智慧不可遗漏计策，事情涉及大是大非，诸君怎能只从容应付？大家同船渡水，还能换谁为伴？齐桓公只是诸侯霸主，管仲见善必赞、见过必谏，劝谏不成仍不停止。我自省没有齐桓公的德行，而诸君谏诤还未出口便心存顾忌。这样说来，我比齐桓公实在优越，却不知诸君比管仲如何？许久不见，借此事情当作一笑。共同完成大业、整顿天下，还能依靠谁？凡大事应增减之处，我乐意听不同意见，纠正我的不足。",
+      "time": {
+        "year": 238,
+        "era": "赤乌元年",
+        "label": "赤乌元年",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 51,
+      "endMarker": null,
+      "title": "辽东与南方动乱",
+      "summary": "赤乌二年春三月，派使者羊衜、郑胄和将军孙怡赴辽东，攻打魏守将张持、高虑等，俘获男女。",
+      "translation": "赤乌二年春三月，派使者羊衜、郑胄和将军孙怡赴辽东，攻打魏守将张持、高虑等，俘获男女。零陵报告降甘露。夏五月修筑沙羡城。冬十月，将军蒋秘南讨，部下都督廖式杀临贺太守严纲等，自称平南将军，与弟廖潜攻零陵、桂阳，又震动交州苍梧、郁林等郡，众数万人。孙权派吕岱、唐咨讨伐，一年多后全部击破。",
+      "time": {
+        "year": 239,
+        "era": "赤乌二年",
+        "label": "赤乌二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 52,
+      "endMarker": null,
+      "title": "农时、城防与赈饥",
+      "summary": "赤乌三年春正月，孙权诏说：‘君主没有百姓不能立国，百姓没有粮食不能生存。",
+      "translation": "赤乌三年春正月，孙权诏说：‘君主没有百姓不能立国，百姓没有粮食不能生存。近来百姓徭役繁重，又遇水旱，收成受损；有些官吏不良，占用农时，使百姓饥困。从今以后，督军和郡守应谨察违法行为，凡农桑时以徭役扰民者，举发上报。’夏四月大赦，下诏各郡县修城郭、建望楼、开壕沟和渠道，以防盗贼。冬十一月，百姓饥饿，诏令开仓赈济贫困者。",
+      "time": {
+        "year": 240,
+        "era": "赤乌三年",
+        "label": "赤乌三年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 53,
+      "endMarker": null,
+      "title": "大雪、用兵与太子卒",
+      "summary": "赤乌四年春正月，大雪平地深三尺，鸟兽死了大半。",
+      "translation": "赤乌四年春正月，大雪平地深三尺，鸟兽死了大半。夏四月，派卫将军全琮进攻淮南，决开芍陂，烧安城粮库，迁取当地居民；威北将军诸葛恪攻六安。全琮与魏将王凌在芍陂交战，中郎将秦晃等十余人战死。车骑将军朱然围樊，大将军诸葛瑾攻取柤中。五月，太子孙登去世。这个月魏太傅司马懿救樊；六月吴军撤回，闰月诸葛瑾去世。秋八月陆逊筑邾城。",
+      "time": {
+        "year": 241,
+        "era": "赤乌四年",
+        "label": "赤乌四年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 54,
+      "endMarker": null,
+      "title": "立太子与减膳",
+      "summary": "赤乌五年春正月，立儿子孙和为太子，大赦，把禾兴改名嘉兴。",
+      "translation": "赤乌五年春正月，立儿子孙和为太子，大赦，把禾兴改名嘉兴。百官上奏请求立皇后和四王，孙权诏说：‘天下尚未安定，民众和物力疲困，有功者尚有人未受赏，饥寒者还未受救济。随意割地来富足子弟、抬高爵位来宠爱妃妾，我很不赞成。撤销此议。’三月海盐报告见黄龙。夏四月禁止进献供皇帝享用的物品，减少宫廷膳食。秋七月派聂友、陆凯率三万人讨珠崖、儋耳。这年大疫，官员又上奏请求立后和诸王。八月，立孙霸为鲁王。",
+      "time": {
+        "year": 242,
+        "era": "赤乌五年",
+        "label": "赤乌五年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 55,
+      "endMarker": null,
+      "title": "顾雍去世与扶南来使",
+      "summary": "赤乌六年春正月，新都报告白虎出现。",
+      "translation": "赤乌六年春正月，新都报告白虎出现。诸葛恪进攻六安，击破魏将谢顺营，迁取当地居民。冬十一月，丞相顾雍去世。十二月，扶南王范旃派使者献乐人和方物。这年司马懿率军入舒，诸葛恪从皖迁到柴桑。",
+      "time": {
+        "year": 243,
+        "era": "赤乌六年",
+        "label": "赤乌六年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 56,
+      "endMarker": null,
+      "title": "孙权判断蜀吴盟约",
+      "summary": "赤乌七年春正月，以上大将军陆逊为丞相。",
+      "translation": "赤乌七年春正月，以上大将军陆逊为丞相。秋天，宛陵报告长出嘉禾。这年步骘、朱然等上疏说：‘从蜀地回来的人说蜀想背盟通魏，制造许多船只、修整城郭；蒋琬原守汉中，听说司马懿南下，却不乘虚出兵夹击，反而放弃汉中、退近成都。事情已很明显，不必再怀疑，应当防备。’孙权判断不是这样，说：‘我待蜀不薄，聘问、馈赠和盟誓都没有违背，怎么会导致这样？何况司马懿先前进入舒地，十几天便退，蜀在万里之外，怎么知道缓急就能立即出兵？从前魏想进汉川，我们这里才开始戒严，还没有行动，听说魏军回去便停止。蜀难道也可以因此怀疑我们？何况人家治国，船只城郭怎能不修？如今我们整顿军队，难道就是准备防蜀吗？传言实在不能轻信，我愿为诸位以身家担保。’蜀最终确无此谋，正如孙权所料。",
+      "time": {
+        "year": 244,
+        "era": "赤乌七年",
+        "label": "赤乌七年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 57,
+      "endMarker": null,
+      "title": "陆逊去世与修水道",
+      "summary": "赤乌八年春二月，丞相陆逊去世。",
+      "translation": "赤乌八年春二月，丞相陆逊去世。夏天雷击宫门柱，又击南津大桥桥柱。茶陵县洪水泛滥，冲走二百多户居民。秋七月，将军马茂等谋反，三族被诛。八月大赦。派校尉陈勋率屯田人员和工役三万人开凿句容中道，从小其至云阳西城，方便集市往来，并兴建仓库。",
+      "time": {
+        "year": 245,
+        "era": "赤乌八年",
+        "label": "赤乌八年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 58,
+      "endMarker": null,
+      "title": "将相任命",
+      "summary": "赤乌九年春二月，车骑将军朱然进攻魏国柤中，斩获一千多人。",
+      "translation": "赤乌九年春二月，车骑将军朱然进攻魏国柤中，斩获一千多人。夏四月武昌报告降甘露。秋九月，任骠骑将军步骘为丞相，车骑将军朱然为左大司马，卫将军全琮为右大司马，镇南将军吕岱为上大将军，威北将军诸葛恪为大将军。",
+      "time": {
+        "year": 246,
+        "era": "赤乌九年",
+        "label": "赤乌九年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 59,
+      "endMarker": null,
+      "title": "修宫与赦罪",
+      "summary": "赤乌十年春正月，右大司马全琮去世。",
+      "translation": "赤乌十年春正月，右大司马全琮去世。二月孙权到南宫。三月重建太初宫，将领和州郡都自愿出工。夏五月丞相步骘去世。冬十月赦免死罪。",
+      "time": {
+        "year": 247,
+        "era": "赤乌十年",
+        "label": "赤乌十年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 60,
+      "endMarker": null,
+      "title": "自省与诏勉百官",
+      "summary": "赤乌十一年春正月，朱然修筑江陵城。",
+      "translation": "赤乌十一年春正月，朱然修筑江陵城。二月地震不断。三月宫殿建成。夏四月下冰雹，云阳报告黄龙出现；五月鄱阳报告白虎仁兽出现。孙权诏说：‘古代圣王积累善行、修身行道而拥有天下，祥瑞随之出现，用来表彰德行。我不够贤明，怎能达到这种境地？《尚书》说“即使美好也不要停止努力”。公卿百官都应勤勉尽职，纠正我的不足。’",
+      "time": {
+        "year": 248,
+        "era": "赤乌十一年",
+        "label": "赤乌十一年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "document"
+    },
+    {
+      "paragraphIndex": 61,
+      "endMarker": null,
+      "title": "朱然去世",
+      "summary": "赤乌十二年春三月，左大司马朱然去世。",
+      "translation": "赤乌十二年春三月，左大司马朱然去世。四月，两只乌鸦衔着喜鹊掉到东馆；丙寅日，骠骑将军孙据兼任丞相，用烧烤喜鹊祭祀。",
+      "time": {
+        "year": 249,
+        "era": "赤乌十二年",
+        "label": "赤乌十二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 62,
+      "endMarker": null,
+      "title": "废立太子与灾异",
+      "summary": "赤乌十三年夏五月夏至，荧惑星进入南斗。",
+      "translation": "赤乌十三年夏五月夏至，荧惑星进入南斗。秋七月接近魁星第二星后向东运行。八月丹阳、句容及故鄣、宁国各处山崩，洪水泛滥。下诏赦免拖欠债务，借给百姓种子和粮食。废太子孙和，安置故鄣；鲁王孙霸被赐死。冬十月，魏将文钦假意叛魏诱骗吴将朱异，孙权派吕据到朱异处迎接文钦。朱异等等待慎重，文钦不敢前进。十一月立儿子孙亮为太子，派十万人修筑堂邑涂塘以水淹北道。十二月，魏大将军王昶围南郡，荆州刺史王基进攻西陵，吴派戴烈、陆凯抵御，魏军均撤回。这年有人称神人授书，告知应改年号、立皇后。神人授书为当时记载，不作事实判断。",
+      "time": {
+        "year": 250,
+        "era": "赤乌十三年",
+        "label": "赤乌十三年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 63,
+      "endMarker": null,
+      "title": "王表传闻与减赋",
+      "summary": "太元元年夏五月，立潘氏为皇后，大赦、改元。",
+      "translation": "太元元年夏五月，立潘氏为皇后，大赦、改元。先前临海罗阳县有自称王表的神灵，活动民间，语言饮食与人一样，却看不见形体；又有一名婢女叫纺绩。这个月孙权派中书郎李崇携辅国将军、罗阳王印绶迎王表。王表随李崇一同出行，与李崇及沿途郡守县令谈论，他们无法驳倒；经过山川时，王表就派婢女与当地神灵联络。秋七月，李崇与王表到达，孙权在苍龙门外为他建宅，多次派近臣送酒食。王表谈论水旱小事，常常应验。秋八月初一大风，江海水涌，平地水深八尺，吴高陵的柏树被拔起，郡城南门被吹落。冬十一月大赦。孙权到南郊祭祀回来后卧病。十二月用驿车召大将军诸葛恪，任太子太傅，下诏减少徭役和赋税，解除百姓苦患。王表为史书所载神异传闻。",
+      "time": {
+        "year": 251,
+        "era": "太元元年",
+        "label": "太元元年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 64,
+      "endMarker": null,
+      "title": "孙权去世",
+      "summary": "太元二年春正月，立被废太子孙和为南阳王，居长沙；封孙奋为齐王，居武昌；孙休为琅邪王，居虎林。",
+      "translation": "太元二年春正月，立被废太子孙和为南阳王，居长沙；封孙奋为齐王，居武昌；孙休为琅邪王，居虎林。二月大赦，改元神凤。皇后潘氏去世。将领官吏多次到王表处求福，王表逃走。夏四月孙权去世，终年七十一岁，谥大皇帝。秋七月，葬蒋陵。",
+      "time": {
+        "year": 252,
+        "era": "太元二年",
+        "label": "太元二年",
+        "certainty": "explicit"
+      },
+      "focusPlaceId": "wuchang",
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    },
+    {
+      "paragraphIndex": 65,
+      "endMarker": null,
+      "title": "陈寿评孙权",
+      "summary": "陈寿评论说：‘孙权屈身忍辱，任用人才、重视计谋，有勾践那样的奇特才能，是杰出人物，所以能独据江东、成就三国鼎立的基业。",
+      "translation": "陈寿评论说：‘孙权屈身忍辱，任用人才、重视计谋，有勾践那样的奇特才能，是杰出人物，所以能独据江东、成就三国鼎立的基业。然而他生性多疑忌，杀戮果决，到了晚年更加严重。以致谗言使善行断绝，继承人被废被杀，难道这就是为子孙留下安定长远谋划吗？此后吴国逐渐衰落，终于灭亡，未必不是由此造成。’",
+      "time": {
+        "year": null,
+        "era": "年代未详",
+        "label": "年代未详",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "flags": [],
+      "route": null,
+      "kind": "narrative"
+    }
+  ],
+  "placeDetails": {
+    "chibi": {
+      "precision": "uncertain"
+    }
+  },
+  "personDetails": {
+    "liu-bei": {
+      "description": "蜀汉开国君主，字玄德；本传称先主。"
+    },
+    "sun-quan": {
+      "description": "孙策之弟，后来建立孙吴，字仲谋。"
+    },
+    "cao-cao": {
+      "description": "东汉末年丞相，曹魏奠基者，字孟德。"
+    },
+    "zhou-yu": {
+      "description": "孙权部将，赤壁与南郡战事的吴方统帅之一。"
+    },
+    "cheng-pu": {
+      "description": "孙氏部将，与周瑜共同率军参加赤壁战事。"
+    },
+    "lu-su": {
+      "description": "孙权谋臣，参与促成孙刘联盟，曾镇守陆口。"
+    },
+    "zhuge-liang": {
+      "description": "刘备谋臣、蜀汉丞相，受托辅佐刘禅。"
+    },
+    "guan-yu": {
+      "description": "刘备部将，曾镇守荆州，于孙权袭取荆州时被俘杀。"
+    },
+    "liu-qi": {
+      "description": "刘表长子，曾任江夏太守，刘备表其为荆州刺史。"
+    },
+    "liu-cong": {
+      "description": "刘表之子，刘表死后接替荆州并向曹操请降。"
+    },
+    "liu-biao": {
+      "description": "东汉末荆州牧，曾接待刘备并令其驻新野。"
+    },
+    "huang-zu": {
+      "description": "东汉末江夏太守，曾与孙氏交战。"
+    },
+    "lv-meng": {
+      "description": "孙权部将，曾率军袭取刘备一方的荆州。"
+    },
+    "gan-ning": {
+      "description": "孙权部将，曾驻夷陵并遭围。"
+    },
+    "cao-ren": {
+      "description": "曹操宗室将领，曾驻守江陵并与周瑜对峙。"
+    },
+    "zhang-zhao": {
+      "description": "孙策、孙权的重要辅佐大臣。"
+    },
+    "sun-ce": {
+      "description": "孙权兄长，奠定江东基业后将事务托付孙权。"
+    },
+    "sun-jian": {
+      "description": "孙策、孙权之父，东汉末将领，后被追尊为武烈皇帝。"
+    },
+    "sun-deng": {
+      "description": "孙权长子，曾为吴太子，多次规劝孙权。"
+    },
+    "sun-he": {
+      "description": "孙权之子，曾立为太子后被废。"
+    },
+    "sun-liang": {
+      "description": "孙权之子，孙权晚年立为太子，后继位。"
+    },
+    "lu-xun": {
+      "description": "孙吴重臣、将领，曾在夷陵抵御刘备，后任丞相。"
+    },
+    "gu-yong": {
+      "description": "孙吴大臣，孙邵死后任丞相。"
+    },
+    "bu-zhi": {
+      "description": "孙吴重臣，孙权时官至丞相。"
+    },
+    "zhu-ran": {
+      "description": "孙吴将领，曾参与关羽之战并镇守江陵。"
+    },
+    "zhu-huan": {
+      "description": "孙吴将领，曾在濡须抵御曹仁。"
+    },
+    "lv-yi": {
+      "description": "孙吴校事官，因执法苛酷和奸恶获罪被诛。"
+    },
+    "zhuge-jin": {
+      "description": "孙吴大臣，诸葛亮兄长，多次参与吴蜀往来。"
+    },
+    "zhang-liao": {
+      "description": "曹操、曹魏将领，曾在合肥袭击孙权军。"
+    },
+    "lu-dai": {
+      "description": "孙吴将领，多次受命出兵南方。"
+    },
+    "zhuge-ke": {
+      "description": "孙吴大臣、将领，孙权晚年任其为太子太傅。"
+    },
+    "liu-wan": {
+      "description": "东汉使者，受命向孙策赐予任命，传中记其评价孙氏兄弟。"
+    },
+    "liu-xun": {
+      "description": "东汉末庐江太守，曾被孙策军击败。"
+    },
+    "lv-fan": {
+      "description": "孙权部将，曾参与镇抚江东及抗魏水战。"
+    },
+    "he-qi": {
+      "description": "孙吴将领，曾在江东征战并出使蕲春战区。"
+    },
+    "ling-tong": {
+      "description": "孙吴将领，曾参与攻黄祖和合肥战事。"
+    },
+    "dong-xi": {
+      "description": "孙吴将领，曾与凌统参加攻打黄祖。"
+    },
+    "wu-furen": {
+      "description": "孙坚之妻，孙策、孙权之母；本传记其建安七年去世。"
+    }
+  },
+  "defaultPersonIds": [
+    "sun-quan"
+  ],
+  "mapProfiles": [
+    {
+      "id": "wide-relief",
+      "label": "中国东部广域现代地势",
+      "bounds": {
+        "west": 95.625,
+        "south": 16.636191878397653,
+        "east": 132.1875,
+        "north": 45.089035564831015
+      },
+      "center": [
+        114.5,
+        31.3
+      ],
+      "minZoom": 3,
+      "maxZoom": 10,
+      "reliefPath": "/maps/eastern-china-relief.jpg",
+      "modernRiversPath": "/maps/eastern-china-modern-rivers.geojson",
+      "modernCitiesPath": "/maps/eastern-china-modern-cities.json",
+      "attribution": "现代地形：Mapzen / Tilezen、USGS；现代河流及城市：Natural Earth。河网不代表古河道。"
+    },
+    {
+      "id": "jianghan-relief",
+      "label": "江汉与江淮地势",
+      "bounds": {
+        "west": 108.28125,
+        "south": 27.059125784374054,
+        "east": 122.34375,
+        "north": 39.909736234537185
+      },
+      "center": [
+        114.5,
+        30.9
+      ],
+      "minZoom": 4,
+      "maxZoom": 10,
+      "reliefPath": "/maps/central-plains-relief.jpg",
+      "modernRiversPath": "/maps/modern-rivers.geojson",
+      "modernCitiesPath": "/data/chapters/wuzhu/modern-cities.json",
+      "attribution": "地势：Mapzen / Tilezen、USGS；现代河流及城市：Natural Earth。现代水系仅供对照。"
+    }
+  ],
+  "defaultMapProfileId": "wide-relief"
+}

@@ -1,0 +1,181 @@
+# 维基文库电子版贡献者
+
+以下名单摘录自本项目所用《三国志》简体裴注 EPUB 的 `OPS/about.xhtml`，对应电子版贡献者，不表示这些人参与本阅读器的编写。正文和裴注的传统作者分别为陈寿、裴松之；来源和许可证见 [素材来源与许可](../licenses.md)。
+
+- 仅仅修补
+- Liouxiao
+- TunnelESON
+- Lonelydarksky
+- Pkunyu
+- Vbvan
+- Denleyfu
+- Lovelvye
+- CHih-See Hsie
+- Physics212
+- KaurJmeb
+- Ruan
+- Kentang~zhwikisource
+- SamCX
+- Xiplus
+- Shizhao
+- Lauhonwaiabc
+- 曹孟德
+- Ivantalk
+- Thering29
+- Arthur011hk
+- NemoKoo
+- 霍枯燥~zhwikisource
+- Wmrwiki
+- 西城东路
+- Midleading
+- Tricia Takanawa
+- Zhxy 519
+- 鸣海
+- 白布飘扬
+- Kuo123
+- Volvos7097
+- IlonaOrange
+- Stewart
+- Qqdonut
+- Stargate756~zhwikisource
+- Cbls1911
+- Meidosensei
+- Steele
+- S7w4j9
+- Blahhmosh
+- Dao Shi Xia Shan
+- Jsinlai89
+- Cdrosaline
+- Hoyinivan
+- Dirkyo0224
+- 银色雪莉
+- Honda Kira
+- Nlu
+- 扎波罗格勒
+- Tomchiukc
+- Yvanwang
+- Seccom88
+- R96340
+- 日期20220626
+- 鸟甲
+- Jiangcai
+- Jutsusho
+- 晚香鱼
+- Mmm333k
+- CES1596
+- 沈阳
+- Barry Lyu
+- Patrickov
+- Wsyang
+- 宣武节度使朱晃
+- Coekon
+- Hwoarang17
+- John39992464
+- 土豆也是块根
+- Zoron~zhwiki
+- 小坂大辅
+- Fjkang jason
+- Willgeating
+- DEMONBANE
+- Kichyou~zhwikisource
+- Jie
+- 吴迪华
+- Assisass
+- 高晶
+- Horizon Sunset
+- Cozy Chen
+- Vipuser
+- Quinlan718
+- Physheepy
+- Tekitousai
+- Ex20636
+- Viztor
+- Yt1205
+- Tx9032f99
+- Laneser
+- ~2025-36169-98
+- Vitsuha
+- Kumkee
+- 逐风天地
+- 流离子
+- ~2025-36170-28
+- Myalex0226
+- Hsnu111718~zhwikisource
+- Onlim
+- 龙威
+- Remixia
+- Wsj8526
+- Hvn0413
+- うちのおかんウザいわぁ
+- IMJENRY
+- Mercy
+- 洗心
+- TongcyDai
+- Rintojiang
+- Suzuha Amane
+- Vanished user 9fc6831189f74d3556ecc64228ec08b7
+- Tevatron~zhwikisource
+- ~2026-46886-09
+- ~2025-38239-53
+- Blua lago
+- 仲曦
+- 李王职
+- 威光
+- CommInt'l
+- 哲里
+- Vphuang
+- Chen-Pan Liao
+- Arthursilva
+- Haru586
+- 18호
+- 冷猪肉
+- 旁城
+- Vx13
+- 礼部尚书
+- 一个人的圣经
+- SwanCurve
+- Kethyga
+- 太子太保啦啦
+- 崇德象贤
+- Lds
+- Jonghah1
+- Kwamikagami
+- 安东大将军倭国王
+- Cc33
+- Sayonzei
+- Inkstone~zhwikisource
+- Yezhanquan
+- Yumeto
+- Ooodjr
+- 不寐听江
+- ~2025-37712-04
+- Hoo man
+- Zhaixm
+- Roy17
+- Iwm-iwama
+- Jlhwung
+- Jjiose1991a
+- Tranminh360
+- ~2026-46109-57
+- Ladsgroup
+- Jdx
+- Minorax
+- Rocket000
+- Fleshgrinder
+- Chris-martin
+- Sarang
+- Dienthoaiquangcao60
+- Nk
+- DieBuche
+- Crt
+- Nickshanks
+- Alvesgaspar
+- Boris23
+- KABALINI
+- Bromskloss
+- Tene~commonswiki
+- AzaToth
+- Bender235
+- PatríciaR
+- Dbenbenn
+- Vanished user 24kwjf10h32h

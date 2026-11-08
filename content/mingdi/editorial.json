@@ -1,0 +1,2539 @@
+{
+  "id": "mingdi",
+  "chapterPath": "OPS/c12_san_guo_zhi_juan03.xhtml",
+  "title": "明帝纪",
+  "subtitle": "曹叡生平与魏朝政事",
+  "editorialNote": "《三国志》连续正文与裴注，白话由本项目整理；地图为区域参照，古河道未复原。",
+  "meta": {
+    "workTitle": "明帝纪",
+    "protagonist": "曹叡",
+    "volume": "卷三",
+    "division": "魏书",
+    "displayTitle": "明帝纪",
+    "seal": "叡",
+    "periodLabel": "东汉末年至魏朝",
+    "coverage": "complete",
+    "coverageLabel": "全篇连续正文与裴注"
+  },
+  "sourceId": "epub-simplified",
+  "sources": [
+    {
+      "id": "epub-simplified",
+      "title": "三国志（陈寿撰裴松之注·简体转换版）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c4_san_guo_zhi_juan01.xhtml",
+      "note": "维基文库《三國志》导出本或其派生版本；卷页：https://zh.wikisource.org/wiki/三國志/卷03。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "editorial-guandu",
+      "title": "本项目整理",
+      "kind": "editorial",
+      "locator": "docs/content-report.md",
+      "note": "原创义注、事件摘要、人物身份提要及地图取点说明。"
+    },
+    {
+      "id": "tgaz-baima",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：白马县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82320",
+      "note": "东汉东郡县治参考点；详页考证落在今滑县东南白马墙。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-liyang",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：黎阳县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82316",
+      "note": "详页定在今浚县东郊大伾山东北，古县治参考点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-yangwu",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：阳武县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82525",
+      "note": "覆盖建安五年的古县条目，采用坐标及地望详注。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-xu",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：许县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_83011",
+      "note": "覆盖建安五年的许县县治参考点，详注讨论张潘故城。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-suanzao",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：酸枣县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82282",
+      "note": "东汉酸枣县治参考点；仅作延津古河段的区域参照，非渡口或战场定位。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "baima-local",
+      "title": "滑县留固镇政府：白马古城遗址与白马墙村",
+      "kind": "web",
+      "locator": "https://www.hnhx.gov.cn/jczwgk/jdzjczwgk/lgz/ggwhfw/webinfo/2022/11/1672745123515782.htm",
+      "note": "明确白马墙村为省级文物保护单位白马古城遗址所在地。"
+    },
+    {
+      "id": "xu-local",
+      "title": "许昌市建安区政府：汉魏许都故城",
+      "kind": "web",
+      "locator": "https://www.jianan.gov.cn/jagk/002003/20180711/21d701f7-882c-4a7a-9f56-a59b579a75dc.html",
+      "note": "确定张潘镇古城村一带的故城范围。"
+    },
+    {
+      "id": "guandu-local",
+      "title": "郑州文明网：谈古论今说官渡",
+      "kind": "web",
+      "locator": "https://zz.wenming.cn/wmzz_xwzx/202509/t20250909_9020921.html",
+      "note": "汇列明清《中牟县志》关于官渡城、官渡台及官渡桥的记载；后世记载给出地望线索。"
+    },
+    {
+      "id": "guandu-osm",
+      "title": "OpenStreetMap：官渡桥村（现代位置）",
+      "kind": "dataset",
+      "locator": "https://www.openstreetmap.org/node/6945971714",
+      "note": "取现代村落节点附近作为官渡地域显示锚点。",
+      "license": "© OpenStreetMap contributors，ODbL 1.0"
+    },
+    {
+      "id": "shuijing-he",
+      "title": "《水经注》卷五·河水",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/CADAL02030776/chapter/1l1xa0l7bhlx0",
+      "note": "记述酸枣附近一段黄河通称延津，不能落实汉末某一登岸点。"
+    },
+    {
+      "id": "shuijing-ji",
+      "title": "《水经注》卷七·济水",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/SBCK047/chapter/1j715dhpatoor_23",
+      "note": "将酸枣乌巢泽与泽北故市亭并记，另记河南郡的故市县故城；古籍所记水路关系不能直接转成现代坐标。"
+    },
+    {
+      "id": "tongjian-geo",
+      "title": "王应麟《通鉴地理通释》卷十一",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/mid-page/7352264494015512585",
+      "note": "官渡水、官渡口与中牟台的古地望汇考；也汇列延津渡相关记载。"
+    },
+    {
+      "id": "wuchao-local",
+      "title": "延津县政府：僧固乡麦海骑行活动报道",
+      "kind": "web",
+      "locator": "https://www.yanjin.gov.cn/newsinfo/22360.html",
+      "note": "当地把乌巢之战联系到僧固乡；作为地方定位说法，不是考古定点。"
+    },
+    {
+      "id": "wuchao-dongshigu",
+      "title": "新乡日报：延津渡（东史固村说）",
+      "kind": "web",
+      "locator": "https://news.xxrb.com.cn/html/2026/xinxiang_0112/427808.html",
+      "note": "将乌巢进一步比定在东史固村；作为当地报道，与《水经注》地望线索分开。"
+    },
+    {
+      "id": "river-research",
+      "title": "《地理学报》：过去2000年中国自然与人文地理环境变化",
+      "kind": "web",
+      "locator": "https://www.geog.com.cn/EN/abstract/article/0375-5444/49025",
+      "note": "说明黄河下游多次改道及王景治河的时代背景，区域综述不能定位建安五年战区河岸。"
+    },
+    {
+      "id": "epub-yuan",
+      "title": "《三国志》卷六·袁绍传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c1_san_guo_zhi_juan06.xhtml；袁绍将攻许及官渡败退段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷06。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-cao-hong",
+      "title": "《三国志》卷九·曹洪传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c16_san_guo_zhi_juan09.xhtml；曹洪传开篇",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷09。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-strategists",
+      "title": "《三国志》卷十·荀彧荀攸贾诩传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c17_san_guo_zhi_juan10.xhtml；荀彧传官渡书信；荀攸传白马、延津、断粮、袭淳于琼",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷10。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-generals",
+      "title": "《三国志》卷十七·张辽张郃徐晃传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c21_san_guo_zhi_juan17.xhtml；张辽、张郃、徐晃各本传开篇及官渡相关叙事",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷17。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-liu",
+      "title": "《三国志》卷三十二·先主传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c35_san_guo_zhi_juan32.xhtml；先主传开篇及徐州败后从袁绍段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷32。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-guan",
+      "title": "《三国志》卷三十六·关羽传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c39_san_guo_zhi_juan36.xhtml；关羽传开篇及斩颜良后归刘备段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷36。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "wuchao-osm",
+      "title": "OpenStreetMap：东史固村（现代位置）",
+      "kind": "dataset",
+      "locator": "https://www.openstreetmap.org/node/6626944424",
+      "note": "取现代村落节点附近标出东史固说的地域，非粮屯位置。",
+      "license": "© OpenStreetMap contributors，ODbL 1.0"
+    },
+    {
+      "id": "atlas-east-han",
+      "title": "谭其骧主编《中国历史地图集》第二册·东汉图组",
+      "kind": "web",
+      "locator": "https://www.dituji.com/lsdt/zglsdtj/donghan/",
+      "note": "东汉《冀州刺史部》提供黄河走向控制点，《东郡齐国间诸郡》核对白马南侧地望，《司隶校尉部》核对并定位中牟渠水河段。出版信息：中国地图出版社，1982年。",
+      "license": "图集地图版权归权利方。样章只引用可核对的地域走向和经纬网读数，未收录原图或现成矢量。"
+    },
+    {
+      "id": "shuijing-qu",
+      "title": "《水经注》卷二十二·渠水（《水经注疏》所录）",
+      "kind": "web",
+      "locator": "https://www.kepub.net/book/51073/10022",
+      "note": "郦注记渠水经阳武县故城南，向东名官渡水，再经曹太祖垒北。古籍所记水道关系不等于建安五年河岸。"
+    },
+    {
+      "id": "dapishan-study",
+      "title": "张新斌《大伾山与早期黄河河道变迁的再认识》",
+      "kind": "web",
+      "locator": "https://www.zywhyj.cn/Uploads/PdfFile/2021-07-15/60eff1e781270.pdf",
+      "note": "《中原文化研究》2021年第4期，第108—115页。整理卷县、延津、滑台、黎阳河段次序及大河故渎之别。"
+    },
+    {
+      "id": "editorial-geography-v2",
+      "title": "本项目整理：官渡样章历史河道控制点与态势",
+      "kind": "editorial",
+      "locator": "docs/historical-geography-v2.md",
+      "note": "公开列出地图经纬网和控制点的读数方法，以及战时位置与区域示意的边界。"
+    },
+    {
+      "id": "tgaz-qiao",
+      "title": "中国历史地理信息系统 CHGIS：谯县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_43340",
+      "note": "东汉谯县参考坐标，地名条目未附详细考证。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-luoyang",
+      "title": "中国历史地理信息系统 CHGIS：雒阳县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82828",
+      "note": "覆盖东汉的雒阳县县治参考点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-dongpingling",
+      "title": "中国历史地理信息系统 CHGIS：东平陵县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_45020",
+      "note": "东汉济南国治所在东平陵，用县治参考点标示任职区域。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-dongwuyang",
+      "title": "中国历史地理信息系统 CHGIS：东武阳县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_85093",
+      "note": "记录曹操任东郡太守时期的东武阳新城地望。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-juancheng",
+      "title": "中国历史地理信息系统 CHGIS：鄄城县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_85065",
+      "note": "东汉鄄城县治参考点；兖州范围不等于单点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-ye",
+      "title": "中国历史地理信息系统 CHGIS：邺县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82196",
+      "note": "东汉魏郡治邺县参考点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "shandong-chronography",
+      "title": "山东省情资料库：东汉行政区划",
+      "kind": "web",
+      "locator": "https://shandong-chorography.org/database/a/section/3/article/10/",
+      "note": "记东汉济南国治东平陵，今章丘龙山镇一带。"
+    }
+  ],
+  "persons": [
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "description": "官渡一方主帅，《武帝纪》在本章多称“公”。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yuan-shao",
+      "name": "袁绍",
+      "description": "袁军主帅；此前已击败公孙瓒，本章进兵官渡。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan"
+      ],
+      "courtesyName": "本初"
+    },
+    {
+      "id": "liu-yan",
+      "name": "刘延",
+      "description": "东郡太守，在白马被围；与益州牧刘焉不是同一人。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "guo-tu",
+      "name": "郭图",
+      "description": "袁绍部属，参与进攻白马。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan"
+      ]
+    },
+    {
+      "id": "chunyu-qiong",
+      "name": "淳于琼",
+      "description": "袁绍将领，先参与围攻白马，后领兵护粮；《曹瞒传》称淳于仲简。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yan-liang",
+      "name": "颜良",
+      "description": "袁绍将领，围攻白马，被曹军击破。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan",
+        "epub-guan"
+      ]
+    },
+    {
+      "id": "xun-you",
+      "name": "荀攸",
+      "description": "曹操谋臣，参与白马、延津、截粮与袭击淳于琼诸项决策。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-strategists"
+      ],
+      "courtesyName": "公达"
+    },
+    {
+      "id": "zhang-liao",
+      "name": "张辽",
+      "description": "当时已归曹操，在白马与关羽率先迎战。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ],
+      "courtesyName": "文远"
+    },
+    {
+      "id": "guan-yu",
+      "name": "关羽",
+      "description": "原从刘备，白马一役时暂在曹营；战后离开曹操，归刘备。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-guan"
+      ],
+      "courtesyName": "云长"
+    },
+    {
+      "id": "wen-chou",
+      "name": "文丑",
+      "description": "袁绍骑将，随追兵到延津，在此战中被杀。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan"
+      ]
+    },
+    {
+      "id": "liu-bei",
+      "name": "刘备",
+      "description": "徐州失利后投袁绍，随文丑等部至延津战场。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-liu"
+      ]
+    },
+    {
+      "id": "xun-yu",
+      "name": "荀彧",
+      "description": "曹操谋臣，在曹操考虑退回许县时回信劝守。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-strategists"
+      ],
+      "courtesyName": "文若"
+    },
+    {
+      "id": "xu-huang",
+      "name": "徐晃",
+      "description": "曹操部将，与史涣截击袁军运粮车。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ],
+      "courtesyName": "公明"
+    },
+    {
+      "id": "shi-huan",
+      "name": "史涣",
+      "description": "曹操部将，与徐晃同行截击袁军粮车。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ]
+    },
+    {
+      "id": "xu-you",
+      "name": "许攸",
+      "description": "原为袁绍谋臣；官渡相持时投曹，建议袭击护粮部队。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan",
+        "epub-strategists"
+      ]
+    },
+    {
+      "id": "jia-xu",
+      "name": "贾诩",
+      "description": "当时已归曹操；许攸来投后，与荀攸同劝曹操采纳袭粮建议。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-strategists"
+      ],
+      "courtesyName": "文和"
+    },
+    {
+      "id": "cao-hong",
+      "name": "曹洪",
+      "description": "曹操从弟；曹操夜出时留守大营。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-cao-hong"
+      ],
+      "courtesyName": "子廉"
+    },
+    {
+      "id": "yuan-tan",
+      "name": "袁谭",
+      "description": "袁绍长子，袁军溃败后随父弃军渡河。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan"
+      ]
+    },
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "description": "袁绍将领，袭粮后归降曹操；本传另记其主张先救乌巢。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ],
+      "courtesyName": "隽乂"
+    },
+    {
+      "id": "gao-lan",
+      "name": "高览",
+      "description": "袁绍将领，与张郃同归曹操。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan",
+        "epub-strategists"
+      ]
+    },
+    {
+      "id": "dong-zhuo",
+      "name": "董卓",
+      "description": "东汉末年控制朝廷的将领，后被王允、吕布所杀。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yuan-shu",
+      "name": "袁术",
+      "description": "东汉末年割据淮南的势力首领。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-pi",
+      "name": "曹丕",
+      "description": "魏文帝，曹操之子，受汉禅即位。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-ren",
+      "name": "曹仁",
+      "description": "曹操将领，曾进攻宛城并守樊城。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cheng-yu",
+      "name": "程昱",
+      "description": "曹操谋臣，曾守鄄城并参与迎接汉献帝的决策。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "lv-bu",
+      "name": "吕布",
+      "description": "东汉末年将领，曾据兖州、徐州，与曹操交战。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "zhang-miao",
+      "name": "张邈",
+      "description": "陈留太守，参与讨董，后迎接吕布反曹。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "chen-gong",
+      "name": "陈宫",
+      "description": "东汉末年谋士，参与迎吕布反曹，后在下邳被杀。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "tao-qian",
+      "name": "陶谦",
+      "description": "东汉徐州牧，曹操曾两次征讨。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "dong-cheng",
+      "name": "董承",
+      "description": "东汉卫将军，曾参与迎驾和反曹谋划。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yang-feng",
+      "name": "杨奉",
+      "description": "东汉将领，曾护送献帝还洛阳。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "han-xian",
+      "name": "韩暹",
+      "description": "东汉将领，曾与杨奉护送献帝。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "ma-chao",
+      "name": "马超",
+      "description": "关中将领，在潼关与曹操交战，后奔汉中。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "han-sui",
+      "name": "韩遂",
+      "description": "凉州势力首领，曾在关中与曹操交战。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "zhang-lu",
+      "name": "张鲁",
+      "description": "东汉末年汉中割据势力首领，后向曹操投降。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "sun-quan",
+      "name": "孙权",
+      "description": "东汉末年江东势力首领，与曹操多次交战。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "zhang-xiu",
+      "name": "张绣",
+      "description": "东汉末年将领，曾据宛反曹，后归降曹操。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "guo-jia",
+      "name": "郭嘉",
+      "description": "曹操谋臣，曾参与北征乌丸等决策。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "liu-biao",
+      "name": "刘表",
+      "description": "东汉荆州牧，在南阳局势中与张绣联合。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "xiahou-yuan",
+      "name": "夏侯渊",
+      "description": "曹操将领，曾平凉州，后在阳平作战阵亡。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "xiahou-dun",
+      "name": "夏侯惇",
+      "description": "曹操将领，早年随曹募兵。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yuan-shang",
+      "name": "袁尚",
+      "description": "袁绍之子，袁绍死后继位，后逃辽东被杀。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-song",
+      "name": "曹嵩",
+      "description": "曹腾养子，曹操之父，官至太尉。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-teng",
+      "name": "曹腾",
+      "description": "东汉宦官，曹嵩养父，曾封费亭侯。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "qiao-xuan",
+      "name": "桥玄",
+      "description": "东汉名士，曾赏识年轻时的曹操。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "he-yong",
+      "name": "何颙",
+      "description": "南阳名士，曾认为年轻的曹操不同寻常。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wang-yun",
+      "name": "王允",
+      "description": "东汉司徒，与吕布合谋杀董卓。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wang-fen",
+      "name": "王芬",
+      "description": "东汉冀州刺史，曾谋废立皇帝。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "chenwen",
+      "name": "陈温",
+      "description": "扬州刺史，曹操募兵时曾给予兵员。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "zhou-xin",
+      "name": "周昕",
+      "description": "丹杨太守，曹操募兵时曾给予兵员。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "liu-dai",
+      "name": "刘岱",
+      "description": "东汉兖州刺史，在黄巾军进攻时战死。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "qiao-mao",
+      "name": "桥瑁",
+      "description": "东郡太守，参与讨董，后被刘岱所杀。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wang-gong",
+      "name": "王肱",
+      "description": "代理东郡太守，不能抵御黑山军。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "liu-yu",
+      "name": "刘虞",
+      "description": "东汉幽州牧，袁绍、韩馥曾谋立为帝。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "bao-xin",
+      "name": "鲍信",
+      "description": "济北相，参与讨董并迎曹操领兖州，后战死。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wang-kuang",
+      "name": "王匡",
+      "description": "东汉河内太守，参与起兵讨董。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "han-fu",
+      "name": "韩馥",
+      "description": "东汉冀州牧，参与讨董，后被袁绍夺取冀州。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yuan-yi",
+      "name": "袁遗",
+      "description": "东汉山阳太守，参与起兵讨董。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "kong-zhou",
+      "name": "孔伷",
+      "description": "东汉豫州刺史，参与起兵讨董。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "li-jue",
+      "name": "李傕",
+      "description": "董卓部将，杀王允后把持朝政。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "guo-si",
+      "name": "郭汜",
+      "description": "董卓部将，杀王允后把持朝政。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "lou-yi",
+      "name": "楼异",
+      "description": "曹操军中司马，曾扶受伤的曹操上马。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wei-zi",
+      "name": "卫兹",
+      "description": "张邈部将，曾分兵随曹操西进。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wei-zhong",
+      "name": "魏种",
+      "description": "曹操举荐的孝廉，后被任命为河内太守。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "bi-chen",
+      "name": "毕谌",
+      "description": "东平人，曾任兖州别驾，后为鲁相。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "xun-chen",
+      "name": "荀谌",
+      "description": "袁绍谋臣。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "sima-zhongyou",
+      "name": "钟繇",
+      "description": "曹魏相国，曾受命征张鲁，后被免职。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "sun-ce",
+      "name": "孙策",
+      "description": "东汉末年江东势力首领，谋袭许前遇刺身亡。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "liu-xun",
+      "name": "刘勋",
+      "description": "庐江太守，曾率众归降曹操。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "fu-hou",
+      "name": "伏氏",
+      "description": "汉献帝皇后，因与父亲通信一事被废黜而死。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "bian-hou",
+      "name": "卞氏",
+      "description": "曹操夫人，后立为魏王后。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "han-xiandi",
+      "name": "献帝",
+      "description": "东汉末代皇帝，曾迁都许县并策封曹操。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "dong-zhao",
+      "name": "董昭",
+      "description": "东汉官员，曾劝曹操迁都许县。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "zaozhi",
+      "name": "枣祗",
+      "description": "曹操部属，曾建议兴办屯田。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "hanhao",
+      "name": "韩浩",
+      "description": "曹操部属，曾建议兴办屯田。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-zhang",
+      "name": "曹彰",
+      "description": "曹操之子，受命讨伐代郡、上谷乌丸。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-rui",
+      "name": "曹叡",
+      "description": "魏明帝，曹丕之子，即位后营建宫室。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "sima-yi",
+      "name": "司马懿",
+      "description": "魏朝重臣，谥宣王，曾受命辅佐幼主。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-zhen",
+      "name": "曹真",
+      "description": "魏宗室将领，曾统军伐蜀。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-shuang",
+      "name": "曹爽",
+      "description": "魏宗室，魏明帝临终托其辅佐嗣主。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "description": "蜀汉丞相，曾多次北伐魏。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wen-pin",
+      "name": "文聘",
+      "description": "魏江夏太守，曾坚守江夏。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-fang",
+      "name": "曹芳",
+      "description": "魏明帝养子，后继位，曾封齐王。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-xun",
+      "name": "曹询",
+      "description": "魏明帝养子，曾封秦王。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-zhi",
+      "name": "曹植",
+      "description": "曹操之子，封陈王，谥思。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "zhen-hou",
+      "name": "甄夫人",
+      "description": "曹丕夫人，曹叡生母，后追谥文昭皇后。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "guo-hou",
+      "name": "郭氏",
+      "description": "曹丕皇后，后为皇太后，谥文德皇后。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "mao-hou",
+      "name": "毛氏",
+      "description": "魏明帝皇后，死后谥悼皇后。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "chen-qun",
+      "name": "陈群",
+      "description": "魏朝大臣，曾任司空，并接受文帝遗诏辅嗣主。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "cao-xiu",
+      "name": "曹休",
+      "description": "魏宗室将领，官至大司马。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "gongsun-yuan",
+      "name": "公孙渊",
+      "description": "辽东势力首领，后自称燕王，被魏军击败。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "xing-zhen",
+      "name": "邢贞",
+      "description": "魏太常，曾持节册命孙权。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yang-biao",
+      "name": "杨彪",
+      "description": "东汉旧臣，魏文帝时授光禄大夫。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "liu-ye",
+      "name": "刘晔",
+      "description": "魏朝大臣，见于本卷相关记述。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    }
+  ],
+  "defaultPersonIds": [
+    "cao-rui"
+  ],
+  "places": [
+    {
+      "id": "baima",
+      "name": "白马",
+      "modernName": "河南滑县留固镇白马墙村一带",
+      "kind": "county",
+      "coordinates": [
+        114.71,
+        35.54
+      ],
+      "precision": "approximate-area",
+      "note": "东郡白马县治附近。取 CHGIS 县治坐标并作舍入；当地文保材料亦指白马墙村。标点不代表颜良阵地、关羽斩将处或白马津。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-baima",
+        "baima-local"
+      ]
+    },
+    {
+      "id": "liyang",
+      "name": "黎阳",
+      "modernName": "河南浚县东郊大伾山东北一带",
+      "kind": "county",
+      "coordinates": [
+        114.6,
+        35.68
+      ],
+      "precision": "approximate-area",
+      "note": "魏郡黎阳县治参考点，坐标据 CHGIS 舍入。袁绍至黎阳准备渡河；原文未给本次具体登岸点，古县治也不等同于隋代黎阳仓。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-liyang"
+      ]
+    },
+    {
+      "id": "yanjin",
+      "name": "延津",
+      "modernName": "河南原阳东北至延津西部附近的古黄河津渡地域",
+      "kind": "ford",
+      "coordinates": [
+        114.07,
+        35.14
+      ],
+      "precision": "uncertain",
+      "note": "《水经注》记酸枣附近一段河道通称延津，后世地志又比定灵昌津。图点借 CHGIS 东汉酸枣县治附近提示大致地域，不是渡口坐标，也不是延津南交战点。",
+      "sourceIds": [
+        "epub-simplified",
+        "shuijing-he",
+        "tongjian-geo",
+        "tgaz-suanzao",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "guandu",
+      "name": "官渡",
+      "modernName": "河南中牟官渡桥村及附近",
+      "kind": "battlefield",
+      "coordinates": [
+        114.05,
+        34.75
+      ],
+      "precision": "approximate-area",
+      "note": "《水经注》与后世方志把曹公垒、官渡水与中牟一带联系起来；地图借现代官渡桥村标出这一地域，不能据此确定两军营垒或古渡口边界。",
+      "sourceIds": [
+        "epub-simplified",
+        "tongjian-geo",
+        "guandu-local",
+        "guandu-osm",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yangwu",
+      "name": "阳武",
+      "modernName": "河南原阳东南一带",
+      "kind": "county",
+      "coordinates": [
+        114.1,
+        34.98
+      ],
+      "precision": "approximate-area",
+      "note": "东汉河南尹阳武县；取 CHGIS 古县治参考点并舍入。与同一地区的原武是不同古县，图点不代表袁军营址。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-yangwu"
+      ]
+    },
+    {
+      "id": "xu",
+      "name": "许",
+      "modernName": "河南许昌建安区张潘镇古城村一带",
+      "kind": "city",
+      "coordinates": [
+        114.01,
+        33.99
+      ],
+      "precision": "approximate-area",
+      "note": "建安五年的许县，是当时汉献帝所在。坐标取 CHGIS 许县县治近似值，并参照当地公布的汉魏许都故城；不以现代许昌市区代替。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-xu",
+        "xu-local"
+      ]
+    },
+    {
+      "id": "wuchao",
+      "name": "乌巢",
+      "modernName": "河南延津县东南僧固乡东史固村一带（一说）",
+      "kind": "battlefield",
+      "coordinates": [
+        114.25,
+        35.13
+      ],
+      "precision": "uncertain",
+      "note": "《水经注》记酸枣乌巢泽。当地把粮屯比定在僧固乡，东史固村是其中一种具体说法；图点只标现代村落附近，不能确定曹军夜行终点、粮屯边界或古泽岸线。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals",
+        "shuijing-ji",
+        "wuchao-local",
+        "wuchao-dongshigu",
+        "wuchao-osm",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "gushi",
+      "name": "故市",
+      "modernName": "今地未核定；有酸枣乌巢泽北故市亭之说",
+      "kind": "other",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "《徐晃传》把截击运粮车系于故市；《曹瞒传》并列故市、乌巢。《水经注》分别记乌巢泽北故市亭与河南郡故市县故城，样章不把两处等同，也不把两次截粮画在同一地点。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals",
+        "shuijing-ji",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yellow-river",
+      "name": "河（黄河）",
+      "modernName": "战事所涉汉末黄河河段，今线位不同",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "历史图展示白马、延津一带的东汉黄河大致走向。具体渡口与河岸位置未定，现代水系仅供现代对照。",
+      "sourceIds": [
+        "epub-simplified",
+        "shuijing-he",
+        "atlas-east-han",
+        "river-research",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "jizhou",
+      "name": "冀州",
+      "modernName": "约涉今河北、山东、河南部分地区；本章不复原边界",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "此处指东汉冀州。各郡县有降者，原文未逐一列举；不以现代省界或单点代表。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "qiao",
+      "name": "谯",
+      "modernName": "安徽亳州谯城区一带",
+      "kind": "county",
+      "coordinates": [
+        115.77,
+        33.88
+      ],
+      "precision": "approximate-area",
+      "note": "东汉沛国谯县的县治区域，以 CHGIS 谯县条目坐标舍入作为地域参考。本段说明曹操籍贯，不能凭此确定宅第或出生地点。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-qiao"
+      ]
+    },
+    {
+      "id": "ye",
+      "name": "邺",
+      "modernName": "河北临漳西南邺镇及河南安阳东北一带",
+      "kind": "county",
+      "coordinates": [
+        114.41,
+        36.27
+      ],
+      "precision": "approximate-area",
+      "note": "东汉邺县与魏郡治地域，以 CHGIS 邺县坐标舍入。城内官署与围城阵地未由该点确定。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-ye"
+      ]
+    },
+    {
+      "id": "luoyang",
+      "name": "洛阳",
+      "modernName": "河南洛阳市东部汉魏故城一带",
+      "kind": "city",
+      "coordinates": [
+        112.6,
+        34.73
+      ],
+      "precision": "approximate-area",
+      "note": "东汉雒阳县及其都城地域，以 CHGIS 古县治坐标舍入。本段所记洛阳北部尉的办公位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-luoyang"
+      ]
+    },
+    {
+      "id": "changan",
+      "name": "长安",
+      "modernName": "今陕西西安西北一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "hanzhong",
+      "name": "汉中",
+      "modernName": "今陕西汉中一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "wan",
+      "name": "宛",
+      "modernName": "今河南南阳一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "xuzhou",
+      "name": "徐州",
+      "modernName": "汉末徐州辖境涉及今江苏北部及邻近区域",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yanzhou",
+      "name": "兖州",
+      "modernName": "山东鄄城县北旧城镇一带（鄄城参考点）",
+      "kind": "region",
+      "coordinates": [
+        115.5,
+        35.67
+      ],
+      "precision": "approximate-area",
+      "note": "兖州为州级区域，疆域远大于图点。本纪后文记曹操驻守鄄城；取 CHGIS 东汉鄄城县治点表示相关地域，不能推定领兖州之初的驻地或州界。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-juancheng",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "jingzhou",
+      "name": "荆州",
+      "modernName": "汉末荆州辖境涉及今湖北、湖南及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yizhou",
+      "name": "益州",
+      "modernName": "汉末益州辖境涉及今四川盆地及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yizhou-yuan",
+      "name": "幽州",
+      "modernName": "汉末幽州辖境涉及今河北北部及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "chenliu",
+      "name": "陈留",
+      "modernName": "今河南开封东南一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "runan",
+      "name": "汝南",
+      "modernName": "今河南东南及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "huainan",
+      "name": "淮南",
+      "modernName": "淮河以南地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "xiangyang",
+      "name": "襄阳",
+      "modernName": "今湖北襄阳一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "jiangling",
+      "name": "江陵",
+      "modernName": "今湖北荆州一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "hefei",
+      "name": "合肥",
+      "modernName": "今安徽合肥一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "chibi",
+      "name": "赤壁",
+      "modernName": "今湖北长江沿岸一带，确址有争议",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "tongguan",
+      "name": "潼关",
+      "modernName": "今陕西潼关一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "liaodong",
+      "name": "辽东",
+      "modernName": "今辽宁东部及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "liucheng",
+      "name": "柳城",
+      "modernName": "今辽宁朝阳地区一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "xinye",
+      "name": "新野",
+      "modernName": "今河南新野一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "本段地名作为叙事参照，辖境与具体位置尚需进一步考证；不据地名推定人物驻地。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yingchuan",
+      "name": "颍川",
+      "modernName": "今河南中部一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "jinan",
+      "name": "济南",
+      "modernName": "山东济南章丘龙山镇东平陵故城一带",
+      "kind": "region",
+      "coordinates": [
+        117.52,
+        36.71
+      ],
+      "precision": "approximate-area",
+      "note": "东汉济南国以东平陵为治所。地图借 CHGIS 东平陵县治参考点，并作舍入，以表示曹操任济南相所涉区域；国境、官署位置不由该点确定。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-dongpingling",
+        "shandong-chronography"
+      ]
+    },
+    {
+      "id": "suanzao",
+      "name": "酸枣",
+      "modernName": "今河南原阳东北至延津附近",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "mengjin",
+      "name": "孟津",
+      "modernName": "今河南洛阳孟津附近黄河渡口地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "puyang",
+      "name": "濮阳",
+      "modernName": "今河南濮阳一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "dingtao",
+      "name": "定陶",
+      "modernName": "今山东菏泽定陶一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "juan",
+      "name": "鄄城",
+      "modernName": "山东鄄城县北旧城镇一带",
+      "kind": "county",
+      "coordinates": [
+        115.5,
+        35.67
+      ],
+      "precision": "approximate-area",
+      "note": "东汉鄄城县治的 CHGIS 参考点经舍入。城垣及军营的位置不能由该点确定。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-juancheng"
+      ]
+    },
+    {
+      "id": "pengcheng",
+      "name": "彭城",
+      "modernName": "今江苏徐州一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "xiapi",
+      "name": "下邳",
+      "modernName": "今江苏睢宁古邳一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "changyi",
+      "name": "昌邑",
+      "modernName": "今山东金乡西北一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "guanzhong",
+      "name": "关中",
+      "modernName": "今陕西关中平原一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "liangzhou",
+      "name": "凉州",
+      "modernName": "汉末凉州包括今甘肃及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "nanyang",
+      "name": "南阳",
+      "modernName": "今河南南阳及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "henei",
+      "name": "河内",
+      "modernName": "汉末河内郡涉及今河南黄河北岸一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "wuguan",
+      "name": "武关",
+      "modernName": "今陕西商洛丹凤附近",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "xuchang",
+      "name": "许县",
+      "modernName": "今河南许昌建安区张潘一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "shouchun",
+      "name": "寿春",
+      "modernName": "今安徽寿县一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "hanzhong-nanzheng",
+      "name": "南郑",
+      "modernName": "今陕西汉中南郑及邻近地区",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yingchuan-xuchang",
+      "name": "许都",
+      "modernName": "今河南许昌建安区张潘一带",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "今地为区域对照，具体地界和事件位置未核定。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "dongwuyang",
+      "name": "东武阳",
+      "modernName": "山东莘县朝城镇以西一带",
+      "kind": "county",
+      "coordinates": [
+        115.47,
+        36.07
+      ],
+      "precision": "approximate-area",
+      "note": "《武帝纪》记曹操为东郡太守，治东武阳。CHGIS 将该时期东武阳新城置于今莘县朝城镇以西，图点经舍入；郡域不等于县治，也不表示郡署精确位置。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-dongwuyang"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "cao",
+      "name": "曹操军",
+      "color": "#8B3827",
+      "paperColor": "#F7E7DF",
+      "borderColor": "#B87563"
+    },
+    {
+      "id": "yuan",
+      "name": "袁绍军",
+      "color": "#315C86",
+      "paperColor": "#E2EEF8",
+      "borderColor": "#6B8FAA"
+    }
+  ],
+  "mapProfiles": [
+    {
+      "id": "mingdi-relief",
+      "label": "中原与周边地势",
+      "bounds": {
+        "west": 108.28125,
+        "south": 27.059125784374054,
+        "east": 122.34375,
+        "north": 39.909736234537185
+      },
+      "center": [
+        114.2,
+        34.5
+      ],
+      "minZoom": 4,
+      "maxZoom": 10,
+      "reliefPath": "/maps/central-plains-relief.jpg",
+      "modernRiversPath": "/maps/modern-rivers.geojson",
+      "modernCitiesPath": "/data/chapters/mingdi/modern-cities.json",
+      "attribution": "地势：Mapzen / Tilezen、USGS；现代河流及城市：Natural Earth。现代水系仅供对照。"
+    }
+  ],
+  "defaultMapProfileId": "mingdi-relief",
+  "historicalRiver": {
+    "status": "unavailable",
+    "label": "古水系未复原",
+    "explanation": "本篇未复原当时各地水道，现代水系只作地理对照。",
+    "sourceIds": [
+      "editorial-guandu"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "mingdi-p0",
+      "paragraphIndex": 0,
+      "title": "明帝继位",
+      "time": {
+        "year": 226,
+        "era": "黄初七年",
+        "label": "黄初七年",
+        "certainty": "inferred"
+      },
+      "translation": "明皇帝名叡，字元仲，是文帝太子。出生后，太祖喜爱他，常让他在身边。十五岁封武德侯，黄初二年为齐公，三年为平原王。因母亲被诛，始终未立为继承人。七年夏五月，文帝病重，才立他为皇太子。丁巳日，他即皇帝位，大赦天下，尊皇太后为太皇太后、皇后为皇太后，诸臣封爵各有差别。癸未日，追谥母亲甄夫人为文昭皇后。壬辰日，立皇弟曹蕤为阳平王。",
+      "summary": "明皇帝名叡，字元仲，是文帝太子。",
+      "kind": "narrative",
+      "focusPlaceId": null,
+      "personIds": [
+        "zhen-hou",
+        "cao-pi",
+        "cao-cao"
+      ]
+    },
+    {
+      "id": "mingdi-p1",
+      "paragraphIndex": 1,
+      "title": "文聘守江夏",
+      "time": {
+        "year": 226,
+        "era": "黄初七年",
+        "label": "黄初七年",
+        "certainty": "inferred"
+      },
+      "translation": "八月，孙权攻江夏郡，太守文聘坚守。朝廷商议发兵救援，皇帝说：“孙权惯于水战，敢下船陆攻，是想乘其不备。如今已与文聘相持，攻城需要数倍兵力，他终究不敢久留。”此前朝廷派治书侍御史荀禹慰劳边境，荀禹到达江夏后，征调沿途各县兵和随行步骑千人，在山上举火，孙权撤走。",
+      "summary": "八月，孙权攻江夏郡，太守文聘坚守。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p2",
+      "paragraphIndex": 2,
+      "title": "吴军攻襄阳与任大臣",
+      "time": {
+        "year": 226,
+        "era": "黄初七年",
+        "label": "黄初七年",
+        "certainty": "inferred"
+      },
+      "translation": "辛巳日，立皇子曹冏为清河王。吴将诸葛瑾、张霸等侵攻襄阳，抚军大将军司马宣王讨破他们，斩张霸；征东大将军曹休又在寻阳击破另一支吴军，按功行赏各有差别。冬十月，清河王曹冏去世。十二月，任太尉钟繇为太傅、曹休为大司马、曹真为大将军、司徒华歆为太尉、司空王朗为司徒、陈群为司空、司马宣王为骠骑大将军。",
+      "summary": "辛巳日，立皇子曹冏为清河王。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p3",
+      "paragraphIndex": 3,
+      "title": "祭祀营庙与孟达反",
+      "time": {
+        "year": 227,
+        "era": "太和元年",
+        "label": "太和元年",
+        "certainty": "inferred"
+      },
+      "translation": "太和元年春正月，郊祭天时以武帝配享，在明堂祭文帝以配上帝。分江夏南部设置都尉。西平曲英反叛，杀临羌令和西都长，朝廷派郝昭、鹿磐讨斩他。二月辛未日，皇帝亲耕籍田；辛巳日，为文昭皇后在邺立寝庙；丁亥日在东郊朝日。夏四月乙亥日，发行五铢钱；甲申日，开始营建宗庙。秋八月，在西郊祭月。冬十月丙寅日，在东郊整军。焉耆王派儿子入朝侍奉。十一月，立毛氏为皇后，赐天下男子爵各二级，不能自养的鳏寡孤独者赐粮。十二月，封皇后之父毛嘉为列侯。新城太守孟达反叛，诏骠骑将军司马宣王讨伐。",
+      "summary": "太和元年春正月，郊祭天时以武帝配享，在明堂祭文帝以配上帝。",
+      "kind": "narrative",
+      "focusPlaceId": "ye"
+    },
+    {
+      "id": "mingdi-p4",
+      "paragraphIndex": 4,
+      "title": "司马懿破孟达",
+      "time": {
+        "year": 228,
+        "era": "太和二年",
+        "label": "太和二年",
+        "certainty": "inferred"
+      },
+      "translation": "太和二年春正月，司马宣王攻破新城，斩孟达，传送首级。分新城的上庸、武陵、巫县设上庸郡，以锡县设锡郡。",
+      "summary": "太和二年春正月，司马宣王攻破新城，斩孟达，传送首级。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p5",
+      "paragraphIndex": 5,
+      "title": "街亭与求贤将",
+      "time": {
+        "year": 228,
+        "era": "太和二年",
+        "label": "太和二年",
+        "certainty": "inferred"
+      },
+      "translation": "蜀大将诸葛亮入侵边境，天水、南安、安定三郡官民反叛响应。朝廷派大将军曹真统督关右并进兵。右将军张郃在街亭大败诸葛亮，诸葛亮败退，三郡平定。丁未日，皇帝到长安；夏四月丁酉日回洛阳宫，赦免关押犯人中死罪以下者。乙巳日评定讨诸葛亮的功劳，封爵增邑各有差别。五月大旱。六月诏曰：“尊崇儒学是王朝教化的根本。近来儒官有的并非合适人选，如何宣明圣道？应选拔才堪侍中、常侍的人担任博士，重申命令各郡国举荐士人以经学为先。”秋九月，曹休率诸军到皖，与吴将陆议在石亭交战，大败。乙酉日立皇子曹穆为繁阳王。庚子日，大司马曹休去世。冬十月，诏公卿近臣各推举一名良将。十一月，司徒王朗去世。十二月，诸葛亮围陈仓，曹真派费曜等抵御。辽东太守公孙恭的侄子公孙渊夺取其位，朝廷于是任公孙渊领辽东太守。",
+      "summary": "蜀大将诸葛亮入侵边境，天水、南安、安定三郡官民反叛响应。",
+      "kind": "document",
+      "focusPlaceId": "luoyang"
+    },
+    {
+      "id": "mingdi-p6",
+      "paragraphIndex": 6,
+      "title": "追尊高祖",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "translation": "太和三年夏四月，元城王曹礼去世。六月癸卯日，繁阳王曹穆去世。戊申日，追尊高祖大长秋为高皇帝，夫人吴氏为高皇后。",
+      "summary": "太和三年夏四月，元城王曹礼去世。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p7",
+      "paragraphIndex": 7,
+      "title": "定继统祭祀之制",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "translation": "秋七月，诏曰：“依礼，王后没有后嗣时，从旁支选择子弟继承大宗，便应继承正统、奉行公义，怎能再顾及私人亲属？汉宣帝继承昭帝后，给亲生父亲悼考加皇号；哀帝从外藩入继，董宏等援引已经灭亡的秦朝制度，迷惑当时朝廷，既尊生父为恭皇、在京城建庙，又尊宠藩邸妾室，使其与长信宫并列，在前殿安排昭穆次序，在东宫并列四个尊位，僭越失序，没有限度，人神不保佑他们；反而以忠正进谏的师丹为有罪，终于招致丁、傅两家被焚毁的大祸。此后人们又相继仿行。昔日鲁文公颠倒祭祀次序，责任在夏父；宋国违反制度，受讥责的是华元。命公卿有司深以前代行事为戒。后世万一从诸侯中迎立继承大统者，应明白为人后嗣的道义。若有人奸佞谄媚当时君主，妄立不正当尊号干扰正统，称生父为皇、生母为后，辅政大臣应将其诛杀，不得赦免。将此写在金策，藏宗庙，列入现行法典。”",
+      "summary": "诏书讨论继承大宗与生父母称谓的礼制。",
+      "kind": "document",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p8",
+      "paragraphIndex": 8,
+      "title": "改听讼观",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "translation": "冬十月，改平望观为听讼观。皇帝常说：“刑狱关系天下人的性命。”每逢审断重大案件，常亲临观中听审。",
+      "summary": "冬十月，改平望观为听讼观。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p9",
+      "paragraphIndex": 9,
+      "title": "迎神主入洛阳宗庙",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "translation": "起初洛阳宗庙尚未建成，神主留在邺庙。十一月，宗庙建成，命太常韩曁持节到邺迎高皇帝、太皇帝、武帝、文帝神主。十二月己丑日到达，安奉在庙中。",
+      "summary": "起初洛阳宗庙尚未建成，神主留在邺庙。",
+      "kind": "narrative",
+      "focusPlaceId": "luoyang"
+    },
+    {
+      "id": "mingdi-p10",
+      "paragraphIndex": 10,
+      "title": "大月氏奉献",
+      "time": {
+        "year": 229,
+        "era": "太和三年",
+        "label": "太和三年",
+        "certainty": "inferred"
+      },
+      "translation": "癸卯日，大月氏王波调派使者进献，朝廷封波调为亲魏大月氏王。",
+      "summary": "大月氏王波调派使者进献，获封亲魏大月氏王。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p11",
+      "paragraphIndex": 11,
+      "title": "重经学与伐蜀班师",
+      "time": {
+        "year": 230,
+        "era": "太和四年",
+        "label": "太和四年",
+        "certainty": "inferred"
+      },
+      "translation": "太和四年春二月壬午日，诏曰：“世间质朴和文饰的风尚随教化而变。战乱以来经学废绝，后生进取不遵循经典。难道是教导未普及，还是选任者不以德行显达？郎吏中通晓一经、才堪治理百姓的，由博士考核，选拔成绩优异者尽快任用；浮华而不务根本的，都罢退。”戊子日诏太傅三公将文帝《典论》刻石立庙门外。癸巳日，以曹真为大司马、司马宣王为大将军、公孙渊为车骑将军。夏四月，太傅钟繇去世。六月戊子日，太皇太后去世；丙申日撤销上庸郡。秋七月，武宣卞后合葬高陵。诏曹真、司马宣王伐蜀。八月辛巳日东巡，派使者以一头牛祭中岳；乙未日到许昌宫。九月大雨，伊水、洛水、黄河、汉水泛滥，诏曹真等回师。冬十月乙卯日回洛阳宫。庚申日下令，死罪以下准依不同等级赎罪。十一月，太白星靠近岁星。十二月辛未日改葬文昭甄后于朝阳陵，丙寅日诏公卿举荐贤良。",
+      "summary": "诏令选用通经之士，曹真与司马懿伐蜀遇雨回师。",
+      "kind": "document",
+      "focusPlaceId": "luoyang"
+    },
+    {
+      "id": "mingdi-p12",
+      "paragraphIndex": 12,
+      "title": "司马懿拒诸葛亮",
+      "time": {
+        "year": 231,
+        "era": "太和五年",
+        "label": "太和五年",
+        "certainty": "inferred"
+      },
+      "translation": "太和五年春正月，皇帝亲耕籍田。三月，大司马曹真去世。诸葛亮进攻天水，诏大将军司马宣王抵御。自去年冬十月至本月不雨，辛巳日举行大规模求雨祭祀。夏四月，鲜卑附义王轲比能率部众及丁零首领儿禅到幽州进贡名马。恢复护匈奴中郎将。秋七月丙子日，因诸葛亮退兵，封爵升位各有差别。乙酉日，皇子曹殷出生，大赦天下。",
+      "summary": "太和五年春正月，皇帝亲耕籍田。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p13",
+      "paragraphIndex": 13,
+      "title": "召宗室朝见",
+      "time": {
+        "year": 231,
+        "era": "太和五年",
+        "label": "太和五年",
+        "certainty": "inferred"
+      },
+      "translation": "八月，诏曰：“古代诸侯朝聘，是为了敦睦亲族、协调各国。先帝规定不让诸王留在京城，是考虑幼主在位、母后摄政时防止事变萌生，关系国家兴衰。朕已有十二年未见诸王，悠悠怀念，怎能不思念？命诸王和宗室公侯各带一名嫡子朝见。以后若有少主、母后在宫，仍照先帝之令，重申载入法令。”十一月乙酉日，月亮靠近轩辕大星。戊戌月末发生日食。十二月甲辰日，月亮靠近镇星。戊午日，太尉华歆去世。",
+      "summary": "曹叡命诸王及宗室带嫡子入朝，并重申幼主时的限制。",
+      "kind": "document",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p14",
+      "paragraphIndex": 14,
+      "title": "改封诸王与曹植去世",
+      "time": {
+        "year": 232,
+        "era": "太和六年",
+        "label": "太和六年",
+        "certainty": "inferred"
+      },
+      "translation": "太和六年春二月，诏曰：“古代帝王封建诸侯，是为了屏卫王室。《诗》不是说‘怀德维宁，宗子维城’吗？秦汉继周之后，诸侯制度有的过强、有的过弱，都失于中道。大魏创业，诸王开国，因时制宜，尚无定制，不足以长久作为后世法度。应改封诸侯王，都以一郡为国。”三月癸酉日东巡，沿途慰问高龄、鳏寡孤独者，赐粮帛。乙亥日月亮靠近轩辕大星。夏四月壬寅日到许昌宫，甲子日首次向宗庙进献新果。五月，皇子曹殷去世，追封谥安平哀王。秋七月，任卫尉董昭为司徒。九月到摩陂，修许昌宫，建景福、承光殿。冬十月，殄夷将军田豫率军在成山讨吴将周贺，杀周贺。十一月丙寅日，太白白天可见；彗星出现在翼宿，靠近太微上将星。庚寅日，陈思王曹植去世。十二月回许昌宫。",
+      "summary": "诏书讨论封建诸侯、屏卫王室的作用。",
+      "kind": "document",
+      "focusPlaceId": "xu"
+    },
+    {
+      "id": "mingdi-p15",
+      "paragraphIndex": 15,
+      "title": "改元青龙",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "translation": "青龙元年春正月甲申日，青龙出现在郏县摩陂井中。二月丁酉日，皇帝到摩陂观龙，因此改年号；将摩陂改名龙陂，赐男子每人爵二级，免鳏寡孤独者本年租赋。三月甲子日，诏公卿各举荐一名贤良笃行之士。夏五月壬申日，诏在太祖庙庭祭故大将军夏侯惇、大司马曹仁、车骑将军程昱。戊寅日，北海王曹蕤去世。闰月庚寅初一日发生日食。丁酉日，改封宗室女子中非诸王之女者为邑主。诏诸郡国不在祭典的山川不得祭祀。六月，洛阳宫球室失火。",
+      "summary": "青龙元年春正月甲申日，青龙出现在郏县摩陂井中。",
+      "kind": "narrative",
+      "focusPlaceId": "luoyang"
+    },
+    {
+      "id": "mingdi-p16",
+      "paragraphIndex": 16,
+      "title": "鲜卑边事",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "translation": "归附守边的鲜卑首领步度根与反叛的鲜卑首领轲比能暗中往来。并州刺史毕轨上表，随即出兵，想对外威慑轲比能、对内镇住步度根。皇帝看表后说：“步度根以为自己受轲比能引诱，心中已有疑惧。毕轨出兵，只会使两部受惊联合，哪有什么威慑镇定作用？”急令毕轨，出兵者谨慎不要越塞过句注山。诏书到时，毕轨已进军驻阴馆，派苏尚、董弼追鲜卑。轲比能派儿子率千余骑迎接步度根部落，与苏尚、董弼相遇，在楼烦交战，两将战败阵亡。步度根部落都反叛出塞，与轲比能共同侵扰边境。朝廷派骁骑将军秦朗率中军讨伐，敌军才逃往漠北。",
+      "summary": "归附守边的鲜卑首领步度根与反叛的鲜卑首领轲比能暗中往来。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p17",
+      "paragraphIndex": 17,
+      "title": "胡遵追讨匈奴",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "translation": "秋九月，安定归附守边的匈奴首领胡薄居姿职等反叛，司马宣王派胡遵等追讨，击破并使其投降。",
+      "summary": "安定匈奴首领反叛，胡遵追讨并使其投降。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p18",
+      "paragraphIndex": 18,
+      "title": "步度根部众归降",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "translation": "冬十月，步度根部落首领戴胡阿狼泥等到并州投降，秦朗率军返回。",
+      "summary": "步度根部落首领到并州投降，秦朗率军返回。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p19",
+      "paragraphIndex": 19,
+      "title": "公孙渊斩吴使",
+      "time": {
+        "year": 233,
+        "era": "青龙元年",
+        "label": "青龙元年",
+        "certainty": "inferred"
+      },
+      "translation": "十二月，公孙渊斩杀孙权派来的使者张弥、许晏，送来首级。朝廷任公孙渊为大司马，封乐浪公。",
+      "summary": "十二月，公孙渊斩杀孙权派来的使者张弥、许晏，送来首级。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p20",
+      "paragraphIndex": 20,
+      "title": "减鞭杖与葬汉献帝",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "translation": "青龙二年春二月乙未日，太白星靠近荧惑。癸酉日，诏曰：“用鞭作为官刑，是为纠正怠慢，但近来有许多无罪者被打死。应减轻鞭杖制度，写入法令。”三月庚寅日，山阳公去世，皇帝穿素服举哀，派持节使者主持护送丧事。己酉日大赦。夏四月大疫，崇华殿失火。丙寅日，诏有司以太牢告祭文帝庙。追谥山阳公为汉孝献皇帝，依汉朝礼制安葬。",
+      "summary": "青龙二年春二月乙未日，太白星靠近荧惑。",
+      "kind": "document",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p21",
+      "paragraphIndex": 21,
+      "title": "诏司马懿坚守",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "translation": "这月，诸葛亮出斜谷，驻渭南，司马宣王率诸军抵御。皇帝诏他说：“只要坚守营垒挫其锐气，他前进不能得志，退后无人交战，久留则粮尽，掳掠又无所得，必定撤走。撤走时追击，以逸待劳，是全胜的办法。”",
+      "summary": "这月，诸葛亮出斜谷，驻渭南，司马宣王率诸军抵御。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p22",
+      "paragraphIndex": 22,
+      "title": "亲征孙权",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "translation": "五月，太白白天可见。孙权进入居巢湖口，逼向合肥新城，又派陆议、孙韶各率万余人进入淮水、沔水。六月，征东将军满宠进军抵御，想放弃新城防守，把敌军引到寿春。皇帝不听，说：“汉光武帝派兵孤悬据守略阳，最终击破隗嚣。先帝在东设合肥、南守襄阳、西固祁山，敌军每来都败在这三城下，因为有必须争夺的地利。即使孙权攻新城，一定攻不下。命诸将坚守，我将亲征；等我到时，恐怕孙权已逃走。”秋七月壬寅日，皇帝亲乘龙舟东征。孙权攻新城，将军张颕等坚守力战。帝军尚距数百里，孙权逃走，陆议、孙韶等也撤退。群臣认为大将军正与诸葛亮相持未解，皇帝可以西到长安。皇帝说：“孙权逃走，诸葛亮胆气已丧，大将军可以制住他，我没有忧虑。”于是进军寿春，评诸将功劳，封赏有差。八月己未日，大阅兵，宴六军，派持节使者犒劳合肥、寿春各军。辛巳日回许昌宫。",
+      "summary": "五月，太白白天可见。",
+      "kind": "narrative",
+      "focusPlaceId": "xu"
+    },
+    {
+      "id": "mingdi-p23",
+      "paragraphIndex": 23,
+      "title": "诸葛亮去世",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "translation": "司马宣王与诸葛亮相持，久围多日，诸葛亮多次挑战，司马宣王坚守不应。恰逢诸葛亮去世，蜀军撤回。",
+      "summary": "司马宣王与诸葛亮相持，久围多日，诸葛亮多次挑战，司马宣王坚守不应。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p24",
+      "paragraphIndex": 24,
+      "title": "地震与减死罪",
+      "time": {
+        "year": 234,
+        "era": "青龙二年",
+        "label": "青龙二年",
+        "certainty": "inferred"
+      },
+      "translation": "冬十月乙丑日，月亮靠近镇星和轩辕。戊寅日，月亮靠近太白。十一月，京城地震，从东南而来，隐隐有声，震动屋瓦。十二月，诏有司删定死刑条目，减少死罪。",
+      "summary": "冬十月乙丑日，月亮靠近镇星和轩辕。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p25",
+      "paragraphIndex": 25,
+      "title": "郭太后去世",
+      "time": {
+        "year": 235,
+        "era": "青龙三年",
+        "label": "青龙三年",
+        "certainty": "inferred"
+      },
+      "translation": "青龙三年春正月戊子日，任大将军司马宣王为太尉。己亥日恢复朔方郡。京城大疫。丁巳日皇太后去世。乙亥日寿光县陨石。三月庚寅日，葬文德郭后于首阳陵涧西，依照终制营建陵墓。",
+      "summary": "青龙三年春正月戊子日，任大将军司马宣王为太尉。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p26",
+      "paragraphIndex": 26,
+      "title": "营宫与谏臣",
+      "time": {
+        "year": 235,
+        "era": "青龙三年",
+        "label": "青龙三年",
+        "certainty": "inferred"
+      },
+      "translation": "这时大修洛阳宫，建昭阳殿、太极殿，筑总章观。百姓耽误农时，直臣杨阜、高堂隆等多次恳切进谏；皇帝虽不能听从，仍常宽容优待他们。",
+      "summary": "这时大修洛阳宫，建昭阳殿、太极殿，筑总章观。",
+      "kind": "narrative",
+      "focusPlaceId": "luoyang"
+    },
+    {
+      "id": "mingdi-p27",
+      "paragraphIndex": 27,
+      "title": "立齐王秦王",
+      "time": {
+        "year": 235,
+        "era": "青龙三年",
+        "label": "青龙三年",
+        "certainty": "inferred"
+      },
+      "translation": "秋七月，洛阳崇华殿失火。八月庚午日，立皇子曹芳为齐王、曹询为秦王。丁巳日回洛阳宫，命有司重建崇华殿，改名九龙殿。冬十月己酉日，中山王曹衮去世。壬申日太白白天可见。十一月丁酉日到许昌宫。",
+      "summary": "秋七月，洛阳崇华殿失火。",
+      "kind": "narrative",
+      "focusPlaceId": "luoyang",
+      "personIds": [
+        "cao-fang",
+        "cao-xun"
+      ]
+    },
+    {
+      "id": "mingdi-p28",
+      "paragraphIndex": 28,
+      "title": "置崇文观",
+      "time": {
+        "year": 236,
+        "era": "青龙四年",
+        "label": "青龙四年",
+        "certainty": "inferred"
+      },
+      "translation": "青龙四年春二月，太白又在白天可见，月亮靠近太白、轩辕一星，进入太微星垣又出来。夏四月设置崇文观，征召善于写文章的人充任。五月乙卯日，司徒董昭去世。丁巳日，肃慎氏进献楛木箭。",
+      "summary": "青龙四年春二月，太白又在白天可见，月亮靠近太白、轩辕一星，进入太微星垣又出来。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p29",
+      "paragraphIndex": 29,
+      "title": "宽慎死刑",
+      "time": {
+        "year": 236,
+        "era": "青龙四年",
+        "label": "青龙四年",
+        "certainty": "inferred"
+      },
+      "translation": "六月壬申日，诏曰：“有虞氏画刑具之象，百姓不触犯；周人刑罚搁置不用。朕处于历代君王之后，追望上古风俗，相去何其遥远！法令越来越繁多，犯法的人也越来越多，刑罚越来越重，奸邪仍不能制止。以前审查死刑条目，已多所废除，想挽救百姓性命，这是朕的至意。然而郡国狱中死者一年仍超过数百，难道是朕教导不周，使百姓轻易犯罪，还是苛法仍存，像陷阱一样使人落入？有司应审议案件、缓行死刑，尽力从宽从简。请求恩赦的人，有时申诉尚未递出，案件已判决上报，这不是彻底查明情理。命廷尉及天下狱官，对死罪已经审理定案的，除谋反及亲手杀人外，赶快通知亲属办理；有请求恩赦的，让他们与判案文书一同上奏，朕将考虑保全其性命。布告天下，使众人明白朕的意思。”",
+      "summary": "诏书议论刑罚和治民。",
+      "kind": "document",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p30",
+      "paragraphIndex": 30,
+      "title": "天象与陈群去世",
+      "time": {
+        "year": 236,
+        "era": "青龙四年",
+        "label": "青龙四年",
+        "certainty": "inferred"
+      },
+      "translation": "秋七月，高句骊王宫斩杀孙权使者胡卫等，送首级到幽州。甲寅日太白靠近轩辕大星。冬十月己卯日回洛阳宫。甲申日彗星出现在大辰，乙酉日又现东方。十一月己亥日，彗星出现并靠近宦者、天纪星。十二月癸巳日，司空陈群去世。乙未日到许昌宫。",
+      "summary": "秋七月，高句骊王宫斩杀孙权使者胡卫等，送首级到幽州。",
+      "kind": "narrative",
+      "focusPlaceId": "luoyang"
+    },
+    {
+      "id": "mingdi-p31",
+      "paragraphIndex": 31,
+      "title": "改景初历",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "translation": "景初元年春正月壬辰日，山茌县报告黄龙出现。有司于是上奏，认为魏朝获得土德之统，宜以建丑之月为正月。三月制定历法，把当年改为孟夏四月。服色崇黄，祭牲用白色，军事乘黑头白马，树大红旗，朝会树大白旗。改《大和历》为《景初历》。春夏秋冬的孟仲季月虽与正岁不同，郊祀、迎气、时祭、巡狩、田猎、二分二至、节令启闭、颁布时令、节气早晚及指导农事，都仍以正岁斗建为历法次序。",
+      "summary": "景初元年春正月壬辰日，山茌县报告黄龙出现。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p32",
+      "paragraphIndex": 32,
+      "title": "任三公与调整郡县",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "translation": "五月己巳日回洛阳宫。己丑日大赦。六月戊申日京城地震。己亥日，以尚书令陈矫为司徒、尚书右仆射卫臻为司空。丁未日，分魏兴郡的魏阳和锡郡的安富、上庸设置上庸郡；撤销锡郡，将锡县属魏兴郡。",
+      "summary": "五月己巳日回洛阳宫。",
+      "kind": "narrative",
+      "focusPlaceId": "luoyang"
+    },
+    {
+      "id": "mingdi-p33",
+      "paragraphIndex": 33,
+      "title": "确定三祖庙制",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "translation": "有司上奏：武皇帝平乱恢复正道，为魏太祖，祭乐用武始舞；文皇帝顺应天命，为魏高祖，祭乐用咸熙舞；当今皇帝创制兴治，为魏烈祖，祭乐用章武舞。三祖庙万世不毁，其余四庙亲代已尽则依次迁毁，依周朝后稷、文王、武王宗庙制度办理。",
+      "summary": "有司议定武帝、文帝的庙号及祭乐。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p34",
+      "paragraphIndex": 34,
+      "title": "江夏与辽东战事",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "translation": "秋七月丁卯日，司徒陈矫去世。孙权派朱然等二万人围江夏郡，荆州刺史胡质等攻击，朱然退走。起初孙权派使者渡海联系高句骊，想袭击辽东。朝廷派幽州刺史毌丘俭率诸军及鲜卑、乌丸驻辽东南界，以玺书征召公孙渊。公孙渊起兵反叛，毌丘俭进军讨伐，恰逢连续下雨十天，辽水暴涨，皇帝诏他回军。右北平乌丸单于寇娄敦、辽西乌丸都督王护留等居辽东，率部随毌丘俭归附。己卯日，诏辽东将吏士民被公孙渊胁迫、不能归降者一律赦免。辛卯日太白白天可见。毌丘俭返回后，公孙渊自立燕王、设置百官，称绍汉元年。",
+      "summary": "秋七月丁卯日，司徒陈矫去世。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p35",
+      "paragraphIndex": 35,
+      "title": "赈水灾与建圜丘",
+      "time": {
+        "year": 237,
+        "era": "景初元年",
+        "label": "景初元年",
+        "certainty": "inferred"
+      },
+      "translation": "皇帝诏青、兖、幽、冀四州大造海船。九月，冀、兖、徐、豫四州百姓遭水灾，派侍御史巡视淹死及财产受损者，在当地开仓赈济。庚辰日，毛皇后去世。冬十月丁未日月亮靠近荧惑。癸丑日葬悼毛后于愍陵。乙卯日，在洛阳南委粟山营建圜丘。十二月壬子冬至，开始祭祀。丁巳日，从襄阳划临沮、宜城、旍阳、邔四县设置襄阳南部都尉。己未日，有司奏请在京城为文昭皇后立庙。划襄阳郡的鄀叶县归义阳郡。",
+      "summary": "皇帝诏青、兖、幽、冀四州大造海船。",
+      "kind": "narrative",
+      "focusPlaceId": "luoyang"
+    },
+    {
+      "id": "mingdi-p36",
+      "paragraphIndex": 36,
+      "title": "遣司马懿讨辽东",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "translation": "景初二年春正月，皇帝诏太尉司马宣王率众讨辽东。",
+      "summary": "曹叡命司马懿率军征讨辽东。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p37",
+      "paragraphIndex": 37,
+      "title": "设置汝阴与沛王国",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "translation": "二月癸卯日，以大中大夫韩曁为司徒。癸丑日，月亮靠近心宿距星和中央大星。夏四月庚子日，司徒韩曁去世。壬寅日，从沛国划萧、相、竹邑、符离、蕲、铚、龙亢、山桑、洨、虹十县为汝阴郡。宋县与陈郡苦县归谯郡。以沛、杼秋、公丘、彭城的丰国、广戚五县组成沛王国。庚戌日大赦。五月乙亥日，月亮靠近心宿距星和中央大星。六月，撤销渔阳郡狐奴县，恢复安乐县。",
+      "summary": "二月癸卯日，以大中大夫韩曁为司徒。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p38",
+      "paragraphIndex": 38,
+      "title": "讨烧当羌",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "translation": "秋八月，烧当羌王芒中、注诣等反叛，凉州刺史率诸郡攻讨，斩注诣。癸丑日，彗星见于张宿。",
+      "summary": "秋八月，烧当羌王芒中、注诣等反叛，凉州刺史率诸郡攻讨，斩注诣。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p39",
+      "paragraphIndex": 39,
+      "title": "平公孙渊",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "translation": "丙寅日，司马宣王在襄平围公孙渊，大败他，传首级到京城，海东各郡平定。冬十一月，评讨伐公孙渊的功劳，太尉司马宣王以下增邑封爵各有差别。起初皇帝商议派司马宣王讨公孙渊，征兵四万。议臣都认为四万人太多，劳役费用难供。皇帝说：“远征四千里，虽说要用奇谋，也应依靠兵力，不该过分计较役费。”于是派四万人出征。司马宣王到辽东后，连雨不能及时进攻，群臣有人认为公孙渊不能很快攻破，应诏司马宣王回来。皇帝说：“司马懿临危应变，擒获公孙渊可以计日等待。”最后都如所预料。",
+      "summary": "丙寅日，司马宣王在襄平围公孙渊，大败他，传首级到京城，海东各郡平定。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p40",
+      "paragraphIndex": 40,
+      "title": "明帝病重与曹爽为大将军",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "translation": "壬午日，任司空卫臻为司徒、司隶校尉崔林为司空。闰月，月亮靠近心宿中央大星。十二月乙丑日，皇帝卧病。辛巳日立皇后，赐天下男子各爵二级、鳏寡孤独者粮食。任燕王曹宇为大将军，甲申日免去，以武卫将军曹爽代替。",
+      "summary": "壬午日，任司空卫臻为司徒、司隶校尉崔林为司空。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p41",
+      "paragraphIndex": 41,
+      "title": "登女受宠被杀",
+      "time": {
+        "year": 238,
+        "era": "景初二年",
+        "label": "景初二年",
+        "certainty": "inferred"
+      },
+      "translation": "起初，青龙三年间，寿春农妇自称天神降临，命名为登女，应当保护皇室、驱邪纳福。她给人喝水，用水洗伤口，有些人多能痊愈。于是皇帝在后宫为她设馆，下诏称扬，极为宠信。等皇帝生病，饮水无效，于是杀了她。",
+      "summary": "起初，青龙三年间，寿春农妇自称天神降临，命名为登女，应当保护皇室、驱邪纳福。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    },
+    {
+      "id": "mingdi-p42",
+      "paragraphIndex": 42,
+      "title": "托孤与去世",
+      "time": {
+        "year": 239,
+        "era": "景初三年",
+        "label": "景初三年",
+        "certainty": "inferred"
+      },
+      "translation": "景初三年春正月丁亥日，太尉司马宣王回到河内。皇帝以驿马急召，将他引入卧室，握手说：“我病重，后事托付给你，请与曹爽辅佐幼子。我能见到你，就没有遗憾了！”司马宣王叩头流泪。当日皇帝在嘉福殿去世，时年三十六。癸丑日，葬高平陵。",
+      "summary": "景初三年春正月丁亥日，太尉司马宣王回到河内。",
+      "kind": "narrative",
+      "focusPlaceId": null,
+      "personIds": [
+        "sima-yi",
+        "cao-shuang"
+      ]
+    },
+    {
+      "id": "mingdi-p44",
+      "paragraphIndex": 44,
+      "title": "陈寿评语",
+      "time": {
+        "year": null,
+        "era": "陈寿评语",
+        "label": "陈寿评语",
+        "certainty": "unknown"
+      },
+      "translation": "陈寿评论说：明帝沉稳坚毅，有决断和识见，任凭自己心意行事，大体具有君主的基本气概。当时百姓凋敝，天下分裂，他不先致力于发扬祖先功业、开拓宏大基业，却急于追仿秦始皇、汉武帝，专事营建宫殿馆舍。用长远谋略来衡量，这恐怕是他的弊病吧！",
+      "summary": "陈寿评论说：明帝沉稳坚毅，有决断和识见，任凭自己心意行事，大体具有君主的基本气概。",
+      "kind": "narrative",
+      "focusPlaceId": null
+    }
+  ],
+  "personAliases": {
+    "司马宣王": "sima-yi"
+  }
+}

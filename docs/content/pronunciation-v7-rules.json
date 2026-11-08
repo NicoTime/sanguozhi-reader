@@ -1,0 +1,1023 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "moe-rui",
+      "title": "教育部重编国语辞典：蕤",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9341&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-xunyu",
+      "title": "教育部重编国语辞典：荀彧",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=112512&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-he",
+      "title": "教育部重编国语辞典：郃",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=3951&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-yi",
+      "title": "教育部重编国语辞典：禕",
+      "url": "https://dict.revised.moe.edu.tw/searchR.jsp?ID=-1&ID=113&ID=5&la=0&powerMode=0&word=禕"
+    },
+    {
+      "id": "kuaiji-textbook",
+      "title": "语文出版社：会稽山读音",
+      "url": "https://www.ywcbs.com/jyyw/jcjy/szjy/202508/P020250219607618350987.pdf"
+    },
+    {
+      "id": "moe-shanwei",
+      "title": "教育部重编国语辞典：禅位",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=131022&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-liushan",
+      "title": "教育部重编国语辞典：刘禅（shàn）",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=63655&q=1&word=劉"
+    },
+    {
+      "id": "moe-liuchan",
+      "title": "教育部重编国语辞典：刘禅（chán）",
+      "url": "https://dict.revised.moe.edu.tw/search.jsp?md=1&page=1&word=禪%20ㄔㄢˊ"
+    },
+    {
+      "id": "moe-yueyi",
+      "title": "教育部重编国语辞典：乐毅",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=164792&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-yinsi",
+      "title": "教育部重编国语辞典：禋祀",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=156368&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-wan",
+      "title": "教育部重编国语辞典：琬",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11490&la=1&powerMode=0"
+    },
+    {
+      "id": "moe-gui",
+      "title": "教育部重编国语辞典：簋",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=4299&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-cong",
+      "title": "教育部重编国语辞典：琮",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9948&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-guanqiu",
+      "title": "教育部重编国语辞典：毌丘俭",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=74148&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-xu",
+      "title": "教育部重编国语辞典：诩",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7310&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-miao",
+      "title": "教育部重编国语辞典：邈",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1417&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-qiao",
+      "title": "教育部重编国语辞典：谯",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=6407&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-rui4",
+      "title": "教育部重编国语辞典：叡",
+      "url": "https://dict.revised.moe.edu.tw/searchR.jsp?ID=-1&ID=2&ID=29&la=0&powerMode=0&word=叡"
+    },
+    {
+      "id": "moe-you",
+      "title": "教育部重编国语辞典：攸",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=10888&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-zhongyao",
+      "title": "教育部重编国语辞典：钟繇",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=120308&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-pu",
+      "title": "教育部重编国语辞典：濮",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1002&q=1&word=濮"
+    },
+    {
+      "id": "moe-juan",
+      "title": "教育部重编国语辞典：鄄城",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=97688&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-ye",
+      "title": "教育部重编国语辞典：邺",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=10799&la=0&powerMode=0"
+    },
+    {
+      "id": "cass-mei",
+      "title": "中国社会科学院：地名读音的郿县例",
+      "url": "https://www.cass.cn/xueshuchengguo/wenzhexuebulishixuebu/202109/t20210906_5357628.shtml"
+    },
+    {
+      "id": "wiktionary-zhuo",
+      "title": "维基词典：涿州大陆普通话读音",
+      "url": "https://zh.wiktionary.org/wiki/涿州"
+    },
+    {
+      "id": "moe-zhuo-variant",
+      "title": "教育部重编国语辞典：涿异读",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8047&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-jun",
+      "title": "教育部重编国语辞典：濬",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=6200&q=1&word=濬"
+    },
+    {
+      "id": "moe-yan",
+      "title": "教育部重编国语辞典：俨",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11042&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-shanggui",
+      "title": "教育部重编国语辞典：邽",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=4268&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-xiaoting",
+      "title": "教育部重编国语辞典：猇亭",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=106494&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-juchang",
+      "title": "教育部重编国语辞典：秬鬯",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=96961&q=1&word=酒。"
+    },
+    {
+      "id": "moe-xia",
+      "title": "教育部重编国语辞典：祫",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=6909"
+    },
+    {
+      "id": "moe-chang",
+      "title": "教育部重编国语辞典：昶",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8485&word=昶"
+    },
+    {
+      "id": "moe-fu",
+      "title": "教育部重编国语辞典：涪",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1826&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-caiyong",
+      "title": "教育部重编国语辞典：蔡邕",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=141401&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-yu",
+      "title": "教育部重编国语辞典：鬻",
+      "url": "https://dict.revised.moe.edu.tw/searchR.jsp?ID=-1&ID=10&ID=193&la=0&powerMode=0&word=鬻"
+    },
+    {
+      "id": "moe-xhd",
+      "title": "教育部重编国语辞典：夏侯惇",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=105795&q=1&word=惇"
+    },
+    {
+      "id": "moe-dengai",
+      "title": "教育部重编国语辞典：邓艾吃",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=44744&la=0&powerMode=0"
+    },
+    {
+      "id": "moe-chen",
+      "title": "教育部重编国语辞典：綝",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8429&la=0&powerMode=0"
+    },
+    {
+      "id": "lechen",
+      "title": "古籍人名读音：乐綝",
+      "url": "https://www.sbksc.zcxn.com/html/xsydzggj/1215_669.html"
+    },
+    {
+      "id": "sunchen",
+      "title": "中国哲学书电子化计划：孙綝",
+      "url": "https://ctext.org/datawiki.pl?if=gb&remap=gb&res=671180"
+    },
+    {
+      "id": "moe-yi3",
+      "title": "教育部重编国语辞典：顗",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=10598&la=0&powerMode=0"
+    },
+    {
+      "id": "shidian-yi",
+      "title": "识典古籍：𫖮的字形及读音",
+      "url": "https://www.shidianguji.com/character/𫖮"
+    },
+    {
+      "id": "add-moe-hong",
+      "title": "教育部重编国语辞典：薨逝",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=86742&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-zhe",
+      "title": "教育部重编国语辞典：辄",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7682&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-qi",
+      "title": "教育部重编国语辞典：讫",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=6312&word=訖"
+    },
+    {
+      "id": "add-moe-shou",
+      "title": "教育部重编国语辞典：绶",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8921&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-ji",
+      "title": "教育部重编国语辞典：齎",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5351&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-xi",
+      "title": "教育部重编国语辞典：徙木之信",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=104904&q=1&word=之"
+    },
+    {
+      "id": "add-moe-shi-title",
+      "title": "教育部重编国语辞典：谥",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8799&word=諡"
+    },
+    {
+      "id": "add-moe-hu",
+      "title": "教育部重编国语辞典：笏",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5006&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-shi-regicide",
+      "title": "教育部重编国语辞典：弑",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8772&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-cu",
+      "title": "教育部重编国语辞典：殂",
+      "url": "https://dict.revised.moe.edu.tw/searchR.jsp?ID=-1&ID=4&ID=78&la=0&powerMode=0&word=殂"
+    },
+    {
+      "id": "add-moe-zhuo",
+      "title": "教育部重编国语辞典：擢",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8082&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-yi",
+      "title": "教育部重编国语辞典：诣",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=10686&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-yin",
+      "title": "教育部重编国语辞典：胤",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11142&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-zuo",
+      "title": "教育部重编国语辞典：祚",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9638&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-si",
+      "title": "教育部重编国语辞典：嗣",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9990&la=0&powerMode=0"
+    },
+    {
+      "id": "add-moe-lu",
+      "title": "教育部重编国语辞典：戮",
+      "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&md=1&powerMode=0&qCol=1&qMd=0&word=戮"
+    }
+  ],
+  "rules": [
+    {
+      "id": "xunyu",
+      "match": "荀彧",
+      "base": "彧",
+      "pinyin": "yù",
+      "sourceIds": [
+        "moe-xunyu"
+      ]
+    },
+    {
+      "id": "zhanghe",
+      "match": "张郃",
+      "base": "郃",
+      "pinyin": "hé",
+      "sourceIds": [
+        "moe-he"
+      ]
+    },
+    {
+      "id": "feiyi",
+      "match": "费祎",
+      "base": "祎",
+      "pinyin": "yī",
+      "sourceIds": [
+        "moe-yi"
+      ]
+    },
+    {
+      "id": "quanyi",
+      "match": "全绪子祎",
+      "base": "祎",
+      "pinyin": "yī",
+      "sourceIds": [
+        "moe-yi"
+      ]
+    },
+    {
+      "id": "qiaorui",
+      "match": "桥蕤",
+      "base": "蕤",
+      "pinyin": "ruí",
+      "sourceIds": [
+        "moe-rui"
+      ]
+    },
+    {
+      "id": "caorui-p0",
+      "match": "皇弟蕤",
+      "base": "蕤",
+      "pinyin": "ruí",
+      "sourceIds": [
+        "moe-rui"
+      ],
+      "targets": [
+        "mingdi-p0"
+      ]
+    },
+    {
+      "id": "caorui-p15",
+      "match": "北海王蕤",
+      "base": "蕤",
+      "pinyin": "ruí",
+      "sourceIds": [
+        "moe-rui"
+      ],
+      "targets": [
+        "mingdi-p15"
+      ]
+    },
+    {
+      "id": "kuaiji",
+      "match": "会稽",
+      "base": "会",
+      "pinyin": "kuài",
+      "sourceIds": [
+        "kuaiji-textbook"
+      ],
+      "explanation": "会稽的大陆普通话读音；台湾辞典另记 guì jī。"
+    },
+    {
+      "id": "shanwei",
+      "match": "禅位",
+      "base": "禅",
+      "pinyin": "shàn",
+      "sourceIds": [
+        "moe-shanwei"
+      ]
+    },
+    {
+      "id": "liushan",
+      "match": "刘禅",
+      "base": "禅",
+      "pinyin": "shàn",
+      "sourceIds": [
+        "moe-liushan",
+        "moe-liuchan"
+      ],
+      "explanation": "刘禅亦有 chán 读法，此处采用 shàn。"
+    },
+    {
+      "id": "yueyi",
+      "match": "乐毅",
+      "base": "乐",
+      "pinyin": "yuè",
+      "sourceIds": [
+        "moe-yueyi"
+      ]
+    },
+    {
+      "id": "yinsi",
+      "match": "禋祀",
+      "base": "禋",
+      "pinyin": "yīn",
+      "sourceIds": [
+        "moe-yinsi"
+      ]
+    },
+    {
+      "id": "liuwan",
+      "match": "刘琬",
+      "base": "琬",
+      "pinyin": "wǎn",
+      "sourceIds": [
+        "moe-wan"
+      ]
+    },
+    {
+      "id": "cong",
+      "match": "瑶、琮、瓒",
+      "base": "琮",
+      "pinyin": "cóng",
+      "sourceIds": [
+        "moe-cong"
+      ],
+      "targets": [
+        "erzhu-feizi-p9-note0"
+      ]
+    },
+    {
+      "id": "gui",
+      "match": "同簋而食",
+      "base": "簋",
+      "pinyin": "guǐ",
+      "sourceIds": [
+        "moe-gui"
+      ],
+      "targets": [
+        "xianzhu-p3-note4"
+      ]
+    },
+    {
+      "id": "guanqiujian",
+      "match": "毌丘俭",
+      "base": "毌",
+      "pinyin": "guàn",
+      "sourceIds": [
+        "moe-guanqiu"
+      ]
+    },
+    {
+      "id": "jiaxu",
+      "match": "贾诩",
+      "base": "诩",
+      "pinyin": "xǔ",
+      "sourceIds": [
+        "moe-xu"
+      ]
+    },
+    {
+      "id": "zhangmiao",
+      "match": "张邈",
+      "base": "邈",
+      "pinyin": "miǎo",
+      "sourceIds": [
+        "moe-miao"
+      ]
+    },
+    {
+      "id": "xumiao",
+      "match": "徐邈",
+      "base": "邈",
+      "pinyin": "miǎo",
+      "sourceIds": [
+        "moe-miao"
+      ]
+    },
+    {
+      "id": "qiaozhou",
+      "match": "谯周",
+      "base": "谯",
+      "pinyin": "qiáo",
+      "sourceIds": [
+        "moe-qiao"
+      ]
+    },
+    {
+      "id": "qiaolou",
+      "match": "谯楼",
+      "base": "谯",
+      "pinyin": "qiáo",
+      "sourceIds": [
+        "moe-qiao"
+      ]
+    },
+    {
+      "id": "qiao-origin",
+      "match": "沛国谯人",
+      "base": "谯",
+      "pinyin": "qiáo",
+      "sourceIds": [
+        "moe-qiao"
+      ],
+      "targets": [
+        "wudi-p0"
+      ]
+    },
+    {
+      "id": "qiao-born",
+      "match": "生于谯",
+      "base": "谯",
+      "pinyin": "qiáo",
+      "sourceIds": [
+        "moe-qiao"
+      ],
+      "targets": [
+        "wendi-p0"
+      ]
+    },
+    {
+      "id": "caorui-specified",
+      "match": "皇帝讳叡",
+      "base": "叡",
+      "pinyin": "ruì",
+      "sourceIds": [
+        "moe-rui4"
+      ],
+      "targets": [
+        "mingdi-p0"
+      ]
+    },
+    {
+      "id": "caorui-child",
+      "match": "王子叡",
+      "base": "叡",
+      "pinyin": "ruì",
+      "sourceIds": [
+        "moe-rui4"
+      ],
+      "targets": [
+        "wendi-p5"
+      ]
+    },
+    {
+      "id": "xunyou",
+      "match": "荀攸",
+      "base": "攸",
+      "pinyin": "yōu",
+      "sourceIds": [
+        "moe-you"
+      ]
+    },
+    {
+      "id": "zhongyao",
+      "match": "钟繇",
+      "base": "繇",
+      "pinyin": "yáo",
+      "sourceIds": [
+        "moe-zhongyao"
+      ]
+    },
+    {
+      "id": "puyang",
+      "match": "濮阳",
+      "base": "濮",
+      "pinyin": "pú",
+      "sourceIds": [
+        "moe-pu"
+      ]
+    },
+    {
+      "id": "juancheng",
+      "match": "鄄城",
+      "base": "鄄",
+      "pinyin": "juàn",
+      "sourceIds": [
+        "moe-juan"
+      ]
+    },
+    {
+      "id": "ye-place",
+      "match": "邺",
+      "base": "邺",
+      "pinyin": "yè",
+      "sourceIds": [
+        "moe-ye"
+      ],
+      "explanation": "地名邺及以邺命名的书名用字。"
+    },
+    {
+      "id": "mei-county",
+      "match": "郿",
+      "base": "郿",
+      "pinyin": "méi",
+      "sourceIds": [
+        "cass-mei"
+      ],
+      "targets": [
+        "zhuge-liang-p16-note0",
+        "zhuge-liang-p39-note1"
+      ]
+    },
+    {
+      "id": "zhuo-jun",
+      "match": "涿郡",
+      "base": "涿",
+      "pinyin": "zhuō",
+      "sourceIds": [
+        "wiktionary-zhuo",
+        "moe-zhuo-variant"
+      ],
+      "explanation": "涿州一带地名，采用大陆普通话 zhuō；其他词典亦收异读。"
+    },
+    {
+      "id": "zhuo-ren",
+      "match": "涿人",
+      "base": "涿",
+      "pinyin": "zhuō",
+      "sourceIds": [
+        "wiktionary-zhuo",
+        "moe-zhuo-variant"
+      ],
+      "targets": [
+        "xianzhu-p2-note0"
+      ],
+      "explanation": "此处指涿地的人，采用大陆普通话 zhuō。"
+    },
+    {
+      "id": "panjun",
+      "match": "潘濬",
+      "base": "濬",
+      "pinyin": "jùn",
+      "sourceIds": [
+        "moe-jun"
+      ]
+    },
+    {
+      "id": "taojun",
+      "match": "陶濬",
+      "base": "濬",
+      "pinyin": "jùn",
+      "sourceIds": [
+        "moe-jun"
+      ]
+    },
+    {
+      "id": "wangjun",
+      "match": "王濬",
+      "base": "濬",
+      "pinyin": "jùn",
+      "sourceIds": [
+        "moe-jun"
+      ]
+    },
+    {
+      "id": "zhaoyan",
+      "match": "赵俨",
+      "base": "俨",
+      "pinyin": "yǎn",
+      "sourceIds": [
+        "moe-yan"
+      ]
+    },
+    {
+      "id": "zhangyan",
+      "match": "张俨",
+      "base": "俨",
+      "pinyin": "yǎn",
+      "sourceIds": [
+        "moe-yan"
+      ]
+    },
+    {
+      "id": "shanggui",
+      "match": "上邽",
+      "base": "邽",
+      "pinyin": "guī",
+      "sourceIds": [
+        "moe-shanggui"
+      ]
+    },
+    {
+      "id": "xiaoting",
+      "match": "猇亭",
+      "base": "猇",
+      "pinyin": "xiāo",
+      "sourceIds": [
+        "moe-xiaoting"
+      ]
+    },
+    {
+      "id": "juchang-ju",
+      "match": "秬鬯",
+      "base": "秬",
+      "pinyin": "jù",
+      "sourceIds": [
+        "moe-juchang"
+      ]
+    },
+    {
+      "id": "juchang-chang",
+      "match": "秬鬯",
+      "base": "鬯",
+      "pinyin": "chàng",
+      "sourceIds": [
+        "moe-juchang"
+      ]
+    },
+    {
+      "id": "xiajisi",
+      "match": "祫祭",
+      "base": "祫",
+      "pinyin": "xiá",
+      "sourceIds": [
+        "moe-xia"
+      ]
+    },
+    {
+      "id": "wangchang",
+      "match": "王昶",
+      "base": "昶",
+      "pinyin": "chǎng",
+      "sourceIds": [
+        "moe-chang"
+      ]
+    },
+    {
+      "id": "guoyouzhi",
+      "match": "郭攸之",
+      "base": "攸",
+      "pinyin": "yōu",
+      "sourceIds": [
+        "moe-you"
+      ]
+    },
+    {
+      "id": "caiyong",
+      "match": "蔡邕",
+      "base": "邕",
+      "pinyin": "yōng",
+      "sourceIds": [
+        "moe-caiyong"
+      ]
+    },
+    {
+      "id": "yuzhi",
+      "match": "复鬻之",
+      "base": "鬻",
+      "pinyin": "yù",
+      "sourceIds": [
+        "moe-yu"
+      ]
+    },
+    {
+      "id": "fu39",
+      "match": "至涪",
+      "base": "涪",
+      "pinyin": "fú",
+      "sourceIds": [
+        "moe-fu"
+      ],
+      "targets": [
+        "zhuge-liang-p39"
+      ]
+    },
+    {
+      "id": "fu15",
+      "match": "至涪",
+      "base": "涪",
+      "pinyin": "fú",
+      "sourceIds": [
+        "moe-fu"
+      ],
+      "targets": [
+        "xianzhu-p15"
+      ]
+    },
+    {
+      "id": "fu16",
+      "match": "到涪",
+      "base": "涪",
+      "pinyin": "fú",
+      "sourceIds": [
+        "moe-fu"
+      ],
+      "targets": [
+        "xianzhu-p16"
+      ]
+    },
+    {
+      "id": "fu17note",
+      "match": "于涪",
+      "base": "涪",
+      "pinyin": "fú",
+      "sourceIds": [
+        "moe-fu"
+      ],
+      "targets": [
+        "xianzhu-p17-note0"
+      ]
+    },
+    {
+      "id": "xiahoudun",
+      "match": "夏侯惇",
+      "base": "惇",
+      "pinyin": "dūn",
+      "sourceIds": [
+        "moe-xhd"
+      ]
+    },
+    {
+      "id": "dengai",
+      "match": "邓艾",
+      "base": "艾",
+      "pinyin": "ài",
+      "sourceIds": [
+        "moe-dengai"
+      ]
+    },
+    {
+      "id": "yuechen",
+      "match": "乐𬘭",
+      "base": "𬘭",
+      "pinyin": "chēn",
+      "sourceIds": [
+        "moe-chen",
+        "lechen"
+      ],
+      "explanation": "𬘭为綝的简化字；此处指乐綝。"
+    },
+    {
+      "id": "sunchen",
+      "match": "孙𬘭",
+      "base": "𬘭",
+      "pinyin": "chēn",
+      "sourceIds": [
+        "moe-chen",
+        "sunchen"
+      ],
+      "explanation": "𬘭为綝的简化字；此处指孙綝。"
+    },
+    {
+      "id": "xunyi",
+      "match": "荀𫖮",
+      "base": "𫖮",
+      "pinyin": "yǐ",
+      "sourceIds": [
+        "moe-yi3",
+        "shidian-yi"
+      ],
+      "explanation": "𫖮为顗的简化字，荀顗与荀勖是不同人物。"
+    },
+    {
+      "id": "add-hong",
+      "match": "薨",
+      "base": "薨",
+      "pinyin": "hōng",
+      "sourceIds": [
+        "add-moe-hong"
+      ],
+      "explanation": "常见于诸侯、大臣去世的记叙。"
+    },
+    {
+      "id": "add-zhe",
+      "match": "辄",
+      "base": "辄",
+      "pinyin": "zhé",
+      "sourceIds": [
+        "add-moe-zhe"
+      ],
+      "explanation": "正文中作就、总是等义；另有异体輙。"
+    },
+    {
+      "id": "add-qi",
+      "match": "讫",
+      "base": "讫",
+      "pinyin": "qì",
+      "sourceIds": [
+        "add-moe-qi"
+      ],
+      "explanation": "常表完毕、到。"
+    },
+    {
+      "id": "add-shou",
+      "match": "绶",
+      "base": "绶",
+      "pinyin": "shòu",
+      "sourceIds": [
+        "add-moe-shou"
+      ],
+      "explanation": "多见于印绶、玺绶。"
+    },
+    {
+      "id": "add-ji",
+      "match": "赍",
+      "base": "赍",
+      "pinyin": "jī",
+      "sourceIds": [
+        "add-moe-ji"
+      ],
+      "explanation": "多作携带、赠送义；不更改原字。"
+    },
+    {
+      "id": "add-xi",
+      "match": "徙",
+      "base": "徙",
+      "pinyin": "xǐ",
+      "sourceIds": [
+        "add-moe-xi"
+      ],
+      "explanation": "多作迁移、迁任。"
+    },
+    {
+      "id": "add-shi-title",
+      "match": "谥",
+      "base": "谥",
+      "pinyin": "shì",
+      "sourceIds": [
+        "add-moe-shi-title"
+      ],
+      "explanation": "加谥号或谥号。"
+    },
+    {
+      "id": "add-hu",
+      "match": "笏",
+      "base": "笏",
+      "pinyin": "hù",
+      "sourceIds": [
+        "add-moe-hu"
+      ],
+      "explanation": "朝见所持的手板。"
+    },
+    {
+      "id": "add-shi-regicide",
+      "match": "弑",
+      "base": "弑",
+      "pinyin": "shì",
+      "sourceIds": [
+        "add-moe-shi-regicide"
+      ],
+      "explanation": "下杀上之义。"
+    },
+    {
+      "id": "add-cu",
+      "match": "殂",
+      "base": "殂",
+      "pinyin": "cú",
+      "sourceIds": [
+        "add-moe-cu"
+      ],
+      "explanation": "死亡，如崩殂、殂没。"
+    },
+    {
+      "id": "add-zhuo",
+      "match": "擢",
+      "base": "擢",
+      "pinyin": "zhuó",
+      "sourceIds": [
+        "add-moe-zhuo"
+      ],
+      "explanation": "多为提拔、选用。"
+    },
+    {
+      "id": "add-yi",
+      "match": "诣",
+      "base": "诣",
+      "pinyin": "yì",
+      "sourceIds": [
+        "add-moe-yi"
+      ],
+      "explanation": "多为到、拜见。"
+    },
+    {
+      "id": "add-yin",
+      "match": "胤",
+      "base": "胤",
+      "pinyin": "yìn",
+      "sourceIds": [
+        "add-moe-yin"
+      ],
+      "explanation": "可指后代，亦用于姓名。"
+    },
+    {
+      "id": "add-zuo",
+      "match": "祚",
+      "base": "祚",
+      "pinyin": "zuò",
+      "sourceIds": [
+        "add-moe-zuo"
+      ],
+      "explanation": "可指国运或福祉，亦用于姓名。"
+    },
+    {
+      "id": "add-si",
+      "match": "嗣",
+      "base": "嗣",
+      "pinyin": "sì",
+      "sourceIds": [
+        "add-moe-si"
+      ],
+      "explanation": "多指继承、后嗣。"
+    },
+    {
+      "id": "add-lu",
+      "match": "戮",
+      "base": "戮",
+      "pinyin": "lù",
+      "sourceIds": [
+        "add-moe-lu"
+      ],
+      "explanation": "杀戮或戮力。"
+    }
+  ]
+}

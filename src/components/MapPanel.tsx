@@ -301,7 +301,7 @@ export function MapPanel({panelRef,chapter,scene,places,sources,selected,cameraR
             {historical.status==='unavailable' ? '本篇历史河道尚未复原' :
               !sceneUsesRivers ? '本段无历史河道图层' : riverState.status==='loading' ? '正在载入历史河道…' : '历史河道未显示'}
           </span>}
-          <span className="map-credit">地图资料 · {mapProfile.attribution} 全国地势海陆参考为现代 Natural Earth。</span>
+          <span className="map-credit">地图资料 · {mapProfile.attribution} 全国地势海陆参考为现代 Natural Earth。部分历史地名参考 © CHGIS（<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>）；部分现代地名 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）。</span>
         </p>
         {activeTactic?.at==='footer' && selectedRiver && <div className="tactical-footer-detail">{tacticalCard}</div>}
       </footer>

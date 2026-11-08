@@ -1,0 +1,2923 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sili-han-200",
+        "name": "司隶",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-1"
+        ],
+        "note": "洛阳、河内及关中以东附近为理解司隶的中原参照；示意不覆盖全部所辖郡。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          111.8,
+          34.5
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.1,
+              34.0
+            ],
+            [
+              111.3,
+              33.7
+            ],
+            [
+              113.1,
+              34.1
+            ],
+            [
+              113.35,
+              34.8
+            ],
+            [
+              112.4,
+              35.25
+            ],
+            [
+              110.7,
+              35.1
+            ],
+            [
+              110.1,
+              34.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sili-three-262",
+        "name": "司隶",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-1",
+          "song-35"
+        ],
+        "note": "洛阳、河内及关中以东附近为理解司隶的中原参照；示意不覆盖全部所辖郡。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          111.8,
+          34.5
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.1,
+              34.0
+            ],
+            [
+              111.3,
+              33.7
+            ],
+            [
+              113.1,
+              34.1
+            ],
+            [
+              113.35,
+              34.8
+            ],
+            [
+              112.4,
+              35.25
+            ],
+            [
+              110.7,
+              35.1
+            ],
+            [
+              110.1,
+              34.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yanzhou-han-200",
+        "name": "兖州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-3"
+        ],
+        "note": "以豫东、鲁西附近为示意，郡属和范围随时变化。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          115.7,
+          35.5
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.65,
+              34.7
+            ],
+            [
+              116.3,
+              34.5
+            ],
+            [
+              117.1,
+              35.2
+            ],
+            [
+              116.5,
+              36.0
+            ],
+            [
+              115.0,
+              35.9
+            ],
+            [
+              114.65,
+              34.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yanzhou-three-262",
+        "name": "兖州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-3",
+          "song-35"
+        ],
+        "note": "以豫东、鲁西附近为示意，郡属和范围随时变化。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          115.7,
+          35.5
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.65,
+              34.7
+            ],
+            [
+              116.3,
+              34.5
+            ],
+            [
+              117.1,
+              35.2
+            ],
+            [
+              116.5,
+              36.0
+            ],
+            [
+              115.0,
+              35.9
+            ],
+            [
+              114.65,
+              34.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yuzhou-han-200",
+        "name": "豫州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-2"
+        ],
+        "note": "以颍川、汝南一带为中心理解豫州，范围非郡界。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          114.6,
+          33.55
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.8,
+              32.5
+            ],
+            [
+              114.2,
+              32.1
+            ],
+            [
+              115.7,
+              32.7
+            ],
+            [
+              115.5,
+              34.25
+            ],
+            [
+              114.3,
+              34.6
+            ],
+            [
+              113.2,
+              34.0
+            ],
+            [
+              112.8,
+              32.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yuzhou-three-262",
+        "name": "豫州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-2",
+          "song-35"
+        ],
+        "note": "以颍川、汝南一带为中心理解豫州，范围非郡界。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          114.6,
+          33.55
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.8,
+              32.5
+            ],
+            [
+              114.2,
+              32.1
+            ],
+            [
+              115.7,
+              32.7
+            ],
+            [
+              115.5,
+              34.25
+            ],
+            [
+              114.3,
+              34.6
+            ],
+            [
+              113.2,
+              34.0
+            ],
+            [
+              112.8,
+              32.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jizhou-han-200",
+        "name": "冀州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-2"
+        ],
+        "note": "以河北南部与邺附近为示意，不代表完整冀州辖境。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          114.9,
+          37.0
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.8,
+              36.0
+            ],
+            [
+              115.2,
+              35.95
+            ],
+            [
+              116.6,
+              36.3
+            ],
+            [
+              116.4,
+              38.2
+            ],
+            [
+              115.4,
+              39.0
+            ],
+            [
+              113.7,
+              38.6
+            ],
+            [
+              113.8,
+              36.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jizhou-three-262",
+        "name": "冀州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-2",
+          "song-35"
+        ],
+        "note": "以河北南部与邺附近为示意，不代表完整冀州辖境。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          114.9,
+          37.0
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.8,
+              36.0
+            ],
+            [
+              115.2,
+              35.95
+            ],
+            [
+              116.6,
+              36.3
+            ],
+            [
+              116.4,
+              38.2
+            ],
+            [
+              115.4,
+              39.0
+            ],
+            [
+              113.7,
+              38.6
+            ],
+            [
+              113.8,
+              36.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "qingzhou-han-200",
+        "name": "青州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-qing"
+        ],
+        "note": "以临淄与山东北部附近为示意，非精确边界。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          118.2,
+          36.9
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.95,
+              36.15
+            ],
+            [
+              118.1,
+              35.9
+            ],
+            [
+              120.25,
+              36.2
+            ],
+            [
+              120.65,
+              37.2
+            ],
+            [
+              119.3,
+              38.0
+            ],
+            [
+              117.2,
+              37.6
+            ],
+            [
+              116.95,
+              36.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "qingzhou-three-262",
+        "name": "青州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-qing",
+          "song-35"
+        ],
+        "note": "以临淄与山东北部附近为示意，非精确边界。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          118.2,
+          36.9
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.95,
+              36.15
+            ],
+            [
+              118.1,
+              35.9
+            ],
+            [
+              120.25,
+              36.2
+            ],
+            [
+              120.65,
+              37.2
+            ],
+            [
+              119.3,
+              38.0
+            ],
+            [
+              117.2,
+              37.6
+            ],
+            [
+              116.95,
+              36.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "xuzhou-han-200",
+        "name": "徐州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-3"
+        ],
+        "note": "以郯、彭城之间及邻近地区作概略参照，边界不详。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          118.1,
+          34.9
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.65,
+              33.6
+            ],
+            [
+              118.5,
+              33.4
+            ],
+            [
+              119.2,
+              34.1
+            ],
+            [
+              119.5,
+              35.25
+            ],
+            [
+              118.9,
+              35.8
+            ],
+            [
+              117.3,
+              35.8
+            ],
+            [
+              116.65,
+              33.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "xuzhou-three-262",
+        "name": "徐州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-3",
+          "song-35"
+        ],
+        "note": "以郯、彭城之间及邻近地区作概略参照，边界不详。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          118.1,
+          34.9
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.65,
+              33.6
+            ],
+            [
+              118.5,
+              33.4
+            ],
+            [
+              119.2,
+              34.1
+            ],
+            [
+              119.5,
+              35.25
+            ],
+            [
+              118.9,
+              35.8
+            ],
+            [
+              117.3,
+              35.8
+            ],
+            [
+              116.65,
+              33.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "youzhou-han-200",
+        "name": "幽州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4"
+        ],
+        "note": "以蓟及华北北部为方向参照，辽东等地未画入轮廓。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          116.6,
+          40.2
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.4,
+              39.3
+            ],
+            [
+              116.5,
+              39.05
+            ],
+            [
+              118.7,
+              39.7
+            ],
+            [
+              119.9,
+              40.8
+            ],
+            [
+              118.4,
+              41.6
+            ],
+            [
+              115.2,
+              41.2
+            ],
+            [
+              114.4,
+              39.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "youzhou-three-262",
+        "name": "幽州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4",
+          "song-35"
+        ],
+        "note": "以蓟及华北北部为方向参照，辽东等地未画入轮廓。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          116.6,
+          40.2
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.4,
+              39.3
+            ],
+            [
+              116.5,
+              39.05
+            ],
+            [
+              118.7,
+              39.7
+            ],
+            [
+              119.9,
+              40.8
+            ],
+            [
+              118.4,
+              41.6
+            ],
+            [
+              115.2,
+              41.2
+            ],
+            [
+              114.4,
+              39.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bingzhou-han-200",
+        "name": "并州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4"
+        ],
+        "note": "以晋阳及其北方附近为示意，不代表全州范围。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          112.3,
+          38.25
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.8,
+              36.3
+            ],
+            [
+              112.0,
+              35.9
+            ],
+            [
+              113.45,
+              36.3
+            ],
+            [
+              113.5,
+              38.7
+            ],
+            [
+              112.7,
+              40.0
+            ],
+            [
+              111.2,
+              39.5
+            ],
+            [
+              110.8,
+              36.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bingzhou-three-262",
+        "name": "并州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4",
+          "song-35"
+        ],
+        "note": "以晋阳及其北方附近为示意，不代表全州范围。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          112.3,
+          38.25
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.8,
+              36.3
+            ],
+            [
+              112.0,
+              35.9
+            ],
+            [
+              113.45,
+              36.3
+            ],
+            [
+              113.5,
+              38.7
+            ],
+            [
+              112.7,
+              40.0
+            ],
+            [
+              111.2,
+              39.5
+            ],
+            [
+              110.8,
+              36.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "liangzhou-han-200",
+        "name": "凉州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4"
+        ],
+        "note": "以陇西与河西走廊东端方向为示意，不代表凉州全境。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          104.0,
+          36.6
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.8,
+              35.5
+            ],
+            [
+              103.0,
+              35.0
+            ],
+            [
+              105.0,
+              35.1
+            ],
+            [
+              106.2,
+              36.3
+            ],
+            [
+              105.5,
+              37.5
+            ],
+            [
+              103.0,
+              38.8
+            ],
+            [
+              101.8,
+              38.1
+            ],
+            [
+              101.8,
+              35.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "liangzhou-three-262",
+        "name": "凉州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4",
+          "song-35"
+        ],
+        "note": "以陇西与河西走廊东端方向为示意，不代表凉州全境。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          104.0,
+          36.6
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.8,
+              35.5
+            ],
+            [
+              103.0,
+              35.0
+            ],
+            [
+              105.0,
+              35.1
+            ],
+            [
+              106.2,
+              36.3
+            ],
+            [
+              105.5,
+              37.5
+            ],
+            [
+              103.0,
+              38.8
+            ],
+            [
+              101.8,
+              38.1
+            ],
+            [
+              101.8,
+              35.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yizhou-han-200",
+        "name": "益州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4"
+        ],
+        "note": "以成都平原及四川盆地西部为示意，南部郡县未完整覆盖。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          104.4,
+          30.0
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.5,
+              28.0
+            ],
+            [
+              104.1,
+              27.1
+            ],
+            [
+              106.0,
+              28.1
+            ],
+            [
+              107.4,
+              29.5
+            ],
+            [
+              107.1,
+              31.4
+            ],
+            [
+              105.6,
+              32.4
+            ],
+            [
+              103.0,
+              32.1
+            ],
+            [
+              102.0,
+              30.1
+            ],
+            [
+              102.5,
+              28.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yizhou-three-262",
+        "name": "益州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4",
+          "song-35"
+        ],
+        "note": "以成都平原及四川盆地西部为示意，南部郡县未完整覆盖。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          104.4,
+          30.0
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.5,
+              28.0
+            ],
+            [
+              104.1,
+              27.1
+            ],
+            [
+              106.0,
+              28.1
+            ],
+            [
+              107.4,
+              29.5
+            ],
+            [
+              107.1,
+              31.4
+            ],
+            [
+              105.6,
+              32.4
+            ],
+            [
+              103.0,
+              32.1
+            ],
+            [
+              102.0,
+              30.1
+            ],
+            [
+              102.5,
+              28.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jingzhou-han-200",
+        "name": "荆州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-qing",
+          "three-shu"
+        ],
+        "note": "以江汉与洞庭方向为示意；三国时多方分治，此符号不表示单一归属。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          112.5,
+          30.1
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              109.8,
+              28.4
+            ],
+            [
+              111.2,
+              27.9
+            ],
+            [
+              113.0,
+              28.1
+            ],
+            [
+              114.0,
+              29.0
+            ],
+            [
+              114.2,
+              31.0
+            ],
+            [
+              113.3,
+              32.2
+            ],
+            [
+              111.4,
+              32.5
+            ],
+            [
+              110.2,
+              31.2
+            ],
+            [
+              109.8,
+              28.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jingzhou-three-262",
+        "name": "荆州（魏地）",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-qing",
+          "three-shu",
+          "song-35"
+        ],
+        "note": "262年魏荆州以汉水北侧为理解重点；形状为自绘低精度方向示意，不是具体行政边界或确切控制线。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          111.9,
+          32.3
+        ],
+        "faction": "魏"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.2,
+              31.5
+            ],
+            [
+              111.5,
+              31.3
+            ],
+            [
+              113.1,
+              31.5
+            ],
+            [
+              113.4,
+              32.6
+            ],
+            [
+              112.4,
+              33.4
+            ],
+            [
+              110.8,
+              33.0
+            ],
+            [
+              110.2,
+              31.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yangzhou-han-200",
+        "name": "扬州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-qing",
+          "three-wu"
+        ],
+        "note": "以江东与建业附近为示意；三国时期南北政权各有扬州，不合并为确定辖域。 自绘疏离示意面旨在表示相邻大致方位，留空不表示没有行政建制，示意面不等于行政边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          118.4,
+          30.9
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.0,
+              28.7
+            ],
+            [
+              117.8,
+              28.1
+            ],
+            [
+              119.6,
+              28.7
+            ],
+            [
+              120.1,
+              30.4
+            ],
+            [
+              119.4,
+              32.0
+            ],
+            [
+              118.1,
+              32.5
+            ],
+            [
+              116.5,
+              31.6
+            ],
+            [
+              116.0,
+              28.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yangzhou-three-262",
+        "name": "扬州（吴地）",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-qing",
+          "three-wu",
+          "song-35"
+        ],
+        "note": "262年孙吴扬州以建业及江东为参考；形状是自绘方位示意，不是完整辖域或边界。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          118.4,
+          30.2
+        ],
+        "faction": "吴"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115.8,
+              28.4
+            ],
+            [
+              117.2,
+              28.1
+            ],
+            [
+              119.3,
+              28.7
+            ],
+            [
+              120.3,
+              30.0
+            ],
+            [
+              120.1,
+              31.7
+            ],
+            [
+              119.2,
+              32.35
+            ],
+            [
+              118.2,
+              32.25
+            ],
+            [
+              117.6,
+              31.4
+            ],
+            [
+              116.3,
+              30.7
+            ],
+            [
+              115.8,
+              28.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yongzhou-three-262",
+        "name": "雍州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "jin-geo",
+          "song-35"
+        ],
+        "note": "关中地区的示意符号；不表示魏雍州实际完整辖区或精确边界。 位置依据汉末州名及后世州郡资料作粗略参考，不能从这个符号推定262年的具体辖境。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          108.7,
+          34.4
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.3,
+              33.4
+            ],
+            [
+              108.0,
+              33.0
+            ],
+            [
+              109.7,
+              33.4
+            ],
+            [
+              110.2,
+              34.3
+            ],
+            [
+              109.8,
+              35.6
+            ],
+            [
+              108.4,
+              35.9
+            ],
+            [
+              106.5,
+              35.2
+            ],
+            [
+              106.3,
+              33.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-xu-200",
+        "name": "许县",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "three-wei"
+        ],
+        "note": "196年汉献帝迁许，200年作为朝廷所在的许县参考点；不是整座古城或战场位置。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "汉末朝廷所在"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.01,
+          34.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-luoyang-262",
+        "name": "洛阳",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "three-wei"
+        ],
+        "note": "曹魏都城附近参考点；不表示宫殿或城墙位置。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "曹魏都城"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-chengdu",
+        "name": "成都",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "houhan-4",
+          "three-shu"
+        ],
+        "note": "益州及蜀汉重要治所附近，点位仅作区域参考。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "益州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.06,
+          30.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-xiangyang-200",
+        "name": "襄阳",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "three-shu"
+        ],
+        "note": "汉末刘表以襄阳为荆州统治中心；点位非城墙边界。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "荆州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.14,
+          32.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-jianye-262",
+        "name": "建业",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "three-wu",
+          "yangzhou-record"
+        ],
+        "note": "孙吴建业、扬州治所附近的区域参考；非精确城址。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "孙吴扬州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78,
+          32.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-tan-200",
+        "name": "郯县（传统治所参照）",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "song-35",
+          "xu-research"
+        ],
+        "note": "《宋书》记后汉徐州治郯、魏晋治彭城，但没有明确这次迁治具体年份。汉末200年州治说法存在分歧，此点仅作东汉传统治所参照，不断言200年实际州官驻此。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "东汉传统徐州州治"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.36,
+          34.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-pengcheng-262",
+        "name": "彭城",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "song-35",
+          "xu-research"
+        ],
+        "note": "据《宋书》魏晋徐州治彭城及后世研究，作262年参考；具体迁治年份存争议，不据此断言200年仍在郯。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "曹魏徐州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.19,
+          34.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-ye-262",
+        "name": "邺县",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "three-wei",
+          "houhan-2"
+        ],
+        "note": "邺与魏郡的近似参照点；不指具体宫署。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "魏郡"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.41,
+          36.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-wuchang-262",
+        "name": "武昌",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "three-wu"
+        ],
+        "note": "孙吴武昌附近的区域参考；不等同今天武汉主城区。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "孙吴重镇"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.9,
+          30.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-linzi",
+        "name": "临淄",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "houhan-qing"
+        ],
+        "note": "临淄附近的区域参考；不表示具体古城遗迹边界。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "青州地区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.31,
+          36.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yellow-main",
+        "name": "黄河下游（东汉故道走向示意）",
+        "kind": "river",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "schematic-line",
+        "sourceIds": [
+          "yellow-research",
+          "yellow-paper"
+        ],
+        "note": "依据东汉后大河大致东流、经鲁西北至渤海方向的研究，独立绘制简化方向线；非精确河槽、堤线或河口，局部摆动及洪泛不呈现。",
+        "periodLabel": "东汉至三国的参考走向",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.2,
+            34.87
+          ],
+          [
+            113.75,
+            35.05
+          ],
+          [
+            114.5,
+            35.45
+          ],
+          [
+            115.1,
+            35.72
+          ],
+          [
+            115.65,
+            35.95
+          ],
+          [
+            116.25,
+            36.3
+          ],
+          [
+            117.05,
+            36.68
+          ],
+          [
+            117.75,
+            37.1
+          ],
+          [
+            118.2,
+            37.42
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yangtze-main",
+        "name": "长江主干（走向示意）",
+        "kind": "river",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "schematic-line",
+        "sourceIds": [
+          "three-shu",
+          "three-wu",
+          "yellow-paper"
+        ],
+        "note": "依巴蜀、江陵、夏口、九江、建业等地与大江相对方位自绘粗略主干，非古河槽或河岸复原；不表示古河口。",
+        "periodLabel": "汉末至三国的大江方向示意",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.6,
+            28.8
+          ],
+          [
+            105.3,
+            29.0
+          ],
+          [
+            106.5,
+            29.5
+          ],
+          [
+            108.4,
+            30.8
+          ],
+          [
+            110.4,
+            30.9
+          ],
+          [
+            111.3,
+            30.7
+          ],
+          [
+            112.2,
+            30.3
+          ],
+          [
+            114.3,
+            30.6
+          ],
+          [
+            116.0,
+            29.8
+          ],
+          [
+            117.1,
+            30.3
+          ],
+          [
+            118.35,
+            31.3
+          ],
+          [
+            118.75,
+            32.05
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dongting",
+        "name": "洞庭湖泽（范围示意）",
+        "kind": "lake",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "yellow-paper",
+          "three-shu"
+        ],
+        "note": "洞庭附近历史湖泽仅以自绘范围符号提示；面积、湖岸及水面季节变化无法由此确定。",
+        "periodLabel": "汉末至三国附近，非精确年岸",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.55,
+              29.15
+            ],
+            [
+              113.456,
+              29.33
+            ],
+            [
+              113.2,
+              29.462
+            ],
+            [
+              112.85,
+              29.51
+            ],
+            [
+              112.5,
+              29.462
+            ],
+            [
+              112.244,
+              29.33
+            ],
+            [
+              112.15,
+              29.15
+            ],
+            [
+              112.244,
+              28.97
+            ],
+            [
+              112.5,
+              28.838
+            ],
+            [
+              112.85,
+              28.79
+            ],
+            [
+              113.2,
+              28.838
+            ],
+            [
+              113.456,
+              28.97
+            ],
+            [
+              113.55,
+              29.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pengli",
+        "name": "彭蠡湖泽（范围待考）",
+        "kind": "lake",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "pengli-research",
+          "pengli-ecology"
+        ],
+        "note": "部分研究认为古彭蠡泽在九江、黄梅、宿松、望江一带，与现代鄱阳湖并非同一湖体；位置及演变仍有争议。这里只作江北近旁宽泛提示，不表示古湖岸或确切范围。",
+        "periodLabel": "历史湖泽概念示意",
+        "priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.65,
+              30.05
+            ],
+            [
+              116.576,
+              30.2
+            ],
+            [
+              116.375,
+              30.31
+            ],
+            [
+              116.1,
+              30.35
+            ],
+            [
+              115.825,
+              30.31
+            ],
+            [
+              115.624,
+              30.2
+            ],
+            [
+              115.55,
+              30.05
+            ],
+            [
+              115.624,
+              29.9
+            ],
+            [
+              115.825,
+              29.79
+            ],
+            [
+              116.1,
+              29.75
+            ],
+            [
+              116.375,
+              29.79
+            ],
+            [
+              116.576,
+              29.9
+            ],
+            [
+              116.65,
+              30.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "taiwan",
+        "name": "台湾",
+        "kind": "island",
+        "basis": "modern-reference",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "ne-physical"
+        ],
+        "note": "现代地理名称与近似位置，仅作对照，不代表古代建制、管辖或可考的古名。",
+        "periodLabel": "现代地理参考",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121,
+          23.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hainan",
+        "name": "海南",
+        "kind": "island",
+        "basis": "modern-reference",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "ne-physical"
+        ],
+        "note": "现代地理名称与近似位置，仅作对照，不代表古代建制、管辖或可考的古名。",
+        "periodLabel": "现代地理参考",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.75,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eastsea",
+        "name": "东海",
+        "kind": "sea",
+        "basis": "modern-reference",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "ne-physical",
+          "hangzhou-bay"
+        ],
+        "note": "现代地理名称与近似位置，仅作对照，不代表古代建制、管辖或可考的古名。 杭州湾汉末至三国岸线尚未核定；早于汉末的古湾研究不能直接代表此断面岸线。",
+        "periodLabel": "现代地理参考",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125,
+          28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bohai",
+        "name": "渤海",
+        "kind": "sea",
+        "basis": "modern-reference",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "ne-physical"
+        ],
+        "note": "现代地理名称与近似位置，仅作对照，不代表古代建制、管辖或可考的古名。",
+        "periodLabel": "现代地理参考",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4,
+          38.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "southsea",
+        "name": "南海",
+        "kind": "sea",
+        "basis": "modern-reference",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "ne-physical"
+        ],
+        "note": "现代地理名称与近似位置，仅作对照，不代表古代建制、管辖或可考的古名。",
+        "periodLabel": "现代地理参考",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5,
+          18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "coast-north-jiangsu",
+        "name": "苏北黄海古岸（概略）",
+        "kind": "coast",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "schematic-line",
+        "sourceIds": [
+          "coast-yearbook",
+          "coast-yancheng"
+        ],
+        "note": "据上冈、盐城、草堰、东台一带的秦汉至南宋长期海岸文字地标独立绘制，仅提示大致方向与近岸地带；非200或262年实测岸线，不能定位古港、陆海交界或其误差。",
+        "periodLabel": "秦汉至南宋长期概略",
+        "priority": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.82,
+            33.65
+          ],
+          [
+            120.15,
+            33.35
+          ],
+          [
+            120.34,
+            33.05
+          ],
+          [
+            120.32,
+            32.86
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jingzhou-wu-three-262",
+        "name": "荆州（吴地）",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-qing",
+          "three-wu",
+          "song-35"
+        ],
+        "note": "262年孙吴荆州以江陵和长江以南的荆楚地区为方位参考；自绘概略示意，不代表确切州界。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          111.7,
+          29.6
+        ],
+        "faction": "吴"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.0,
+              28.1
+            ],
+            [
+              111.5,
+              27.8
+            ],
+            [
+              113.2,
+              28.4
+            ],
+            [
+              113.8,
+              29.6
+            ],
+            [
+              113.3,
+              30.8
+            ],
+            [
+              111.3,
+              31.0
+            ],
+            [
+              110.0,
+              30.1
+            ],
+            [
+              110.0,
+              28.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yangzhou-wei-three-262",
+        "name": "扬州（魏地）",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-qing",
+          "song-35"
+        ],
+        "note": "262年魏扬州以淮南和寿春方向为地理参考；自绘概略示意，不代表确切州界。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          117.0,
+          33.0
+        ],
+        "faction": "魏"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115.4,
+              32.0
+            ],
+            [
+              116.5,
+              31.7
+            ],
+            [
+              118.2,
+              31.9
+            ],
+            [
+              119.0,
+              33.2
+            ],
+            [
+              118.0,
+              34.1
+            ],
+            [
+              116.5,
+              33.9
+            ],
+            [
+              115.4,
+              32.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "taihu",
+        "name": "震泽（太湖附近）",
+        "kind": "lake",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "taihu-research"
+        ],
+        "note": "用太湖周边自绘示意范围表明震泽这一名称与区域联系；非当时实测湖岸、湖面面积或季节水位。",
+        "periodLabel": "汉末至三国宽时段示意",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              119.8,
+              31.0
+            ],
+            [
+              120.1,
+              30.8
+            ],
+            [
+              120.6,
+              30.9
+            ],
+            [
+              120.6,
+              31.4
+            ],
+            [
+              120.1,
+              31.5
+            ],
+            [
+              119.8,
+              31.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yunmeng",
+        "name": "云梦泽（湖群示意）",
+        "kind": "lake",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "yunmeng-research"
+        ],
+        "note": "江汉平原的多变湖沼群只作区域符号；不同湖泊不代表同期连成一体，不与洞庭湖合并。",
+        "periodLabel": "汉末至三国宽时段示意",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.7,
+              30.4
+            ],
+            [
+              113.2,
+              30.4
+            ],
+            [
+              113.7,
+              30.6
+            ],
+            [
+              113.8,
+              31.0
+            ],
+            [
+              113.2,
+              31.1
+            ],
+            [
+              112.7,
+              30.8
+            ],
+            [
+              112.7,
+              30.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-changan",
+        "name": "长安",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "changan-research"
+        ],
+        "note": "262年曹魏雍州治长安；点位仅示城市附近。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "曹魏雍州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.93,
+          34.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-guzang",
+        "name": "姑臧",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "liang-research"
+        ],
+        "note": "262年曹魏凉州姑臧（今武威附近）州治的区域参照。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "曹魏凉州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.64,
+          37.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-shouchun",
+        "name": "寿春",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "song-35",
+          "three-wu"
+        ],
+        "note": "淮南寿春一带的重要地区中心；不以此点单独断定整个扬州的辖境。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "淮南地区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.79,
+          32.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-jiangling",
+        "name": "江陵",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "three-wu",
+          "houhan-qing"
+        ],
+        "note": "荆楚南郡及三国孙吴重要地区中心的区域参照。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "南郡"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.19,
+          30.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-jin-yang",
+        "name": "晋阳",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "houhan-4",
+          "song-35"
+        ],
+        "note": "并州晋阳大致区域参照，具体驻治时间尚须逐期校核。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "并州地区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5,
+          37.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-ji",
+        "name": "蓟县",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "houhan-4",
+          "song-35"
+        ],
+        "note": "幽州及涿郡方向的蓟县大致区域参照；并不表示具体古城位置。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "幽州地区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.35,
+          39.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-puyang",
+        "name": "濮阳",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200",
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "houhan-3",
+          "three-wei"
+        ],
+        "note": "濮阳与东郡一带的区域参照；不表示具体城墙与战场。",
+        "periodLabel": "汉末或三国参考点",
+        "priority": 2,
+        "seatFor": "东郡地区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.03,
+          35.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jiaozhi-han-200",
+        "name": "交趾部（交州）",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "houhan-4",
+          "song-38",
+          "jiaozhou-research"
+        ],
+        "note": "以岭南及交趾方向作宽泛区域示意。交州名称及建置年代在史籍与研究中有异说；此面不是确切辖区或边界。",
+        "periodLabel": "200年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          109.2,
+          21.7
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.1,
+              19.1
+            ],
+            [
+              106.0,
+              18.4
+            ],
+            [
+              107.7,
+              19.4
+            ],
+            [
+              109.1,
+              20.6
+            ],
+            [
+              111.3,
+              21.7
+            ],
+            [
+              113.4,
+              22.1
+            ],
+            [
+              113.9,
+              23.4
+            ],
+            [
+              113.0,
+              24.2
+            ],
+            [
+              110.9,
+              24.2
+            ],
+            [
+              108.8,
+              23.5
+            ],
+            [
+              107.2,
+              22.4
+            ],
+            [
+              105.5,
+              21.8
+            ],
+            [
+              105.1,
+              19.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jiaozhou-three-262",
+        "name": "交州",
+        "kind": "region",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "schematic-area",
+        "sourceIds": [
+          "song-38",
+          "three-wu"
+        ],
+        "note": "262年前吴之交州方向示意；交广分合、州治及属郡多次变化，面不代表精确州界。",
+        "periodLabel": "262年参考断面",
+        "priority": 1,
+        "labelPoint": [
+          109.2,
+          21.7
+        ],
+        "faction": "吴"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.1,
+              19.1
+            ],
+            [
+              106.0,
+              18.4
+            ],
+            [
+              107.7,
+              19.4
+            ],
+            [
+              109.1,
+              20.6
+            ],
+            [
+              111.3,
+              21.7
+            ],
+            [
+              113.4,
+              22.1
+            ],
+            [
+              113.9,
+              23.4
+            ],
+            [
+              113.0,
+              24.2
+            ],
+            [
+              110.9,
+              24.2
+            ],
+            [
+              108.8,
+              23.5
+            ],
+            [
+              107.2,
+              22.4
+            ],
+            [
+              105.5,
+              21.8
+            ],
+            [
+              105.1,
+              19.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-longbian-200",
+        "name": "龙编",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "han-200"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "houhan-4",
+          "song-38"
+        ],
+        "note": "龙编为东汉交趾郡治之一并见于交趾刺史治所沿革；战乱时期州官驻治及地望存在研究差异，本点仅作交趾郡治方位参照。",
+        "periodLabel": "200年参考断面",
+        "priority": 2,
+        "seatFor": "交趾郡地区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1,
+          21.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seat-panyu-262",
+        "name": "番禺",
+        "kind": "seat",
+        "basis": "historical-schematic",
+        "snapshotIds": [
+          "three-262"
+        ],
+        "precision": "approximate-point",
+        "sourceIds": [
+          "song-38",
+          "jiaozhou-research"
+        ],
+        "note": "交州州治曾迁番禺，孙吴交广多次分合；此为262年前岭南州治的近似区域参考，不指具体官署。",
+        "periodLabel": "262年参考断面",
+        "priority": 2,
+        "seatFor": "交州"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.27,
+          23.12
+        ]
+      }
+    }
+  ]
+}

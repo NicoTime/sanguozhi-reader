@@ -1,0 +1,60 @@
+# npm 依赖许可证清单
+
+本表为 2026-11-08 在 macOS arm64 下依据 lockfile 安装后提取的包元数据，包含开发依赖；其他平台可安装不同的可选二进制包，以对应包自身的许可证及 `package-lock.json` 为准。请保留各依赖的版权与许可证声明。
+
+| 包 | 版本 | 许可证 |
+| --- | --- | --- |
+| `@esbuild/darwin-arm64` | 0.28.2 | MIT |
+| `@mapbox/jsonlint-lines-primitives` | 2.0.3 | MIT |
+| `@mapbox/point-geometry` | 1.1.0 | ISC |
+| `@mapbox/tiny-sdf` | 2.3.0 | BSD-2-Clause |
+| `@mapbox/unitbezier` | 0.0.1 | BSD-2-Clause |
+| `@mapbox/vector-tile` | 2.0.5 | BSD-3-Clause |
+| `@mapbox/whoots-js` | 3.1.0 | ISC |
+| `@maplibre/geojson-vt` | 6.3.0 | ISC |
+| `@maplibre/maplibre-gl-style-spec` | 24.10.0 | ISC |
+| `@maplibre/mlt` | 1.3.0 | (MIT OR Apache-2.0) |
+| `@maplibre/vt-pbf` | 4.3.3 | MIT |
+| `@oxc-project/types` | 0.156.0 | MIT |
+| `@rolldown/binding-darwin-arm64` | 1.2.16 | MIT |
+| `@rolldown/pluginutils` | 1.0.1 | MIT |
+| `@types/geojson` | 7946.0.16 | MIT |
+| `@types/node` | 24.19.2 | MIT |
+| `@types/react` | 19.3.0 | MIT |
+| `@types/react-dom` | 19.3.0 | MIT |
+| `@vitejs/plugin-react` | 6.2.1 | MIT |
+| `csstype` | 3.2.3 | MIT |
+| `detect-libc` | 2.1.2 | Apache-2.0 |
+| `earcut` | 3.2.4 | ISC |
+| `esbuild` | 0.28.2 | MIT |
+| `fdir` | 6.5.0 | MIT |
+| `fsevents` | 2.3.3 | MIT |
+| `gl-matrix` | 3.4.4 | MIT |
+| `json-stringify-pretty-compact` | 4.0.0 | MIT |
+| `kdbush` | 4.1.0 | ISC |
+| `lightningcss` | 1.33.0 | MPL-2.0 |
+| `lightningcss-darwin-arm64` | 1.33.0 | MPL-2.0 |
+| `maplibre-gl` | 5.24.0 | BSD-3-Clause |
+| `minimist` | 1.2.8 | MIT |
+| `murmurhash-js` | 1.0.0 | MIT |
+| `nanoid` | 3.3.20 | MIT |
+| `pbf` | 4.0.2 | BSD-3-Clause |
+| `picocolors` | 1.1.1 | ISC |
+| `picomatch` | 4.0.7 | MIT |
+| `postcss` | 8.5.32 | MIT |
+| `potpack` | 2.1.0 | ISC |
+| `protocol-buffers-schema` | 3.6.1 | MIT |
+| `quickselect` | 3.0.0 | ISC |
+| `react` | 19.3.1 | MIT |
+| `react-dom` | 19.3.1 | MIT |
+| `resolve-protobuf-schema` | 2.1.0 | MIT |
+| `rolldown` | 1.2.16 | MIT |
+| `scheduler` | 0.28.0 | MIT |
+| `source-map-js` | 1.2.2 | BSD-3-Clause |
+| `tinyglobby` | 0.2.17 | MIT |
+| `tinyqueue` | 3.0.0 | ISC |
+| `tsx` | 4.23.15 | MIT |
+| `typescript` | 5.9.3 | Apache-2.0 |
+| `undici-types` | 7.24.6 | MIT |
+| `vite` | 8.3.6 | MIT |
+| `zod` | 4.6.7 | MIT |

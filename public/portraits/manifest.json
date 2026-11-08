@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "persons": [
+    {
+      "personId": "cao-cao",
+      "name": "曹操",
+      "birthYear": 155,
+      "deathYear": 220,
+      "disclaimer": "AI 生成 · 艺术想象",
+      "stages": [
+        {"id":"young","label":"青年","ageMin":0,"ageMax":34,"imagePath":"portraits/cao-cao-young.webp","alt":"曹操青年形象的 AI 艺术想象，约二十五岁，身着汉末服饰"},
+        {"id":"middle","label":"中年","ageMin":35,"ageMax":54,"imagePath":"portraits/cao-cao-middle.webp","alt":"曹操中年形象的 AI 艺术想象，约四十五岁，身着汉末服饰"},
+        {"id":"late","label":"晚年","ageMin":55,"ageMax":65,"imagePath":"portraits/cao-cao-late.webp","alt":"曹操晚年形象的 AI 艺术想象，约六十二岁，身着汉末服饰"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2375 @@
+{
+  "schemaVersion": 1,
+  "title": "官渡之战",
+  "subtitle": "《三国志》卷一《武帝纪》选读 · 建安五年（公元200年）",
+  "editorialNote": "正文与裴注取自本地简体转换 EPUB，按原有字词和标点摘录。样章略去同卷东征刘备、孙策与汝南支线。白话义注、词解、事件摘要和地图定位由本项目整理。地图点位表示参考地望，行动线只示起终点关系。",
+  "sources": [
+    {
+      "id": "epub-simplified",
+      "title": "三国志（陈寿撰裴松之注·简体转换版）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c4_san_guo_zhi_juan01.xhtml",
+      "note": "维基文库《三國志》导出本或其派生版本；卷页：https://zh.wikisource.org/wiki/三國志/卷01；卷内 XHTML SHA-256：6063665344ca46d3a02b8a8e7b8ed8b0b591b981415a898b62a6a3fe1d0a2c6a。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-traditional",
+      "title": "三国志（陈寿撰裴松之注）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注）.epub → OPS/c4_san_guo_zhi_juan01.xhtml",
+      "note": "维基文库《三國志》导出本或其派生版本；卷页：https://zh.wikisource.org/wiki/三國志/卷01；卷内 XHTML SHA-256：1c5ee4c2119fae90f644796388a244385421e37472433aa5613ac102bfb97faa。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-no-notes",
+      "title": "三国志（陈寿原文·简体无裴注阅读版）",
+      "kind": "epub",
+      "locator": "三国志（陈寿原文·简体无裴注阅读版）.epub → OPS/c4_san_guo_zhi_juan01.xhtml",
+      "note": "维基文库《三國志》导出本或其派生版本；卷页：https://zh.wikisource.org/wiki/三國志/卷01；卷内 XHTML SHA-256：214c39e292f6ce8078163a7ef2d330fa9b3516d5f0ba6691e20606a939d7d844。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "editorial-guandu",
+      "title": "本项目整理",
+      "kind": "editorial",
+      "locator": "docs/content-report.md",
+      "note": "原创义注、事件摘要、人物身份提要及地图取点说明。"
+    },
+    {
+      "id": "tgaz-baima",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：白马县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82320",
+      "note": "东汉东郡县治参考点；详页考证落在今滑县东南白马墙。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-liyang",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：黎阳县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82316",
+      "note": "详页定在今浚县东郊大伾山东北，古县治参考点。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-yangwu",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：阳武县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82525",
+      "note": "覆盖建安五年的古县条目，采用坐标及地望详注。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-xu",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：许县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_83011",
+      "note": "覆盖建安五年的许县县治参考点，详注讨论张潘故城。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "tgaz-suanzao",
+      "title": "中国历史地理信息系统 CHGIS／TGAZ：酸枣县",
+      "kind": "dataset",
+      "locator": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_82282",
+      "note": "东汉酸枣县治参考点；仅作延津古河段的区域参照，非渡口或战场定位。",
+      "license": "CC BY-NC 4.0（复旦 TGAZ 单条记录页所列）"
+    },
+    {
+      "id": "baima-local",
+      "title": "滑县留固镇政府：白马古城遗址与白马墙村",
+      "kind": "web",
+      "locator": "https://www.hnhx.gov.cn/jczwgk/jdzjczwgk/lgz/ggwhfw/webinfo/2022/11/1672745123515782.htm",
+      "note": "明确白马墙村为省级文物保护单位白马古城遗址所在地。"
+    },
+    {
+      "id": "xu-local",
+      "title": "许昌市建安区政府：汉魏许都故城",
+      "kind": "web",
+      "locator": "https://www.jianan.gov.cn/jagk/002003/20180711/21d701f7-882c-4a7a-9f56-a59b579a75dc.html",
+      "note": "确定张潘镇古城村一带的故城范围。"
+    },
+    {
+      "id": "guandu-local",
+      "title": "郑州文明网：谈古论今说官渡",
+      "kind": "web",
+      "locator": "https://zz.wenming.cn/wmzz_xwzx/202509/t20250909_9020921.html",
+      "note": "汇列明清《中牟县志》关于官渡城、官渡台及官渡桥的记载；后世记载给出地望线索。"
+    },
+    {
+      "id": "guandu-osm",
+      "title": "OpenStreetMap：官渡桥村（现代位置）",
+      "kind": "dataset",
+      "locator": "https://www.openstreetmap.org/node/6945971714",
+      "note": "取现代村落节点附近作为官渡地域显示锚点。",
+      "license": "© OpenStreetMap contributors，ODbL 1.0"
+    },
+    {
+      "id": "shuijing-he",
+      "title": "《水经注》卷五·河水",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/CADAL02030776/chapter/1l1xa0l7bhlx0",
+      "note": "记述酸枣附近一段黄河通称延津，不能落实汉末某一登岸点。"
+    },
+    {
+      "id": "shuijing-ji",
+      "title": "《水经注》卷七·济水",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/book/SBCK047/chapter/1j715dhpatoor_23",
+      "note": "将酸枣乌巢泽与泽北故市亭并记，另记河南郡的故市县故城；古籍所记水路关系不能直接转成现代坐标。"
+    },
+    {
+      "id": "tongjian-geo",
+      "title": "王应麟《通鉴地理通释》卷十一",
+      "kind": "web",
+      "locator": "https://www.shidianguji.com/mid-page/7352264494015512585",
+      "note": "官渡水、官渡口与中牟台的古地望汇考；也汇列延津渡相关记载。"
+    },
+    {
+      "id": "wuchao-local",
+      "title": "延津县政府：僧固乡麦海骑行活动报道",
+      "kind": "web",
+      "locator": "https://www.yanjin.gov.cn/newsinfo/22360.html",
+      "note": "当地把乌巢之战联系到僧固乡；作为地方定位说法，不是考古定点。"
+    },
+    {
+      "id": "wuchao-dongshigu",
+      "title": "新乡日报：延津渡（东史固村说）",
+      "kind": "web",
+      "locator": "https://news.xxrb.com.cn/html/2026/xinxiang_0112/427808.html",
+      "note": "将乌巢进一步比定在东史固村；作为当地报道，与《水经注》地望线索分开。"
+    },
+    {
+      "id": "river-research",
+      "title": "《地理学报》：过去2000年中国自然与人文地理环境变化",
+      "kind": "web",
+      "locator": "https://www.geog.com.cn/EN/abstract/article/0375-5444/49025",
+      "note": "说明黄河下游多次改道及王景治河的时代背景，区域综述不能定位建安五年战区河岸。"
+    },
+    {
+      "id": "epub-yuan",
+      "title": "《三国志》卷六·袁绍传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c1_san_guo_zhi_juan06.xhtml；袁绍将攻许及官渡败退段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷06。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-cao-hong",
+      "title": "《三国志》卷九·曹洪传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c16_san_guo_zhi_juan09.xhtml；曹洪传开篇",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷09。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-strategists",
+      "title": "《三国志》卷十·荀彧荀攸贾诩传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c17_san_guo_zhi_juan10.xhtml；荀彧传官渡书信；荀攸传白马、延津、断粮、袭淳于琼",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷10。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-generals",
+      "title": "《三国志》卷十七·张辽张郃徐晃传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c21_san_guo_zhi_juan17.xhtml；张辽、张郃、徐晃各本传开篇及官渡相关叙事",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷17。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-liu",
+      "title": "《三国志》卷三十二·先主传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c35_san_guo_zhi_juan32.xhtml；先主传开篇及徐州败后从袁绍段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷32。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "epub-guan",
+      "title": "《三国志》卷三十六·关羽传（简体转换 EPUB）",
+      "kind": "epub",
+      "locator": "三国志（陈寿撰裴松之注·简体转换版）.epub → OPS/c39_san_guo_zhi_juan36.xhtml；关羽传开篇及斩颜良后归刘备段",
+      "note": "同一 EPUB 内交叉对读。维基文库卷页：https://zh.wikisource.org/wiki/三國志/卷36。",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "wuchao-osm",
+      "title": "OpenStreetMap：东史固村（现代位置）",
+      "kind": "dataset",
+      "locator": "https://www.openstreetmap.org/node/6626944424",
+      "note": "取现代村落节点附近标出东史固说的地域，非粮屯位置。",
+      "license": "© OpenStreetMap contributors，ODbL 1.0"
+    },
+    {
+      "id": "atlas-east-han",
+      "title": "谭其骧主编《中国历史地图集》第二册·东汉图组",
+      "kind": "web",
+      "locator": "https://www.dituji.com/lsdt/zglsdtj/donghan/",
+      "note": "东汉《冀州刺史部》提供黄河走向控制点，《东郡齐国间诸郡》核对白马南侧地望，《司隶校尉部》核对并定位中牟渠水河段。出版信息：中国地图出版社，1982年。",
+      "license": "图集地图版权归权利方。样章只引用可核对的地域走向和经纬网读数，未收录原图或现成矢量。"
+    },
+    {
+      "id": "shuijing-qu",
+      "title": "《水经注》卷二十二·渠水（《水经注疏》所录）",
+      "kind": "web",
+      "locator": "https://www.kepub.net/book/51073/10022",
+      "note": "郦注记渠水经阳武县故城南，向东名官渡水，再经曹太祖垒北。古籍所记水道关系不等于建安五年河岸。"
+    },
+    {
+      "id": "dapishan-study",
+      "title": "张新斌《大伾山与早期黄河河道变迁的再认识》",
+      "kind": "web",
+      "locator": "https://www.zywhyj.cn/Uploads/PdfFile/2021-07-15/60eff1e781270.pdf",
+      "note": "《中原文化研究》2021年第4期，第108—115页。整理卷县、延津、滑台、黎阳河段次序及大河故渎之别。"
+    },
+    {
+      "id": "editorial-geography-v2",
+      "title": "本项目整理：官渡样章历史河道控制点与态势",
+      "kind": "editorial",
+      "locator": "docs/historical-geography-v2.md",
+      "note": "公开列出地图经纬网和控制点的读数方法，以及战时位置与区域示意的边界。"
+    }
+  ],
+  "persons": [
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "description": "官渡一方主帅，《武帝纪》在本章多称“公”。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yuan-shao",
+      "name": "袁绍",
+      "description": "袁军主帅；此前已击败公孙瓒，本章进兵官渡。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan"
+      ],
+      "courtesyName": "本初"
+    },
+    {
+      "id": "liu-yan",
+      "name": "刘延",
+      "description": "东郡太守，在白马被围；与益州牧刘焉不是同一人。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "guo-tu",
+      "name": "郭图",
+      "description": "袁绍部属，参与进攻白马。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan"
+      ]
+    },
+    {
+      "id": "chunyu-qiong",
+      "name": "淳于琼",
+      "description": "袁绍将领，先参与围攻白马，后领兵护粮；《曹瞒传》称淳于仲简。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yan-liang",
+      "name": "颜良",
+      "description": "袁绍将领，围攻白马，被曹军击破。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan",
+        "epub-guan"
+      ]
+    },
+    {
+      "id": "xun-you",
+      "name": "荀攸",
+      "description": "曹操谋臣，参与白马、延津、截粮与袭击淳于琼诸项决策。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-strategists"
+      ],
+      "courtesyName": "公达"
+    },
+    {
+      "id": "zhang-liao",
+      "name": "张辽",
+      "description": "当时已归曹操，在白马与关羽率先迎战。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ],
+      "courtesyName": "文远"
+    },
+    {
+      "id": "guan-yu",
+      "name": "关羽",
+      "description": "原从刘备，白马一役时暂在曹营；战后离开曹操，归刘备。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-guan"
+      ],
+      "courtesyName": "云长"
+    },
+    {
+      "id": "wen-chou",
+      "name": "文丑",
+      "description": "袁绍骑将，随追兵到延津，在此战中被杀。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan"
+      ]
+    },
+    {
+      "id": "liu-bei",
+      "name": "刘备",
+      "description": "徐州失利后投袁绍，随文丑等部至延津战场。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-liu"
+      ]
+    },
+    {
+      "id": "xun-yu",
+      "name": "荀彧",
+      "description": "曹操谋臣，在曹操考虑退回许县时回信劝守。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-strategists"
+      ],
+      "courtesyName": "文若"
+    },
+    {
+      "id": "xu-huang",
+      "name": "徐晃",
+      "description": "曹操部将，与史涣截击袁军运粮车。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ],
+      "courtesyName": "公明"
+    },
+    {
+      "id": "shi-huan",
+      "name": "史涣",
+      "description": "曹操部将，与徐晃同行截击袁军粮车。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ]
+    },
+    {
+      "id": "xu-you",
+      "name": "许攸",
+      "description": "原为袁绍谋臣；官渡相持时投曹，建议袭击护粮部队。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan",
+        "epub-strategists"
+      ]
+    },
+    {
+      "id": "jia-xu",
+      "name": "贾诩",
+      "description": "当时已归曹操；许攸来投后，与荀攸同劝曹操采纳袭粮建议。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-strategists"
+      ],
+      "courtesyName": "文和"
+    },
+    {
+      "id": "cao-hong",
+      "name": "曹洪",
+      "description": "曹操从弟；曹操夜出时留守大营。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-cao-hong"
+      ],
+      "courtesyName": "子廉"
+    },
+    {
+      "id": "yuan-tan",
+      "name": "袁谭",
+      "description": "袁绍长子，袁军溃败后随父弃军渡河。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan"
+      ]
+    },
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "description": "袁绍将领，袭粮后归降曹操；本传另记其主张先救乌巢。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals"
+      ],
+      "courtesyName": "隽乂"
+    },
+    {
+      "id": "gao-lan",
+      "name": "高览",
+      "description": "袁绍将领，与张郃同归曹操。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan",
+        "epub-strategists"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "baima",
+      "name": "白马",
+      "modernName": "河南滑县留固镇白马墙村一带",
+      "kind": "county",
+      "coordinates": [
+        114.71,
+        35.54
+      ],
+      "precision": "approximate-area",
+      "note": "东郡白马县治附近。取 CHGIS 县治坐标并作舍入；当地文保材料亦指白马墙村。标点不代表颜良阵地、关羽斩将处或白马津。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-baima",
+        "baima-local"
+      ]
+    },
+    {
+      "id": "liyang",
+      "name": "黎阳",
+      "modernName": "河南浚县东郊大伾山东北一带",
+      "kind": "county",
+      "coordinates": [
+        114.6,
+        35.68
+      ],
+      "precision": "approximate-area",
+      "note": "魏郡黎阳县治参考点，坐标据 CHGIS 舍入。袁绍至黎阳准备渡河；原文未给本次具体登岸点，古县治也不等同于隋代黎阳仓。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-liyang"
+      ]
+    },
+    {
+      "id": "yanjin",
+      "name": "延津",
+      "modernName": "河南原阳东北至延津西部附近的古黄河津渡地域",
+      "kind": "ford",
+      "coordinates": [
+        114.07,
+        35.14
+      ],
+      "precision": "uncertain",
+      "note": "《水经注》记酸枣附近一段河道通称延津，后世地志又比定灵昌津。图点借 CHGIS 东汉酸枣县治附近提示大致地域，不是渡口坐标，也不是延津南交战点。",
+      "sourceIds": [
+        "epub-simplified",
+        "shuijing-he",
+        "tongjian-geo",
+        "tgaz-suanzao",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "guandu",
+      "name": "官渡",
+      "modernName": "河南中牟官渡桥村及附近",
+      "kind": "battlefield",
+      "coordinates": [
+        114.05,
+        34.75
+      ],
+      "precision": "approximate-area",
+      "note": "《水经注》与后世方志把曹公垒、官渡水与中牟一带联系起来；地图借现代官渡桥村标出这一地域，不能据此确定两军营垒或古渡口边界。",
+      "sourceIds": [
+        "epub-simplified",
+        "tongjian-geo",
+        "guandu-local",
+        "guandu-osm",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yangwu",
+      "name": "阳武",
+      "modernName": "河南原阳东南一带",
+      "kind": "county",
+      "coordinates": [
+        114.1,
+        34.98
+      ],
+      "precision": "approximate-area",
+      "note": "东汉河南尹阳武县；取 CHGIS 古县治参考点并舍入。与同一地区的原武是不同古县，图点不代表袁军营址。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-yangwu"
+      ]
+    },
+    {
+      "id": "xu",
+      "name": "许",
+      "modernName": "河南许昌建安区张潘镇古城村一带",
+      "kind": "city",
+      "coordinates": [
+        114.01,
+        33.99
+      ],
+      "precision": "approximate-area",
+      "note": "建安五年的许县，是当时汉献帝所在。坐标取 CHGIS 许县县治近似值，并参照当地公布的汉魏许都故城；不以现代许昌市区代替。",
+      "sourceIds": [
+        "epub-simplified",
+        "tgaz-xu",
+        "xu-local"
+      ]
+    },
+    {
+      "id": "wuchao",
+      "name": "乌巢",
+      "modernName": "河南延津县东南僧固乡东史固村一带（一说）",
+      "kind": "battlefield",
+      "coordinates": [
+        114.25,
+        35.13
+      ],
+      "precision": "uncertain",
+      "note": "《水经注》记酸枣乌巢泽。当地把粮屯比定在僧固乡，东史固村是其中一种具体说法；图点只标现代村落附近，不能确定曹军夜行终点、粮屯边界或古泽岸线。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals",
+        "shuijing-ji",
+        "wuchao-local",
+        "wuchao-dongshigu",
+        "wuchao-osm",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "gushi",
+      "name": "故市",
+      "modernName": "今地未核定；有酸枣乌巢泽北故市亭之说",
+      "kind": "other",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "《徐晃传》把截击运粮车系于故市；《曹瞒传》并列故市、乌巢。《水经注》分别记乌巢泽北故市亭与河南郡故市县故城，样章不把两处等同，也不把两次截粮画在同一地点。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-generals",
+        "shuijing-ji",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "yellow-river",
+      "name": "河（黄河）",
+      "modernName": "战事所涉汉末黄河河段，今线位不同",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "历史图展示白马、延津一带的东汉黄河大致走向。具体渡口与河岸位置未定，现代水系仅供现代对照。",
+      "sourceIds": [
+        "epub-simplified",
+        "shuijing-he",
+        "atlas-east-han",
+        "river-research",
+        "editorial-guandu"
+      ]
+    },
+    {
+      "id": "jizhou",
+      "name": "冀州",
+      "modernName": "约涉今河北、山东、河南部分地区；本章不复原边界",
+      "kind": "region",
+      "coordinates": null,
+      "precision": "unlocated",
+      "note": "此处指东汉冀州。各郡县有降者，原文未逐一列举；不以现代省界或单点代表。",
+      "sourceIds": [
+        "epub-simplified",
+        "epub-yuan",
+        "editorial-guandu"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "pei-xu-you-plan",
+      "kind": "pei",
+      "anchorText": "公亦分营与相当，合战不利。",
+      "original": "习凿齿《汉晋春秋》曰：许攸说绍曰：「公无与操相攻也。急分诸军持之，而径从他道迎天子，则事立济矣。」绍不从，曰：「吾要当先围取之。」攸怒。",
+      "sourceTitles": [
+        "汉晋春秋"
+      ],
+      "summary": "本项目整理：《汉晋春秋》另记许攸建议分兵牵制曹操，绕道去迎汉献帝；袁绍坚持先围曹营。此说属于裴注补载。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 47,
+        "blockIndex": 0,
+        "bodyOffset": 34,
+        "epubAnchor": "#mwt57"
+      }
+    },
+    {
+      "id": "pei-army-numbers",
+      "kind": "pei",
+      "anchorText": "时公兵不满万，伤者十二三。",
+      "original": "臣松之以为魏武初起兵，已有众五千，自后百战百胜，败者十二三而已矣。但一破黄巾，受降卒三十余万，余所吞并，不可悉纪；虽征战损伤，未应如此之少也。夫结营相守，异于摧锋决战。本纪云：「绍众十余万，屯营东西数十里。」魏太祖虽机变无方，略不世出，安有以数千之兵，而得逾时相抗者哉？以理而言，窃谓不然。绍为屯数十里，公能分营与相当，此兵不得甚少，一也。绍若有十倍之众，理应当悉力围守，使出入断绝，而公使徐晃等击其运车，公又自出击淳于琼等，扬旌往还，曾无抵阂，明绍力不能制，是不得甚少，二也。诸书皆云公坑绍众八万，或云七万。夫八万人奔散，非八千人所能缚，而绍之大众皆拱手就戮，何缘力能制之？是不得甚少，三也。将记述者欲以少见奇，非其实录也。按《钟繇传》云：「公与绍相持，繇为司隷，送马二千余匹以给军。」本纪及《世语》并云公时有骑六百余匹，繇马为安在哉？",
+      "sourceTitles": [
+        "钟繇传",
+        "世语"
+      ],
+      "summary": "本项目整理：裴松之直接质疑本纪的曹军兵数。他用营垒规模、曹军可往返袭粮、俘杀人数与钟繇所送军马交叉反问，未给出一个可替换的确数。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 47,
+        "blockIndex": 1,
+        "bodyOffset": 47,
+        "epubAnchor": "#mwt58"
+      }
+    },
+    {
+      "id": "pei-caoman-wuchao",
+      "kind": "pei",
+      "anchorText": "士卒皆殊死战，大破琼等，皆斩之。",
+      "original": "《曹瞒传》曰：公闻攸来，跣出迎之，抚掌笑曰：「子卿远来，吾事济矣！」既入坐，谓公曰：「袁氏军盛，何以待之？今有几粮乎？」公曰：「尚可支一岁。」攸曰：「无是，更言之！」又曰：「可支半岁。」攸曰：「足下不欲破袁氏邪，何言之不实也！」公曰：「向言戏之耳。其实可一月，为之柰何？」攸曰：「公孤军独守，外无救援而粮谷已尽，此危急之日也。今袁氏辎重有万余乘，在故市、乌巢，屯军无严备；今以轻兵袭之，不意而至，燔其积聚，不过三日，袁氏自败也。」公大喜，乃选精锐步骑，皆用袁军旗帜，衔枚缚马口，夜从间道出，人抱束薪，所历道有问者，语之曰：「袁公恐曹操钞略后军，遣兵以益备。」闻者信以为然，皆自若。既至，围屯，大放火，营中惊乱。大破之，尽燔其粮谷宝货，斩督将眭元进、骑督韩莒子、吕威璜、赵叡等首，割得将军淳于仲简鼻，未死，杀士卒千余人，皆取鼻，牛马割唇舌，以示绍军。将士皆怛惧。时有夜得仲简，将以诣麾下，公谓曰：「何为如是？」仲简曰：「胜负自天，何用为问乎！」公意欲不杀。许攸曰：「明且鉴于镜，此益不忘人。」乃杀之。",
+      "sourceTitles": [
+        "曹瞒传"
+      ],
+      "summary": "本项目整理：《曹瞒传》补叙故市、乌巢、冒用旗帜和纵火等细节，并说淳于琼先被俘、后被杀。它与本纪叙事详略及写法有别，不能把对话、行军细节当作已获独立证实。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 50,
+        "blockIndex": 0,
+        "bodyOffset": 252,
+        "epubAnchor": "#mwt59"
+      },
+      "variants": [
+        {
+          "baseText": "子卿远",
+          "reading": "一作「子远，卿」",
+          "textOffset": 23
+        },
+        {
+          "baseText": "且",
+          "reading": "一作「旦」",
+          "textOffset": 433
+        }
+      ]
+    },
+    {
+      "id": "pei-xiandi-memorial",
+      "kind": "pei",
+      "anchorText": "追之不及，尽收其辎重图书珎宝，虏其众。",
+      "original": "《献帝起居注》曰：公上言「大将军邺侯袁绍前与冀州牧韩馥立故大司马刘虞，刻作金玺，遣故任长毕瑜诣虞，为说命录之数。又绍与臣书云：『可都鄄城，当有所立。』擅铸金银印，孝廉计吏，皆往诣绍。从弟济阴太守叙与绍书云：『今海内丧败，天意实在我家，神应有征，当在尊兄。南兄臣下欲使即位，南兄言，以年则北兄长，以位则北兄重。便欲送玺，会曹操断道。』绍宗族累世受国重恩，而凶逆无道，乃至于此。輙勒兵马，与战官渡，乘圣朝之威，得斩绍大将淳于琼等八人首，遂大破溃。绍与子谭轻身迸走。凡斩首七万余级，辎重财物巨亿。」",
+      "sourceTitles": [
+        "献帝起居注"
+      ],
+      "summary": "本项目整理：所引为曹操报捷、指控袁绍的奏文。七万余首级是奏文的说法；本纪这一句没有给人数。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 50,
+        "blockIndex": 1,
+        "bodyOffset": 342,
+        "epubAnchor": "#mwt62"
+      }
+    },
+    {
+      "id": "pei-cao-burning-letters",
+      "kind": "pei",
+      "anchorText": "公收绍书中，得许下及军中人书，皆焚之。",
+      "original": "《魏氏春秋》曰：公云：「当绍之彊，孤犹不能自保，而况众人乎！」",
+      "sourceTitles": [
+        "魏氏春秋"
+      ],
+      "summary": "本项目整理：孙盛书中所记曹操解释说，袁绍强盛时连自己也不能自保，何况旁人。此为该书所录说法。",
+      "sourceIds": [
+        "epub-simplified",
+        "editorial-guandu"
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 50,
+        "blockIndex": 2,
+        "bodyOffset": 361,
+        "epubAnchor": "#mwt63"
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "baima-relief",
+      "title": "白马解围",
+      "time": {
+        "year": 200,
+        "era": "建安五年",
+        "label": "二月；夏四月",
+        "certainty": "explicit"
+      },
+      "originalText": "二月，绍遣郭图、淳于琼、颜良攻东郡太守刘延于白马，绍引兵至黎阳，将渡河。夏四月，公北救延。荀攸说公曰：「今兵少不敌，分其势乃可。公到延津，若将渡兵向其后者，绍必西应之，然后轻兵袭白马，掩其不备，颜良可禽也。」公从之。绍闻兵渡，即分兵西应之。公乃引军兼行趣白马，未至十余里，良大惊，来逆战。使张辽、关羽前登，击破，斩良。",
+      "parts": [
+        {
+          "text": "二月，绍遣"
+        },
+        {
+          "text": "郭图",
+          "personId": "guo-tu"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "淳于琼",
+          "personId": "chunyu-qiong"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "颜良",
+          "personId": "yan-liang"
+        },
+        {
+          "text": "攻东郡太守"
+        },
+        {
+          "text": "刘延",
+          "personId": "liu-yan"
+        },
+        {
+          "text": "于"
+        },
+        {
+          "text": "白马",
+          "placeId": "baima"
+        },
+        {
+          "text": "，绍引兵至"
+        },
+        {
+          "text": "黎阳",
+          "placeId": "liyang"
+        },
+        {
+          "text": "，将"
+        },
+        {
+          "text": "渡河",
+          "placeId": "yellow-river"
+        },
+        {
+          "text": "。夏四月，公北救延。"
+        },
+        {
+          "text": "荀攸",
+          "personId": "xun-you"
+        },
+        {
+          "text": "说公曰：「今兵少不敌，分其势乃可。公到"
+        },
+        {
+          "text": "延津",
+          "placeId": "yanjin"
+        },
+        {
+          "text": "，若将渡兵向其后者，绍必西应之，然后轻兵袭"
+        },
+        {
+          "text": "白马",
+          "placeId": "baima"
+        },
+        {
+          "text": "，掩其不备，"
+        },
+        {
+          "text": "颜良",
+          "personId": "yan-liang"
+        },
+        {
+          "text": "可禽也。」公从之。绍闻兵渡，即分兵西应之。公乃引军兼行趣"
+        },
+        {
+          "text": "白马",
+          "placeId": "baima"
+        },
+        {
+          "text": "，未至十余里，良大惊，来逆战。使"
+        },
+        {
+          "text": "张辽",
+          "personId": "zhang-liao"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "前登，击破，斩良。"
+        }
+      ],
+      "translation": "二月，袁绍派郭图、淳于琼、颜良到白马攻打东郡太守刘延，自己领军到黎阳，准备渡河。夏四月，曹操北上救援。荀攸说，曹军兵少，宜先分散对手兵力：到延津做出要渡河抄到袁军后方的样子，袁绍必向西应对，再以轻装部队突袭白马。曹操采纳此计。袁绍听说有兵渡河，就分兵西应。曹操率军赶赴白马，离白马还有十多里，颜良大惊，出迎作战。张辽、关羽率先进击，击破敌军，斩杀颜良，白马解围。",
+      "glosses": [
+        {
+          "term": "兼行",
+          "explanation": "加快行军，赶路赴援。"
+        },
+        {
+          "term": "前登",
+          "explanation": "率先向敌军进击；此处不必理解为登城。"
+        }
+      ],
+      "summary": "袁绍由黎阳进逼黄河，派兵围白马。曹操用荀攸的办法在延津制造渡河声势，再轻兵急赴白马。",
+      "placeIds": [
+        "baima",
+        "liyang",
+        "yanjin",
+        "yellow-river"
+      ],
+      "personIds": [
+        "cao-cao",
+        "yuan-shao",
+        "liu-yan",
+        "guo-tu",
+        "chunyu-qiong",
+        "yan-liang",
+        "xun-you",
+        "zhang-liao",
+        "guan-yu"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "baima",
+      "movements": [],
+      "battlePhases": [
+        {
+          "id": "phase-baima-siege",
+          "title": "袁绍临河，颜良围白马",
+          "summary": "袁绍率主力到黄河北侧的黎阳，准备渡河。颜良等已攻到白马，刘延在白马迎敌。",
+          "deployments": [
+            {
+              "id": "flag-liyang-yuan",
+              "label": "袁绍",
+              "faction": "yuan",
+              "commanderId": "yuan-shao",
+              "role": "主力",
+              "placeId": "liyang",
+              "coordinates": [
+                114.6,
+                35.68
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "《武帝纪》明确记袁绍到黎阳。用东汉县治附近标示，渡口和营地未定。",
+              "action": "引兵至黎阳，准备渡河。",
+              "sourceIds": [
+                "epub-simplified",
+                "tgaz-liyang"
+              ]
+            },
+            {
+              "id": "flag-baima-yan-siege",
+              "label": "颜良",
+              "faction": "yuan",
+              "commanderId": "yan-liang",
+              "role": "攻城部队",
+              "placeId": "baima",
+              "coordinates": [
+                114.71,
+                35.54
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本纪记颜良等攻刘延于白马。旗落在古白马县治附近，围城阵地未定。",
+              "action": "与郭图、淳于琼攻刘延。",
+              "sourceIds": [
+                "epub-simplified",
+                "tgaz-baima"
+              ]
+            },
+            {
+              "id": "flag-baima-liu-siege",
+              "label": "刘延",
+              "faction": "cao",
+              "commanderId": "liu-yan",
+              "role": "白马守军",
+              "placeId": "baima",
+              "coordinates": [
+                114.71,
+                35.54
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本纪记刘延在白马受攻。图点表示白马地域。",
+              "action": "在白马迎击袁军。",
+              "sourceIds": [
+                "epub-simplified",
+                "tgaz-baima"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "shuijing-he"
+          ]
+        },
+        {
+          "id": "phase-baima-feint",
+          "title": "延津作渡河之势",
+          "summary": "曹操采纳荀攸之计，在延津作渡河之势。袁绍闻讯，分兵向西应对。",
+          "deployments": [
+            {
+              "id": "flag-yanjin-cao-feint",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "疑兵所示方向",
+              "placeId": "yanjin",
+              "coordinates": [
+                114.07,
+                35.14
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪记荀攸建议到延津示渡，并记曹操从之。点借古津所在河段的区域参照。",
+              "action": "以渡河声势牵动袁绍分兵。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-strategists",
+                "shuijing-he"
+              ]
+            },
+            {
+              "id": "flag-yuan-feint",
+              "label": "袁绍",
+              "faction": "yuan",
+              "commanderId": "yuan-shao",
+              "role": "西应部队",
+              "placeId": null,
+              "coordinates": null,
+              "precision": "unlocated",
+              "positionBasis": "本纪只记分兵西应，未记分兵所至，也未具名该部将领。",
+              "action": "主帅袁绍闻渡河消息后分兵西应。",
+              "sourceIds": [
+                "epub-simplified"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "epub-strategists"
+          ]
+        },
+        {
+          "id": "phase-baima-relief",
+          "title": "轻兵急赴白马",
+          "summary": "曹操急趋白马，颜良出迎。张辽和关羽先攻，颜良被杀，白马解围。",
+          "deployments": [
+            {
+              "id": "flag-baima-cao-relief",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "援军主帅",
+              "placeId": "baima",
+              "coordinates": [
+                114.71,
+                35.54
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本纪记曹操率军趋白马，在距白马十余里时与颜良遭遇。具体方向和交战点未定。",
+              "action": "令张辽、关羽先攻。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-guan",
+                "tgaz-baima"
+              ]
+            },
+            {
+              "id": "flag-baima-yan-relief",
+              "label": "颜良",
+              "faction": "yuan",
+              "commanderId": "yan-liang",
+              "role": "迎战部队",
+              "placeId": "baima",
+              "coordinates": [
+                114.71,
+                35.54
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本纪记颜良在白马附近出迎。旗表示白马战区。",
+              "action": "出迎曹军，交战中被杀。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-guan",
+                "tgaz-baima"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "epub-guan"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "march-baima-yuan-liyang",
+          "order": 1,
+          "faction": "yuan",
+          "commanderId": "yuan-shao",
+          "from": null,
+          "to": "liyang",
+          "fromLabel": "出发地未载",
+          "toLabel": "黎阳",
+          "label": "袁绍引兵至黎阳",
+          "description": "本纪记袁绍领军抵黎阳，准备渡河。来路未载，具体渡口和此时有无渡过均不由这一句确定。",
+          "phaseIds": [
+            "phase-baima-siege"
+          ],
+          "precision": "unlocated",
+          "sourceIds": [
+            "epub-simplified",
+            "tgaz-liyang"
+          ]
+        },
+        {
+          "id": "march-baima-yuan-west",
+          "order": 2,
+          "faction": "yuan",
+          "commanderId": "yuan-shao",
+          "from": null,
+          "to": null,
+          "fromLabel": "袁军分兵处未载",
+          "toLabel": "向西应对，所至未载",
+          "label": "袁绍分兵西应",
+          "description": "本纪记袁绍闻渡河消息后分兵向西应对。史书只交代应对方向，未载分兵的出发点与到达地。",
+          "phaseIds": [
+            "phase-baima-feint"
+          ],
+          "precision": "unlocated",
+          "sourceIds": [
+            "epub-simplified"
+          ]
+        },
+        {
+          "id": "march-baima-cao-relief",
+          "order": 1,
+          "faction": "cao",
+          "commanderId": "cao-cao",
+          "from": "yanjin",
+          "to": "baima",
+          "fromLabel": "延津一带",
+          "toLabel": "白马一带",
+          "label": "曹操由延津急赴白马",
+          "description": "本纪先记荀攸建议在延津示渡、曹操采纳，再记曹操引军急趋白马。箭头概括这两个行动区域的先后关系，延津用古津附近的地望参照，未据此判定曹军渡过黄河。",
+          "phaseIds": [
+            "phase-baima-relief"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-strategists",
+            "shuijing-he",
+            "tgaz-baima"
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 46,
+        "excerptStart": "二月，绍遣",
+        "excerptEnd": "击破，斩良。",
+        "startOffset": 0,
+        "endOffsetExclusive": 159,
+        "note": "p[46] 前段。下片段从解围后迁民与沿河西行接起。"
+      }
+    },
+    {
+      "id": "yanjin-counterattack",
+      "title": "延津反击",
+      "time": {
+        "year": 200,
+        "era": "建安五年",
+        "label": "夏四月白马解围后（承前）",
+        "certainty": "inferred"
+      },
+      "originalText": "遂解白马围，徙其民，循河而西。绍于是渡河追公军，至延津南。公勒兵驻营南阪下，使登垒望之，曰：「可五六百骑。」有顷，复白：「骑稍多，步兵不可胜数。」公曰：「勿复白。」乃令骑解鞍放马。是时，白马辎重就道。诸将以为敌骑多，不如还保营。荀攸曰：「此所以饵敌，如何去之！」绍骑将文丑与刘备将五六千骑前后至。诸将复白：「可上马。」公曰：「未也。」有顷，骑至稍多，或分趣辎重。公曰：「可矣。」乃皆上马。时骑不满六百，遂纵兵击，大破之，斩丑。丑、良皆绍名将也，再战，悉禽，绍军大震。公还军官渡。绍进保阳武。关羽亡归刘备。",
+      "parts": [
+        {
+          "text": "遂解"
+        },
+        {
+          "text": "白马",
+          "placeId": "baima"
+        },
+        {
+          "text": "围，徙其民，"
+        },
+        {
+          "text": "循河",
+          "placeId": "yellow-river"
+        },
+        {
+          "text": "而西。绍于是"
+        },
+        {
+          "text": "渡河",
+          "placeId": "yellow-river"
+        },
+        {
+          "text": "追公军，至"
+        },
+        {
+          "text": "延津",
+          "placeId": "yanjin"
+        },
+        {
+          "text": "南。公勒兵驻营南阪下，使登垒望之，曰：「可五六百骑。」有顷，复白：「骑稍多，步兵不可胜数。」公曰：「勿复白。」乃令骑解鞍放马。是时，"
+        },
+        {
+          "text": "白马",
+          "placeId": "baima"
+        },
+        {
+          "text": "辎重就道。诸将以为敌骑多，不如还保营。"
+        },
+        {
+          "text": "荀攸",
+          "personId": "xun-you"
+        },
+        {
+          "text": "曰：「此所以饵敌，如何去之！」绍骑将"
+        },
+        {
+          "text": "文丑",
+          "personId": "wen-chou"
+        },
+        {
+          "text": "与"
+        },
+        {
+          "text": "刘备",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "将五六千骑前后至。诸将复白：「可上马。」公曰：「未也。」有顷，骑至稍多，或分趣辎重。公曰：「可矣。」乃皆上马。时骑不满六百，遂纵兵击，大破之，斩丑。丑、良皆绍名将也，再战，悉禽，绍军大震。公还军"
+        },
+        {
+          "text": "官渡",
+          "placeId": "guandu"
+        },
+        {
+          "text": "。绍进保"
+        },
+        {
+          "text": "阳武",
+          "placeId": "yangwu"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "关羽",
+          "personId": "guan-yu"
+        },
+        {
+          "text": "亡归"
+        },
+        {
+          "text": "刘备",
+          "personId": "liu-bei"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "translation": "曹操解了白马之围，迁走白马百姓，沿河向西。袁绍渡河追到延津南。曹操整兵驻在营南坡下，让人登垒观察；先报约五六百骑，后来又报骑兵越来越多、步兵数不清，曹操叫他们别再报，下令骑兵卸鞍放马。这时从白马运出的辎重已上路。诸将想退回营里，荀攸说，这正可以用来引诱敌军。文丑、刘备先后带着五六千骑赶到。曹操等到又有敌骑赶来、有人分头抢取辎重，才下令上马。此时曹军骑兵不到六百，出击大破追兵，文丑被杀。袁军两战损失颜良、文丑，受到震动。曹操退回官渡，袁绍进据阳武，关羽离开曹营归刘备。",
+      "glosses": [
+        {
+          "term": "阪",
+          "explanation": "山坡、斜坡；这里的具体坡地未定位。"
+        },
+        {
+          "term": "辎重",
+          "explanation": "军中运输的物资及所用车马等。"
+        },
+        {
+          "term": "白",
+          "explanation": "向上报告。"
+        }
+      ],
+      "summary": "曹操撤出白马，在延津南以辎重诱敌，击破追来的袁军骑兵，随后退回官渡。",
+      "placeIds": [
+        "yanjin",
+        "baima",
+        "yellow-river",
+        "guandu",
+        "yangwu"
+      ],
+      "personIds": [
+        "cao-cao",
+        "yuan-shao",
+        "xun-you",
+        "wen-chou",
+        "liu-bei",
+        "yan-liang",
+        "guan-yu"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "yanjin",
+      "movements": [
+        {
+          "from": "baima",
+          "to": "yanjin",
+          "personId": "cao-cao",
+          "label": "曹操解白马围后沿河西行，袁军追至延津南（行动示意）",
+          "status": "schematic",
+          "sourceIds": [
+            "epub-simplified"
+          ]
+        },
+        {
+          "from": "yanjin",
+          "to": "guandu",
+          "personId": "cao-cao",
+          "label": "延津交战后，曹操还军官渡（行动示意）",
+          "status": "schematic",
+          "sourceIds": [
+            "epub-simplified"
+          ]
+        }
+      ],
+      "battlePhases": [
+        {
+          "id": "phase-yanjin-bait",
+          "title": "延津南，以辎重诱敌",
+          "summary": "袁军已经渡河，两军在延津以南相遇。曹操待追兵分取辎重后再出击。",
+          "deployments": [
+            {
+              "id": "flag-yanjin-cao-bait",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "反击部队",
+              "placeId": "yanjin",
+              "coordinates": [
+                114.07,
+                35.14
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪记曹军在延津南营南坡下列兵。古津与营坡无确址，旗共用延津区域锚点。",
+              "action": "留辎重诱敌，命骑兵等待出击。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-strategists",
+                "shuijing-he"
+              ]
+            },
+            {
+              "id": "flag-yanjin-wen",
+              "label": "文丑",
+              "faction": "yuan",
+              "commanderId": "wen-chou",
+              "role": "追击骑兵",
+              "placeId": "yanjin",
+              "coordinates": [
+                114.07,
+                35.14
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪记文丑、刘备所将骑兵前后赶到。只知同处延津南战区。",
+              "action": "与刘备先后率骑兵到达，文丑在反击中被杀。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-strategists"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "epub-strategists"
+          ]
+        },
+        {
+          "id": "phase-yanjin-redeploy",
+          "title": "曹操还官渡，袁绍进阳武",
+          "summary": "延津交战结束。曹操收兵回官渡，袁绍进据阳武，两军进入下一阶段。",
+          "deployments": [
+            {
+              "id": "flag-guandu-cao-return",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "主力",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本纪明记还军官渡。旗取中牟一带的战区锚点。",
+              "action": "由延津战区退回官渡。",
+              "sourceIds": [
+                "epub-simplified",
+                "tongjian-geo"
+              ]
+            },
+            {
+              "id": "flag-yangwu-yuan",
+              "label": "袁绍",
+              "faction": "yuan",
+              "commanderId": "yuan-shao",
+              "role": "主力",
+              "placeId": "yangwu",
+              "coordinates": [
+                114.1,
+                34.98
+              ],
+              "precision": "approximate-area",
+              "positionBasis": "本纪明记进保阳武，坐标借用东汉县治地望，具体袁营位置未定。",
+              "action": "进据阳武。",
+              "sourceIds": [
+                "epub-simplified",
+                "tgaz-yangwu"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "march-yanjin-cao-west",
+          "order": 1,
+          "faction": "cao",
+          "commanderId": "cao-cao",
+          "from": "baima",
+          "to": "yanjin",
+          "fromLabel": "白马一带",
+          "toLabel": "延津南战区",
+          "label": "曹操自白马沿河西行",
+          "description": "本纪记曹操解白马围、迁民后沿河向西，袁军随后追至延津南。箭头表示曹军西行至延津战区的大致方向，未标行军道路或岸边曲折。",
+          "phaseIds": [
+            "phase-yanjin-bait"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-strategists",
+            "shuijing-he"
+          ]
+        },
+        {
+          "id": "march-yanjin-yuan-pursuit",
+          "order": 1,
+          "faction": "yuan",
+          "commanderId": "yuan-shao",
+          "from": null,
+          "to": "yanjin",
+          "fromLabel": "渡河地点未载",
+          "toLabel": "延津南战区",
+          "label": "袁军渡河追至延津南",
+          "description": "本纪记袁绍渡河追曹军，追兵到延津南。可知所到战区，无法确定袁军由何处渡河，故只列行动。",
+          "phaseIds": [
+            "phase-yanjin-bait"
+          ],
+          "precision": "unlocated",
+          "sourceIds": [
+            "epub-simplified",
+            "shuijing-he"
+          ]
+        },
+        {
+          "id": "march-yanjin-cao-return",
+          "order": 2,
+          "faction": "cao",
+          "commanderId": "cao-cao",
+          "from": "yanjin",
+          "to": "guandu",
+          "fromLabel": "延津南战区",
+          "toLabel": "官渡战区",
+          "label": "曹操自延津还军官渡",
+          "description": "本纪在延津交战后记曹操还军官渡。箭头只连接延津战区与官渡区域，途中路线未载。",
+          "phaseIds": [
+            "phase-yanjin-redeploy"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-strategists",
+            "tongjian-geo"
+          ]
+        },
+        {
+          "id": "march-yanjin-yuan-yangwu",
+          "order": 2,
+          "faction": "yuan",
+          "commanderId": "yuan-shao",
+          "from": "yanjin",
+          "to": "yangwu",
+          "fromLabel": "延津南战区",
+          "toLabel": "阳武一带",
+          "label": "袁绍进据阳武",
+          "description": "本纪在延津交战后接记袁绍进保阳武。箭头连接袁军追至的延津南战区与随后进保的阳武县地望，实际撤收、集结和沿途路线未载。",
+          "phaseIds": [
+            "phase-yanjin-redeploy"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub-simplified",
+            "shuijing-he",
+            "tgaz-yangwu"
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 46,
+        "excerptStart": "遂解白马围，",
+        "excerptEnd": "关羽亡归刘备。",
+        "startOffset": 159,
+        "endOffsetExclusive": 411,
+        "note": "p[46] 后段，紧接白马解围；延津交战没有另记月份。"
+      }
+    },
+    {
+      "id": "guandu-standoff",
+      "title": "官渡相持",
+      "time": {
+        "year": 200,
+        "era": "建安五年",
+        "label": "八月起（文中明记八月进营）",
+        "certainty": "explicit"
+      },
+      "originalText": "八月，绍连营稍前，依沙塠为屯，东西数十里。公亦分营与相当，合战不利。时公兵不满万，伤者十二三。绍复进临官渡，起土山地道。公亦于内作之，以相应。绍射营中，矢如雨下，行者皆蒙楯，众大惧。时公粮少，与荀彧书，议欲还许。彧以为「绍悉众聚官渡，欲与公决胜败。公以至弱当至彊，若不能制，必为所乘，是天下之大机也。且绍，布衣之雄耳，能聚人而不能用。夫以公之神武明哲而辅以大顺，何向而不济！」公从之。",
+      "parts": [
+        {
+          "text": "八月，绍连营稍前，依沙塠为屯，东西数十里。公亦分营与相当，合战不利。",
+          "noteIds": [
+            "pei-xu-you-plan"
+          ]
+        },
+        {
+          "text": "时公兵不满万，伤者十二三。",
+          "noteIds": [
+            "pei-army-numbers"
+          ]
+        },
+        {
+          "text": "绍复进临"
+        },
+        {
+          "text": "官渡",
+          "placeId": "guandu"
+        },
+        {
+          "text": "，起土山地道。公亦于内作之，以相应。绍射营中，矢如雨下，行者皆蒙楯，众大惧。时公粮少，与"
+        },
+        {
+          "text": "荀彧",
+          "personId": "xun-yu"
+        },
+        {
+          "text": "书，议欲还"
+        },
+        {
+          "text": "许",
+          "placeId": "xu"
+        },
+        {
+          "text": "。彧以为「绍悉众聚"
+        },
+        {
+          "text": "官渡",
+          "placeId": "guandu"
+        },
+        {
+          "text": "，欲与公决胜败。公以至弱当至彊，若不能制，必为所乘，是天下之大机也。且绍，布衣之雄耳，能聚人而不能用。夫以公之神武明哲而辅以大顺，何向而不济！」公从之。"
+        }
+      ],
+      "translation": "八月，袁绍把相连的军营逐步推进，依着沙丘扎营，东西绵延数十里。曹操也分营对峙，交战失利。本纪记曹军不足一万，伤者占两三成。袁绍进一步逼近官渡，堆起土山、开掘地道，曹操也在营内用相应措施防御。箭密如雨，走动的人得用盾护身。曹操粮少，写信给荀彧商量退回许县。荀彧认为袁绍已把兵力集中到官渡，这里是决定胜败的关口；曹军一退，就会被袁军乘势压倒。他又说，袁绍虽能招揽人才，却不能善用；曹操若坚持，就有取胜机会。曹操听从了他。",
+      "glosses": [
+        {
+          "term": "沙塠",
+          "explanation": "沙土堆丘。原文在此只描述依沙丘布营，不能据此认定某一现代村名。"
+        },
+        {
+          "term": "十二三",
+          "explanation": "十人中约两三人，即两三成。"
+        },
+        {
+          "term": "蒙楯",
+          "explanation": "以盾遮护身体。"
+        },
+        {
+          "term": "还许",
+          "explanation": "退回许县，是商议中的方案。"
+        }
+      ],
+      "summary": "两军营垒相逼。曹操考虑退回许县，荀彧劝他坚持；裴松之则追问本纪所载曹军人数是否可信。",
+      "placeIds": [
+        "guandu",
+        "xu"
+      ],
+      "personIds": [
+        "cao-cao",
+        "yuan-shao",
+        "xun-yu",
+        "xu-you"
+      ],
+      "noteIds": [
+        "pei-xu-you-plan",
+        "pei-army-numbers"
+      ],
+      "focusPlaceId": "guandu",
+      "movements": [],
+      "battlePhases": [
+        {
+          "id": "phase-guandu-camps",
+          "title": "官渡两军连营相持",
+          "summary": "袁绍由阳武方向逐步进逼，曹操分营应战。官渡营地在黄河渡河战区以南，两军在同一战区相逼。",
+          "deployments": [
+            {
+              "id": "flag-guandu-cao-standoff",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "官渡防守主力",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪记曹营与袁营相当，曹军在营内防御。两军旗共用官渡地域锚点，旗间偏移只供阅读。",
+              "action": "分营应战，以土山、地道等应对袁军攻势。",
+              "sourceIds": [
+                "epub-simplified",
+                "tongjian-geo"
+              ]
+            },
+            {
+              "id": "flag-guandu-yuan-standoff",
+              "label": "袁绍",
+              "faction": "yuan",
+              "commanderId": "yuan-shao",
+              "role": "官渡进攻主力",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪记袁绍依沙堆连营推进，复进临官渡。沙堆与袁营均无确址。",
+              "action": "连营推进，堆土山、掘地道并向曹营射箭。",
+              "sourceIds": [
+                "epub-simplified",
+                "tongjian-geo"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "tongjian-geo"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "march-guandu-yuan-advance",
+          "order": 1,
+          "faction": "yuan",
+          "commanderId": "yuan-shao",
+          "from": "yangwu",
+          "to": "guandu",
+          "fromLabel": "阳武一带",
+          "toLabel": "官渡战区",
+          "label": "袁绍自阳武进逼官渡",
+          "description": "本纪前段记袁绍进保阳武，八月又记他连营渐进、逼近官渡。箭头概括两个战区的相对方向，沙堆与各处营址未定位。",
+          "phaseIds": [
+            "phase-guandu-camps"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub-simplified",
+            "tgaz-yangwu",
+            "tongjian-geo"
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 47,
+        "excerptStart": "八月，",
+        "excerptEnd": "公从之。",
+        "startOffset": 0,
+        "endOffsetExclusive": 192,
+        "note": "p[47] 全段。两处裴注各随所注句；许攸在本片段只见于《汉晋春秋》裴注。"
+      }
+    },
+    {
+      "id": "supply-convoy",
+      "title": "截烧粮车",
+      "time": {
+        "year": 200,
+        "era": "建安五年",
+        "label": "相持数月间；下接冬十月",
+        "certainty": "inferred"
+      },
+      "originalText": "袁绍运谷车数千乘至，公用荀攸计，遣徐晃、史涣邀击，大破之，尽烧其车。公与绍相拒连月，虽比战斩将，然众少粮尽，士卒疲乏。公谓运者曰：「却十五日为汝破绍，不复劳汝矣。」",
+      "parts": [
+        {
+          "text": "袁绍",
+          "personId": "yuan-shao"
+        },
+        {
+          "text": "运谷车数千乘至，公用"
+        },
+        {
+          "text": "荀攸",
+          "personId": "xun-you"
+        },
+        {
+          "text": "计，遣"
+        },
+        {
+          "text": "徐晃",
+          "personId": "xu-huang"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "史涣",
+          "personId": "shi-huan"
+        },
+        {
+          "text": "邀击，大破之，尽烧其车。公与绍相拒连月，虽比战斩将，然众少粮尽，士卒疲乏。公谓运者曰：「却十五日为汝破绍，不复劳汝矣。」"
+        }
+      ],
+      "translation": "袁绍有数千辆运粮车开到。曹操采用荀攸的计策，派徐晃、史涣拦截，大破其军，把这些车全烧了。两军对峙已有数月，曹军虽然屡次交战并斩将，此时仍兵少粮尽、士卒疲乏。曹操对运输粮食的人说，再等十五天，我就替你们打败袁绍，不必再辛苦你们。",
+      "glosses": [
+        {
+          "term": "乘",
+          "explanation": "读 shèng，计车的单位。"
+        },
+        {
+          "term": "邀击",
+          "explanation": "拦截并攻击。"
+        },
+        {
+          "term": "比战",
+          "explanation": "接连交战。"
+        },
+        {
+          "term": "却十五日",
+          "explanation": "再过十五天；是对运粮者的话，不能据此倒推精确战期。"
+        }
+      ],
+      "summary": "徐晃、史涣截烧袁军粮车，曹军自身也接近断粮。此事发生在淳于琼护粮遭袭之前。",
+      "placeIds": [
+        "guandu",
+        "gushi"
+      ],
+      "personIds": [
+        "cao-cao",
+        "yuan-shao",
+        "xun-you",
+        "xu-huang",
+        "shi-huan"
+      ],
+      "noteIds": [],
+      "focusPlaceId": "guandu",
+      "movements": [],
+      "battlePhases": [
+        {
+          "id": "phase-guandu-supply",
+          "title": "相持期间，截击袁军运粮车",
+          "summary": "官渡相持继续。徐晃、史涣出击截烧粮车，《徐晃传》称在故市，袭击地点未核定。",
+          "deployments": [
+            {
+              "id": "flag-guandu-cao-supply",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "官渡主力",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本段延续两军在官渡相持的叙事。旗示大营所在战区。",
+              "action": "采纳荀攸之计，派徐晃、史涣截击。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-strategists"
+              ]
+            },
+            {
+              "id": "flag-guandu-yuan-supply",
+              "label": "袁绍",
+              "faction": "yuan",
+              "commanderId": "yuan-shao",
+              "role": "官渡主力",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本段延续官渡相持。运输部队和路线均未定位。",
+              "action": "袁军粮车抵达，被曹军出击拦截。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-generals"
+              ]
+            },
+            {
+              "id": "flag-gushi-xu",
+              "label": "徐晃",
+              "faction": "cao",
+              "commanderId": "xu-huang",
+              "role": "截粮部队",
+              "placeId": "gushi",
+              "coordinates": null,
+              "precision": "unlocated",
+              "positionBasis": "《徐晃传》系此战于故市。故市在本章仍未定位。",
+              "action": "与史涣拦截并焚毁粮车。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-generals"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "epub-strategists",
+            "epub-generals"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "march-supply-cao-intercept",
+          "order": 1,
+          "faction": "cao",
+          "commanderId": "xu-huang",
+          "from": null,
+          "to": "gushi",
+          "fromLabel": "曹军出发点未载",
+          "toLabel": "故市一带，地望未定",
+          "label": "徐晃、史涣出击截粮",
+          "description": "本纪记曹操遣徐晃、史涣拦击粮车，《徐晃传》系此事于故市。两传均未载具体出发点，故市在本章也未定位。",
+          "phaseIds": [
+            "phase-guandu-supply"
+          ],
+          "precision": "unlocated",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-generals",
+            "epub-strategists"
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 50,
+        "excerptStart": "袁绍运谷车",
+        "excerptEnd": "不复劳汝矣。」",
+        "startOffset": 0,
+        "endOffsetExclusive": 82,
+        "note": "从 p[47] 跳至 p[50]；略去孙策谋袭许未发而死（p[48]）、刘辟与刘备袭扰许下（p[49]）。截击地点在《徐晃传》写作故市，本纪此处未写，故不标坐标。"
+      }
+    },
+    {
+      "id": "wuchao-night-raid",
+      "title": "夜袭乌巢",
+      "time": {
+        "year": 200,
+        "era": "建安五年",
+        "label": "冬十月",
+        "certainty": "explicit"
+      },
+      "originalText": "冬十月，绍遣车运谷，使淳于琼等五人将兵万余人送之，宿绍营北四十里。绍谋臣许攸贪财，绍不能足，来奔，因说公击琼等。左右疑之，荀攸、贾诩劝公。公乃留曹洪守，自将步骑五千人夜往，会明至。琼等望见公兵少，出陈门外。公急击之，琼退保营，遂攻之。绍遣骑救琼。左右或言「贼骑稍近，请分兵拒之」。公怒曰：「贼在背后，乃白！」士卒皆殊死战，大破琼等，皆斩之。",
+      "parts": [
+        {
+          "text": "冬十月，绍遣车运谷，使"
+        },
+        {
+          "text": "淳于琼",
+          "personId": "chunyu-qiong"
+        },
+        {
+          "text": "等五人将兵万余人送之，宿绍营北四十里。绍谋臣"
+        },
+        {
+          "text": "许攸",
+          "personId": "xu-you"
+        },
+        {
+          "text": "贪财，绍不能足，来奔，因说公击琼等。左右疑之，"
+        },
+        {
+          "text": "荀攸",
+          "personId": "xun-you"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "贾诩",
+          "personId": "jia-xu"
+        },
+        {
+          "text": "劝公。公乃留"
+        },
+        {
+          "text": "曹洪",
+          "personId": "cao-hong"
+        },
+        {
+          "text": "守，自将步骑五千人夜往，会明至。琼等望见公兵少，出陈门外。公急击之，琼退保营，遂攻之。绍遣骑救琼。左右或言「贼骑稍近，请分兵拒之」。公怒曰：「贼在背后，乃白！」士卒皆殊死战，大破琼等，皆斩之。",
+          "noteIds": [
+            "pei-caoman-wuchao"
+          ]
+        }
+      ],
+      "translation": "冬十月，袁绍派车运粮，由淳于琼等五人率一万多人押送，宿在袁军大营以北四十里。本纪说，许攸贪财，袁绍不能满足他，他转投曹操，建议进攻淳于琼等。曹操身边的人起疑，荀攸、贾诩劝他采纳。曹操留下曹洪守营，自己率步骑五千连夜前往，天亮到达。淳于琼等见曹军兵少，到营门外列阵，受攻后退回营内，曹军随即攻营。袁绍派骑兵来救。部下建议分兵阻挡，曹操怒喝，要到敌骑已经逼到背后时再报告。士兵拼死作战，击溃淳于琼部，淳于琼等被杀。",
+      "glosses": [
+        {
+          "term": "会明",
+          "explanation": "恰到天明时。"
+        },
+        {
+          "term": "出陈",
+          "explanation": "出营列阵，“陈”在这里指列阵。"
+        },
+        {
+          "term": "四十里",
+          "explanation": "原文从袁军营地计距，营址未核定，不从官渡图点画固定半径。"
+        }
+      ],
+      "summary": "许攸投曹并献袭粮之计。曹洪留守，曹操带兵夜行，天亮时攻打淳于琼的营地。",
+      "placeIds": [
+        "guandu",
+        "wuchao",
+        "gushi"
+      ],
+      "personIds": [
+        "cao-cao",
+        "yuan-shao",
+        "chunyu-qiong",
+        "xu-you",
+        "xun-you",
+        "jia-xu",
+        "cao-hong"
+      ],
+      "noteIds": [
+        "pei-caoman-wuchao"
+      ],
+      "focusPlaceId": "wuchao",
+      "movements": [
+        {
+          "from": "guandu",
+          "to": "wuchao",
+          "personId": "cao-cao",
+          "label": "曹操由官渡大营夜出袭淳于琼；乌巢地望有争议（行动示意）",
+          "status": "schematic",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-generals",
+            "wuchao-local",
+            "editorial-guandu"
+          ]
+        }
+      ],
+      "battlePhases": [
+        {
+          "id": "phase-wuchao-raid",
+          "title": "夜袭粮屯，曹洪留守",
+          "summary": "曹操夜出，天明袭击淳于琼的粮屯。曹洪留守官渡大营，袁绍另派骑兵救援。",
+          "deployments": [
+            {
+              "id": "flag-wuchao-cao",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "夜袭部队",
+              "placeId": "wuchao",
+              "coordinates": [
+                114.25,
+                35.13
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪记曹操夜行而攻淳于琼，《张郃传》名其地为乌巢。旗借东史固一说提示战区。",
+              "action": "天明进攻淳于琼的粮屯。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-generals",
+                "wuchao-local"
+              ]
+            },
+            {
+              "id": "flag-wuchao-chunyu",
+              "label": "淳于琼",
+              "faction": "yuan",
+              "commanderId": "chunyu-qiong",
+              "role": "护粮部队",
+              "placeId": "wuchao",
+              "coordinates": [
+                114.25,
+                35.13
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪记粮屯在袁营以北，具体营址未定。旗与曹操共用乌巢地域锚点。",
+              "action": "营门外列阵，后退保粮屯。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-generals"
+              ]
+            },
+            {
+              "id": "flag-guandu-hong-guard",
+              "label": "曹洪",
+              "faction": "cao",
+              "commanderId": "cao-hong",
+              "role": "大营留守",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪明记曹洪留守。官渡点位是全战区参考点。",
+              "action": "留守官渡曹军大营。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-strategists"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "epub-strategists",
+            "epub-generals"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "march-wuchao-cao-night",
+          "order": 1,
+          "faction": "cao",
+          "commanderId": "cao-cao",
+          "from": "guandu",
+          "to": "wuchao",
+          "fromLabel": "官渡大营一带",
+          "toLabel": "乌巢一带，东史固村一说",
+          "label": "曹操自官渡夜袭乌巢",
+          "description": "本纪记曹洪留守、曹操率军夜往。《张郃传》称粮屯在乌巢，裴注引《曹瞒传》也有此地名。乌巢终点借东史固一说标出大致地域，夜行所经的间道无法定位。",
+          "phaseIds": [
+            "phase-wuchao-raid"
+          ],
+          "precision": "schematic",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-generals",
+            "epub-strategists",
+            "wuchao-local",
+            "wuchao-dongshigu"
+          ]
+        },
+        {
+          "id": "march-wuchao-yuan-rescue",
+          "order": 1,
+          "faction": "yuan",
+          "from": null,
+          "to": "wuchao",
+          "fromLabel": "救援骑兵出发点未载",
+          "toLabel": "乌巢粮屯方向",
+          "label": "袁军骑兵驰援乌巢",
+          "description": "本纪记袁绍遣骑兵救援淳于琼。出发营地、沿途路线和抵达位置未载，目的地按所要救援的乌巢粮屯列示。",
+          "phaseIds": [
+            "phase-wuchao-raid"
+          ],
+          "precision": "unlocated",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-generals"
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 50,
+        "excerptStart": "冬十月，",
+        "excerptEnd": "士卒皆殊死战，大破琼等，皆斩之。",
+        "startOffset": 82,
+        "endOffsetExclusive": 252,
+        "note": "p[50] 中段；“乌巢”见所附《曹瞒传》和《张郃传》，不插入《武帝纪》正文。故市亦见本片段裴注。"
+      }
+    },
+    {
+      "id": "yuan-defeat",
+      "title": "袁军溃退",
+      "time": {
+        "year": 200,
+        "era": "建安五年",
+        "label": "冬十月袭粮之后（承前）",
+        "certainty": "inferred"
+      },
+      "originalText": "绍初闻公之击琼，谓长子谭曰：「就彼攻琼等，吾攻拔其营，彼固无所归矣！」乃使张郃、高览攻曹洪。郃等闻琼破，遂来降。绍众大溃，绍及谭弃军走，渡河。追之不及，尽收其辎重图书珎宝，虏其众。",
+      "parts": [
+        {
+          "text": "绍初闻公之击琼，谓长子谭曰：「就彼攻琼等，吾攻拔其营，彼固无所归矣！」乃使"
+        },
+        {
+          "text": "张郃",
+          "personId": "zhang-he"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "高览",
+          "personId": "gao-lan"
+        },
+        {
+          "text": "攻"
+        },
+        {
+          "text": "曹洪",
+          "personId": "cao-hong"
+        },
+        {
+          "text": "。郃等闻琼破，遂来降。绍众大溃，绍及谭弃军走，"
+        },
+        {
+          "text": "渡河",
+          "placeId": "yellow-river"
+        },
+        {
+          "text": "。追之不及，尽收其辎重图书珎宝，虏其众。",
+          "noteIds": [
+            "pei-xiandi-memorial"
+          ]
+        }
+      ],
+      "translation": "袁绍刚听说曹操去打淳于琼，对长子袁谭说，就让曹操去打吧，我们拿下他的大营，他就没地方可回了。于是他派张郃、高览进攻曹洪。二人听说淳于琼战败，便来归降。袁军大乱，袁绍与袁谭丢下部队渡河逃走。曹军追不上，收缴了袁军的辎重、文书图籍和珍宝，俘获其部众。",
+      "glosses": [
+        {
+          "term": "就彼",
+          "explanation": "在这段话中有且让、纵使对方去做的意思。"
+        },
+        {
+          "term": "珎",
+          "explanation": "“珍”的异体字，正文按 EPUB 保留。"
+        },
+        {
+          "term": "渡河",
+          "explanation": "未记具体渡口。"
+        },
+        {
+          "term": "闻琼破，遂来降",
+          "explanation": "《武帝纪》与《袁绍传》均先写张郃等归降，再写袁军溃败。《张郃传》先写袁军溃败，裴松之已指出这处抵牾。"
+        }
+      ],
+      "summary": "袁绍试图攻取曹军大营。张郃、高览归降后，袁军溃散，袁绍与袁谭弃军渡河。",
+      "placeIds": [
+        "guandu",
+        "yellow-river"
+      ],
+      "personIds": [
+        "cao-cao",
+        "yuan-shao",
+        "yuan-tan",
+        "chunyu-qiong",
+        "zhang-he",
+        "gao-lan",
+        "cao-hong"
+      ],
+      "noteIds": [
+        "pei-xiandi-memorial"
+      ],
+      "focusPlaceId": "guandu",
+      "movements": [],
+      "battlePhases": [
+        {
+          "id": "phase-guandu-camp-attack",
+          "title": "袁绍分兵攻曹营",
+          "summary": "曹操正在进攻淳于琼时，袁绍命张郃、高览转攻曹洪留守的大营。",
+          "deployments": [
+            {
+              "id": "flag-guandu-hong-defense",
+              "label": "曹洪",
+              "faction": "cao",
+              "commanderId": "cao-hong",
+              "role": "大营守军",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪记张郃、高览攻曹洪，营门与攻守阵地均未定。",
+              "action": "守曹操大营，应对袁军进攻。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-strategists"
+              ]
+            },
+            {
+              "id": "flag-guandu-zhang-attack",
+              "label": "张郃",
+              "faction": "yuan",
+              "commanderId": "zhang-he",
+              "role": "攻营部队",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "此时张郃、高览尚属袁军。两旗共用官渡地域锚点。",
+              "action": "与高览奉袁绍之命攻曹洪。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-generals"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "epub-generals"
+          ]
+        },
+        {
+          "id": "phase-yuan-collapse",
+          "title": "袁军溃退",
+          "summary": "本纪先写张郃、高览来降，再写袁军溃败。袁绍与袁谭弃军渡河，具体渡口未记。",
+          "deployments": [
+            {
+              "id": "flag-guandu-cao-victory",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "战后收军",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "本纪只记追击不及与缴获，旗表示获胜军队所在的官渡战区。",
+              "action": "追击未及，收取袁军遗留辎重并俘获部众。",
+              "sourceIds": [
+                "epub-simplified",
+                "epub-yuan"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified",
+            "epub-yuan",
+            "epub-generals"
+          ]
+        }
+      ],
+      "marches": [
+        {
+          "id": "march-defeat-yuan-attack-camp",
+          "order": 1,
+          "faction": "yuan",
+          "commanderId": "zhang-he",
+          "from": null,
+          "to": "guandu",
+          "fromLabel": "袁营，具体位置未定",
+          "toLabel": "官渡战区曹营，具体位置未定",
+          "label": "张郃、高览转攻曹营",
+          "description": "本纪记曹操攻淳于琼时，袁绍命张郃、高览攻曹洪留守的大营。两军营址都未核定，目的地只指官渡战区的曹营。",
+          "phaseIds": [
+            "phase-guandu-camp-attack"
+          ],
+          "precision": "unlocated",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-yuan",
+            "epub-generals"
+          ]
+        },
+        {
+          "id": "march-defeat-yuan-flight",
+          "order": 2,
+          "faction": "yuan",
+          "commanderId": "yuan-shao",
+          "from": "guandu",
+          "to": null,
+          "fromLabel": "官渡战区",
+          "toLabel": "渡口与过河后去向未载",
+          "label": "袁绍、袁谭弃军渡河",
+          "description": "本纪记袁军大溃，袁绍、袁谭弃军逃走并渡河。只知行动从官渡战局溃败后发生，渡口、过河后去向均未载。",
+          "phaseIds": [
+            "phase-yuan-collapse"
+          ],
+          "precision": "unlocated",
+          "sourceIds": [
+            "epub-simplified",
+            "epub-yuan"
+          ]
+        }
+      ],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 50,
+        "excerptStart": "绍初闻公之击琼，",
+        "excerptEnd": "追之不及，尽收其辎重图书珎宝，虏其众。",
+        "startOffset": 252,
+        "endOffsetExclusive": 342,
+        "note": "p[50] 后段。降、溃先后的异说参见本 EPUB《张郃传》及其裴注，出处见 epub-generals 和 epub-yuan。"
+      }
+    },
+    {
+      "id": "burning-letters",
+      "title": "焚书与受降",
+      "time": {
+        "year": 200,
+        "era": "建安五年",
+        "label": "袁军败退后（承前，无另记月份）",
+        "certainty": "inferred"
+      },
+      "originalText": "公收绍书中，得许下及军中人书，皆焚之。冀州诸郡多举城邑降者。",
+      "parts": [
+        {
+          "text": "公收绍书中，得"
+        },
+        {
+          "text": "许下",
+          "placeId": "xu"
+        },
+        {
+          "text": "及军中人书，皆焚之。",
+          "noteIds": [
+            "pei-cao-burning-letters"
+          ]
+        },
+        {
+          "text": "冀州",
+          "placeId": "jizhou"
+        },
+        {
+          "text": "诸郡多举城邑降者。"
+        }
+      ],
+      "translation": "曹操收缴袁绍的文书，发现其中有许县一带和自己军中人写的书信，便把这些书信都烧了。冀州所属各郡中，有不少城邑举城归降。",
+      "glosses": [
+        {
+          "term": "许下",
+          "explanation": "许县一带。"
+        },
+        {
+          "term": "举城邑降",
+          "explanation": "以整座城邑归降，非指整个冀州同时投降。"
+        }
+      ],
+      "summary": "曹操缴获袁绍的文书，将涉及许下和军中人的书信烧掉；冀州一些郡县随后归降。",
+      "placeIds": [
+        "guandu",
+        "xu",
+        "jizhou"
+      ],
+      "personIds": [
+        "cao-cao",
+        "yuan-shao"
+      ],
+      "noteIds": [
+        "pei-cao-burning-letters"
+      ],
+      "focusPlaceId": "guandu",
+      "movements": [],
+      "battlePhases": [
+        {
+          "id": "phase-guandu-aftermath",
+          "title": "战后焚书与受降",
+          "summary": "曹军缴获文书后焚信。冀州部分城邑随后归降，本纪未列各城日期和地点。",
+          "deployments": [
+            {
+              "id": "flag-guandu-cao-aftermath",
+              "label": "曹操",
+              "faction": "cao",
+              "commanderId": "cao-cao",
+              "role": "战后收军",
+              "placeId": "guandu",
+              "coordinates": [
+                114.05,
+                34.75
+              ],
+              "precision": "relative-only",
+              "positionBasis": "旗只标本章战后叙事所承接的官渡战区。焚书地点未见于本纪。",
+              "action": "焚毁所获相关书信。",
+              "sourceIds": [
+                "epub-simplified"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "epub-simplified"
+          ]
+        }
+      ],
+      "marches": [],
+      "provenance": {
+        "sourceId": "epub-simplified",
+        "chapterPath": "OPS/c4_san_guo_zhi_juan01.xhtml",
+        "paragraphIndex": 50,
+        "excerptStart": "公收绍书中，",
+        "excerptEnd": "冀州诸郡多举城邑降者。",
+        "startOffset": 342,
+        "endOffsetExclusive": 372,
+        "note": "p[50] 结尾。焚书的地点并未另外写明；许下是写信人的关联地，不画曹操从官渡到许的路线。"
+      }
+    }
+  ],
+  "historicalRiver": {
+    "status": "sourced-schematic",
+    "label": "汉末黄河 · 广域方向示意",
+    "explanation": "黄河线依据文字地理关系作广域方向示意，不能确定古河槽与渡口；官渡水线暂不绘制。",
+    "geojsonPath": "/data/historical-rivers.geojson",
+    "precisionNote": "仅示大范围方向，不能判断河岸、渡口、战场或军营的位置。",
+    "method": "采用本项目 v7 图集依据文字地理关系独立绘制的广域示意线。",
+    "sourceIds": [
+      "shuijing-he",
+      "river-research"
+    ]
+  }
+}

@@ -1,0 +1,1164 @@
+{
+  "frozenDate": "2026-11-08",
+  "bodyEntries": 28,
+  "noteEntries": 33,
+  "units": {
+    "body": 16,
+    "note": 22
+  },
+  "entries": [
+    {
+      "id": "note-p0-note2-90",
+      "sceneId": "zhuge-liang-p0",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p0-note2",
+        "textOffset": 90,
+        "text": "卿三人仕进可至刺史郡守也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《魏略》"
+      },
+      "unitStart": 90,
+      "unitEnd": 103
+    },
+    {
+      "id": "note-p0-note2-135",
+      "sceneId": "zhuge-liang-p0",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p0-note2",
+        "textOffset": 135,
+        "text": "中国饶士大夫，遨游何必故乡邪！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《魏略》",
+        "note": "裴松之讨论此言含意，不作为己志的定论"
+      },
+      "unitStart": 135,
+      "unitEnd": 150
+    },
+    {
+      "id": "body-p1-170",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 170,
+        "text": "自董卓已来，豪杰并起，跨州连郡者不可胜数。曹操比于袁绍，则名微而众寡，然操遂能克绍，以弱为强者，非惟天时，抑亦人谋也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 170,
+      "unitEnd": 519
+    },
+    {
+      "id": "body-p1-229",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 229,
+        "text": "今操已拥百万之众，挟天子而令诸侯，此诚不可与争锋。孙权据有江东，已历三世，国险而民附，贤能为之用，此可以为援而不可图也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 170,
+      "unitEnd": 519
+    },
+    {
+      "id": "body-p1-289",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 289,
+        "text": "荆州北据汉、沔，利尽南海，东连吴会，西通巴、蜀，此用武之国，而其主不能守，此殆天所以资将军，将军岂有意乎？益州险塞，沃野千里，天府之土，高祖因之以成帝业。刘璋暗弱，张鲁在北，民殷国富而不知存恤，智能之士思得明君。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 170,
+      "unitEnd": 519
+    },
+    {
+      "id": "body-p1-395",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 395,
+        "text": "将军既帝室之胄，信义著于四海，总揽英雄，思贤如渴，若跨有荆、益，保其岩阻，西和诸戎，南抚夷越，外结好孙权，内修政理；天下有变，则命一上将将荆州之军以向宛、洛，将军身率益州之众出于秦川，百姓孰敢不箪食壶浆以迎将军者乎？"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 170,
+      "unitEnd": 519
+    },
+    {
+      "id": "body-p1-503",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 503,
+        "text": "诚如是，则霸业可成，汉室可兴矣。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 170,
+      "unitEnd": 519
+    },
+    {
+      "id": "note-p1-note1-123",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p1-note1",
+        "textOffset": 123,
+        "text": "明将军当复有远志，但结毦而已邪！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《魏略》",
+        "note": "与正文三顾叙述抵牾，裴松之明确反驳"
+      },
+      "unitStart": 123,
+      "unitEnd": 139
+    },
+    {
+      "id": "note-p1-note1-175",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p1-note1",
+        "textOffset": 175,
+        "text": "将军度刘镇南孰与曹公邪？"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《魏略》",
+        "note": "同上，属异说"
+      },
+      "unitStart": 175,
+      "unitEnd": 187
+    },
+    {
+      "id": "note-p1-note1-201",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p1-note1",
+        "textOffset": 201,
+        "text": "将军自度何如也？"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《魏略》",
+        "note": "同上，属异说"
+      },
+      "unitStart": 201,
+      "unitEnd": 209
+    },
+    {
+      "id": "note-p1-note1-222",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p1-note1",
+        "textOffset": 222,
+        "text": "今皆不及，而将军之众不过数千人，以此待敌，得无非计乎！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《魏略》",
+        "note": "同上，属异说；前后对白确认省略主语为亮"
+      },
+      "unitStart": 222,
+      "unitEnd": 249
+    },
+    {
+      "id": "note-p1-note1-269",
+      "sceneId": "zhuge-liang-p1",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p1-note1",
+        "textOffset": 269,
+        "text": "今荆州非少人也，而著籍者寡，平居发调，则人心不悦；可语镇南，令国中凡有游户，皆使自实，因录以益众可也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《魏略》",
+        "note": "同上，属异说"
+      },
+      "unitStart": 269,
+      "unitEnd": 320
+    },
+    {
+      "id": "body-p2-112",
+      "sceneId": "zhuge-liang-p2",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 112,
+        "text": "君不见申生在内而危，重耳在外而安乎？"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 112,
+      "unitEnd": 130
+    },
+    {
+      "id": "note-p2-note0-276",
+      "sceneId": "zhuge-liang-p2",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p2-note0",
+        "textOffset": 276,
+        "text": "魏殊多士邪！何彼二人不见用乎？"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《魏略》"
+      },
+      "unitStart": 276,
+      "unitEnd": 291
+    },
+    {
+      "id": "body-p3-11",
+      "sceneId": "zhuge-liang-p3",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 11,
+        "text": "事急矣，请奉命求救于孙将军。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 11,
+      "unitEnd": 25
+    },
+    {
+      "id": "body-p3-45",
+      "sceneId": "zhuge-liang-p3",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 45,
+        "text": "海内大乱，将军起兵据有江东，刘豫州亦收众汉南，与曹操并争天下。今操芟夷大难，略已平矣，遂破荆州，威震四海。英雄无所用武，故豫州遁逃至此。将军量力而处之：若能以吴、越之众与中国抗衡，不如早与之绝﹔若不能当，何不案兵束甲，北面而事之！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 45,
+      "unitEnd": 190
+    },
+    {
+      "id": "body-p3-160",
+      "sceneId": "zhuge-liang-p3",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 160,
+        "text": "今将军外托服从之名，而内怀犹豫之计，事急而不断，祸至无日矣！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 45,
+      "unitEnd": 190
+    },
+    {
+      "id": "body-p3-215",
+      "sceneId": "zhuge-liang-p3",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 215,
+        "text": "田横，齐之壮士耳，犹守义不辱，况刘豫州王室之胄，英才盖世，众士仰慕，若水之归海，若事之不济，此乃天也，安能复为之下乎！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 215,
+      "unitEnd": 274
+    },
+    {
+      "id": "body-p3-337",
+      "sceneId": "zhuge-liang-p3",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 337,
+        "text": "豫州军虽败于长阪，今战士还者及关羽水军精甲万人，刘琦合江夏战士亦不下万人。曹操之众，远来疲弊，闻追豫州，轻骑一日一夜行三百余里，此所谓『彊弩之末，势不能穿鲁缟』者也。故兵法忌之，曰『必蹶上将军』。且北方之人，不习水战﹔又荆州之民附操者，逼兵势耳，非心服也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 337,
+      "unitEnd": 527
+    },
+    {
+      "id": "body-p3-465",
+      "sceneId": "zhuge-liang-p3",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 465,
+        "text": "今将军诚能命猛将统兵数万，与豫州协规同力，破操军必矣。操军破，必北还，如此则荆、吴之势彊，鼎足之形成矣。成败之机，在于今日。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 337,
+      "unitEnd": 527
+    },
+    {
+      "id": "note-p3-note0-26",
+      "sceneId": "zhuge-liang-p3",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p3-note0",
+        "textOffset": 26,
+        "text": "孙将军可谓人主，然观其度，能贤亮而不能尽亮，吾是以不留。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "袁子",
+        "note": "裴松之对所记立论严厉反驳"
+      },
+      "unitStart": 26,
+      "unitEnd": 54
+    },
+    {
+      "id": "body-p4-126",
+      "sceneId": "zhuge-liang-p4",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 126,
+        "text": "昔吴汉、耿弇等初劝世祖即帝位，世祖辞让，前后数四，耿纯进言曰：『天下英雄喁喁，冀有所望。如不从议者，士大夫各归求主，无为从公也。』世祖感纯言深至，遂然诺之。今曹氏篡汉，天下无主，大王刘氏苗族，绍世而起，今即帝位，乃其宜也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 126,
+      "unitEnd": 260
+    },
+    {
+      "id": "body-p4-237",
+      "sceneId": "zhuge-liang-p4",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 237,
+        "text": "士大夫随大王久勤苦者，亦欲望尺寸之功如纯言耳。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 126,
+      "unitEnd": 260
+    },
+    {
+      "id": "note-p4-note0-262",
+      "sceneId": "zhuge-liang-p4",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p4-note0",
+        "textOffset": 262,
+        "text": "君知其一，未知其二。秦以无道，政苛民怨，匹夫大呼，天下土崩，高祖因之，可以弘济。刘璋暗弱，自焉已来有累世之恩，文法羁縻，互相承奉，德政不举，威刑不肃。蜀土人士，专权自恣，君臣之道，渐以陵替；宠之以位，位极则贱，顺之以恩，恩竭则慢。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "郭冲一事",
+        "note": "裴松之明言郭冲所说可疑并逐条驳难"
+      },
+      "unitStart": 262,
+      "unitEnd": 431
+    },
+    {
+      "id": "note-p4-note0-377",
+      "sceneId": "zhuge-liang-p4",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p4-note0",
+        "textOffset": 377,
+        "text": "所以致弊，实由于此。吾今威之以法，法行则知恩，限之以爵，爵加则知荣；荣恩并济，上下有节。为治之要，于斯而著。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "郭冲一事",
+        "note": "裴松之明言郭冲所说可疑并逐条驳难"
+      },
+      "unitStart": 262,
+      "unitEnd": 431
+    },
+    {
+      "id": "note-p4-note0-666",
+      "sceneId": "zhuge-liang-p4",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p4-note0",
+        "textOffset": 666,
+        "text": "观客色动而神惧，视低而忤数，奸形外漏，邪心内藏，必曹氏刺客也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "郭冲二事",
+        "note": "裴松之质疑这一记载"
+      },
+      "unitStart": 666,
+      "unitEnd": 697
+    },
+    {
+      "id": "body-p5-73",
+      "sceneId": "zhuge-liang-p5",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 73,
+        "text": "臣敢竭股肱之力，效忠贞之节，继之以死！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 73,
+      "unitEnd": 92
+    },
+    {
+      "id": "note-p6-note0-68",
+      "sceneId": "zhuge-liang-p6",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p6-note0",
+        "textOffset": 68,
+        "text": "昔在项羽，起不由德，虽处华夏，秉帝者之势，卒就汤镬，为后永戒。魏不审鉴，今次之矣；免身为幸，戒在子孙。而二三子各以耆艾之齿，承伪指而进书，有若崇、竦称莽之功，亦将偪于元祸苟免者邪！昔世祖之创迹旧基，奋羸卒数千，摧莽彊旅四十余万于昆阳之郊。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《亮集》载正议，回应魏方劝降书"
+      },
+      "unitStart": 68,
+      "unitEnd": 395
+    },
+    {
+      "id": "note-p6-note0-187",
+      "sceneId": "zhuge-liang-p6",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p6-note0",
+        "textOffset": 187,
+        "text": "夫据道讨淫，不在众寡。及至孟德，以其谲胜之力，举数十万之师，救张郃于阳平，势穷虑悔，仅能自脱，辱其锋锐之众，遂丧汉中之地，深知神器不可妄获，旋还未至，感毒而死。子桓淫逸，继之以篡。纵使二三子多逞苏、张诡靡之说，奉进驩兜滔天之辞，欲以诬毁唐帝，讽解禹、稷，所谓徒丧文藻烦劳翰墨者矣。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《亮集》载正议，回应魏方劝降书"
+      },
+      "unitStart": 68,
+      "unitEnd": 395
+    },
+    {
+      "id": "note-p6-note0-327",
+      "sceneId": "zhuge-liang-p6",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p6-note0",
+        "textOffset": 327,
+        "text": "夫大人君子之所不为也。又军诫曰：『万人必死，横行天下。』昔轩辕氏整卒数万，制四方，定海内，况以数十万之众，据正道而临有罪，可得干拟者哉！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《亮集》载正议，回应魏方劝降书"
+      },
+      "unitStart": 68,
+      "unitEnd": 395
+    },
+    {
+      "id": "note-p7-note1-50",
+      "sceneId": "zhuge-liang-p7",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p7-note1",
+        "textOffset": 50,
+        "text": "此军何如？"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》记示营询问"
+      },
+      "unitStart": 50,
+      "unitEnd": 55
+    },
+    {
+      "id": "note-p7-note1-159",
+      "sceneId": "zhuge-liang-p7",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p7-note1",
+        "textOffset": 159,
+        "text": "若留外人，则当留兵，兵留则无所食，一不易也；加夷新伤破，父兄死丧，留外人而无兵者，必成祸患，二不易也；又夷累有废杀之罪，自嫌衅重，若留外人，终不相信，三不易也；今吾欲使不留兵，不运粮，而纲纪粗定，夷、汉粗安故耳。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》记南中平后答谏"
+      },
+      "unitStart": 159,
+      "unitEnd": 265
+    },
+    {
+      "id": "body-p8-0",
+      "sceneId": "zhuge-liang-p8",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 0,
+        "text": "先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表"
+      },
+      "unitStart": 0,
+      "unitEnd": 412
+    },
+    {
+      "id": "body-p8-110",
+      "sceneId": "zhuge-liang-p8",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 110,
+        "text": "宫中府中俱为一体，陟罚臧否，不宜异同。若有作奸犯科及为忠善者，宜付有司论其刑赏，以昭陛下平明之理，不宜偏私，使内外异法也。侍中、侍郎郭攸之、费祎、董允等，此皆良实，志虑忠纯，是以先帝简拔以遗陛下。愚以为宫中之事，事无大小，悉以咨之，然后施行，必能裨补阙漏，有所广益。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表"
+      },
+      "unitStart": 0,
+      "unitEnd": 412
+    },
+    {
+      "id": "body-p8-243",
+      "sceneId": "zhuge-liang-p8",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 243,
+        "text": "将军向宠，性行淑均，晓畅军事，试用于昔日，先帝称之曰能，是以众议举宠为督。愚以为营中之事，事无大小，悉以咨之，必能使行阵和睦，优劣得所。亲贤臣，远小人，此先汉所以兴隆也﹔亲小人，远贤臣，此后汉所以倾颓也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表"
+      },
+      "unitStart": 0,
+      "unitEnd": 412
+    },
+    {
+      "id": "body-p8-345",
+      "sceneId": "zhuge-liang-p8",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 345,
+        "text": "先帝在时，每与臣论此事，未尝不叹息痛恨于桓、灵也。侍中、尚书、长史、参军，此悉贞良死节之臣，愿陛下亲之信之，则汉室之隆，可计日而待也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表"
+      },
+      "unitStart": 0,
+      "unitEnd": 412
+    },
+    {
+      "id": "body-p9-0",
+      "sceneId": "zhuge-liang-p9",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 0,
+        "text": "臣本布衣，躬耕于南阳，苟全性命于乱世，不求闻达于诸侯。先帝不以臣卑鄙，猥自枉屈，三顾臣于草庐之中，咨臣以当世之事，由是感激，遂许先帝以驱驰。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表"
+      },
+      "unitStart": 0,
+      "unitEnd": 70
+    },
+    {
+      "id": "body-p9-70",
+      "sceneId": "zhuge-liang-p9",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 70,
+        "text": "后值倾覆，受任于败军之际，奉命于危难之间，尔来二十有一年矣。先帝知臣谨慎，故临崩寄臣以大事也。受命以来，夙夜忧叹，恐托付不效，以伤先帝之明，故五月渡泸，深入不毛。今南方已定，兵甲已足，当奖率三军，北定中原，庶竭驽钝，攘除奸凶，兴复汉室，还于旧都。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表"
+      },
+      "unitStart": 70,
+      "unitEnd": 210
+    },
+    {
+      "id": "body-p9-193",
+      "sceneId": "zhuge-liang-p9",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 193,
+        "text": "此臣所以报先帝，而忠陛下之职分也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表"
+      },
+      "unitStart": 70,
+      "unitEnd": 210
+    },
+    {
+      "id": "body-p10-0",
+      "sceneId": "zhuge-liang-p10",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 0,
+        "text": "至于斟酌损益，进尽忠言，则攸之、祎、允之任也。愿陛下托臣以讨贼兴复之效﹔不效，则治臣之罪，以告先帝之灵。[若无兴德之言，则]责攸之、祎、允等之慢，以彰其咎。陛下亦宜自谋，以咨诹善道，察纳雅言，深追先帝遗诏。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表",
+        "note": "含方括号异文标示，按底本保留"
+      },
+      "unitStart": 0,
+      "unitEnd": 126
+    },
+    {
+      "id": "body-p10-103",
+      "sceneId": "zhuge-liang-p10",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 103,
+        "text": "臣不胜受恩感激，今当远离，临表涕零，不知所言。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文，前出师表",
+        "note": "含方括号异文标示，按底本保留"
+      },
+      "unitStart": 0,
+      "unitEnd": 126
+    },
+    {
+      "id": "note-p11-note0-199",
+      "sceneId": "zhuge-liang-p11",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p11-note0",
+        "textOffset": 199,
+        "text": "司马懿必谓吾怯，将有彊伏，循山走矣。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "郭冲三事",
+        "note": "裴松之明确论此说虚构，不能当成史实"
+      },
+      "unitStart": 199,
+      "unitEnd": 217
+    },
+    {
+      "id": "body-p12-153",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 153,
+        "text": "臣以弱才，叨窃非据，亲秉旄钺以厉三军，不能训章明法，临事而惧，至有街亭违命之阙，箕谷不戒之失，咎皆在臣授任无方。臣明不知人，恤事多暗，《春秋》责帅，臣职是当。请自贬三等，以督厥咎。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 153,
+      "unitEnd": 243
+    },
+    {
+      "id": "note-p12-note1-64",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note1",
+        "textOffset": 64,
+        "text": "普天之下，莫非汉民，国家威力未举，使百姓困于豺狼之吻。一夫有死，皆亮之罪，以此相贺，能不为愧。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "郭冲四事",
+        "note": "裴松之逐项质疑所记"
+      },
+      "unitStart": 64,
+      "unitEnd": 111
+    },
+    {
+      "id": "note-p12-note2-20",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note2",
+        "textOffset": 20,
+        "text": "大军在祁山、箕谷，皆多于贼，而不能破贼、为贼所破者，则此病不在兵少也，在一人耳。今欲减兵省将，明罚思过，校变通之道于将来；若不能然者，虽兵多何益！自今已后，诸有忠虑于国，但勤攻吾之阙，则事可定，贼可死，功可𫏋足而待矣。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》记街亭后论过"
+      },
+      "unitStart": 20,
+      "unitEnd": 129
+    },
+    {
+      "id": "note-p12-note2-200",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note2",
+        "textOffset": 200,
+        "text": "先帝虑汉、贼不两立，王业不偏安，故托臣以讨贼也。以先帝之明，量臣之才，故知臣伐贼才弱敌强也；然不伐贼，王业亦亡，惟坐待亡，孰与伐之？是故托臣而弗疑也。臣受命之日，寝不安席，食不甘味，思惟北征，宜先入南，故五月渡泸，深入不毛，并日而食。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》所载；裴注说明出张俨《默记》",
+        "note": "注明确说此表《亮集》所无；作者归属存在学术争议，不能称确证亲作"
+      },
+      "unitStart": 200,
+      "unitEnd": 953
+    },
+    {
+      "id": "note-p12-note2-317",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note2",
+        "textOffset": 317,
+        "text": "臣非不自惜也，顾王业不得偏全于蜀都，故冒危难以奉先帝之遗意也，而议者谓为非计。今贼适疲于西，又务于东，兵法乘劳，此进趋之时也。谨陈其事如左：高帝明并日月，谋臣渊深，然涉险被创，危然后安。今陛下未及高帝，谋臣不如良、平，而欲以长计取胜，坐定天下，此臣之未解一也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》所载；裴注说明出张俨《默记》",
+        "note": "注明确说此表《亮集》所无；作者归属存在学术争议，不能称确证亲作"
+      },
+      "unitStart": 200,
+      "unitEnd": 953
+    },
+    {
+      "id": "note-p12-note2-447",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note2",
+        "textOffset": 447,
+        "text": "刘繇、王朗各据州郡，论安言计，动引圣人，群疑满腹，众难塞胸，今岁不战，明年不征，使孙策坐大，遂并江东，此臣之未解二也。曹操智计殊绝于人，其用兵也，仿佛孙、吴，然困于南阳，险于乌巢，危于祁连，偪于黎阳，几败北山，殆死潼关，然后伪定一时耳，况臣才弱，而欲以不危而定之，此臣之未解三也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》所载；裴注说明出张俨《默记》",
+        "note": "注明确说此表《亮集》所无；作者归属存在学术争议，不能称确证亲作"
+      },
+      "unitStart": 200,
+      "unitEnd": 953
+    },
+    {
+      "id": "note-p12-note2-587",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note2",
+        "textOffset": 587,
+        "text": "曹操五攻昌霸不下，四越巢湖不成，任用李服而李服图之，委夏侯而夏侯败亡，先帝每称操为能，犹有此失，况臣驽下，何能必胜？此臣之未解四也。自臣到汉中，中间期年耳，然丧赵云、阳群、马玉、阎芝、丁立、白寿、刘郃、邓铜等及曲长屯将七十余人，突将无前。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》所载；裴注说明出张俨《默记》",
+        "note": "注明确说此表《亮集》所无；作者归属存在学术争议，不能称确证亲作"
+      },
+      "unitStart": 200,
+      "unitEnd": 953
+    },
+    {
+      "id": "note-p12-note2-706",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note2",
+        "textOffset": 706,
+        "text": "賨、叟、青羌散骑、武骑一千余人，此皆数十年之内所纠合四方之精锐，非一州之所有，若复数年，则损三分之二也，当何以图敌？此臣之未解五也。今民穷兵疲，而事不可息，事不可息，则住与行劳费正等，而不及今图之，欲以一州之地与贼持久，此臣之未解六也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》所载；裴注说明出张俨《默记》",
+        "note": "注明确说此表《亮集》所无；作者归属存在学术争议，不能称确证亲作"
+      },
+      "unitStart": 200,
+      "unitEnd": 953
+    },
+    {
+      "id": "note-p12-note2-824",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note2",
+        "textOffset": 824,
+        "text": "夫难平者，事也。昔先帝败军于楚，当此时，曹操拊手，谓天下以定。然后先帝东连吴、越，西取巴、蜀，举兵北征，夏侯授首，此操之失计而汉事将成也。然后吴更违盟，关羽毁败，秭归蹉跌，曹丕称帝。凡事如是，难可逆见。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》所载；裴注说明出张俨《默记》",
+        "note": "注明确说此表《亮集》所无；作者归属存在学术争议，不能称确证亲作"
+      },
+      "unitStart": 200,
+      "unitEnd": 953
+    },
+    {
+      "id": "note-p12-note2-925",
+      "sceneId": "zhuge-liang-p12",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p12-note2",
+        "textOffset": 925,
+        "text": "臣鞠躬尽力，死而后已，至于成败利钝，非臣之明所能逆睹也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》所载；裴注说明出张俨《默记》",
+        "note": "注明确说此表《亮集》所无；作者归属存在学术争议，不能称确证亲作"
+      },
+      "unitStart": 200,
+      "unitEnd": 953
+    },
+    {
+      "id": "note-p15-note0-59",
+      "sceneId": "zhuge-liang-p15",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p15-note0",
+        "textOffset": 59,
+        "text": "权有僭逆之心久矣，国家所以略其衅情者，求掎角之援也。今若加显绝，雠我必深，便当移兵东（戍），与之角力，须并其土，乃议中原。彼贤才尚多，将相缉穆，未可一朝定也。顿兵相持，坐而须老，使北贼得计，非算之上者。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》记对吴关系之议"
+      },
+      "unitStart": 59,
+      "unitEnd": 362
+    },
+    {
+      "id": "note-p15-note0-160",
+      "sceneId": "zhuge-liang-p15",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p15-note0",
+        "textOffset": 160,
+        "text": "昔孝文卑辞匈奴，先帝优与吴盟，皆应权通变，弘思远益，非匹夫之为（分）者也。今议者咸以权利在鼎足，不能并力，且志望以满，无上岸之情，推此，皆似是而非也。何者？其智力不侔，故限江自保；权之不能越江，犹魏贼之不能渡汉，非力有余而利不取也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》记对吴关系之议"
+      },
+      "unitStart": 59,
+      "unitEnd": 362
+    },
+    {
+      "id": "note-p15-note0-276",
+      "sceneId": "zhuge-liang-p15",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p15-note0",
+        "textOffset": 276,
+        "text": "若大军致讨，彼高当分裂其地以为后规，下当略民广境，示武于内，非端坐者也。若就其不动而睦于我，我之北伐，无东顾之忧，河南之众不得尽西，此之为利，亦已深矣。权僭之罪，未宜明也。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》记对吴关系之议"
+      },
+      "unitStart": 59,
+      "unitEnd": 362
+    },
+    {
+      "id": "note-p16-note1-116",
+      "sceneId": "zhuge-liang-p16",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p16-note1",
+        "textOffset": 116,
+        "text": "吾统武行师，以大信为本，得原失信，古人所惜；去者束装以待期，妻子鹤望而计日，虽临征难，义所不废。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "郭冲五事",
+        "note": "裴松之明确质疑其史事"
+      },
+      "unitStart": 116,
+      "unitEnd": 164
+    },
+    {
+      "id": "note-p17-note0-61",
+      "sceneId": "zhuge-liang-p17",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p17-note0",
+        "textOffset": 61,
+        "text": "彼本无战情，所以固请战者，以示武于其众耳。将在军，君命有所不受，苟能制吾，岂千里而请战邪！"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《汉晋春秋》记与姜维论请战"
+      },
+      "unitStart": 61,
+      "unitEnd": 106
+    },
+    {
+      "id": "body-p20-10",
+      "sceneId": "zhuge-liang-p20",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 10,
+        "text": "成都有桑八百株，薄田十五顷，子弟衣食，自有余饶。至于臣在外任，无别调度，随身衣食，悉仰于官，不别治生，以长尺寸。若臣死之日，不使内有余帛，外有赢财，以负陛下。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 10,
+      "unitEnd": 89
+    },
+    {
+      "id": "note-p38-note0-8",
+      "sceneId": "zhuge-liang-p38",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "note",
+        "noteId": "zhuge-liang-p38-note0",
+        "textOffset": 8,
+        "text": "乔本当还成都，今诸将子弟皆得传运，思惟宜同荣辱。今使乔督五六百兵，与诸子弟传于谷中。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《亮集》载与兄瑾书，论诸葛乔传运"
+      },
+      "unitStart": 8,
+      "unitEnd": 50
+    },
+    {
+      "id": "body-p39-22",
+      "sceneId": "zhuge-liang-p39",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 22,
+        "text": "瞻今已八岁，聪慧可爱，嫌其早成，恐不为重器耳。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 22,
+      "unitEnd": 45
+    },
+    {
+      "id": "body-p40-19",
+      "sceneId": "zhuge-liang-p40",
+      "speakerId": "zhuge-liang",
+      "quote": {
+        "target": "body",
+        "textOffset": 19,
+        "text": "董令史，良士也。吾每与之言，思慎宜适。"
+      },
+      "sourceIds": [
+        "epub"
+      ],
+      "attribution": {
+        "label": "《诸葛亮传》正文"
+      },
+      "unitStart": 19,
+      "unitEnd": 38
+    }
+  ]
+}

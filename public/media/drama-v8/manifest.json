@@ -1,0 +1,997 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "wudi",
+  "endHoldMs": 4000,
+  "disclaimer": "AI声音与插画演绎，非历史现场录音。",
+  "clips": [
+    {
+      "id": "eastward-decision",
+      "sceneId": "wudi-p45",
+      "speakerId": "cao-cao",
+      "title": "东征前的决断",
+      "quote": {
+        "textOffset": 62,
+        "text": "夫刘备，人杰也，今不击，必为后患。袁绍虽有大志，而见事遟，必不动也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/eastward-decision.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 11.12
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/eastward-decision.webp",
+        "alt": "曹操与将领议事的艺术演绎。"
+      },
+      "contextNote": "建安五年，曹操决定东征刘备。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wuchao-command",
+      "sceneId": "wudi-wuchao-night-raid",
+      "speakerId": "cao-cao",
+      "title": "乌巢临敌",
+      "quote": {
+        "textOffset": 145,
+        "text": "贼在背后，乃白！"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/wuchao-command.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 2.64
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/wuchao-command.webp",
+        "alt": "乌巢战事中曹操发令的艺术演绎。"
+      },
+      "contextNote": "建安五年冬十月，曹操在乌巢战事中发令。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "wisdom-of-the-realm",
+      "sceneId": "wudi-p60",
+      "speakerId": "cao-cao",
+      "title": "论天下智力",
+      "quote": {
+        "textOffset": 81,
+        "text": "吾任天下之智力，以道御之，无所不可。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/wisdom-of-the-realm.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 5.96
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/wisdom-of-the-realm.webp",
+        "alt": "曹操与袁绍谈论时局的艺术演绎。"
+      },
+      "contextNote": "追述曹操与袁绍论用人及立足之地，对话具体年份未详。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "gather-heroes",
+      "sceneId": "wudi-p32",
+      "speakerId": "cao-cao",
+      "title": "收天下英雄",
+      "quote": {
+        "textOffset": 50,
+        "text": "方今收英雄时也，杀一人而失天下之心，不可。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/gather-heroes.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 7.68
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/gather-heroes.webp",
+        "alt": "曹操与程昱商议用人的艺术演绎。"
+      },
+      "contextNote": "建安元年，程昱建议及早处理刘备，曹操回应。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "recognize-bi-chen",
+      "sceneId": "wudi-p39",
+      "speakerId": "cao-cao",
+      "title": "以孝识忠",
+      "quote": {
+        "textOffset": 88,
+        "text": "夫人孝于其亲者，岂不亦忠于君乎！吾所求也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/recognize-bi-chen.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 7.16
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/recognize-bi-chen.webp",
+        "alt": "曹操与毕谌相见的艺术演绎。"
+      },
+      "contextNote": "毕谌被俘，曹操谈及孝与忠；记载处于建安三年叙事。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "remit-hebei-tax",
+      "sceneId": "wudi-p61",
+      "speakerId": "cao-cao",
+      "title": "免河北租赋",
+      "quote": {
+        "textOffset": 7,
+        "text": "河北罹袁氏之难，其令无出今年租赋！"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/remit-hebei-tax.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 5.48
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/remit-hebei-tax.webp",
+        "alt": "曹操向官吏发布政令的艺术演绎。"
+      },
+      "contextNote": "建安九年九月，曹操下令免除河北当年租赋。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "warn-surrendered-civilian",
+      "sceneId": "wudi-p63",
+      "speakerId": "cao-cao",
+      "title": "劝自首者避吏",
+      "quote": {
+        "textOffset": 132,
+        "text": "听汝则违令，杀汝则诛首，归深自藏，无为吏所获。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/warn-surrendered-civilian.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 8.88
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/warn-surrendered-civilian.webp",
+        "alt": "曹操与自首百姓对话的艺术演绎。"
+      },
+      "contextNote": "攻袁谭时逃役百姓自首，曹操劝其藏身；正文记载此人后来仍被捕。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "acknowledge-defeat",
+      "sceneId": "wudi-p34",
+      "speakerId": "cao-cao",
+      "title": "宛城败后",
+      "quote": {
+        "textOffset": 81,
+        "text": "吾降张绣等，失不便取其质，以至于此。吾知所以败。诸卿观之，自今已后不复败矣。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/acknowledge-defeat.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 12.04
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/acknowledge-defeat.webp",
+        "alt": "曹操败后与诸将议事的艺术演绎。"
+      },
+      "contextNote": "建安二年，曹操在宛城失利后向诸将说明败因。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "care-for-bereaved",
+      "sceneId": "wudi-p53",
+      "speakerId": "cao-cao",
+      "title": "悼念故土与抚恤遗属",
+      "quote": {
+        "textOffset": 14,
+        "text": "吾起义兵，为天下除暴乱。旧土人民，死丧略尽，国中终日行，不见所识，使吾凄怆伤怀。其举义兵已来，将士绝无后者，求其亲戚以后之，授上田，官给耕牛，置学师以教之。为存者立庙，使祀其先人，魂而有灵，吾百年之后何恨哉！"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/care-for-bereaved.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 33.92
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/care-for-bereaved.webp",
+        "alt": "曹操追思故土并下令抚恤的艺术演绎。"
+      },
+      "contextNote": "建安七年春，曹操在谯下令，追念故土亡者并安排绝后将士的继嗣与祭祀。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "share-credit",
+      "sceneId": "wudi-p69",
+      "speakerId": "cao-cao",
+      "title": "归功贤士",
+      "quote": {
+        "textOffset": 21,
+        "text": "吾起义兵诛暴乱，于今十九年，所征必克，岂吾功哉？乃贤士大夫之力也。天下虽未悉定，吾当要与贤士大夫共定之；而专飨其劳，吾何以安焉！其促定功行封。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/share-credit.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 22.88
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/share-credit.webp",
+        "alt": "曹操与群臣商议封赏的艺术演绎。"
+      },
+      "contextNote": "建安十二年春，曹操归功贤士，下令促定功行封。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "final-instructions",
+      "sceneId": "wudi-p121",
+      "speakerId": "cao-cao",
+      "title": "薄葬遗令",
+      "quote": {
+        "textOffset": 19,
+        "text": "天下尚未安定，未得遵古也。葬毕，皆除服。其将兵屯戍者，皆不得离屯部。有司各率乃职。敛以时服，无藏金玉珍宝。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/final-instructions.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 21.68
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/final-instructions.webp",
+        "alt": "晚年曹操留下遗令的艺术演绎。"
+      },
+      "contextNote": "建安二十五年《武帝纪》记曹操遗令，交代军务及简朴丧葬。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p6-75",
+      "sceneId": "wudi-p6",
+      "speakerId": "cao-cao",
+      "title": "劝联军进讨董卓",
+      "quote": {
+        "textOffset": 75,
+        "text": "举义兵以诛暴乱，大众已合，诸君何疑？向使董卓闻山东兵起，倚王室之重，据二周之险，东向以临天下；虽以无道行之，犹足为患。今焚烧宫室，劫迁天子，海内震动，不知所归，此天亡之时也。一战而天下定矣，不可失也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p6-75.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 33.36
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p6-75.webp",
+        "alt": "群雄军议的艺术演绎。"
+      },
+      "contextNote": "劝联军进讨董卓；190年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p7-36",
+      "sceneId": "wudi-p7",
+      "speakerId": "cao-cao",
+      "title": "责联军不进并提出部署",
+      "quote": {
+        "textOffset": 36,
+        "text": "诸君听吾计，使勃海引河内之众临孟津，酸枣诸将守成臯，据敖仓，塞轘辕、太谷，全制其险；使袁将军率南阳之军军丹、析，入武关，以震三辅：皆高垒深壁，勿与战，益为疑兵，示天下形势，以顺诛逆，可立定也。今兵以义动，持疑而不进，失天下之望，窃为诸君耻之！"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p7-36.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 38.08
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p7-36.webp",
+        "alt": "联军军议的艺术演绎。"
+      },
+      "contextNote": "责联军不进并提出部署；190年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p23-61",
+      "sceneId": "wudi-p23",
+      "speakerId": "cao-cao",
+      "title": "分析吕布屯濮阳弱点",
+      "quote": {
+        "textOffset": 61,
+        "text": "布一旦得一州，不能据东平，断亢父、泰山之道，乘险要我，而乃屯濮阳，吾知其无能为也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p23-61.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 10.64
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p23-61.webp",
+        "alt": "濮阳军议的艺术演绎。"
+      },
+      "contextNote": "分析吕布屯濮阳弱点；194年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p37-71",
+      "sceneId": "wudi-p37",
+      "speakerId": "cao-cao",
+      "title": "致书荀彧预判战局",
+      "quote": {
+        "textOffset": 71,
+        "text": "贼来追吾，虽日行数里，吾策之，到安众，破绣必矣。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p37-71.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 7.08
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p37-71.webp",
+        "alt": "行军中写信的艺术演绎。"
+      },
+      "contextNote": "致书荀彧预判战局；198年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p37-190",
+      "sceneId": "wudi-p37",
+      "speakerId": "cao-cao",
+      "title": "战后向荀彧解释胜因",
+      "quote": {
+        "textOffset": 190,
+        "text": "虏遏吾归师，而与吾死地战，吾是以知胜矣。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p37-190.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 6.24
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p37-190.webp",
+        "alt": "战后议事的艺术演绎。"
+      },
+      "contextNote": "战后向荀彧解释胜因；198年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p39-38",
+      "sceneId": "wudi-p39",
+      "speakerId": "cao-cao",
+      "title": "遣毕谌探望被挟家人",
+      "quote": {
+        "textOffset": 38,
+        "text": "卿老母在彼，可去。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p39-38.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 3.04
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p39-38.webp",
+        "alt": "与毕谌告别的艺术演绎。"
+      },
+      "contextNote": "遣毕谌探望被挟家人；追述或对话年份未定。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p41-16",
+      "sceneId": "wudi-p41",
+      "speakerId": "cao-cao",
+      "title": "相信魏种不离去",
+      "quote": {
+        "textOffset": 16,
+        "text": "唯魏种且不弃孤也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p41-16.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 3.0
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p41-16.webp",
+        "alt": "案前议事的艺术演绎。"
+      },
+      "contextNote": "相信魏种不离去；追述或对话年份未定。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p41-36",
+      "sceneId": "wudi-p41",
+      "speakerId": "cao-cao",
+      "title": "闻魏种离去后发怒",
+      "quote": {
+        "textOffset": 36,
+        "text": "种不南走越、北走胡，不置汝也！"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p41-36.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 4.12
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p41-36.webp",
+        "alt": "听报议事的艺术演绎。"
+      },
+      "contextNote": "闻魏种离去后发怒；追述或对话年份未定。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p41-65",
+      "sceneId": "wudi-p41",
+      "speakerId": "cao-cao",
+      "title": "生擒魏种后释缚任用",
+      "quote": {
+        "textOffset": 65,
+        "text": "唯其才也！"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p41-65.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 1.88
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p41-65.webp",
+        "alt": "释缚用人的艺术演绎。"
+      },
+      "contextNote": "生擒魏种后释缚任用；追述或对话年份未定。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p42-39",
+      "sceneId": "wudi-p42",
+      "speakerId": "cao-cao",
+      "title": "分析袁绍",
+      "quote": {
+        "textOffset": 39,
+        "text": "吾知绍之为人，志大而智小，色厉而胆薄，忌克而少威，兵多而分画不明，将骄而政令不一，土地虽广，粮食虽丰，适足以为吾奉也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p42-39.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 18.6
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p42-39.webp",
+        "alt": "官渡前军议的艺术演绎。"
+      },
+      "contextNote": "分析袁绍；199年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yanjin-counterattack-77",
+      "sceneId": "wudi-yanjin-counterattack",
+      "speakerId": "cao-cao",
+      "title": "延津勿复报告",
+      "quote": {
+        "textOffset": 77,
+        "text": "勿复白。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/yanjin-counterattack-77.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 1.4
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/yanjin-counterattack-77.webp",
+        "alt": "延津指挥的艺术演绎。"
+      },
+      "contextNote": "延津勿复报告；200年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yanjin-counterattack-163",
+      "sceneId": "wudi-yanjin-counterattack",
+      "speakerId": "cao-cao",
+      "title": "延津答未到上马时",
+      "quote": {
+        "textOffset": 163,
+        "text": "未也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/yanjin-counterattack-163.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 1.12
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/yanjin-counterattack-163.webp",
+        "alt": "延津指挥的艺术演绎。"
+      },
+      "contextNote": "延津答未到上马时；200年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "yanjin-counterattack-185",
+      "sceneId": "wudi-yanjin-counterattack",
+      "speakerId": "cao-cao",
+      "title": "延津下令上马",
+      "quote": {
+        "textOffset": 185,
+        "text": "可矣。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/yanjin-counterattack-185.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 1.08
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/yanjin-counterattack-185.webp",
+        "alt": "延津指挥的艺术演绎。"
+      },
+      "contextNote": "延津下令上马；200年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "supply-convoy-66",
+      "sceneId": "wudi-supply-convoy",
+      "speakerId": "cao-cao",
+      "title": "向运粮者预告破绍",
+      "quote": {
+        "textOffset": 66,
+        "text": "却十五日为汝破绍，不复劳汝矣。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/supply-convoy-66.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 5.12
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/supply-convoy-66.webp",
+        "alt": "与运粮者相谈的艺术演绎。"
+      },
+      "contextNote": "向运粮者预告破绍；200年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p56-7",
+      "sceneId": "wudi-p56",
+      "speakerId": "cao-cao",
+      "title": "规定败军责任",
+      "quote": {
+        "textOffset": 7,
+        "text": "《司马法》『将军死绥』，故赵括之母，乞不坐括。是古之将者，军破于外，而家受罪于内也。自命将征行，但赏功而不罚罪，非国典也。其令诸将出征，败军者抵罪，失利者免官爵。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p56-7.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 23.8
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p56-7.webp",
+        "alt": "案前颁令的艺术演绎。"
+      },
+      "contextNote": "规定败军责任；203年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p57-8",
+      "sceneId": "wudi-p57",
+      "speakerId": "cao-cao",
+      "title": "命郡县修文学设校",
+      "quote": {
+        "textOffset": 8,
+        "text": "丧乱已来，十有五年，后生者不见仁义礼让之风，吾甚伤之。其令郡国各修文学，县满五百户置校官，选其乡之俊造而教学之，庶几先王之道不废，而有以益于天下。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p57-8.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 24.24
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p57-8.webp",
+        "alt": "官吏政务的艺术演绎。"
+      },
+      "contextNote": "命郡县修文学设校；203年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p59-191",
+      "sceneId": "wudi-p59",
+      "speakerId": "cao-cao",
+      "title": "分析袁尚救邺路径",
+      "quote": {
+        "textOffset": 191,
+        "text": "尚从大道来，当避之；若循西山来者，此成禽耳。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p59-191.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 6.84
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p59-191.webp",
+        "alt": "围邺军议的艺术演绎。"
+      },
+      "contextNote": "分析袁尚救邺路径；204年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p60-33",
+      "sceneId": "wudi-p60",
+      "speakerId": "cao-cao",
+      "title": "反问袁绍立足之地",
+      "quote": {
+        "textOffset": 33,
+        "text": "足下意以为何如？"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p60-33.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 2.96
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p60-33.webp",
+        "alt": "复用现有论天下插画的艺术演绎。"
+      },
+      "contextNote": "反问袁绍立足之地；追述或对话年份未定。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p63-29",
+      "sceneId": "wudi-p63",
+      "speakerId": "cao-cao",
+      "title": "令袁氏同恶者更始",
+      "quote": {
+        "textOffset": 29,
+        "text": "其与袁氏同恶者，与之更始。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p63-29.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 4.52
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p63-29.webp",
+        "alt": "平定冀州后颁令的艺术演绎。"
+      },
+      "contextNote": "令袁氏同恶者更始；205年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p65-7",
+      "sceneId": "wudi-p65",
+      "speakerId": "cao-cao",
+      "title": "整齐风俗批评结党",
+      "quote": {
+        "textOffset": 7,
+        "text": "阿党比周，先圣所疾也。闻冀州俗，父子异部，更相毁誉。昔直不疑无兄，世人谓之盗嫂；第五伯鱼三娶孤女，谓之挝妇翁；王凤擅权，谷永比之申伯；王商忠议，张匡谓之左道：此皆以白为黑，欺天罔君者也。吾欲整齐风俗，四者不除，吾以为羞。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p65-7.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 32.36
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p65-7.webp",
+        "alt": "冀州政务的艺术演绎。"
+      },
+      "contextNote": "整齐风俗批评结党；205年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p70-348",
+      "sceneId": "wudi-p70",
+      "speakerId": "cao-cao",
+      "title": "预料公孙康斩送袁氏",
+      "quote": {
+        "textOffset": 348,
+        "text": "吾方使康斩送尚、熙首，不烦兵矣。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p70-348.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 5.04
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p70-348.webp",
+        "alt": "北征后军议的艺术演绎。"
+      },
+      "contextNote": "预料公孙康斩送袁氏；207年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p70-416",
+      "sceneId": "wudi-p70",
+      "speakerId": "cao-cao",
+      "title": "解释公孙康斩送缘由",
+      "quote": {
+        "textOffset": 416,
+        "text": "彼素畏尚等，吾急之则并力，缓之则自相图，其势然也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p70-416.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 8.32
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p70-416.webp",
+        "alt": "返军后复盘的艺术演绎。"
+      },
+      "contextNote": "解释公孙康斩送缘由；207年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p73-43",
+      "sceneId": "wudi-p73",
+      "speakerId": "cao-cao",
+      "title": "下令抚恤死者家属",
+      "quote": {
+        "textOffset": 43,
+        "text": "自顷已来，军数征行，或遇疫气，吏士死亡不归，家室怨旷，百姓流离，而仁者岂乐之哉？不得已也。其令死者家无基业不能自存者，县官勿绝廪，长吏存恤抚循，以称吾意。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p73-43.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 24.88
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p73-43.webp",
+        "alt": "军中或案前赈恤的艺术演绎。"
+      },
+      "contextNote": "下令抚恤死者家属；209年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p74-10",
+      "sceneId": "wudi-p74",
+      "speakerId": "cao-cao",
+      "title": "求贤令唯才是举",
+      "quote": {
+        "textOffset": 10,
+        "text": "自古受命及中兴之君，曷甞不得贤人君子与之共治天下者乎！及其得贤也，曾不出闾巷，岂幸相遇哉？上之人不求之耳。今天下尚未定，此特求贤之急时也。『孟公绰为赵、魏老则优，不可以为滕、薛大夫』。若必廉士而后可用，则齐桓其何以霸世！今天下得无有被褐怀玉而钓于渭濵者乎？又得无盗嫂受金而未遇无知者乎？二三子其佐我明扬仄陋，唯才是举，吾得而用之。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p74-10.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 46.72
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p74-10.webp",
+        "alt": "案前求贤的艺术演绎。"
+      },
+      "contextNote": "求贤令唯才是举；210年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p76-48",
+      "sceneId": "wudi-p76",
+      "speakerId": "cao-cao",
+      "title": "令关西坚壁勿战",
+      "quote": {
+        "textOffset": 48,
+        "text": "关西兵精悍，坚壁勿与战。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p76-48.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 3.8
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p76-48.webp",
+        "alt": "潼关防御军议的艺术演绎。"
+      },
+      "contextNote": "令关西坚壁勿战；211年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p76-464",
+      "sceneId": "wudi-p76",
+      "speakerId": "cao-cao",
+      "title": "战后解释渡河与用兵",
+      "quote": {
+        "textOffset": 464,
+        "text": "贼守潼关，若吾入河东，贼必引守诸津，则西河未可渡，吾故盛兵向潼关；贼悉众南守，西河之备虚，故二将得擅取西河；然后引军北渡，贼不能与吾争西河者，以有二将之军也。连车树栅，为甬道而南，既为不可胜，且以示弱。渡渭为坚垒，虏至不出，所以骄之也；故贼不为营垒而求割地。吾顺言许之，所以从其意，使自安而不为备，因畜士卒之力，一旦击之，所谓疾雷不及掩耳，兵之变化，固非一道也。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p76-464.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 50.8
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p76-464.webp",
+        "alt": "战后向诸将复盘的艺术演绎。"
+      },
+      "contextNote": "战后解释渡河与用兵；211年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p76-676",
+      "sceneId": "wudi-p76",
+      "speakerId": "cao-cao",
+      "title": "解释见敌集结而喜",
+      "quote": {
+        "textOffset": 676,
+        "text": "关中长远，若贼各依险阻，征之，不一二年不可定也。今皆来集，其众虽多，莫相归服，军无适主，一举可灭，为功差易，吾是以喜。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p76-676.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 16.8
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p76-676.webp",
+        "alt": "战后向诸将复盘的艺术演绎。"
+      },
+      "contextNote": "解释见敌集结而喜；211年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p89-17",
+      "sceneId": "wudi-p89",
+      "speakerId": "cao-cao",
+      "title": "告诫毌丘兴出任",
+      "quote": {
+        "textOffset": 17,
+        "text": "羌，胡欲与中国通，自当遣人来，慎勿遣人徃。善人难得，必将教羌、胡妄有所请求，因欲以自利；不从便为失异俗意，从之则无益事。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p89-17.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 19.04
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p89-17.webp",
+        "alt": "官员赴任前告诫的艺术演绎。"
+      },
+      "contextNote": "告诫毌丘兴出任；214年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p89-108",
+      "sceneId": "wudi-p89",
+      "speakerId": "cao-cao",
+      "title": "解释预判源于经验",
+      "quote": {
+        "textOffset": 108,
+        "text": "吾预知当尔，非圣也，但更事多耳。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p89-108.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 5.68
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p89-108.webp",
+        "alt": "事后与左右议事的艺术演绎。"
+      },
+      "contextNote": "解释预判源于经验；214年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p95-30",
+      "sceneId": "wudi-p95",
+      "speakerId": "cao-cao",
+      "title": "论人才行与才",
+      "quote": {
+        "textOffset": 30,
+        "text": "夫有行之士未必能进取，进取之士未必能有行也。陈平岂笃行，苏秦岂守信邪？而陈平定汉业，苏秦济弱燕。由此言之，士有偏短，庸可废乎！有司明思此义，则士无遗滞，官无废业矣。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p95-30.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 28.12
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p95-30.webp",
+        "alt": "案前议任贤的艺术演绎。"
+      },
+      "contextNote": "论人才行与才；214年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p95-117",
+      "sceneId": "wudi-p95",
+      "speakerId": "cao-cao",
+      "title": "要求选明法官吏",
+      "quote": {
+        "textOffset": 117,
+        "text": "夫刑，百姓之命也，而军中典狱者或非其人，而任以三军死生之事，吾甚惧之。其选明达法理者，使持典刑。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p95-117.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 14.44
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p95-117.webp",
+        "alt": "案前议刑狱的艺术演绎。"
+      },
+      "contextNote": "要求选明法官吏；214年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    },
+    {
+      "id": "p111-7",
+      "sceneId": "wudi-p111",
+      "speakerId": "cao-cao",
+      "title": "安排寿陵与陪葬",
+      "quote": {
+        "textOffset": 7,
+        "text": "古之葬者，必居瘠薄之地。其规西门豹祠西原上为寿陵，因高为基，不封不树。周礼冢人掌公墓之地，凡诸侯居左右以前，卿大夫居后，汉制亦谓之陪陵。其公卿大臣列将有功者，宜陪寿陵，其广为兆域，使足相容。"
+      },
+      "audio": {
+        "path": "media/drama-v8/audio/p111-7.wav",
+        "mimeType": "audio/wav",
+        "durationSeconds": 32.8
+      },
+      "illustration": {
+        "path": "media/drama-v8/images/p111-7.webp",
+        "alt": "晚年商议陵制的艺术演绎。"
+      },
+      "contextNote": "安排寿陵与陪葬；218年，依据场景编年。",
+      "sourceIds": [
+        "epub-simplified"
+      ]
+    }
+  ]
+}

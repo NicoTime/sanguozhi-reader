@@ -1,0 +1,475 @@
+[
+  {
+    "id": "p6-75",
+    "sceneId": "wudi-p6",
+    "quote": {
+      "textOffset": 75,
+      "text": "举义兵以诛暴乱，大众已合，诸君何疑？向使董卓闻山东兵起，倚王室之重，据二周之险，东向以临天下；虽以无道行之，犹足为患。今焚烧宫室，劫迁天子，海内震动，不知所归，此天亡之时也。一战而天下定矣，不可失也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p7-36",
+    "sceneId": "wudi-p7",
+    "quote": {
+      "textOffset": 36,
+      "text": "诸君听吾计，使勃海引河内之众临孟津，酸枣诸将守成臯，据敖仓，塞轘辕、太谷，全制其险；使袁将军率南阳之军军丹、析，入武关，以震三辅：皆高垒深壁，勿与战，益为疑兵，示天下形势，以顺诛逆，可立定也。今兵以义动，持疑而不进，失天下之望，窃为诸君耻之！"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p23-61",
+    "sceneId": "wudi-p23",
+    "quote": {
+      "textOffset": 61,
+      "text": "布一旦得一州，不能据东平，断亢父、泰山之道，乘险要我，而乃屯濮阳，吾知其无能为也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "gather-heroes",
+    "sceneId": "wudi-p32",
+    "quote": {
+      "textOffset": 50,
+      "text": "方今收英雄时也，杀一人而失天下之心，不可。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "acknowledge-defeat",
+    "sceneId": "wudi-p34",
+    "quote": {
+      "textOffset": 81,
+      "text": "吾降张绣等，失不便取其质，以至于此。吾知所以败。诸卿观之，自今已后不复败矣。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p37-71",
+    "sceneId": "wudi-p37",
+    "quote": {
+      "textOffset": 71,
+      "text": "贼来追吾，虽日行数里，吾策之，到安众，破绣必矣。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p37-190",
+    "sceneId": "wudi-p37",
+    "quote": {
+      "textOffset": 190,
+      "text": "虏遏吾归师，而与吾死地战，吾是以知胜矣。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p39-38",
+    "sceneId": "wudi-p39",
+    "quote": {
+      "textOffset": 38,
+      "text": "卿老母在彼，可去。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "recognize-bi-chen",
+    "sceneId": "wudi-p39",
+    "quote": {
+      "textOffset": 88,
+      "text": "夫人孝于其亲者，岂不亦忠于君乎！吾所求也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p41-16",
+    "sceneId": "wudi-p41",
+    "quote": {
+      "textOffset": 16,
+      "text": "唯魏种且不弃孤也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p41-36",
+    "sceneId": "wudi-p41",
+    "quote": {
+      "textOffset": 36,
+      "text": "种不南走越、北走胡，不置汝也！"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p41-65",
+    "sceneId": "wudi-p41",
+    "quote": {
+      "textOffset": 65,
+      "text": "唯其才也！"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p42-39",
+    "sceneId": "wudi-p42",
+    "quote": {
+      "textOffset": 39,
+      "text": "吾知绍之为人，志大而智小，色厉而胆薄，忌克而少威，兵多而分画不明，将骄而政令不一，土地虽广，粮食虽丰，适足以为吾奉也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "eastward-decision",
+    "sceneId": "wudi-p45",
+    "quote": {
+      "textOffset": 62,
+      "text": "夫刘备，人杰也，今不击，必为后患。袁绍虽有大志，而见事遟，必不动也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "yanjin-counterattack-77",
+    "sceneId": "wudi-yanjin-counterattack",
+    "quote": {
+      "textOffset": 77,
+      "text": "勿复白。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "yanjin-counterattack-163",
+    "sceneId": "wudi-yanjin-counterattack",
+    "quote": {
+      "textOffset": 163,
+      "text": "未也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "yanjin-counterattack-185",
+    "sceneId": "wudi-yanjin-counterattack",
+    "quote": {
+      "textOffset": 185,
+      "text": "可矣。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "supply-convoy-66",
+    "sceneId": "wudi-supply-convoy",
+    "quote": {
+      "textOffset": 66,
+      "text": "却十五日为汝破绍，不复劳汝矣。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "wuchao-command",
+    "sceneId": "wudi-wuchao-night-raid",
+    "quote": {
+      "textOffset": 145,
+      "text": "贼在背后，乃白！"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "care-for-bereaved",
+    "sceneId": "wudi-p53",
+    "quote": {
+      "textOffset": 14,
+      "text": "吾起义兵，为天下除暴乱。旧土人民，死丧略尽，国中终日行，不见所识，使吾凄怆伤怀。其举义兵已来，将士绝无后者，求其亲戚以后之，授上田，官给耕牛，置学师以教之。为存者立庙，使祀其先人，魂而有灵，吾百年之后何恨哉！"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p56-7",
+    "sceneId": "wudi-p56",
+    "quote": {
+      "textOffset": 7,
+      "text": "《司马法》『将军死绥』，故赵括之母，乞不坐括。是古之将者，军破于外，而家受罪于内也。自命将征行，但赏功而不罚罪，非国典也。其令诸将出征，败军者抵罪，失利者免官爵。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p57-8",
+    "sceneId": "wudi-p57",
+    "quote": {
+      "textOffset": 8,
+      "text": "丧乱已来，十有五年，后生者不见仁义礼让之风，吾甚伤之。其令郡国各修文学，县满五百户置校官，选其乡之俊造而教学之，庶几先王之道不废，而有以益于天下。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p59-191",
+    "sceneId": "wudi-p59",
+    "quote": {
+      "textOffset": 191,
+      "text": "尚从大道来，当避之；若循西山来者，此成禽耳。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p60-33",
+    "sceneId": "wudi-p60",
+    "quote": {
+      "textOffset": 33,
+      "text": "足下意以为何如？"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "wisdom-of-the-realm",
+    "sceneId": "wudi-p60",
+    "quote": {
+      "textOffset": 81,
+      "text": "吾任天下之智力，以道御之，无所不可。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "remit-hebei-tax",
+    "sceneId": "wudi-p61",
+    "quote": {
+      "textOffset": 7,
+      "text": "河北罹袁氏之难，其令无出今年租赋！"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p63-29",
+    "sceneId": "wudi-p63",
+    "quote": {
+      "textOffset": 29,
+      "text": "其与袁氏同恶者，与之更始。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "warn-surrendered-civilian",
+    "sceneId": "wudi-p63",
+    "quote": {
+      "textOffset": 132,
+      "text": "听汝则违令，杀汝则诛首，归深自藏，无为吏所获。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p65-7",
+    "sceneId": "wudi-p65",
+    "quote": {
+      "textOffset": 7,
+      "text": "阿党比周，先圣所疾也。闻冀州俗，父子异部，更相毁誉。昔直不疑无兄，世人谓之盗嫂；第五伯鱼三娶孤女，谓之挝妇翁；王凤擅权，谷永比之申伯；王商忠议，张匡谓之左道：此皆以白为黑，欺天罔君者也。吾欲整齐风俗，四者不除，吾以为羞。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "share-credit",
+    "sceneId": "wudi-p69",
+    "quote": {
+      "textOffset": 21,
+      "text": "吾起义兵诛暴乱，于今十九年，所征必克，岂吾功哉？乃贤士大夫之力也。天下虽未悉定，吾当要与贤士大夫共定之；而专飨其劳，吾何以安焉！其促定功行封。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p70-348",
+    "sceneId": "wudi-p70",
+    "quote": {
+      "textOffset": 348,
+      "text": "吾方使康斩送尚、熙首，不烦兵矣。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p70-416",
+    "sceneId": "wudi-p70",
+    "quote": {
+      "textOffset": 416,
+      "text": "彼素畏尚等，吾急之则并力，缓之则自相图，其势然也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p73-43",
+    "sceneId": "wudi-p73",
+    "quote": {
+      "textOffset": 43,
+      "text": "自顷已来，军数征行，或遇疫气，吏士死亡不归，家室怨旷，百姓流离，而仁者岂乐之哉？不得已也。其令死者家无基业不能自存者，县官勿绝廪，长吏存恤抚循，以称吾意。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p74-10",
+    "sceneId": "wudi-p74",
+    "quote": {
+      "textOffset": 10,
+      "text": "自古受命及中兴之君，曷甞不得贤人君子与之共治天下者乎！及其得贤也，曾不出闾巷，岂幸相遇哉？上之人不求之耳。今天下尚未定，此特求贤之急时也。『孟公绰为赵、魏老则优，不可以为滕、薛大夫』。若必廉士而后可用，则齐桓其何以霸世！今天下得无有被褐怀玉而钓于渭濵者乎？又得无盗嫂受金而未遇无知者乎？二三子其佐我明扬仄陋，唯才是举，吾得而用之。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p76-48",
+    "sceneId": "wudi-p76",
+    "quote": {
+      "textOffset": 48,
+      "text": "关西兵精悍，坚壁勿与战。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p76-464",
+    "sceneId": "wudi-p76",
+    "quote": {
+      "textOffset": 464,
+      "text": "贼守潼关，若吾入河东，贼必引守诸津，则西河未可渡，吾故盛兵向潼关；贼悉众南守，西河之备虚，故二将得擅取西河；然后引军北渡，贼不能与吾争西河者，以有二将之军也。连车树栅，为甬道而南，既为不可胜，且以示弱。渡渭为坚垒，虏至不出，所以骄之也；故贼不为营垒而求割地。吾顺言许之，所以从其意，使自安而不为备，因畜士卒之力，一旦击之，所谓疾雷不及掩耳，兵之变化，固非一道也。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p76-676",
+    "sceneId": "wudi-p76",
+    "quote": {
+      "textOffset": 676,
+      "text": "关中长远，若贼各依险阻，征之，不一二年不可定也。今皆来集，其众虽多，莫相归服，军无适主，一举可灭，为功差易，吾是以喜。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p89-17",
+    "sceneId": "wudi-p89",
+    "quote": {
+      "textOffset": 17,
+      "text": "羌，胡欲与中国通，自当遣人来，慎勿遣人徃。善人难得，必将教羌、胡妄有所请求，因欲以自利；不从便为失异俗意，从之则无益事。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p89-108",
+    "sceneId": "wudi-p89",
+    "quote": {
+      "textOffset": 108,
+      "text": "吾预知当尔，非圣也，但更事多耳。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p95-30",
+    "sceneId": "wudi-p95",
+    "quote": {
+      "textOffset": 30,
+      "text": "夫有行之士未必能进取，进取之士未必能有行也。陈平岂笃行，苏秦岂守信邪？而陈平定汉业，苏秦济弱燕。由此言之，士有偏短，庸可废乎！有司明思此义，则士无遗滞，官无废业矣。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p95-117",
+    "sceneId": "wudi-p95",
+    "quote": {
+      "textOffset": 117,
+      "text": "夫刑，百姓之命也，而军中典狱者或非其人，而任以三军死生之事，吾甚惧之。其选明达法理者，使持典刑。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "p111-7",
+    "sceneId": "wudi-p111",
+    "quote": {
+      "textOffset": 7,
+      "text": "古之葬者，必居瘠薄之地。其规西门豹祠西原上为寿陵，因高为基，不封不树。周礼冢人掌公墓之地，凡诸侯居左右以前，卿大夫居后，汉制亦谓之陪陵。其公卿大臣列将有功者，宜陪寿陵，其广为兆域，使足相容。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  },
+  {
+    "id": "final-instructions",
+    "sceneId": "wudi-p121",
+    "quote": {
+      "textOffset": 19,
+      "text": "天下尚未安定，未得遵古也。葬毕，皆除服。其将兵屯戍者，皆不得离屯部。有司各率乃职。敛以时服，无藏金玉珍宝。"
+    },
+    "sourceIds": [
+      "epub-simplified"
+    ]
+  }
+]

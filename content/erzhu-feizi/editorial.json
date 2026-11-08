@@ -1,0 +1,608 @@
+{
+  "id": "erzhu-feizi",
+  "chapterPath": "OPS/c37_san_guo_zhi_juan34.xhtml",
+  "sourceSpec": {
+    "chapterPath": "OPS/c37_san_guo_zhi_juan34.xhtml",
+    "firstParagraph": 1,
+    "lastParagraph": 10,
+    "lastTextPrefix": [
+      "评曰",
+      "評曰"
+    ]
+  },
+  "title": "二主妃子传",
+  "subtitle": "蜀汉皇后与皇子",
+  "editorialNote": "全卷依据本地 EPUB，含皇后、皇子、诏表与评语。白话和人物说明为现代整理，位置仅为地域参考。",
+  "meta": {
+    "workTitle": "二主妃子传",
+    "protagonist": "蜀汉皇后与皇子",
+    "volume": "卷三十四",
+    "division": "蜀书",
+    "displayTitle": "二主妃子传",
+    "seal": "蜀",
+    "periodLabel": "东汉末至西晋初",
+    "coverage": "complete",
+    "coverageLabel": "全传"
+  },
+  "sources": [
+    {
+      "id": "epub",
+      "title": "本地简体《三国志》裴注 EPUB",
+      "kind": "epub",
+      "locator": "EPUB",
+      "license": "卷末标记 Public domain（古籍作品）；EPUB 包元数据同时声明 CC BY-SA 3.0、GFDL（数字版本元数据）。"
+    },
+    {
+      "id": "editor",
+      "title": "本项目原创义注与编排",
+      "kind": "editorial",
+      "locator": "docs/content/",
+      "note": "由本项目整理。"
+    },
+    {
+      "id": "changban",
+      "title": "宜昌民政：长坂坡",
+      "kind": "web",
+      "locator": "https://mzj.yichang.gov.cn/content-63849-997459-1.html",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "jiangling",
+      "title": "湖北省文旅厅：荆州、江陵",
+      "kind": "web",
+      "locator": "https://wlt.hubei.gov.cn/bmdt/ztzl/zshb/201912/t20191226_1799529.shtml",
+      "note": "地望以区域参考表示，不等于古代具体点位。"
+    },
+    {
+      "id": "chengdu-ref",
+      "title": "刘备成都即位：汉中市汉台区政府",
+      "kind": "web",
+      "locator": "https://www.htq.gov.cn/hzshtqzf/zjht/lswh/202511/3c466408a451409ba2b2f9bfb8f510bd.shtml"
+    },
+    {
+      "id": "luoyang-ref",
+      "title": "汉魏洛阳故城：国家发展改革委",
+      "kind": "web",
+      "locator": "https://www.ndrc.gov.cn/xwdt/gdzt/dyhgjwhgy/202209/t20220921_1335876.html"
+    },
+    {
+      "id": "xiaopei-ref",
+      "title": "小沛与沛县：淮安政协文史",
+      "kind": "web",
+      "locator": "https://zx.huaian.gov.cn/col/14169_262675/art/17224416/1724742792761zPiLJu93.html"
+    }
+  ],
+  "places": [
+    [
+      "chengdu",
+      "成都",
+      "四川成都城区",
+      [
+        104.07,
+        30.67
+      ],
+      "region",
+      "成都地域为蜀汉政治中心，地图不表示宫殿或人物的具体所在。",
+      "chengdu-ref"
+    ],
+    [
+      "nan-jun",
+      "南郡",
+      "湖北荆州区域",
+      [
+        112.23,
+        30.35
+      ],
+      "region",
+      "郡域范围广，取江陵所在区域参考，不代表甘氏具体葬址。",
+      "jiangling"
+    ],
+    [
+      "dangyang",
+      "当阳",
+      "湖北当阳一带",
+      [
+        111.79,
+        30.82
+      ],
+      "county",
+      "当阳长坂地域参考，非赵云及甘氏精确位置。",
+      "changban"
+    ],
+    [
+      "luoyang",
+      "洛阳",
+      "河南洛阳城区",
+      [
+        112.45,
+        34.62
+      ],
+      "city",
+      "以现代洛阳区域作为魏晋洛阳参考，不等同宫城与宅邸坐标。",
+      "luoyang-ref"
+    ],
+    [
+      "xiaopei",
+      "小沛",
+      "江苏沛县区域",
+      [
+        116.94,
+        34.73
+      ],
+      "county",
+      "以今沛县城区域参考小沛；甘氏籍贯所称“沛”和刘备驻守小沛可能涉及的地区或行政范围不同，不将此点当作甘氏故宅或婚居遗址。",
+      "xiaopei-ref"
+    ]
+  ],
+  "people": [
+    [
+      "甘皇后",
+      "gan-hou"
+    ],
+    [
+      "刘备",
+      "liu-bei"
+    ],
+    [
+      "刘禅",
+      "liu-shan"
+    ],
+    [
+      "赵云",
+      "zhao-yun"
+    ],
+    [
+      "诸葛亮",
+      "zhuge-liang"
+    ],
+    [
+      "穆皇后",
+      "mu-hou"
+    ],
+    [
+      "吴壹",
+      "wu-yi"
+    ],
+    [
+      "刘瑁",
+      "liu-mao"
+    ],
+    [
+      "刘焉",
+      "liu-yan"
+    ],
+    [
+      "法正",
+      "fa-zheng"
+    ],
+    [
+      "敬哀皇后",
+      "jingai-hou"
+    ],
+    [
+      "张皇后",
+      "zhang-hou"
+    ],
+    [
+      "张飞",
+      "zhang-fei"
+    ],
+    [
+      "刘永",
+      "liu-yong"
+    ],
+    [
+      "刘理",
+      "liu-li"
+    ],
+    [
+      "刘胤",
+      "liu-yin"
+    ],
+    [
+      "刘承",
+      "liu-cheng"
+    ],
+    [
+      "刘辑",
+      "liu-ji"
+    ],
+    [
+      "刘璿",
+      "liu-xuan"
+    ],
+    [
+      "王贵人",
+      "wang-guiren"
+    ],
+    [
+      "向朗",
+      "xiang-lang"
+    ],
+    [
+      "黄皓",
+      "huang-hao"
+    ],
+    [
+      "钟会",
+      "zhong-hui"
+    ],
+    [
+      "许靖",
+      "xu-jing"
+    ]
+  ],
+  "personDetails": {
+    "gan-hou": {
+      "description": "刘备妾，刘禅生母，死后追尊昭烈皇后。"
+    },
+    "liu-bei": {
+      "description": "蜀汉开国君主，本卷称先主。"
+    },
+    "liu-shan": {
+      "description": "刘备之子，蜀汉后主。"
+    },
+    "zhao-yun": {
+      "description": "刘备部将，传记载其曾保护甘夫人与刘禅。"
+    },
+    "zhuge-liang": {
+      "description": "蜀汉丞相，曾上言追尊甘夫人与先主合葬。"
+    },
+    "mu-hou": {
+      "description": "刘备皇后吴氏，吴壹之妹，后尊为皇太后。"
+    },
+    "wu-yi": {
+      "description": "蜀汉将领，穆皇后之兄。"
+    },
+    "liu-mao": {
+      "description": "刘焉之子，穆皇后此前的丈夫。"
+    },
+    "liu-yan": {
+      "description": "东汉末益州牧，刘瑁之父。"
+    },
+    "fa-zheng": {
+      "description": "刘备谋臣，曾就聘娶吴氏提出意见。"
+    },
+    "jingai-hou": {
+      "description": "张飞长女，刘禅皇后，死后谥敬哀。"
+    },
+    "zhang-hou": {
+      "description": "敬哀皇后之妹，后为刘禅皇后。"
+    },
+    "zhang-fei": {
+      "description": "刘备部将，敬哀皇后和后主张皇后之父。"
+    },
+    "liu-yong": {
+      "description": "刘备之子、刘禅庶弟，先封鲁王，后改甘陵王。"
+    },
+    "liu-li": {
+      "description": "刘备之子、刘禅庶弟，先封梁王，后改安平王。"
+    },
+    "liu-yin": {
+      "description": "刘理之子，继安平王位。"
+    },
+    "liu-cheng": {
+      "description": "刘胤之子，继安平王位。"
+    },
+    "liu-ji": {
+      "description": "刘理之子，奉诏继安平王位。"
+    },
+    "liu-xuan": {
+      "description": "刘禅太子，生母王贵人。"
+    },
+    "wang-guiren": {
+      "description": "刘禅宫中贵人，刘璿之母。"
+    },
+    "xiang-lang": {
+      "description": "蜀汉大臣，曾奉命授皇后及太子印绶。"
+    },
+    "huang-hao": {
+      "description": "蜀汉宦官，曾诬陷刘永。"
+    },
+    "zhong-hui": {
+      "description": "曹魏将领，在成都发动叛乱。"
+    },
+    "xu-jing": {
+      "description": "蜀汉司徒，奉命册立刘永、刘理。"
+    }
+  },
+  "placeAliases": {},
+  "factions": [
+    {
+      "id": "liu",
+      "name": "刘备军",
+      "color": "#356A45",
+      "paperColor": "#E4F0E4",
+      "borderColor": "#699776"
+    },
+    {
+      "id": "sun",
+      "name": "孙权军",
+      "color": "#946B24",
+      "paperColor": "#F6EDD9",
+      "borderColor": "#B9995B"
+    },
+    {
+      "id": "cao",
+      "name": "曹操军",
+      "color": "#8B3827",
+      "paperColor": "#F7E7DF",
+      "borderColor": "#B87563"
+    },
+    {
+      "id": "huang",
+      "name": "黄祖军",
+      "color": "#6E637A",
+      "paperColor": "#EDE8F0",
+      "borderColor": "#9B8DA7"
+    }
+  ],
+  "mapProfiles": [
+    {
+      "id": "wide-relief",
+      "label": "中国东部广域现代地势",
+      "bounds": {
+        "west": 95.625,
+        "south": 16.636191878397653,
+        "east": 132.1875,
+        "north": 45.089035564831015
+      },
+      "center": [
+        108.8,
+        32.5
+      ],
+      "minZoom": 3,
+      "maxZoom": 10,
+      "reliefPath": "/maps/eastern-china-relief.jpg",
+      "modernRiversPath": "/maps/eastern-china-modern-rivers.geojson",
+      "modernCitiesPath": "/maps/eastern-china-modern-cities.json",
+      "attribution": "现代地形：Mapzen / Tilezen、USGS；现代河流与城市：Natural Earth。"
+    }
+  ],
+  "defaultMapProfileId": "wide-relief",
+  "historicalRiver": {
+    "status": "unavailable",
+    "label": "古水系未复原",
+    "explanation": "本篇未核定汉末长江、汉水与支流水道，现代水系仅供现代地理对照，不代表古河道。",
+    "sourceIds": [
+      "editor"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "erzhu-feizi-p1",
+      "paragraphIndex": 1,
+      "endMarker": null,
+      "title": "甘皇后与迁葬",
+      "summary": "先主甘皇后是沛人。",
+      "translation": "先主甘皇后是沛人。刘备主持豫州事务、驻小沛时，纳她为妾。刘备多次失去正妻，她常代管内宅事务。她随刘备到荆州，生下后主刘禅。恰逢曹军来到，在当阳长坂追上刘备。当时情势危急，刘备丢下她和刘禅，幸赖赵云保护，才免于灾难。后来甘氏去世，葬于南郡。章武二年，追谥皇思夫人，迁葬到蜀地；灵柩尚未到达，先主已经去世。丞相诸葛亮上言：",
+      "time": {
+        "year": null,
+        "era": "汉末至章武三年",
+        "label": "含208年长坂、222—223年迁葬 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "xiaopei",
+      "personIds": [
+        "gan-hou",
+        "liu-bei",
+        "liu-shan",
+        "zhao-yun",
+        "zhuge-liang"
+      ],
+      "sectionTitle": "先主甘皇后",
+      "kind": "narrative"
+    },
+    {
+      "id": "erzhu-feizi-p2",
+      "paragraphIndex": 2,
+      "endMarker": null,
+      "title": "诸葛亮议追尊合葬",
+      "summary": "皇思夫人品行修美仁善，谨慎持身。",
+      "translation": "皇思夫人品行修美仁善，谨慎持身。先帝从前担任上将时，与她结为妃偶，生育了陛下，可惜她未能长寿。先帝在世时情义深厚、恩泽深切，想到皇思夫人灵柩远在异地，特派使者迎回。恰逢先帝驾崩，如今皇思夫人的灵柩已经到达，先帝灵柩也在途中，园陵将建成，安葬有期。臣与太常赖恭等商议：《礼记》说‘确立仁爱从亲人开始，是教百姓孝；确立敬重从长辈开始，是教百姓顺’。不忘亲人，是因为自身由他们所生。《春秋》的道理，母亲因儿子的地位而尊贵。从前高皇帝追尊太上昭灵夫人为昭灵皇后，孝和皇帝改葬母亲梁贵人，尊为恭怀皇后；孝愍皇帝也改葬母亲王夫人，尊为灵怀皇后。如今皇思夫人应有尊号，以慰藉陛下思念母亲之情。我与赖恭等依谥法商议，应称昭烈皇后。《诗经》说‘生则异室，死则同穴’，因此昭烈皇后应与先帝合葬。臣请太尉告祭宗庙，公布天下，具体礼仪另行上奏。",
+      "time": {
+        "year": 223,
+        "era": "章武三年",
+        "label": "223年 · 刘备去世、迁葬与合葬议",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": "chengdu",
+      "personIds": [
+        "gan-hou",
+        "liu-shan",
+        "zhuge-liang"
+      ],
+      "sectionTitle": "先主甘皇后",
+      "kind": "document"
+    },
+    {
+      "id": "erzhu-feizi-p3",
+      "paragraphIndex": 3,
+      "endMarker": null,
+      "title": "诏准追尊",
+      "summary": "皇帝准许追尊与合葬的建议。",
+      "translation": "皇帝下制说：准许。",
+      "time": {
+        "year": 223,
+        "era": "章武三年",
+        "label": "223年 · 承接前段合葬议",
+        "certainty": "inferred"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "gan-hou",
+        "liu-shan"
+      ],
+      "sectionTitle": "先主甘皇后",
+      "kind": "document"
+    },
+    {
+      "id": "erzhu-feizi-p4",
+      "paragraphIndex": 4,
+      "endMarker": null,
+      "title": "穆皇后与吴氏家族",
+      "summary": "先主穆皇后吴氏是陈留人。",
+      "translation": "先主穆皇后吴氏是陈留人。她的兄长吴壹年少失父，吴壹之父向来与刘焉交好，所以全家跟随刘焉入蜀。刘焉有异志，又听说善于看相的人认为吴氏将来极为尊贵。当时刘焉带着儿子刘瑁同行，便为刘瑁娶了她。刘瑁死后，她守寡。先主平定益州、孙夫人回吴后，群臣劝先主聘娶吴氏；先主怀疑自己与刘瑁同族而不妥，法正说：‘论亲疏，难道比晋文公与子圉的关系更近吗？’于是先主纳吴氏为夫人。建安二十四年立为汉中王后。章武元年夏五月，册命说：‘我承受天命，奉行至尊之位，治理万国。如今立你为皇后，派持节使者、丞相诸葛亮授印玺绶带，承奉宗庙，母仪天下。皇后应恭敬尽责！’建兴元年五月后主即位，尊她为皇太后，称长乐宫。吴壹官至车骑将军，封县侯。延熙八年，吴太后去世，与先主合葬惠陵。相术及刘焉异志为本传所记，不能当作已证实预言。",
+      "time": {
+        "year": null,
+        "era": "汉末至延熙八年",
+        "label": "含219年封王后、221年立后、245年去世 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "chengdu",
+      "personIds": [
+        "mu-hou",
+        "liu-bei",
+        "wu-yi",
+        "liu-mao",
+        "liu-yan",
+        "fa-zheng"
+      ],
+      "sectionTitle": "先主穆皇后",
+      "kind": "narrative"
+    },
+    {
+      "id": "erzhu-feizi-p5",
+      "paragraphIndex": 5,
+      "endMarker": null,
+      "title": "敬哀张皇后",
+      "summary": "后主敬哀皇后是车骑将军张飞的长女。",
+      "translation": "后主敬哀皇后是车骑将军张飞的长女。章武元年，纳为太子妃；建兴元年立为皇后。建兴十五年去世，葬于南陵。",
+      "time": {
+        "year": null,
+        "era": "章武元年至建兴十五年",
+        "label": "221—237年 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [
+        "jingai-hou",
+        "liu-shan",
+        "zhang-fei"
+      ],
+      "sectionTitle": "后主敬哀皇后",
+      "kind": "narrative"
+    },
+    {
+      "id": "erzhu-feizi-p6",
+      "paragraphIndex": 6,
+      "endMarker": null,
+      "title": "后主张皇后",
+      "summary": "后主张皇后是前敬哀皇后的妹妹。",
+      "translation": "后主张皇后是前敬哀皇后的妹妹。建兴十五年入宫为贵人。延熙元年春正月，册命说：‘我继承大业，治理天下，奉事郊庙社稷。如今立贵人为皇后，派代理丞相事务的左将军向朗持节授印玺绶带。应勉力料理内政，恭敬严肃祭祀，皇后务必谨慎！’咸熙元年，她随刘禅迁到洛阳。",
+      "time": {
+        "year": null,
+        "era": "建兴十五年至咸熙元年",
+        "label": "237—264年 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "luoyang",
+      "personIds": [
+        "zhang-hou",
+        "jingai-hou",
+        "liu-shan",
+        "xiang-lang"
+      ],
+      "sectionTitle": "后主张皇后",
+      "kind": "narrative"
+    },
+    {
+      "id": "erzhu-feizi-p7",
+      "paragraphIndex": 7,
+      "endMarker": null,
+      "title": "鲁王刘永",
+      "summary": "刘永字公寿，是先主之子、后主同父异母的弟弟。",
+      "translation": "刘永字公寿，是先主之子、后主同父异母的弟弟。章武元年六月，先主派司徒许靖立刘永为鲁王，册命说：‘幼子刘永，接受这包青土。我承受天命，继承大业，遵循古制，为你建立封国，封于东方，使你拥有龟山、蒙山一带，世代辅佐汉室。啊，恭敬奉行我的诏命！鲁国曾经一变而接近正道，教化犹存；人民崇尚德行，世代有这种美德。你应端正内心、遵循礼法，安抚士民，接受他们的供奉并使各得其宜，务必谨慎！’建兴八年改封甘陵王。刘永原本憎恶宦官黄皓；黄皓得到信任、掌权后，在后主面前诬陷刘永，后主逐渐疏远他，使他十多年不能朝见。咸熙元年，刘永东迁洛阳，任奉车都尉，封乡侯。",
+      "time": {
+        "year": null,
+        "era": "章武元年至咸熙元年",
+        "label": "221—264年 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "luoyang",
+      "personIds": [
+        "liu-yong",
+        "liu-bei",
+        "liu-shan",
+        "huang-hao",
+        "xu-jing"
+      ],
+      "sectionTitle": "先主子刘永",
+      "kind": "narrative"
+    },
+    {
+      "id": "erzhu-feizi-p8",
+      "paragraphIndex": 8,
+      "endMarker": null,
+      "title": "安平王刘理及其后",
+      "summary": "刘理字奉孝，也是后主同父异母的弟弟，与刘永不是同母。",
+      "translation": "刘理字奉孝，也是后主同父异母的弟弟，与刘永不是同母。章武元年六月，先主派司徒许靖立刘理为梁王，册命说：‘幼子刘理，我继承汉室正统，恭顺天命，遵循制度，在东方为你建国，使你辅佐汉朝。梁地是靠近京师的地区，百姓熟悉教化，容易用礼引导。你前往后应尽心安抚保护百姓，使你的国家长久安定，务必谨慎！’建兴八年改封安平王。延熙七年刘理去世，谥悼王。儿子哀王刘胤继位，延熙十九年去世；其子殇王刘承继位，二十年去世。景耀四年，诏书说：‘安平王是先帝亲自册封的，三代人早逝，封国后嗣断绝，我十分哀痛。让武邑侯刘辑继承王位。’刘辑是刘理的儿子，咸熙元年东迁洛阳，任奉车都尉，封乡侯。",
+      "time": {
+        "year": null,
+        "era": "章武元年至咸熙元年",
+        "label": "221—264年 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "luoyang",
+      "personIds": [
+        "liu-li",
+        "liu-bei",
+        "liu-shan",
+        "liu-yin",
+        "liu-cheng",
+        "liu-ji"
+      ],
+      "sectionTitle": "先主子刘理",
+      "kind": "narrative"
+    },
+    {
+      "id": "erzhu-feizi-p9",
+      "paragraphIndex": 9,
+      "endMarker": null,
+      "title": "太子刘璿",
+      "summary": "后主的太子刘璿字文衡。",
+      "translation": "后主的太子刘璿字文衡。母亲王贵人原是敬哀张皇后的侍人。延熙元年正月的册命说：‘古代帝王延续世系、确立继承人，以辅佐国家统绪，是古今常规。如今立刘璿为皇太子，彰显祖宗威德，命代理丞相事务的左将军向朗持节授印绶。你应努力修养美好资质，恭敬遵循道义，询问典章礼仪，敬爱师傅，斟酌采纳各种善行，以成就自己的德行，怎能不努力自勉？’当时刘璿十五岁。景耀六年冬，蜀国灭亡。咸熙元年正月，钟会在成都作乱，刘璿被乱兵杀害。",
+      "time": {
+        "year": null,
+        "era": "延熙元年至咸熙元年",
+        "label": "238—264年 · 跨年叙述",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": "chengdu",
+      "personIds": [
+        "liu-xuan",
+        "liu-shan",
+        "wang-guiren",
+        "xiang-lang",
+        "zhong-hui"
+      ],
+      "sectionTitle": "后主太子刘璿",
+      "kind": "narrative"
+    },
+    {
+      "id": "erzhu-feizi-p10",
+      "paragraphIndex": 10,
+      "endMarker": null,
+      "title": "陈寿评妃子",
+      "summary": "陈寿评论说：《易经》说有夫妇而后有父子；人伦的开端、恩情与秩序的深厚，没有比这更重要的。",
+      "translation": "陈寿评论说：《易经》说有夫妇而后有父子；人伦的开端、恩情与秩序的深厚，没有比这更重要的。所以记录这些事迹，以考察一国的家国制度。",
+      "time": {
+        "year": null,
+        "era": "年代见原文",
+        "label": "时间待考",
+        "certainty": "unknown"
+      },
+      "focusPlaceId": null,
+      "personIds": [],
+      "sectionTitle": "评",
+      "kind": "narrative"
+    }
+  ],
+  "personAliases": {
+    "敬哀张皇后": "jingai-hou",
+    "先主甘皇后": "gan-hou",
+    "先主穆皇后": "mu-hou",
+    "后主敬哀皇后": "jingai-hou",
+    "后主张皇后": "zhang-hou"
+  }
+}

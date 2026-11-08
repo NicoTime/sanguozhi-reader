@@ -1,0 +1,31 @@
+{
+  "name": "sanguozhi-guandu-reader",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": { "node": "^20.19.0 || >=22.12.0" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "schema:content": "tsx scripts/export-content-schema.ts",
+    "build": "npm run validate:content && tsc --noEmit && vite build",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "maplibre-gl": "5.24.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "tsx": "^4.20.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.6"
+  }
+}

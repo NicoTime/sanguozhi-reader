@@ -1,0 +1,49 @@
+.creator-credit {
+  display: inline-flex; align-items: center; gap: 6px; padding: 4px 0;
+  border: 0; background: transparent; color: #75644f; min-height: 28px;
+  font: 500 11px/1.4 "PingFang SC", "Microsoft YaHei", sans-serif;
+  letter-spacing: .04em; white-space: nowrap;
+}
+.creator-credit:hover { color: var(--red); }
+.creator-credit small { margin-left: 6px; font-size: 10px; opacity: .8; }
+.creator-stamp {
+  display: inline-grid; place-items: center; width: 18px; height: 18px;
+  border: 1px solid currentColor; border-radius: 2px;
+  font: 600 12px/1 var(--serif); color: var(--red);
+}
+.masthead .creator-credit { margin-top: 2px; }
+.masthead:has(.creator-credit) { padding-top: 6px; padding-bottom: 6px; flex-shrink: 0; }
+.drama-art:has(.creator-credit) { position: relative; }
+.creator-credit--art {
+  position: absolute; right: 12px; bottom: 10px; z-index: 1;
+  padding: 6px 9px; border: 1px solid #fff4df65; border-radius: 3px;
+  background: #292820a6; color: #fff4df; text-shadow: 0 1px 2px #0008;
+}
+.creator-credit--art:hover { background: #292820dd; color: white; }
+.creator-credit--art .creator-stamp { color: inherit; }
+.creator-dialog {
+  padding: 0; width: min(440px, calc(100vw - 28px)); max-height: calc(100dvh - 32px);
+  overflow-y: auto; border: 1px solid var(--line); border-radius: 8px;
+  color: var(--ink); background: var(--paper); box-shadow: 0 18px 75px #21170f45;
+}
+.creator-dialog::backdrop { background: #28231d85; }
+.creator-card { padding: 22px; }
+.creator-card-heading { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+.creator-card-heading h2 { margin-top: 5px; font: 700 28px/1.3 var(--serif); }
+.creator-intro { margin: 12px 0 18px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.creator-accounts { list-style: none; margin: 0; padding: 0; }
+.creator-accounts li { padding: 15px 0; border-top: 1px solid var(--line); }
+.creator-account-title { display: flex; align-items: baseline; gap: 12px; }
+.creator-account-title > span { color: var(--red); font-size: 12px; min-width: 3em; }
+.creator-account-title strong { font: 650 17px/1.4 var(--serif); }
+.creator-account-id { margin: 7px 0 10px; color: var(--muted); font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+.creator-account-id span { user-select: all; }
+.creator-account-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.creator-account-actions a { text-decoration: none; }
+.creator-feedback { min-height: 34px; padding-top: 8px; color: var(--muted); font-size: 11px; line-height: 1.6; }
+@media (max-width: 440px) {
+  .masthead:has(.creator-credit) { flex-wrap: wrap; }
+  .masthead:has(.creator-credit) .masthead-right { margin-left: auto; }
+  .creator-card { padding: 18px; }
+  .creator-credit--art { right: 8px; bottom: 8px; }
+}

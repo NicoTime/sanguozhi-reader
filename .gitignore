@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.local/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+sources/
+output/
+
+# The complete local snapshot is retained for review and testing. Content,
+# third-party data and generated media are excluded until redistribution and
+# individual licenses are verified. Remove exclusions only after that audit.
+/content/
+/public/data/
+/public/maps/
+/public/media/
+/public/portraits/
+/docs/content/
+/docs/content-report.md
+# This script embeds third-party historical coordinates and needs review.
+/scripts/extract_epub.py
+# The tests include source excerpts and fixtures that still need review.
+/tests/
